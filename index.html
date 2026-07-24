@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inacertaveis</title>
+  <link rel="stylesheet" href="src/css/style.css">
+  <link rel="stylesheet" href="src/css/navbar.css">
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+ <!-- 1. TÍTULO PRINCIPAL NO TOPO -->
+<header class="header">
+  <h1>INACERTAVEISS</h1>
+</header>
+
+<!-- 2. NAVBAR NO MEIO -->
+<nav class="navbar">
+  <button class="nav-btn" onclick="mudarAba('historico', this)">📜 Histórico</button>
+  <button class="nav-btn active" onclick="mudarAba('inicio', this)">🏠 Início</button>
+  <button class="nav-btn" onclick="mudarAba('classificacao', this)">🏆 Classificação</button>
+  <button class="nav-btn" onclick="mudarAba('conquistas', this)">🎖️ Conquistas</button>
+</nav>
+
+<!-- 3. INDICADOR DE RODADA LOGO ABAIXO DO NAVBAR -->
+<!-- O JS vai ocultar esta div quando você não estiver no Início ou Histórico -->
+<div class="rodada-container" id="container-rodada-subtitulo">
+  <div class="rodada" id="nome-rodada">RODADA ATUAL</div>
+</div>
+
+  <!-- Áreas que vão mudar de conteúdo dinamicamente via JS -->
+  <main class="container">
+    
+    <!-- ABA INÍCIO / HISTÓRICO (Cards das Rodadas) -->
+    <div id="aba-rodadas" class="aba-conteudo">
+      <!-- Seletor de Rodada (Aparece apenas quando clicar na aba Histórico) -->
+      <div id="seletor-historico" class="seletor-container" style="display: none;">
+        <label for="select-rodada">Escolha a Rodada:</label>
+        <select id="select-rodada" onchange="carregarRodadaHistorico(this.value)">
+          <!-- O JS vai preencher as opções aqui -->
+        </select>
+      </div>
+
+      <!-- Container onde os cards dos 4 participantes são injetados -->
+      <div id="container-jogadores"></div>
+    </div>
+
+    <!-- ABA CLASSIFICAÇÃO (Tabela de Pontos) -->
+    <div id="aba-classificacao" class="aba-conteudo" style="display: none;">
+      <div class="card-player">
+        <div class="card-header"><h2>CLASSIFICAÇÃO GERAL</h2></div>
+        <div class="card-body" id="container-tabela">
+          <!-- Tabela com a soma geral de todos -->
+        </div>
+      </div>
+    </div>
+
+    <!-- ABA CONQUISTAS -->
+    <div id="aba-conquistas" class="aba-conteudo" style="display: none;">
+      <div class="card-player">
+        <div class="card-header"><h2>CONQUISTAS / BADGES</h2></div>
+        <div class="card-body">
+          <p style="text-align: center;">Espaço reservado para as conquistas futuros!</p>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <script src="src/js/script.js"></script>
+</body>
+</html>

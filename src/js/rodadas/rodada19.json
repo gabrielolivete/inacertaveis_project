@@ -1,0 +1,201 @@
+{
+  "nome": "RODADA 19",
+  "participantes": [
+    {
+      "nome": "MARCOLA",
+      "avatar": "src/img/avatares/marcola.png",
+      "pontuacaoTotal": 615,
+      "cartas": [
+        { "img": "src/img/cartas/dobrometade.png", "usada": false },
+        { "img": "src/img/cartas/escudo.png", "usada": false },
+        { "img": "src/img/cartas/grego.png", "usada": false },
+        { "img": "src/img/cartas/segundachance.png", "usada": false },
+        { "img": "src/img/cartas/seguro.png", "usada": false },
+        { "img": "src/img/especial/coringa.png", "usada": false },
+        { "img": "src/img/especial/coringa.png", "usada": false },
+        { "img": "src/img/especial/coringa.png", "usada": false }
+      ],
+      "jogos": [
+        {
+          "time1": "src/img/escudos/atleticomg.png",
+          "placar": "2 x 0",
+          "time2": "src/img/escudos/bahia.png",
+          "pontos": "-10",
+          "descricao": "-10 palpite",
+          "tipoPontos": "negativo",
+          "coringa": false
+        },
+        {
+          "time1": "src/img/escudos/internacional.png",
+          "placar": "1 x 2",
+          "time2": "src/img/escudos/cruzeiro.png",
+          "pontos": "+130",
+          "descricao": "+50 palpite (2x)<br>+15 gol(2x)",
+          "tipoPontos": "positivo",
+          "coringa": true
+        },
+        {
+          "time1": "src/img/escudos/botafogo.png",
+          "placar": "1 x 0",
+          "time2": "src/img/escudos/vitoria.png",
+          "pontos": "-5",
+          "descricao": "-5 palpite",
+          "tipoPontos": "negativo",
+          "coringa": false
+        }
+      ],
+      "eventos": [
+        { "texto": "⚽ Kayo Jorge (Cruzeiro)", "acertou": true },
+        { "texto": "🟨 Lyanco (Atlético-MG)", "acertou": false },
+        { "texto": "🟥 Martínez (Vitória)", "acertou": false }
+      ]
+    },
+    {
+      "nome": "GABS",
+      "avatar": "src/img/avatares/gabe.png",
+      "pontuacaoTotal": 450,
+      "cartas": [
+        { "img": "src/img/cartas/dobrometade.png", "usada": false },
+        { "img": "src/img/cartas/escudo.png", "usada": false },
+        { "img": "src/img/cartas/grego.png", "usada": false },
+        { "img": "src/img/cartas/segundachance.png", "usada": false },
+        { "img": "src/img/cartas/seguro.png", "usada": false },
+        { "img": "src/img/especial/coringa.png", "usada": false },
+        { "img": "src/img/especial/coringa.png", "usada": false },
+        { "img": "src/img/especial/coringa.png", "usada": false }
+      ],
+      "jogos": [
+        {
+          "time1": "src/img/escudos/atleticomg.png",
+          "placar": "1 x 2",
+          "time2": "src/img/escudos/bahia.png",
+          "pontos": "-5",
+          "descricao": "-5 palpite",
+          "tipoPontos": "negativo",
+          "coringa": false
+        },
+        {
+          "time1": "src/img/escudos/internacional.png",
+          "placar": "1 x 3",
+          "time2": "src/img/escudos/cruzeiro.png",
+          "pontos": "-5",
+          "descricao": "-5 palpite",
+          "tipoPontos": "negativo",
+          "coringa": false
+        },
+        {
+          "time1": "src/img/escudos/botafogo.png",
+          "placar": "2 x 2",
+          "time2": "src/img/escudos/vitoria.png",
+          "pontos": "-40",
+          "descricao": "-20 palpite (2x)",
+          "tipoPontos": "negativo",
+          "coringa": true
+        }
+      ],
+      "eventos": [
+        { "texto": "⚽ Willian José (Bahia)", "acertou": false },
+        { "texto": "🟨 Gabriel Mercado (Internacional)", "acertou": false },
+        { "texto": "🟥 Gabriel Mercado (Internacional)", "acertou": false }
+      ]
+    },
+    {
+      "nome": "JOCA",
+      "avatar": "src/img/avatares/joca.png",
+      "pontuacaoTotal": 455,
+      "cartas": [
+        { "img": "src/img/cartas/dobrometade.png", "usada": false },
+        { "img": "src/img/cartas/escudo.png", "usada": false },
+        { "img": "src/img/cartas/grego.png", "usada": false },
+        { "img": "src/img/cartas/segundachance.png", "usada": false },
+        { "img": "src/img/cartas/seguro.png", "usada": false },
+        { "img": "src/img/especial/coringa.png", "usada": false },
+        { "img": "src/img/especial/coringa.png", "usada": false },
+        { "img": "src/img/especial/coringa.png", "usada": false }
+      ],
+      "jogos": [
+        {
+          "time1": "src/img/escudos/atleticomg.png",
+          "placar": "2 x 1",
+          "time2": "src/img/escudos/bahia.png",
+          "pontos": "-5",
+          "descricao": "-5 palpite",
+          "tipoPontos": "negativo",
+          "coringa": false
+        },
+        {
+          "time1": "src/img/escudos/internacional.png",
+          "placar": "0 x 1",
+          "time2": "src/img/escudos/cruzeiro.png",
+          "pontos": "0",
+          "descricao": "-10 palpite<br>+10 amarelo",
+          "tipoPontos": "",
+          "coringa": false
+        },
+        {
+          "time1": "src/img/escudos/botafogo.png",
+          "placar": "2 x 2",
+          "time2": "src/img/escudos/vitoria.png",
+          "pontos": "-40",
+          "descricao": "-20 palpite (2x)",
+          "tipoPontos": "negativo",
+          "coringa": true
+        }
+      ],
+      "eventos": [
+        { "texto": "⚽ Arthur Cabral (Botafogo)", "acertou": false },
+        { "texto": "🟨 Matheus Pereira (Cruzeiro)", "acertou": true },
+        { "texto": "🟥 Matheus Pereira (Cruzeiro)", "acertou": false }
+      ]
+    },
+    {
+      "nome": "FEFEZAO",
+      "avatar": "src/img/avatares/fefezao.png",
+      "pontuacaoTotal": 570,
+      "cartas": [
+        { "img": "src/img/cartas/dobrometade.png", "usada": false },
+        { "img": "src/img/cartas/escudo.png", "usada": false },
+        { "img": "src/img/cartas/grego.png", "usada": false },
+        { "img": "src/img/cartas/segundachance.png", "usada": false },
+        { "img": "src/img/cartas/seguro.png", "usada": false },
+        { "img": "src/img/especial/coringa.png", "usada": false },
+        { "img": "src/img/especial/coringa.png", "usada": false },
+        { "img": "src/img/especial/coringa.png", "usada": false }
+      ],
+      "jogos": [
+        {
+          "time1": "src/img/escudos/atleticomg.png",
+          "placar": "1 x 1",
+          "time2": "src/img/escudos/bahia.png",
+          "pontos": "+100",
+          "descricao": "+50 palpite (2x)",
+          "tipoPontos": "positivo",
+          "coringa": true
+        },
+        {
+          "time1": "src/img/escudos/internacional.png",
+          "placar": "2 x 1",
+          "time2": "src/img/escudos/cruzeiro.png",
+          "pontos": "-10",
+          "descricao": "-10 palpite",
+          "tipoPontos": "negativo",
+          "coringa": false
+        },
+        {
+          "time1": "src/img/escudos/botafogo.png",
+          "placar": "3 x 1",
+          "time2": "src/img/escudos/vitoria.png",
+          "pontos": "-20",
+          "descricao": "-20 palpite",
+          "tipoPontos": "negativo",
+          "coringa": false
+        }
+      ],
+      "eventos": [
+        { "texto": "⚽ Arthur Cabral (Botafogo)", "acertou": false },
+        { "texto": "🟨 Medina (Botafogo)", "acertou": false },
+        { "texto": "🟥 Luan Cândido (Vitória)", "acertou": false }
+      ]
+    }
+  ]
+}

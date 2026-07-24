@@ -1,0 +1,260 @@
+/* --- RESET E BASES --- */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #0d1117;
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  padding: 10px;
+}
+
+/* --- CABEÇALHO / TÍTULO --- */
+.header {
+  text-align: center;
+  padding: 15px 0 10px 0; /* Espaçamento confortável em cima e embaixo */
+}
+
+.header h1 {
+  font-family: 'Press Start 2P', cursive;
+  color: #f39c12;
+  font-size: 1.2rem;
+  text-shadow: 2px 2px #000;
+  margin: 0;
+}
+
+/* --- CONTAINER DA RODADA (ABAIXO DO NAVBAR) --- */
+.rodada-container {
+  text-align: center;
+  margin: 15px 0 10px 0; /* Espaço entre o Navbar e os Cards */
+}
+
+.rodada {
+  display: inline-block;
+  background-color: #f1c40f;
+  color: #000;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 0.7rem;
+  padding: 6px 12px;
+  border-radius: 4px;
+}
+
+/* --- CONTAINER PRINCIPAL (CELULAR) --- */
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 450px; /* Largura ideal para celular */
+  margin: 0 auto;
+}
+
+/* --- CARD DO JOGADOR --- */
+.card-player {
+  background-color: #161b22;
+  border: 2px solid #30363d;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+}
+
+.card-header {
+  background-color: #21262d;
+  padding: 8px;
+  text-align: center;
+  border-bottom: 2px solid #30363d;
+}
+
+.card-header h2 {
+  font-family: 'Press Start 2P', cursive;
+  color: #f39c12;
+  font-size: 0.95rem;
+}
+
+.card-body {
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/* --- TOPO DO CARD (PERFIL & PONTOS) --- */
+.perfil {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0d1117;
+  padding: 10px 8px;
+  border-radius: 8px;
+  border: 1px solid #21262d;
+  gap: 12px;
+}
+
+.avatar {
+  width: 55px;
+  height: auto;
+}
+
+.total-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  flex: 1;
+}
+
+.total-label {
+  display: block;
+  font-size: 0.6rem;
+  font-weight: bold;
+  color: #8b949e;
+  margin-bottom: 2px;
+}
+
+.total-pontos {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1.4rem;
+  color: #ffffff;
+  line-height: 1;
+  margin-bottom: 8px;
+}
+
+/* --- CARTAS DO JOGO --- */
+.cartas-jogo {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  gap: 3px;
+  width: 100%;
+}
+
+.carta-icone {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 1px solid #30363d;
+  border-radius: 3px;
+  padding: 1px;
+  flex-shrink: 0;
+}
+
+/* Efeito quando a carta já foi utilizada */
+.carta-usada {
+  opacity: 0.25;
+  filter: grayscale(100%);
+}
+
+/* --- LISTA DE PALPITES / JOGOS --- */
+.lista-palpites {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.linha-palpite {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #0d1117;
+  padding: 6px 8px;
+  border-radius: 6px;
+  position: relative;
+}
+
+.linha-palpite.destaque {
+  border: 1px solid #f1c40f;
+}
+
+.coringa-tag {
+  position: absolute;
+  top: -8px;
+  left: 6px;
+  background: #f1c40f;
+  color: #000;
+  font-size: 0.55rem;
+  font-weight: bold;
+  padding: 1px 4px;
+  border-radius: 3px;
+}
+
+.confronto {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.escudo-time {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
+
+.placar-palpite {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 0.7rem;
+  background: #21262d;
+  padding: 3px 5px;
+  border-radius: 4px;
+}
+
+/* --- PONTOS E REGRAS DE CORES --- */
+.pontos-palpite {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  text-align: left;
+}
+
+.pontos-valor {
+  font-size: 1.05rem;
+  font-weight: bold;
+  min-width: 32px;
+}
+
+.pontos-descricao {
+  font-size: 0.65rem;
+  color: #c9d1d9;
+  line-height: 1.1;
+}
+
+/* Verde para Positivos */
+.positivo,
+.pontos-valor.positivo,
+.pontos-descricao.positivo {
+  color: #2ecc71 !important;
+  font-weight: bold;
+}
+
+/* Vermelho para Negativos */
+.negativo,
+.pontos-valor.negativo,
+.pontos-descricao.negativo {
+  color: #e74c3c !important;
+  font-weight: bold;
+}
+
+/* --- EVENTOS (GOLS, CARTÕES) --- */
+.eventos {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.evento {
+  background-color: #21262d;
+  padding: 5px 8px;
+  border-radius: 4px;
+  font-size: 0.7rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.evento .positivo,
+.evento .negativo {
+  font-size: 0.85rem;
+  margin-left: 6px;
+}

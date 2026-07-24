@@ -1,0 +1,201 @@
+{
+  "nome": "RODADA 20",
+  "participantes": [
+    {
+      "nome": "MARCOLA",
+      "avatar": "src/img/avatares/marcola.png",
+      "pontuacaoTotal": 500,
+      "cartas": [
+        { "img": "src/img/cartas/dobrometade.png", "usada": false },
+        { "img": "src/img/cartas/escudo.png", "usada": false },
+        { "img": "src/img/cartas/grego.png", "usada": false },
+        { "img": "src/img/cartas/segundachance.png", "usada": false },
+        { "img": "src/img/cartas/seguro.png", "usada": false },
+        { "img": "src/img/especial/coringa.png", "usada": false },
+        { "img": "src/img/especial/coringa.png", "usada": false },
+        { "img": "src/img/especial/coringa.png", "usada": false }
+      ],
+      "jogos": [
+        {
+          "time1": "src/img/escudos/santos.png",
+          "placar": "",
+          "time2": "src/img/escudos/chapecoense.png",
+          "pontos": "",
+          "descricao": "",
+          "tipoPontos": "",
+          "coringa": false
+        },
+        {
+          "time1": "src/img/escudos/flamengo.png",
+          "placar": "",
+          "time2": "src/img/escudos/saopaulo.png",
+          "pontos": "",
+          "descricao": "",
+          "tipoPontos": "",
+          "coringa": false
+        },
+        {
+          "time1": "src/img/escudos/remo.png",
+          "placar": "",
+          "time2": "src/img/escudos/vitoria.png",
+          "pontos": "",
+          "descricao": "",
+          "tipoPontos": "",
+          "coringa": false
+        }
+      ],
+      "eventos": [
+        { "texto": "⚽ ", "acertou": false },
+        { "texto": "🟨 ", "acertou": false },
+        { "texto": "🟥 ", "acertou": false }
+      ]
+    },
+    {
+      "nome": "MARCOLA",
+      "avatar": "src/img/avatares/gabe.png",
+      "pontuacaoTotal": 500,
+      "cartas": [
+        { "img": "src/img/cartas/dobrometade.png", "usada": false },
+        { "img": "src/img/cartas/escudo.png", "usada": false },
+        { "img": "src/img/cartas/grego.png", "usada": false },
+        { "img": "src/img/cartas/segundachance.png", "usada": false },
+        { "img": "src/img/cartas/seguro.png", "usada": false },
+        { "img": "src/img/especial/coringa.png", "usada": false },
+        { "img": "src/img/especial/coringa.png", "usada": false },
+        { "img": "src/img/especial/coringa.png", "usada": false }
+      ],
+      "jogos": [
+        {
+          "time1": "src/img/escudos/santos.png",
+          "placar": "",
+          "time2": "src/img/escudos/chapecoense.png",
+          "pontos": "",
+          "descricao": "",
+          "tipoPontos": "",
+          "coringa": false
+        },
+        {
+          "time1": "src/img/escudos/flamengo.png",
+          "placar": "",
+          "time2": "src/img/escudos/saopaulo.png",
+          "pontos": "",
+          "descricao": "",
+          "tipoPontos": "",
+          "coringa": false
+        },
+        {
+          "time1": "src/img/escudos/remo.png",
+          "placar": "",
+          "time2": "src/img/escudos/vitoria.png",
+          "pontos": "",
+          "descricao": "",
+          "tipoPontos": "",
+          "coringa": false
+        }
+      ],
+      "eventos": [
+        { "texto": "⚽ ", "acertou": false },
+        { "texto": "🟨 ", "acertou": false },
+        { "texto": "🟥 ", "acertou": false }
+      ]
+    },
+    {
+      "nome": "MARCOLA",
+      "avatar": "src/img/avatares/joca.png",
+      "pontuacaoTotal": 500,
+      "cartas": [
+        { "img": "src/img/cartas/dobrometade.png", "usada": false },
+        { "img": "src/img/cartas/escudo.png", "usada": false },
+        { "img": "src/img/cartas/grego.png", "usada": false },
+        { "img": "src/img/cartas/segundachance.png", "usada": false },
+        { "img": "src/img/cartas/seguro.png", "usada": false },
+        { "img": "src/img/especial/coringa.png", "usada": false },
+        { "img": "src/img/especial/coringa.png", "usada": false },
+        { "img": "src/img/especial/coringa.png", "usada": false }
+      ],
+      "jogos": [
+        {
+          "time1": "src/img/escudos/santos.png",
+          "placar": "",
+          "time2": "src/img/escudos/chapecoense.png",
+          "pontos": "",
+          "descricao": "",
+          "tipoPontos": "",
+          "coringa": false
+        },
+        {
+          "time1": "src/img/escudos/flamengo.png",
+          "placar": "",
+          "time2": "src/img/escudos/saopaulo.png",
+          "pontos": "",
+          "descricao": "",
+          "tipoPontos": "",
+          "coringa": false
+        },
+        {
+          "time1": "src/img/escudos/remo.png",
+          "placar": "",
+          "time2": "src/img/escudos/vitoria.png",
+          "pontos": "",
+          "descricao": "",
+          "tipoPontos": "",
+          "coringa": false
+        }
+      ],
+      "eventos": [
+        { "texto": "⚽ ", "acertou": false },
+        { "texto": "🟨 ", "acertou": false },
+        { "texto": "🟥 ", "acertou": false }
+      ]
+    },
+    {
+      "nome": "MARCOLA",
+      "avatar": "src/img/avatares/fefezao.png",
+      "pontuacaoTotal": 500,
+      "cartas": [
+        { "img": "src/img/cartas/dobrometade.png", "usada": false },
+        { "img": "src/img/cartas/escudo.png", "usada": false },
+        { "img": "src/img/cartas/grego.png", "usada": false },
+        { "img": "src/img/cartas/segundachance.png", "usada": false },
+        { "img": "src/img/cartas/seguro.png", "usada": false },
+        { "img": "src/img/especial/coringa.png", "usada": false },
+        { "img": "src/img/especial/coringa.png", "usada": false },
+        { "img": "src/img/especial/coringa.png", "usada": false }
+      ],
+      "jogos": [
+        {
+          "time1": "src/img/escudos/santos.png",
+          "placar": "",
+          "time2": "src/img/escudos/chapecoense.png",
+          "pontos": "",
+          "descricao": "",
+          "tipoPontos": "",
+          "coringa": false
+        },
+        {
+          "time1": "src/img/escudos/flamengo.png",
+          "placar": "",
+          "time2": "src/img/escudos/saopaulo.png",
+          "pontos": "",
+          "descricao": "",
+          "tipoPontos": "",
+          "coringa": false
+        },
+        {
+          "time1": "src/img/escudos/remo.png",
+          "placar": "",
+          "time2": "src/img/escudos/vitoria.png",
+          "pontos": "",
+          "descricao": "",
+          "tipoPontos": "",
+          "coringa": false
+        }
+      ],
+      "eventos": [
+        { "texto": "⚽ ", "acertou": false },
+        { "texto": "🟨 ", "acertou": false },
+        { "texto": "🟥 ", "acertou": false }
+      ]
+    }
+  ]
+}
