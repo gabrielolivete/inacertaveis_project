@@ -165,7 +165,7 @@
         { "img": "src/img/cartas/seguro.png", "usada": false },
         { "img": "src/img/especial/coringa.png", "usada": false },
         { "img": "src/img/especial/coringa.png", "usada": false },
-        { "img": "src/img/especial/coringa.png", "usada": false }
+        { "img": "src/img/especial/coringa.png", "usada": true }
       ],
       "jogos": [
         {
