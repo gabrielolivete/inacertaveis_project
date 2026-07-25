@@ -52,16 +52,16 @@
 .avatar-rosto {
   width: 100%;
   height: 100%;
-  object-fit: contain; /* Mantém a proporção exata da cabeça sem cortar queixo ou cabelo */
+  object-fit: contain; 
   object-position: center;
-  padding: 2px; /* Pequeno respiro para a cabeça não encostar na borda */
+  padding: 2px;
 }
 
 /* Bolinha da posição SOBREPOSTA no canto inferior direito */
 .posicao-badge {
   position: absolute;
-  bottom: -4px;  /* Empurra para fora da borda inferior */
-  right: -4px;   /* Empurra para fora da borda direita */
+  bottom: -4px; 
+  right: -4px;   
   background-color: #f39c12;
   color: #000;
   font-weight: bold;
@@ -72,8 +72,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 2px solid #161b22; /* Borda da cor do fundo do card para dar destaque */
-  z-index: 5; /* Garante que fique por cima da foto */
+  border: 2px solid #161b22; 
+  z-index: 5; 
   box-shadow: 0 2px 4px rgba(0,0,0,0.5);
 }
 

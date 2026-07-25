@@ -52,7 +52,7 @@
   top: 0;
   left: 0;
   width: 100%;
-  background-color: #0d1117; /* Mesma cor do fundo para cobrir o conteúdo ao rolar */
+  background-color: #0d1117; 
   z-index: 1000;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5); /* Sombra elegante para separar do conteúdo */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5); 
 }

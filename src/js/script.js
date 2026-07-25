@@ -17,7 +17,7 @@ async function buscarDadosRodada(numeroRodada) {
 
     const dados = await resposta.json();
 
-    // 💡 Salva os dados globalmente se for a última rodada
+    // Salva os dados globalmente se for a última rodada
     if (Number(numeroRodada) === ULTIMA_RODADA) {
       window.dadosUltimaRodada = dados;
     }
@@ -38,7 +38,7 @@ function renderizarRodada(dados) {
     elementoRodada.innerText = dados.nome;
   }
 
-  // ⏰ 1. Atualiza o texto e EXIBE o lembrete (se o campo prazoPalpites existir no JSON)
+  // 1. Atualiza o texto e EXIBE o lembrete (se o campo prazoPalpites existir no JSON)
   const elementoPrazo = document.getElementById("data-prazo");
   const containerLembrete = document.getElementById("lembrete-prazo");
 
@@ -59,10 +59,10 @@ function renderizarRodada(dados) {
   if (!container) return;
   container.innerHTML = "";
 
-  // 🏆 Ordena jogadores da maior para a menor pontuação
+  // Ordena jogadores da maior para a menor pontuação
   const jogadoresOrdenados = [...dados.participantes].sort((a, b) => b.pontuacaoTotal - a.pontuacaoTotal);
 
-  // 🎠 Renderiza os cards
+  // Renderiza os cards
   jogadoresOrdenados.forEach((jogador, index) => {
     const cartasHTML = jogador.cartas.map(carta =>
       `<img class="carta-icone ${carta.usada ? 'carta-usada' : ''}" src="${carta.img}" alt="carta">`
