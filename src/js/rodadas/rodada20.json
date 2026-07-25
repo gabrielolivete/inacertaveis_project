@@ -170,7 +170,7 @@
       "jogos": [
         {
           "time1": "src/img/escudos/santos.png",
-          "placar": "",
+          "placar": "2 x 0",
           "time2": "src/img/escudos/chapecoense.png",
           "pontos": "",
           "descricao": "",
@@ -179,16 +179,16 @@
         },
         {
           "time1": "src/img/escudos/flamengo.png",
-          "placar": "",
+          "placar": "2 x 1",
           "time2": "src/img/escudos/saopaulo.png",
           "pontos": "",
           "descricao": "",
           "tipoPontos": "",
-          "coringa": false
+          "coringa": true
         },
         {
           "time1": "src/img/escudos/remo.png",
-          "placar": "",
+          "placar": "1 x 0",
           "time2": "src/img/escudos/vitoria.png",
           "pontos": "",
           "descricao": "",
@@ -197,9 +197,9 @@
         }
       ],
       "eventos": [
-        { "texto": "⚽ ", "acertou": false },
-        { "texto": "🟨 ", "acertou": false },
-        { "texto": "🟥 ", "acertou": false }
+        { "texto": "⚽ Bruno Henrique (Flamengo)", "acertou": false },
+        { "texto": "🟨 Alef Manga (Remo)", "acertou": false },
+        { "texto": "🟥 Arboleda (São Paulo)", "acertou": false }
       ]
     }
   ]

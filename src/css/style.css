@@ -81,14 +81,18 @@ body {
   margin-top: 0;
 }
 
-/* Garante que o card é o referencial de posição */
+/* 2. CARD DO JOGADOR */
 .card-player {
-  position: relative; /* ESSENCIAL */
+  position: relative;
+  flex: 0 0 85vw;
+  max-width: 340px;
   background-color: #161b22;
-  border: 2px solid #30363d;
+  border: 1px solid #30363d;
   border-radius: 12px;
-  overflow: visible; /* IMPORTANTE: para a badge poder 'sair' um pouco do card */
-  /* ... (mantenha seus outros estilos de card, como box-shadow e o flex-shrink do carrossel) */
+  overflow: visible !important; /* 🔑 Permite que a badge fique para fora sem ser cortada! */
+  display: flex;
+  flex-direction: column;
+  scroll-snap-align: center;
 }
 
 /* Posiciona a badge de líder sobreposta */
@@ -103,13 +107,16 @@ body {
   filter: drop-shadow(0 2px 4px rgba(0,0,0,0.5)); /* Adiciona uma sombra para destacar a badge */
 }
 
+/* 3. CABEÇALHO DO CARD (NOME DO JOGADOR) */
 .card-header {
   background-color: #21262d;
-  padding: 8px;
+  padding: 12px;
   text-align: center;
-  border-bottom: 2px solid #30363d;
+  border-bottom: 1px solid #30363d;
+  /* 🔑 Aplica o arredondamento exatamente nos cantos superiores do cabeçalho */
+  border-top-left-radius: 11px;
+  border-top-right-radius: 11px;
 }
-
 .card-header h2 {
   font-family: 'Press Start 2P', cursive;
   color: #f39c12;
@@ -124,21 +131,22 @@ body {
   gap: 12px;
 }
 
-/* --- TOPO DO CARD (PERFIL & PONTOS) --- */
+/* Container que segura o avatar e a pontuação */
 .perfil {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #0d1117;
-  padding: 10px 8px;
-  border-radius: 8px;
-  border: 1px solid #21262d;
+  align-items: flex-end; /* 🔑 Alinha os avatares pela base (pés no mesmo nível) */
+  justify-content: space-between;
   gap: 12px;
+  min-height: 160px; /* Garante uma altura fixa para a área do perfil em todos os cards */
+  padding: 10px;
 }
 
-.avatar {
-  width: 55px;
-  height: auto;
+/* Regra fixa para o Avatar nos Cards */
+.card-player .avatar {
+  width: 110px;        /* 🔑 Largura fixa para todos */
+  height: 150px;       /* 🔑 Altura fixa para todos */
+  object-fit: contain; /* Mantém a proporção sem distorcer nem esticar a imagem */
+  object-position: bottom center; /* Foca e alinha a imagem a partir dos pés */
 }
 
 .total-container {
