@@ -19,8 +19,8 @@
   <nav class="navbar">
     <button class="nav-btn" onclick="mudarAba('historico', this)">📜 Histórico</button>
     <button class="nav-btn active" onclick="mudarAba('inicio', this)">🏠 Início</button>
-    <button class="nav-btn" onclick="mudarAba('classificacao', this)">🏆 Classificação</button>
-    <button class="nav-btn" onclick="mudarAba('conquistas', this)">🎖️ Conquistas</button>
+    <button class="nav-btn" onclick="mudarAba('conquistas', this)">🎖️ Badges</button>
+    <button class="nav-btn" onclick="mudarAba('regras', this)">📋 Regras</button>
   </nav>
 </div>
 
@@ -51,25 +51,33 @@
       <div id="container-jogadores"></div>
     </div>
 
-    <!-- ABA CLASSIFICAÇÃO (Tabela de Pontos) -->
-    <div id="aba-classificacao" class="aba-conteudo" style="display: none;">
-      <div class="card-player">
-        <div class="card-header"><h2>CLASSIFICAÇÃO GERAL</h2></div>
-        <div class="card-body" id="container-tabela">
-          <!-- Tabela com a soma geral de todos -->
-        </div>
-      </div>
-    </div>
-
     <!-- ABA CONQUISTAS -->
-    <div id="aba-conquistas" class="aba-conteudo" style="display: none;">
-      <div class="card-player">
-        <div class="card-header"><h2>CONQUISTAS / BADGES</h2></div>
-        <div class="card-body">
-          <p style="text-align: center;">Espaço reservado para as conquistas futuros!</p>
-        </div>
+  <div id="aba-conquistas" class="aba-conteudo" style="display: none;">
+    <div class="card-player">
+      <div class="card-header"><h2>BADGES</h2></div>
+      <div class="card-body">
+        <p style="text-align: center; color: #8b949e;">Espaço reservado para as conquistas futuras!</p>
       </div>
     </div>
+  </div>
+
+  <!-- ABA REGRAS (NOVA) -->
+  <div id="aba-regras" class="aba-conteudo" style="display: none;">
+    <div class="card-player">
+      <div class="card-header"><h2>REGRAS DO JOGO</h2></div>
+      <div class="card-body" style="padding: 15px; color: #c9d1d9; font-size: 0.9rem; line-height: 1.5;">
+        
+        <!-- Escreva ou edite as regras do seu grupo aqui -->
+        <h3 style="color: #f39c12; margin-bottom: 8px;">⚽ Palpites</h3>
+        <p style="margin-bottom: 12px;">• Acertar o placar em cheio (Cravei): +25 pontos.</p>
+        <p style="margin-bottom: 12px;">• Acertar o vencedor/empate: +10 pontos.</p>
+
+        <h3 style="color: #f39c12; margin-bottom: 8px;">🃏 Cartas Especial</h3>
+        <p style="margin-bottom: 12px;">• <b>Coringa:</b> Dobra a pontuação do jogo escolhido.</p>
+        
+      </div>
+    </div>
+  </div>
 
   </main>
 

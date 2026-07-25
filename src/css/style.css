@@ -70,6 +70,17 @@ body {
   padding-right: 0;
 }
 
+/* --- ESPAÇAMENTO PARA O CONTEÚDO NÃO FICAR ATRÁS DO MENU FIXO --- */
+.aba-conteudo {
+  margin-top: 100px; /* <--- Ajuste a altura do espaço para empurrar o conteúdo para baixo */
+  padding-bottom: 30px;
+}
+
+/* Como a div da rodada já fica abaixo no Início, zeramos o margin-top só nela */
+#aba-rodadas {
+  margin-top: 0;
+}
+
 /* Garante que o card tenha largura fixa na tela para poder rolar */
 .card-player {
   flex: 0 0 98% !important; /* Não deixa o card encolher nem esticar */

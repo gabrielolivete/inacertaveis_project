@@ -130,42 +130,44 @@ function carregarRodadaHistorico(numeroRodada) {
   buscarDadosRodada(numeroRodada);
 }
 
-// Troca entre as abas do menu superior
 function mudarAba(nomeAba, elementoClicado) {
-  // Esconde o conteúdo de todas as abas
-  document.querySelectorAll('.aba-conteudo').forEach(aba => aba.style.display = 'none');
+  // 1. Esconde TODAS as abas
+  document.querySelectorAll('.aba-conteudo').forEach(aba => {
+    aba.style.display = 'none';
+  });
   
-  // Remove o destaque visual dos botões do menu
-  document.querySelectorAll('.nav-btn').forEach(btn => btn.classList.remove('active'));
+  // 2. Remove o destaque visual amarelo de todos os botões
+  document.querySelectorAll('.nav-btn').forEach(btn => {
+    btn.classList.remove('active');
+  });
 
   const seletorHist = document.getElementById('seletor-historico');
   const subtituloRodada = document.getElementById('container-rodada-subtitulo');
 
+  // 3. Mostra a aba específica que foi clicada
   if (nomeAba === 'inicio') {
     document.getElementById('aba-rodadas').style.display = 'block';
     if (seletorHist) seletorHist.style.display = 'none';
-    if (subtituloRodada) subtituloRodada.style.display = 'block'; // Mostra a rodada
-    
+    if (subtituloRodada) subtituloRodada.style.display = 'block';
     buscarDadosRodada(ULTIMA_RODADA);
   } 
   else if (nomeAba === 'historico') {
     document.getElementById('aba-rodadas').style.display = 'block';
     if (seletorHist) seletorHist.style.display = 'block';
-    if (subtituloRodada) subtituloRodada.style.display = 'none'; // Mostra a rodada
-    
+    if (subtituloRodada) subtituloRodada.style.display = 'none';
     const select = document.getElementById("select-rodada");
     if (select) buscarDadosRodada(select.value);
   } 
-  else if (nomeAba === 'classificacao') {
-    document.getElementById('aba-classificacao').style.display = 'block';
-    if (subtituloRodada) subtituloRodada.style.display = 'none'; // OCULTA a rodada
-  } 
   else if (nomeAba === 'conquistas') {
-    document.getElementById('aba-conquistas').style.display = 'block';
-    if (subtituloRodada) subtituloRodada.style.display = 'none'; // OCULTA a rodada
+    document.getElementById('aba-conquistas').style.display = 'block'; // <--- Ativa essa div
+    if (subtituloRodada) subtituloRodada.style.display = 'none';
+  }
+  else if (nomeAba === 'regras') {
+    document.getElementById('aba-regras').style.display = 'block'; // <--- Ativa essa div
+    if (subtituloRodada) subtituloRodada.style.display = 'none';
   }
 
-  // Adiciona a classe active no botão clicado
+  // 4. Marca o botão clicado como ativo
   if (elementoClicado) {
     elementoClicado.classList.add('active');
   }
