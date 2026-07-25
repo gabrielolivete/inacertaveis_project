@@ -1,8 +1,11 @@
 // ==========================================
 // 1. CONFIGURAÇÃO PRINCIPAL
 // ==========================================
-// Atualize este número a cada nova rodada que você criar!
-const ULTIMA_RODADA = 20; 
+// Coloque aqui apenas os números das rodadas que você realmente já criou o arquivo .json:
+const RODADAS_EXISTENTES = [19, 20]; 
+
+// A rodada atual/mais recente é sempre o último item da lista
+const ULTIMA_RODADA = RODADAS_EXISTENTES[RODADAS_EXISTENTES.length - 1]; 
 
 // ==========================================
 // 2. BUSCA DE DADOS (FETCH JSON)
@@ -32,18 +35,22 @@ function renderizarRodada(dados) {
     elementoRodada.innerText = dados.nome;
   }
 
-  // Limpa e redesenha a área de cards
+  // Limpa a área de cards
   const container = document.getElementById("container-jogadores");
   if (!container) return;
   container.innerHTML = "";
 
-  dados.participantes.forEach(jogador => {
-    // Monta o HTML das cartas
+  // 🏆 1. ORDENA OS JOGADORES DO MAIOR PARA O MENOR PONTO
+  const jogadoresOrdenados = [...dados.participantes].sort((a, b) => b.pontuacaoTotal - a.pontuacaoTotal);
+
+  // 🎠 2. RENDEREIZA OS CARDS JÁ ORDENADOS
+  jogadoresOrdenados.forEach((jogador, index) => {
+    // Monta as cartas
     const cartasHTML = jogador.cartas.map(carta => 
       `<img class="carta-icone ${carta.usada ? 'carta-usada' : ''}" src="${carta.img}" alt="carta">`
     ).join('');
 
-    // Monta o HTML dos palpites/jogos
+    // Monta os palpites
     const jogosHTML = jogador.jogos.map(jogo => `
       <div class="linha-palpite ${jogo.coringa ? 'destaque' : ''}">
         ${jogo.coringa ? '<div class="coringa-tag">🃏 CORINGA 2X</div>' : ''}
@@ -59,7 +66,7 @@ function renderizarRodada(dados) {
       </div>
     `).join('');
 
-    // Monta o HTML dos eventos (gols / cartões)
+    // Monta os eventos
     const eventosHTML = jogador.eventos.map(ev => `
       <div class="evento">
         <span>${ev.texto}</span>
@@ -67,11 +74,11 @@ function renderizarRodada(dados) {
       </div>
     `).join('');
 
-    // Junta tudo na estrutura do card
+    // Card completo (com badge de posição do líder/colocação)
     const cardHTML = `
       <article class="card-player">
         <div class="card-header">
-          <h2>${jogador.nome}</h2>
+          <h2>${index === 0 ? '👑 ' : ''}${jogador.nome}</h2>
         </div>
         <div class="card-body">
           <div class="perfil">
@@ -102,19 +109,20 @@ function renderizarRodada(dados) {
 // 4. LÓGICA DO MENU E SELETOR DE HISTÓRICO
 // ==========================================
 
-// Preenche o menu suspenso (<select>) com todas as rodadas disponíveis
+// Preenche o menu suspenso (<select>) APENAS com as rodadas da lista
 function preencherSeletorHistorico() {
   const select = document.getElementById("select-rodada");
   if (!select) return;
 
   select.innerHTML = "";
 
-  for (let i = 1; i <= ULTIMA_RODADA; i++) {
+  // Percorre apenas o array de rodadas existentes
+  RODADAS_EXISTENTES.forEach(num => {
     const option = document.createElement("option");
-    option.value = i;
-    option.innerText = `RODADA ${i < 10 ? '0' + i : i}`;
+    option.value = num;
+    option.innerText = `RODADA ${num < 10 ? '0' + num : num}`;
     select.appendChild(option);
-  }
+  });
 }
 
 // Função chamada quando o usuário escolhe uma opção no dropdown
@@ -143,7 +151,7 @@ function mudarAba(nomeAba, elementoClicado) {
   else if (nomeAba === 'historico') {
     document.getElementById('aba-rodadas').style.display = 'block';
     if (seletorHist) seletorHist.style.display = 'block';
-    if (subtituloRodada) subtituloRodada.style.display = 'block'; // Mostra a rodada
+    if (subtituloRodada) subtituloRodada.style.display = 'none'; // Mostra a rodada
     
     const select = document.getElementById("select-rodada");
     if (select) buscarDadosRodada(select.value);

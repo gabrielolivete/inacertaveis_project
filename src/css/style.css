@@ -26,10 +26,13 @@ body {
   margin: 0;
 }
 
-/* --- CONTAINER DA RODADA (ABAIXO DO NAVBAR) --- */
+/* --- ESPAÇAMENTO DO CONTEÚDO (PARA NÃO FICAR ATRÁS DO TOPO FIXO) --- */
+/* Como o topo agora é fixo, precisamos 'empurrar' o resto do site para baixo */
+
 .rodada-container {
   text-align: center;
-  margin: 15px 0 10px 0; /* Espaço entre o Navbar e os Cards */
+  margin-top: 110px; /* <--- Ajuste aqui se precisar de mais/menos espaço abaixo do Nav */
+  margin-bottom: 15px;
 }
 
 .rodada {
@@ -42,6 +45,12 @@ body {
   border-radius: 4px;
 }
 
+/* Seletor do histórico também precisa de um respiro se a rodada amarela sumir */
+.seletor-container {
+  margin-top: 110px; 
+  margin-bottom: 15px;
+}
+
 /* --- CONTAINER PRINCIPAL (CELULAR) --- */
 .container {
   display: flex;
@@ -51,8 +60,21 @@ body {
   margin: 0 auto;
 }
 
-/* --- CARD DO JOGADOR --- */
+/* Libera a largura total da tela para o carrossel conseguir deslizar */
+.container, 
+#aba-rodadas {
+  max-width: 100% !important;
+  width: 100%;
+  overflow-x: hidden; /* Evita que a página inteira balance para os lados */
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* Garante que o card tenha largura fixa na tela para poder rolar */
 .card-player {
+  flex: 0 0 98% !important; /* Não deixa o card encolher nem esticar */
+  min-width: 85%;
+  scroll-snap-align: center;
   background-color: #161b22;
   border: 2px solid #30363d;
   border-radius: 12px;
@@ -107,15 +129,15 @@ body {
 
 .total-label {
   display: block;
-  font-size: 0.6rem;
+  font-size: 1rem;
   font-weight: bold;
   color: #8b949e;
-  margin-bottom: 2px;
+  margin-bottom: 6px;
 }
 
 .total-pontos {
   font-family: 'Press Start 2P', cursive;
-  font-size: 1.4rem;
+  font-size: 2rem;
   color: #ffffff;
   line-height: 1;
   margin-bottom: 8px;
@@ -257,4 +279,39 @@ body {
 .evento .negativo {
   font-size: 0.85rem;
   margin-left: 6px;
+}
+
+/* --- CONTAINER DO CARROSSEL (DESLIZE) --- */
+#container-jogadores {
+  display: flex !important;
+  flex-direction: row !important; /* Força os cards a ficarem lado a lado */
+  overflow-x: scroll !important; /* Força a barra de rolagem horizontal */
+  scroll-snap-type: x mandatory;
+  gap: 15px;
+  padding: 10px 15px 20px 15px; /* Dê um pequeno respiro nas laterais */
+  width: 100%;
+  box-sizing: border-border-box;
+  -webkit-overflow-scrolling: touch; /* Essencial para deslizar no Safari / iOS */
+}
+
+/* Oculta a barra de rolagem visual, mantendo o gesto de deslizar */
+#container-jogadores::-webkit-scrollbar {
+  display: none;
+}
+#container-jogadores {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Ajuste de tela grande (PC / Desktop): volta para grade ou centralizado */
+@media (min-width: 768px) {
+  #container-jogadores {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    overflow-x: visible;
+  }
+  
+  .card-player {
+    flex: initial;
+  }
 }

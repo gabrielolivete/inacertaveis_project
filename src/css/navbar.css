@@ -1,4 +1,4 @@
-/* --- NAVBAR --- */
+/* Navbar dentro do bloco fixo */
 .navbar {
   display: flex;
   justify-content: space-around;
@@ -6,10 +6,7 @@
   background-color: #161b22;
   border-top: 1px solid #30363d;
   border-bottom: 1px solid #30363d;
-  padding: 10px 4px;
-  position: sticky;
-  top: 0;
-  z-index: 100;
+  padding: 8px 4px;
 }
 
 .nav-btn {
@@ -17,7 +14,7 @@
   border: 1px solid transparent;
   color: #8b949e;
   font-family: 'Roboto', sans-serif;
-  font-size: 0.7rem;
+  font-size: 0.8rem;
   font-weight: bold;
   padding: 6px 8px;
   border-radius: 6px;
@@ -47,4 +44,15 @@
   font-family: 'Press Start 2P', cursive;
   font-size: 0.65rem;
   margin-left: 5px;
+}
+
+/* --- BLOCO FIXO COMPLETO NO TOPO --- */
+.topo-fixo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #0d1117; /* Mesma cor do fundo para cobrir o conteúdo ao rolar */
+  z-index: 1000;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5); /* Sombra elegante para separar do conteúdo */
 }

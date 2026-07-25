@@ -10,24 +10,29 @@
 </head>
 <body>
 
- <!-- 1. TÍTULO PRINCIPAL NO TOPO -->
-<header class="header">
-  <h1>INACERTAVEISS</h1>
-</header>
+<!-- Bloco Fixo no Topo -->
+<div class="topo-fixo">
+  <header class="header">
+    <h1>INACERTAVEISS</h1>
+  </header>
 
-<!-- 2. NAVBAR NO MEIO -->
-<nav class="navbar">
-  <button class="nav-btn" onclick="mudarAba('historico', this)">📜 Histórico</button>
-  <button class="nav-btn active" onclick="mudarAba('inicio', this)">🏠 Início</button>
-  <button class="nav-btn" onclick="mudarAba('classificacao', this)">🏆 Classificação</button>
-  <button class="nav-btn" onclick="mudarAba('conquistas', this)">🎖️ Conquistas</button>
-</nav>
+  <nav class="navbar">
+    <button class="nav-btn" onclick="mudarAba('historico', this)">📜 Histórico</button>
+    <button class="nav-btn active" onclick="mudarAba('inicio', this)">🏠 Início</button>
+    <button class="nav-btn" onclick="mudarAba('classificacao', this)">🏆 Classificação</button>
+    <button class="nav-btn" onclick="mudarAba('conquistas', this)">🎖️ Conquistas</button>
+  </nav>
+</div>
 
-<!-- 3. INDICADOR DE RODADA LOGO ABAIXO DO NAVBAR -->
-<!-- O JS vai ocultar esta div quando você não estiver no Início ou Histórico -->
+<!-- Indicador de Rodada -->
 <div class="rodada-container" id="container-rodada-subtitulo">
   <div class="rodada" id="nome-rodada">RODADA ATUAL</div>
 </div>
+
+<!-- Conteúdo Principal -->
+<main class="container">
+  <!-- As abas continuam aqui... -->
+</main>
 
   <!-- Áreas que vão mudar de conteúdo dinamicamente via JS -->
   <main class="container">

@@ -51,7 +51,7 @@
       ]
     },
     {
-      "nome": "MARCOLA",
+      "nome": "GABS",
       "avatar": "src/img/avatares/gabe.png",
       "pontuacaoTotal": 500,
       "cartas": [
@@ -100,7 +100,7 @@
       ]
     },
     {
-      "nome": "MARCOLA",
+      "nome": "JOCA",
       "avatar": "src/img/avatares/joca.png",
       "pontuacaoTotal": 500,
       "cartas": [
@@ -149,7 +149,7 @@
       ]
     },
     {
-      "nome": "MARCOLA",
+      "nome": "FEFEZAO",
       "avatar": "src/img/avatares/fefezao.png",
       "pontuacaoTotal": 500,
       "cartas": [
