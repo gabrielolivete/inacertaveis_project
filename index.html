@@ -1,42 +1,46 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Inacertaveis</title>
   <link rel="stylesheet" href="src/css/style.css">
   <link rel="stylesheet" href="src/css/navbar.css">
-  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="src/css/badges.css">
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto:wght@400;700&display=swap"
+    rel="stylesheet">
 </head>
+
 <body>
 
-<!-- Bloco Fixo no Topo -->
-<div class="topo-fixo">
-  <header class="header">
-    <h1>INACERTAVEISS</h1>
-  </header>
+  <!-- Bloco Fixo no Topo -->
+  <div class="topo-fixo">
+    <header class="header">
+      <h1>INACERTAVEISS</h1>
+    </header>
 
-  <nav class="navbar">
-    <button class="nav-btn" onclick="mudarAba('historico', this)">📜 Histórico</button>
-    <button class="nav-btn active" onclick="mudarAba('inicio', this)">🏠 Início</button>
-    <button class="nav-btn" onclick="mudarAba('conquistas', this)">🎖️ Badges</button>
-    <button class="nav-btn" onclick="mudarAba('regras', this)">📋 Regras</button>
-  </nav>
-</div>
+    <nav class="navbar">
+      <button class="nav-btn" onclick="mudarAba('historico', this)">📜 Histórico</button>
+      <button class="nav-btn active" onclick="mudarAba('inicio', this)">🏠 Início</button>
+      <button class="nav-btn" onclick="mudarAba('conquistas', this)">🎖️ Badges</button>
+      <button class="nav-btn" onclick="mudarAba('regras', this)">📋 Regras</button>
+    </nav>
+  </div>
 
-<!-- Indicador de Rodada -->
-<div class="rodada-container" id="container-rodada-subtitulo">
-  <div class="rodada" id="nome-rodada">RODADA ATUAL</div>
-</div>
+  <!-- Indicador de Rodada -->
+  <div class="rodada-container" id="container-rodada-subtitulo">
+    <div class="rodada" id="nome-rodada">RODADA ATUAL</div>
+  </div>
 
-<!-- Conteúdo Principal -->
-<main class="container">
-  <!-- As abas continuam aqui... -->
-</main>
+  <!-- Conteúdo Principal -->
+  <main class="container">
+    <!-- As abas continuam aqui... -->
+  </main>
 
   <!-- Áreas que vão mudar de conteúdo dinamicamente via JS -->
   <main class="container">
-    
+
     <!-- ABA INÍCIO / HISTÓRICO (Cards das Rodadas) -->
     <div id="aba-rodadas" class="aba-conteudo">
       <!-- Seletor de Rodada (Aparece apenas quando clicar na aba Histórico) -->
@@ -49,38 +53,141 @@
 
       <!-- Container onde os cards dos 4 participantes são injetados -->
       <div id="container-jogadores"></div>
-    </div>
 
-    <!-- ABA CONQUISTAS -->
-  <div id="aba-conquistas" class="aba-conteudo" style="display: none;">
-    <div class="card-player">
-      <div class="card-header"><h2>BADGES</h2></div>
-      <div class="card-body">
-        <p style="text-align: center; color: #8b949e;">Espaço reservado para as conquistas futuras!</p>
+      <!-- ⏰ LEMBRETE DE HORÁRIO LIMITE (Abaixo do Carrossel) -->
+      <div id="lembrete-prazo" class="lembrete-prazo-container" style="display: none;">
+        <span class="lembrete-icone">⏰</span>
+        <span class="lembrete-texto">
+          Limite para envio dos palpites: <strong id="data-prazo">--/-- às --:--h</strong>
+        </span>
       </div>
     </div>
-  </div>
 
-  <!-- ABA REGRAS (NOVA) -->
-  <div id="aba-regras" class="aba-conteudo" style="display: none;">
-    <div class="card-player">
-      <div class="card-header"><h2>REGRAS DO JOGO</h2></div>
-      <div class="card-body" style="padding: 15px; color: #c9d1d9; font-size: 0.9rem; line-height: 1.5;">
-        
-        <!-- Escreva ou edite as regras do seu grupo aqui -->
-        <h3 style="color: #f39c12; margin-bottom: 8px;">⚽ Palpites</h3>
-        <p style="margin-bottom: 12px;">• Acertar o placar em cheio (Cravei): +25 pontos.</p>
-        <p style="margin-bottom: 12px;">• Acertar o vencedor/empate: +10 pontos.</p>
+    <!-- ABA CONQUISTAS / BADGES -->
+    <div id="aba-conquistas" class="aba-conteudo" style="display: none;">
 
-        <h3 style="color: #f39c12; margin-bottom: 8px;">🃏 Cartas Especial</h3>
-        <p style="margin-bottom: 12px;">• <b>Coringa:</b> Dobra a pontuação do jogo escolhido.</p>
-        
+      <!-- 🏆 TOP 4 MINI LEADERBOARD -->
+      <div class="leaderboard-mini-container">
+        <h3 class="secao-titulo">🏆 CLASSIFICAÇÃO GERAL</h3>
+        <div id="mini-leaderboard" class="mini-leaderboard-grid">
+          <!-- Injetado via JS -->
+        </div>
+      </div>
+
+      <!-- 🎖️ LISTA DE BADGES -->
+      <div class="badges-container">
+        <h3 class="secao-titulo">🎖️ HALL DE CONQUISTAS</h3>
+        <div id="lista-badges" class="badges-grid">
+          <!-- Injetado via JS -->
+        </div>
+      </div>
+
+    </div>
+
+    <!-- ABA REGRAS -->
+    <div id="aba-regras" class="aba-conteudo" style="display: none;">
+      <div class="card-player">
+        <div class="card-header">
+          <h2>REGULAMENTO OFICIAL</h2>
+        </div>
+        <div class="card-body" style="padding: 20px; color: #c9d1d9; font-size: 0.85rem; line-height: 1.6;">
+
+          <!-- OBJETIVO -->
+          <section style="margin-bottom: 20px;">
+            <h3 style="color: #f39c12; margin-bottom: 8px; border-bottom: 1px solid #30363d; padding-bottom: 4px;">🎯
+              OBJETIVO</h3>
+            <p>A competição consiste em prever os resultados de partidas do Campeonato Brasileiro Série A, acumulando a
+              maior quantidade possível de pontos ao longo da temporada.</p>
+            <p style="margin-top: 6px; color: #f1c40f;"><b>• Pontuação Inicial:</b> Todos os participantes iniciam com
+              <b>500 pontos</b>.</p>
+          </section>
+
+          <!-- JOGOS & PALPITES -->
+          <section style="margin-bottom: 20px;">
+            <h3 style="color: #f39c12; margin-bottom: 8px; border-bottom: 1px solid #30363d; padding-bottom: 4px;">⚽
+              JOGOS E PALPITES DE PLACAR</h3>
+            <p style="margin-bottom: 6px;">• A cada rodada serão sorteados <b>3 jogos</b> dentre os 10 do Brasileirão.
+              Apenas estes 3 são válidos.</p>
+            <p style="margin-bottom: 6px;">• Cada participante envia um palpite único de placar por jogo.</p>
+            <p style="margin-bottom: 4px; color: #2ecc71;"><b>✓ Acerto Exato:</b> +50 pontos.</p>
+            <p style="margin-bottom: 6px; color: #e74c3c;"><b>✗ Erro de Placar:</b> -5 pontos para cada gol de diferença
+              entre o palpite e o resultado real (calculado por time).</p>
+          </section>
+
+          <!-- PALPITES ESPECIAIS -->
+          <section style="margin-bottom: 20px;">
+            <h3 style="color: #f39c12; margin-bottom: 8px; border-bottom: 1px solid #30363d; padding-bottom: 4px;">⚡
+              PALPITES ESPECIAIS</h3>
+            <p style="margin-bottom: 8px;">Você pode fazer 3 palpites especiais por rodada (um de cada categoria),
+              válidos para qualquer um dos 3 jogos. Não há perda de pontos caso erre:</p>
+            <p style="margin-bottom: 4px;"><b>⚽ Gol de Jogador:</b> +15 pontos se acertar.</p>
+            <p style="margin-bottom: 4px;"><b>🟨 Cartão Amarelo:</b> +10 pontos se acertar.</p>
+            <p style="margin-bottom: 6px;"><b>🟥 Cartão Vermelho:</b> +25 pontos se acertar.</p>
+          </section>
+
+          <!-- BÔNUS E MULTIPLICADORES -->
+          <section style="margin-bottom: 20px;">
+            <h3 style="color: #f39c12; margin-bottom: 8px; border-bottom: 1px solid #30363d; padding-bottom: 4px;">👑
+              BÔNUS E CORINGAS</h3>
+            <p style="margin-bottom: 6px;"><b>👑 Líder da Rodada:</b> O maior pontuador positivo da rodada ganha <b>+10
+                pontos</b> de bônus. (Em caso de empate, ninguém leva).</p>
+            <p style="margin-bottom: 6px;"><b>🃏 Coringa (2x):</b> Você tem <b>3 Coringas</b> no campeonato. Anuncie
+              antes da rodada para aplicar em 1 jogo: ele <b>dobra todas as pontuações</b> do jogo (positivas ou
+              negativas).</p>
+            <p style="margin-bottom: 4px;"><b>🔥 Combo 3 Placares:</b> +75 pontos se acertar os 3 placares exatos da
+              rodada.</p>
+            <p style="margin-bottom: 6px;"><b>🔥 Combo 2 Placares:</b> +30 pontos se acertar 2 placares exatos da
+              rodada.</p>
+          </section>
+
+          <!-- CARTAS ESPECIAIS -->
+          <section style="margin-bottom: 20px;">
+            <h3 style="color: #f39c12; margin-bottom: 8px; border-bottom: 1px solid #30363d; padding-bottom: 4px;">🎴
+              CARTAS ESPECIAIS (USO ÚNICO)</h3>
+            <p style="margin-bottom: 8px;">Cada participante possui 5 cartas para usar uma única vez durante todo o
+              campeonato:</p>
+            <p style="margin-bottom: 6px;"><b>🛡️ Escudo:</b> Anula todas as perdas de pontos da rodada (anunciar antes
+              da rodada).</p>
+            <p style="margin-bottom: 6px;"><b>🔄 Segunda Chance:</b> Permite alterar o palpite de um jogo durante o
+              intervalo do mesmo.</p>
+            <p style="margin-bottom: 6px;"><b>🎁 Presente de Grego:</b> Inverte o palpite de um jogo entre 2 adversários
+              à sua escolha (anunciar antes da rodada).</p>
+            <p style="margin-bottom: 6px;"><b>🔒 Seguro:</b> Limita sua perda total na rodada a no máximo -15 pontos
+              (anunciar antes da rodada).</p>
+            <p style="margin-bottom: 6px;"><b>⚖️ O Dobro ou Metade:</b> Escolha 1 jogo antes da rodada. Se acertar o
+              placar exato ganha <b>+100 pontos</b>. Se errar, perde mais metade de toda a pontuação obtida na rodada.
+            </p>
+          </section>
+
+          <!-- ENVIO & CLASSIFICAÇÃO -->
+          <section style="margin-bottom: 20px;">
+            <h3 style="color: #f39c12; margin-bottom: 8px; border-bottom: 1px solid #30363d; padding-bottom: 4px;">📤
+              REGRAS DE ENVIO E DESEMPATE</h3>
+            <p style="margin-bottom: 6px;">• Todos devem enviar os palpites no mesmo horário combinado. Palpites
+              atrasados podem anular a rodada do participante.</p>
+            <p style="margin-bottom: 6px;">• <b>Critérios de Desempate Geral:</b> 1º Maior nº de placares exatos | 2º
+              Maior nº de palpites especiais acertados | 3º Maior nº de rodadas vencidas.</p>
+          </section>
+
+          <!-- BADGES E CONQUISTAS -->
+          <section>
+            <h3 style="color: #f39c12; margin-bottom: 8px; border-bottom: 1px solid #30363d; padding-bottom: 4px;">🎖️
+              HALL DE CONQUISTAS</h3>
+            <p style="margin-bottom: 4px;"><b>👑 Rei do Placar:</b> Detentor de mais palpites exatos.</p>
+            <p style="margin-bottom: 4px;"><b>⚽ Artilheiro:</b> Mais palpites especiais de gol acertados.</p>
+            <p style="margin-bottom: 4px;"><b>👮 Xerife:</b> Mais palpites de cartão amarelo acertados.</p>
+            <p style="margin-bottom: 4px;"><b>💀 Punisher:</b> Mais palpites de cartão vermelho acertados.</p>
+            <p style="margin-bottom: 4px;"><b>🎭 Esse dia foi louco:</b> Detentor da melhor rodada do campeonato.</p>
+            <p style="margin-bottom: 4px;"><b>🐭 Pé de Rato:</b> Detentor da pior rodada do campeonato.</p>
+          </section>
+
+        </div>
       </div>
     </div>
-  </div>
 
   </main>
 
   <script src="src/js/script.js"></script>
 </body>
+
 </html>

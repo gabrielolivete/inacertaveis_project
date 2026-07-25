@@ -1,9 +1,11 @@
 {
   "nome": "RODADA 20",
+  "prazoPalpites": "Sábado, 25/07 às 12:00h",
   "participantes": [
     {
       "nome": "MARCOLA",
       "avatar": "src/img/avatares/marcola.png",
+      "avatarHead": "src/img/avatares/marcolahead.png",
       "pontuacaoTotal": 500,
       "cartas": [
         { "img": "src/img/cartas/dobrometade.png", "usada": false },
@@ -53,6 +55,7 @@
     {
       "nome": "GABS",
       "avatar": "src/img/avatares/gabe.png",
+      "avatarHead": "src/img/avatares/gabehead.png",
       "pontuacaoTotal": 500,
       "cartas": [
         { "img": "src/img/cartas/dobrometade.png", "usada": false },
@@ -102,6 +105,7 @@
     {
       "nome": "JOCA",
       "avatar": "src/img/avatares/joca.png",
+      "avatarHead": "src/img/avatares/jocahead.png",
       "pontuacaoTotal": 500,
       "cartas": [
         { "img": "src/img/cartas/dobrometade.png", "usada": false },
@@ -151,6 +155,7 @@
     {
       "nome": "FEFEZAO",
       "avatar": "src/img/avatares/fefezao.png",
+      "avatarHead": "src/img/avatares/fefezaohead.png",
       "pontuacaoTotal": 500,
       "cartas": [
         { "img": "src/img/cartas/dobrometade.png", "usada": false },

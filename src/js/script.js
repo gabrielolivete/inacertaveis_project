@@ -1,11 +1,8 @@
 // ==========================================
 // 1. CONFIGURAÇÃO PRINCIPAL
 // ==========================================
-// Coloque aqui apenas os números das rodadas que você realmente já criou o arquivo .json:
-const RODADAS_EXISTENTES = [19, 20]; 
-
-// A rodada atual/mais recente é sempre o último item da lista
-const ULTIMA_RODADA = RODADAS_EXISTENTES[RODADAS_EXISTENTES.length - 1]; 
+const RODADAS_EXISTENTES = [19, 20];
+const ULTIMA_RODADA = RODADAS_EXISTENTES[RODADAS_EXISTENTES.length - 1];
 
 // ==========================================
 // 2. BUSCA DE DADOS (FETCH JSON)
@@ -13,12 +10,18 @@ const ULTIMA_RODADA = RODADAS_EXISTENTES[RODADAS_EXISTENTES.length - 1];
 async function buscarDadosRodada(numeroRodada) {
   try {
     const resposta = await fetch(`src/js/rodadas/rodada${numeroRodada}.json`);
-    
+
     if (!resposta.ok) {
       throw new Error(`Erro ao carregar rodada ${numeroRodada}`);
     }
-    
+
     const dados = await resposta.json();
+
+    // 💡 Salva os dados globalmente se for a última rodada
+    if (Number(numeroRodada) === ULTIMA_RODADA) {
+      window.dadosUltimaRodada = dados;
+    }
+
     renderizarRodada(dados);
   } catch (erro) {
     console.error("Erro ao carregar os dados:", erro);
@@ -35,22 +38,36 @@ function renderizarRodada(dados) {
     elementoRodada.innerText = dados.nome;
   }
 
+  // ⏰ 1. Atualiza o texto e EXIBE o lembrete (se o campo prazoPalpites existir no JSON)
+  const elementoPrazo = document.getElementById("data-prazo");
+  const containerLembrete = document.getElementById("lembrete-prazo");
+
+  if (dados.prazoPalpites && elementoPrazo) {
+    elementoPrazo.innerText = dados.prazoPalpites;
+    
+    // Garante visibilidade apenas se for a rodada inicial/ativa
+    const seletorHist = document.getElementById('seletor-historico');
+    if (containerLembrete && (!seletorHist || seletorHist.style.display === 'none')) {
+      containerLembrete.style.display = "flex";
+    }
+  } else if (containerLembrete) {
+    containerLembrete.style.display = "none";
+  }
+
   // Limpa a área de cards
   const container = document.getElementById("container-jogadores");
   if (!container) return;
   container.innerHTML = "";
 
-  // 🏆 1. ORDENA OS JOGADORES DO MAIOR PARA O MENOR PONTO
+  // 🏆 Ordena jogadores da maior para a menor pontuação
   const jogadoresOrdenados = [...dados.participantes].sort((a, b) => b.pontuacaoTotal - a.pontuacaoTotal);
 
-  // 🎠 2. RENDEREIZA OS CARDS JÁ ORDENADOS
+  // 🎠 Renderiza os cards
   jogadoresOrdenados.forEach((jogador, index) => {
-    // Monta as cartas
-    const cartasHTML = jogador.cartas.map(carta => 
+    const cartasHTML = jogador.cartas.map(carta =>
       `<img class="carta-icone ${carta.usada ? 'carta-usada' : ''}" src="${carta.img}" alt="carta">`
     ).join('');
 
-    // Monta os palpites
     const jogosHTML = jogador.jogos.map(jogo => `
       <div class="linha-palpite ${jogo.coringa ? 'destaque' : ''}">
         ${jogo.coringa ? '<div class="coringa-tag">🃏 CORINGA 2X</div>' : ''}
@@ -66,7 +83,6 @@ function renderizarRodada(dados) {
       </div>
     `).join('');
 
-    // Monta os eventos
     const eventosHTML = jogador.eventos.map(ev => `
       <div class="evento">
         <span>${ev.texto}</span>
@@ -74,11 +90,11 @@ function renderizarRodada(dados) {
       </div>
     `).join('');
 
-    // Card completo (com badge de posição do líder/colocação)
     const cardHTML = `
       <article class="card-player">
+        ${index === 0 ? '<img src="src/img/especial/lider.png" class="badge-lider-sobreposta" alt="Líder">' : ''}
         <div class="card-header">
-          <h2>${index === 0 ? '👑 ' : ''}${jogador.nome}</h2>
+          <h2>${jogador.nome}</h2>
         </div>
         <div class="card-body">
           <div class="perfil">
@@ -109,14 +125,12 @@ function renderizarRodada(dados) {
 // 4. LÓGICA DO MENU E SELETOR DE HISTÓRICO
 // ==========================================
 
-// Preenche o menu suspenso (<select>) APENAS com as rodadas da lista
 function preencherSeletorHistorico() {
   const select = document.getElementById("select-rodada");
   if (!select) return;
 
   select.innerHTML = "";
 
-  // Percorre apenas o array de rodadas existentes
   RODADAS_EXISTENTES.forEach(num => {
     const option = document.createElement("option");
     option.value = num;
@@ -125,64 +139,112 @@ function preencherSeletorHistorico() {
   });
 }
 
-// Função chamada quando o usuário escolhe uma opção no dropdown
 function carregarRodadaHistorico(numeroRodada) {
   buscarDadosRodada(numeroRodada);
 }
 
 function mudarAba(nomeAba, elementoClicado) {
-  // 1. Esconde TODAS as abas
   document.querySelectorAll('.aba-conteudo').forEach(aba => {
     aba.style.display = 'none';
   });
-  
-  // 2. Remove o destaque visual amarelo de todos os botões
+
   document.querySelectorAll('.nav-btn').forEach(btn => {
     btn.classList.remove('active');
   });
 
   const seletorHist = document.getElementById('seletor-historico');
   const subtituloRodada = document.getElementById('container-rodada-subtitulo');
+  const lembretePrazo = document.getElementById('lembrete-prazo');
 
-  // 3. Mostra a aba específica que foi clicada
   if (nomeAba === 'inicio') {
     document.getElementById('aba-rodadas').style.display = 'block';
     if (seletorHist) seletorHist.style.display = 'none';
     if (subtituloRodada) subtituloRodada.style.display = 'block';
+    if (lembretePrazo) lembretePrazo.style.display = 'flex';
     buscarDadosRodada(ULTIMA_RODADA);
-  } 
+  }
   else if (nomeAba === 'historico') {
     document.getElementById('aba-rodadas').style.display = 'block';
     if (seletorHist) seletorHist.style.display = 'block';
     if (subtituloRodada) subtituloRodada.style.display = 'none';
+    if (lembretePrazo) lembretePrazo.style.display = 'none';
     const select = document.getElementById("select-rodada");
     if (select) buscarDadosRodada(select.value);
-  } 
+  }
   else if (nomeAba === 'conquistas') {
-    document.getElementById('aba-conquistas').style.display = 'block'; // <--- Ativa essa div
+    document.getElementById('aba-conquistas').style.display = 'block';
     if (subtituloRodada) subtituloRodada.style.display = 'none';
+    if (lembretePrazo) lembretePrazo.style.display = 'none';
+
+    carregarAbaBadges();
   }
   else if (nomeAba === 'regras') {
-    document.getElementById('aba-regras').style.display = 'block'; // <--- Ativa essa div
+    document.getElementById('aba-regras').style.display = 'block';
     if (subtituloRodada) subtituloRodada.style.display = 'none';
+    if (lembretePrazo) lembretePrazo.style.display = 'none';
   }
 
-  // 4. Marca o botão clicado como ativo
   if (elementoClicado) {
     elementoClicado.classList.add('active');
   }
 }
 
 // ==========================================
-// 5. INICIALIZAÇÃO DA PÁGINA
+// 5. CARREGAR ABA BADGES
+// ==========================================
+async function carregarAbaBadges() {
+  if (window.dadosUltimaRodada) {
+    const jogadoresOrdenados = [...window.dadosUltimaRodada.participantes]
+      .sort((a, b) => b.pontuacaoTotal - a.pontuacaoTotal);
+
+    const miniContainer = document.getElementById("mini-leaderboard");
+    if (miniContainer) {
+      miniContainer.innerHTML = jogadoresOrdenados.map((jogador, idx) => `
+        <div class="mini-player-card">
+          <div class="avatar-container-relativo">
+            <div class="avatar-wrapper">
+              <img class="avatar-rosto" src="${jogador.avatarHead || jogador.avatar}" alt="${jogador.nome}">
+            </div>
+            <span class="posicao-badge pos-${idx + 1}">${idx + 1}º</span>
+          </div>
+          <span class="mini-player-nome">${jogador.nome}</span>
+          <span class="mini-player-pontos">${jogador.pontuacaoTotal}</span>
+        </div>
+      `).join('');
+    }
+  }
+
+  try {
+    const resposta = await fetch('src/data/badges.json');
+    const dadosBadges = await resposta.json();
+
+    const containerBadges = document.getElementById("lista-badges");
+    if (containerBadges) {
+      containerBadges.innerHTML = dadosBadges.conquistas.map(badge => `
+        <div class="card-badge">
+          <img src="${badge.icone}" alt="${badge.nome}" class="badge-img">
+          <div class="badge-titulo">${badge.nome}</div>
+          <div class="badge-desc">${badge.descricao}</div>
+          <div class="badge-dono">
+            👑 <b>${badge.lider_atual}</b><br>
+            <small style="color: #f1c40f;">${badge.valor}</small>
+          </div>
+        </div>
+      `).join('');
+    }
+  } catch (erro) {
+    console.error("Erro ao carregar o arquivo badges.json:", erro);
+  }
+}
+
+// ==========================================
+// 6. INICIALIZAÇÃO DA PÁGINA
 // ==========================================
 document.addEventListener("DOMContentLoaded", () => {
   preencherSeletorHistorico();
-  
-  // Define o valor padrão do seletor para a última rodada
+
   const select = document.getElementById("select-rodada");
   if (select) select.value = ULTIMA_RODADA;
 
-  // Carrega a tela inicial
   buscarDadosRodada(ULTIMA_RODADA);
 });
