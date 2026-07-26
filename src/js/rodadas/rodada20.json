@@ -6,7 +6,7 @@
       "nome": "MARCOLA",
       "avatar": "src/img/avatares/marcola.png",
       "avatarHead": "src/img/avatares/marcolahead.png",
-      "pontuacaoTotal": 500,
+      "pontuacaoTotal": 490,
       "cartas": [
         { "img": "src/img/cartas/dobrometade.png", "usada": false },
         { "img": "src/img/cartas/escudo.png", "usada": false },
@@ -22,9 +22,9 @@
           "time1": "src/img/escudos/santos.png",
           "placar": "2 x 0",
           "time2": "src/img/escudos/chapecoense.png",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
+          "pontos": "-10",
+          "descricao": "-10 palpite",
+          "tipoPontos": "negativo",
           "coringa": false
         },
         {
@@ -56,7 +56,7 @@
       "nome": "GABS",
       "avatar": "src/img/avatares/gabe.png",
       "avatarHead": "src/img/avatares/gabehead.png",
-      "pontuacaoTotal": 500,
+      "pontuacaoTotal": 490,
       "cartas": [
         { "img": "src/img/cartas/dobrometade.png", "usada": false },
         { "img": "src/img/cartas/escudo.png", "usada": false },
@@ -72,9 +72,9 @@
           "time1": "src/img/escudos/santos.png",
           "placar": "2 x 0",
           "time2": "src/img/escudos/chapecoense.png",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
+          "pontos": "-10",
+          "descricao": "-10 palpite",
+          "tipoPontos": "negativo",
           "coringa": false
         },
         {
@@ -106,7 +106,7 @@
       "nome": "JOCA",
       "avatar": "src/img/avatares/joca.png",
       "avatarHead": "src/img/avatares/jocahead.png",
-      "pontuacaoTotal": 500,
+      "pontuacaoTotal": 490,
       "cartas": [
         { "img": "src/img/cartas/dobrometade.png", "usada": false },
         { "img": "src/img/cartas/escudo.png", "usada": false },
@@ -122,9 +122,9 @@
           "time1": "src/img/escudos/santos.png",
           "placar": "2 x 0",
           "time2": "src/img/escudos/chapecoense.png",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
+          "pontos": "-10",
+          "descricao": "-10 palpite",
+          "tipoPontos": "negativo",
           "coringa": false
         },
         {
@@ -156,7 +156,7 @@
       "nome": "FEFEZAO",
       "avatar": "src/img/avatares/fefezao.png",
       "avatarHead": "src/img/avatares/fefezaohead.png",
-      "pontuacaoTotal": 500,
+      "pontuacaoTotal": 490,
       "cartas": [
         { "img": "src/img/cartas/dobrometade.png", "usada": false },
         { "img": "src/img/cartas/escudo.png", "usada": false },
@@ -172,9 +172,9 @@
           "time1": "src/img/escudos/santos.png",
           "placar": "2 x 0",
           "time2": "src/img/escudos/chapecoense.png",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
+          "pontos": "-10",
+          "descricao": "-10 palpite",
+          "tipoPontos": "negativo",
           "coringa": false
         },
         {
