@@ -1,6 +1,6 @@
 {
-  "nome": "RODADA 20",
-  "prazoPalpites": "Sábado, 25/07 às 12:00h",
+  "nome": "RODADA",
+  "prazoPalpites": "",
   "participantes": [
     {
       "nome": "MARCOLA",
@@ -19,37 +19,37 @@
       ],
       "jogos": [
         {
-          "time1": "src/img/escudos/santos.png",
-          "placar": "2 x 0",
-          "time2": "src/img/escudos/chapecoense.png",
-          "pontos": "-10",
-          "descricao": "-10 palpite",
-          "tipoPontos": "negativo",
+          "time1": "",
+          "placar": "",
+          "time2": "",
+          "pontos": "",
+          "descricao": "",
+          "tipoPontos": "",
           "coringa": false
         },
         {
-          "time1": "src/img/escudos/flamengo.png",
-          "placar": "4 x 1",
-          "time2": "src/img/escudos/saopaulo.png",
-          "pontos": "-15",
-          "descricao": "-15 palpite",
-          "tipoPontos": "negativo",
+          "time1": "",
+          "placar": "",
+          "time2": "",
+          "pontos": "",
+          "descricao": "",
+          "tipoPontos": "",
           "coringa": false
         },
         {
-          "time1": "src/img/escudos/remo.png",
-          "placar": "1 x 1",
-          "time2": "src/img/escudos/vitoria.png",
-          "pontos": "-10",
-          "descricao": "-10 palpite",
-          "tipoPontos": "negativo",
+          "time1": "",
+          "placar": "",
+          "time2": "",
+          "pontos": "",
+          "descricao": "",
+          "tipoPontos": "",
           "coringa": false
         }
       ],
       "eventos": [
-        { "texto": "⚽ Pedro (Flamengo)", "acertou": false },
-        { "texto": "🟨 Lucas Ramon (São Paulo)", "acertou": false },
-        { "texto": "🟥 Eduardo Doma (Chapecoense)", "acertou": false }
+        { "texto": "⚽ ", "acertou": false },
+        { "texto": "🟨 ", "acertou": false },
+        { "texto": "🟥 ", "acertou": false }
       ]
     },
     {
@@ -69,37 +69,37 @@
       ],
       "jogos": [
         {
-          "time1": "src/img/escudos/santos.png",
-          "placar": "2 x 0",
-          "time2": "src/img/escudos/chapecoense.png",
-          "pontos": "-10",
-          "descricao": "-10 palpite",
-          "tipoPontos": "negativo",
+          "time1": "",
+          "placar": "",
+          "time2": "",
+          "pontos": "",
+          "descricao": "",
+          "tipoPontos": "",
           "coringa": false
         },
         {
-          "time1": "src/img/escudos/flamengo.png",
-          "placar": "2 x 1",
-          "time2": "src/img/escudos/saopaulo.png",
-          "pontos": "-5",
-          "descricao": "-5 palpite",
-          "tipoPontos": "negativo",
+          "time1": "",
+          "placar": "",
+          "time2": "",
+          "pontos": "",
+          "descricao": "",
+          "tipoPontos": "",
           "coringa": false
         },
         {
-          "time1": "src/img/escudos/remo.png",
-          "placar": "1 x 1",
-          "time2": "src/img/escudos/vitoria.png",
-          "pontos": "0",
-          "descricao": "-10 palpite<br>+10 amarelo",
+          "time1": "",
+          "placar": "",
+          "time2": "",
+          "pontos": "",
+          "descricao": "",
           "tipoPontos": "",
           "coringa": false
         }
       ],
       "eventos": [
-        { "texto": "⚽ Pedro (Flamengo)", "acertou": false },
-        { "texto": "🟨 Ze Ivaldo (Remo)", "acertou": true },
-        { "texto": "🟥 Arboleda (São Paulo)", "acertou": false }
+        { "texto": "⚽ ", "acertou": false },
+        { "texto": "🟨 ", "acertou": true },
+        { "texto": "🟥 ", "acertou": false }
       ]
     },
     {
@@ -119,37 +119,37 @@
       ],
       "jogos": [
         {
-          "time1": "src/img/escudos/santos.png",
-          "placar": "2 x 0",
-          "time2": "src/img/escudos/chapecoense.png",
-          "pontos": "-10",
-          "descricao": "-10 palpite",
-          "tipoPontos": "negativo",
+          "time1": "",
+          "placar": "",
+          "time2": "",
+          "pontos": "",
+          "descricao": "",
+          "tipoPontos": "",
           "coringa": false
         },
         {
-          "time1": "src/img/escudos/flamengo.png",
-          "placar": "2 x 1",
-          "time2": "src/img/escudos/saopaulo.png",
-          "pontos": "-5",
-          "descricao": "-5 palpite",
-          "tipoPontos": "negativo",
+          "time1": "",
+          "placar": "",
+          "time2": "",
+          "pontos": "",
+          "descricao": "",
+          "tipoPontos": "",
           "coringa": false
         },
         {
-          "time1": "src/img/escudos/remo.png",
-          "placar": "1 x 3",
-          "time2": "src/img/escudos/vitoria.png",
-          "pontos": "-20",
-          "descricao": "-20 palpite",
-          "tipoPontos": "negativo",
+          "time1": "",
+          "placar": "",
+          "time2": "",
+          "pontos": "",
+          "descricao": "",
+          "tipoPontos": "",
           "coringa": false
         }
       ],
       "eventos": [
-        { "texto": "⚽ Pedro (Flamengo)", "acertou": false },
-        { "texto": "🟨 Igor (Santos)", "acertou": false },
-        { "texto": "🟥 Vacilou, não palpitou", "acertou": false }
+        { "texto": "⚽ ", "acertou": false },
+        { "texto": "🟨 ", "acertou": false },
+        { "texto": "🟥 ", "acertou": false }
       ]
     },
     {
@@ -169,37 +169,37 @@
       ],
       "jogos": [
         {
-          "time1": "src/img/escudos/santos.png",
-          "placar": "2 x 0",
-          "time2": "src/img/escudos/chapecoense.png",
-          "pontos": "-10",
-          "descricao": "-10 palpite",
-          "tipoPontos": "negativo",
+          "time1": "",
+          "placar": "",
+          "time2": "",
+          "pontos": "",
+          "descricao": "",
+          "tipoPontos": "",
           "coringa": false
         },
         {
-          "time1": "src/img/escudos/flamengo.png",
-          "placar": "2 x 1",
-          "time2": "src/img/escudos/saopaulo.png",
-          "pontos": "-10",
-          "descricao": "-5 palpite (2x)",
-          "tipoPontos": "negativo",
+          "time1": "",
+          "placar": "",
+          "time2": "",
+          "pontos": "",
+          "descricao": "",
+          "tipoPontos": "",
           "coringa": true
         },
         {
-          "time1": "src/img/escudos/remo.png",
-          "placar": "1 x 0",
-          "time2": "src/img/escudos/vitoria.png",
-          "pontos": "-5",
-          "descricao": "-5 palpite",
-          "tipoPontos": "negativo",
+          "time1": "",
+          "placar": "",
+          "time2": "",
+          "pontos": "",
+          "descricao": "",
+          "tipoPontos": "",
           "coringa": false
         }
       ],
       "eventos": [
-        { "texto": "⚽ Bruno Henrique (Flamengo)", "acertou": false },
-        { "texto": "🟨 Alef Manga (Remo)", "acertou": false },
-        { "texto": "🟥 Arboleda (São Paulo)", "acertou": false }
+        { "texto": "⚽ ", "acertou": false },
+        { "texto": "🟨 ", "acertou": false },
+        { "texto": "🟥 ", "acertou": false }
       ]
     }
   ]

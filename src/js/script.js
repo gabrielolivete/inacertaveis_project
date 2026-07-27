@@ -1,7 +1,7 @@
 // ==========================================
 // 1. CONFIGURAÇÃO PRINCIPAL
 // ==========================================
-const RODADAS_EXISTENTES = [19, 20];
+const RODADAS_EXISTENTES = [19, 20, 21];
 const ULTIMA_RODADA = RODADAS_EXISTENTES[RODADAS_EXISTENTES.length - 1];
 
 // ==========================================

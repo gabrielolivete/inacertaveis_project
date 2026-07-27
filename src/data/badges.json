@@ -21,8 +21,8 @@
       "nome": "Xerife",
       "descricao": "Mais cartões amarelos acertados",
       "icone": "src/img/especial/xerife.png",
-      "lider_atual": "",
-      "valor": ""
+      "lider_atual": "GABS",
+      "valor": "1"
     },
     {
       "id": "punisher",
@@ -45,8 +45,8 @@
       "nome": "Pé de Rato",
       "descricao": "Detentor da pior rodada do campeonato",
       "icone": "src/img/especial/pederato.png",
-      "lider_atual": "",
-      "valor": ""
+      "lider_atual": "JOCA/MARCOLA",
+      "valor": "-35"
     }
   ]
 }
