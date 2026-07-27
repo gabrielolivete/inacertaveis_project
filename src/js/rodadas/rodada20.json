@@ -6,7 +6,7 @@
       "nome": "MARCOLA",
       "avatar": "src/img/avatares/marcola.png",
       "avatarHead": "src/img/avatares/marcolahead.png",
-      "pontuacaoTotal": 490,
+      "pontuacaoTotal": 465,
       "cartas": [
         { "img": "src/img/cartas/dobrometade.png", "usada": false },
         { "img": "src/img/cartas/escudo.png", "usada": false },
@@ -31,18 +31,18 @@
           "time1": "src/img/escudos/flamengo.png",
           "placar": "4 x 1",
           "time2": "src/img/escudos/saopaulo.png",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
+          "pontos": "-15",
+          "descricao": "-15 palpite",
+          "tipoPontos": "negativo",
           "coringa": false
         },
         {
           "time1": "src/img/escudos/remo.png",
           "placar": "1 x 1",
           "time2": "src/img/escudos/vitoria.png",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
+          "pontos": "-10",
+          "descricao": "-10 palpite",
+          "tipoPontos": "negativo",
           "coringa": false
         }
       ],
@@ -56,7 +56,7 @@
       "nome": "GABS",
       "avatar": "src/img/avatares/gabe.png",
       "avatarHead": "src/img/avatares/gabehead.png",
-      "pontuacaoTotal": 490,
+      "pontuacaoTotal": 485,
       "cartas": [
         { "img": "src/img/cartas/dobrometade.png", "usada": false },
         { "img": "src/img/cartas/escudo.png", "usada": false },
@@ -81,17 +81,17 @@
           "time1": "src/img/escudos/flamengo.png",
           "placar": "2 x 1",
           "time2": "src/img/escudos/saopaulo.png",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
+          "pontos": "-5",
+          "descricao": "-5 palpite",
+          "tipoPontos": "negativo",
           "coringa": false
         },
         {
           "time1": "src/img/escudos/remo.png",
           "placar": "1 x 1",
           "time2": "src/img/escudos/vitoria.png",
-          "pontos": "",
-          "descricao": "",
+          "pontos": "0",
+          "descricao": "-10 palpite<br>+10 amarelo",
           "tipoPontos": "",
           "coringa": false
         }
@@ -106,7 +106,7 @@
       "nome": "JOCA",
       "avatar": "src/img/avatares/joca.png",
       "avatarHead": "src/img/avatares/jocahead.png",
-      "pontuacaoTotal": 490,
+      "pontuacaoTotal": 465,
       "cartas": [
         { "img": "src/img/cartas/dobrometade.png", "usada": false },
         { "img": "src/img/cartas/escudo.png", "usada": false },
@@ -131,18 +131,18 @@
           "time1": "src/img/escudos/flamengo.png",
           "placar": "2 x 1",
           "time2": "src/img/escudos/saopaulo.png",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
+          "pontos": "-5",
+          "descricao": "-5 palpite",
+          "tipoPontos": "negativo",
           "coringa": false
         },
         {
           "time1": "src/img/escudos/remo.png",
           "placar": "1 x 3",
           "time2": "src/img/escudos/vitoria.png",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
+          "pontos": "-20",
+          "descricao": "-20 palpite",
+          "tipoPontos": "negativo",
           "coringa": false
         }
       ],
@@ -156,7 +156,7 @@
       "nome": "FEFEZAO",
       "avatar": "src/img/avatares/fefezao.png",
       "avatarHead": "src/img/avatares/fefezaohead.png",
-      "pontuacaoTotal": 490,
+      "pontuacaoTotal": 475,
       "cartas": [
         { "img": "src/img/cartas/dobrometade.png", "usada": false },
         { "img": "src/img/cartas/escudo.png", "usada": false },
@@ -181,18 +181,18 @@
           "time1": "src/img/escudos/flamengo.png",
           "placar": "2 x 1",
           "time2": "src/img/escudos/saopaulo.png",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
+          "pontos": "-10",
+          "descricao": "-5 palpite (2x)",
+          "tipoPontos": "negativo",
           "coringa": true
         },
         {
           "time1": "src/img/escudos/remo.png",
           "placar": "1 x 0",
           "time2": "src/img/escudos/vitoria.png",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
+          "pontos": "-5",
+          "descricao": "-5 palpite",
+          "tipoPontos": "negativo",
           "coringa": false
         }
       ],
