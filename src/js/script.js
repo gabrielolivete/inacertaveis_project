@@ -136,11 +136,11 @@ function preencherSeletorHistorico() {
     const option = document.createElement("option");
     option.value = item;
     
-    // Se for número, formata com zero (ex: RODADA 01). Se for texto/bônus, formata com "BÔNUS"
     if (typeof item === 'number') {
       option.innerText = `RODADA ${item < 10 ? '0' + item : item}`;
     } else {
-      option.innerText = `RODADA BÔNUS ${item}`;
+      // Força a exibição em maiúsculas (Ex: RODADA BÔNUS B01)
+      option.innerText = `RODADA BÔNUS ${String(item).toUpperCase()}`;
     }
 
     select.appendChild(option);

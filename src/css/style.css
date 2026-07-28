@@ -357,6 +357,26 @@ body {
   color: #f39c12; 
 }
 
+/* 1. CONTAINER PAI DA ABA */
+#aba-regras {
+  display: flex;
+  flex-direction: column;
+  align-items: center;   
+  justify-content: center;
+  width: 100%;           
+  box-sizing: border-box;
+  padding: 10px 16px;    
+}
+
+/* 2. CARD DO REGULAMENTO/REGRAS */
+#aba-regras .card-regras, 
+#aba-regras > div {     
+  width: 100%;
+  max-width: 500px;     
+  margin: 0 auto !important; 
+  box-sizing: border-box;
+}
+
 /* Ajuste de tela grande (PC / Desktop): volta para grade ou centralizado */
 @media (min-width: 768px) {
   #container-jogadores {
