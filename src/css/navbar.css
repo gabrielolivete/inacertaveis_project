@@ -1,51 +1,3 @@
-/* Navbar dentro do bloco fixo */
-.navbar {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  background-color: #161b22;
-  border-top: 1px solid #30363d;
-  border-bottom: 1px solid #30363d;
-  padding: 8px 4px;
-}
-
-.nav-btn {
-  background: none;
-  border: 1px solid transparent;
-  color: #8b949e;
-  font-family: 'Roboto', sans-serif;
-  font-size: 0.8rem;
-  font-weight: bold;
-  padding: 6px 8px;
-  border-radius: 6px;
-  cursor: pointer;
-}
-
-/* Estado do botão ativo (Aba selecionada) */
-.nav-btn.active {
-  color: #f39c12;
-  border-color: #f39c12;
-  background-color: #0d1117;
-}
-
-/* Estilo do Seletor de Histórico */
-.seletor-container {
-  text-align: center;
-  margin-bottom: 12px;
-  font-size: 0.8rem;
-}
-
-.seletor-container select {
-  background-color: #21262d;
-  color: #fff;
-  border: 1px solid #30363d;
-  padding: 6px 10px;
-  border-radius: 4px;
-  font-family: 'Press Start 2P', cursive;
-  font-size: 0.65rem;
-  margin-left: 5px;
-}
-
 /* --- BLOCO FIXO COMPLETO NO TOPO --- */
 .topo-fixo {
   position: fixed;
@@ -55,4 +7,52 @@
   background-color: #0d1117; 
   z-index: 1000;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5); 
+}
+
+/* --- NAVBAR DENTRO DO BLOCO FIXO --- */
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #161b22;
+  border-top: 1px solid #30363d;
+  border-bottom: 1px solid #30363d;
+  padding: 8px 4px;
+  gap: 2px;
+}
+
+.nav-btn {
+  flex: 1;
+  background: none;
+  border: 1px solid transparent;
+  color: #8b949e;
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.75rem;
+  font-weight: bold;
+  padding: 6px 4px;
+  border-radius: 6px;
+  cursor: pointer;
+  text-align: center;
+  white-space: nowrap;
+  transition: all 0.2s ease-in-out;
+}
+
+.nav-btn:hover {
+  color: #f39c12;
+  background-color: rgba(243, 156, 18, 0.1);
+}
+
+/* Estado do botão ativo (Aba selecionada) */
+.nav-btn.active {
+  color: #f39c12;
+  border-color: #f39c12;
+  background-color: #0d1117;
+}
+
+/* Ajustes finos para telas muito pequenas (ex: iPhone SE / Androids pequenos) */
+@media (max-width: 380px) {
+  .nav-btn {
+    font-size: 0.68rem;
+    padding: 5px 2px;
+  }
 }

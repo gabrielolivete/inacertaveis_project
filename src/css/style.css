@@ -26,11 +26,31 @@ body {
   margin: 0;
 }
 
-/* --- ESPAÇAMENTO DO CONTEÚDO --- */
+/* --- ESTRUTURA E ESPAÇAMENTOS DAS ABAS --- */
+main, 
+.aba-conteudo {
+  margin-top: 100px; /* Dá o espaço exato para não ficar atrás do .topo-fixo */
+  padding-top: 0; 
+  padding-bottom: 30px;
+}
 
+#aba-rodadas {
+  margin-top: 140px;
+}
+
+/* Evita que elementos ocultos gerem altura fantasma */
+#seletor-historico:empty,
+#container-rodada-subtitulo:empty,
+#lembrete-prazo:empty {
+  display: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* --- INDICADORES E SELETORES (SEM MARGEMS EXCESIVAS) --- */
 .rodada-container {
   text-align: center;
-  margin-top: 110px;
+  margin-top: 10px;
   margin-bottom: 15px;
 }
 
@@ -45,40 +65,35 @@ body {
 }
 
 .seletor-container {
-  margin-top: 110px; 
+  text-align: center;
+  margin-top: 10px; 
   margin-bottom: 15px;
 }
 
-/* --- CONTAINER PRINCIPAL (CELULAR) --- */
+.seletor-container select {
+  background-color: #21262d;
+  color: #f39c12;
+  border: 1px solid #30363d;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 0.65rem;
+}
+
+/* --- CONTAINER PRINCIPAL --- */
 .container {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  max-width: 450px;
-  margin: 0 auto;
-}
-
-.container, 
-#aba-rodadas {
-  max-width: 100% !important;
+  max-width: 100%;
   width: 100%;
+  margin: 0 auto;
   overflow-x: hidden; 
   padding-left: 0;
   padding-right: 0;
 }
 
-/* --- ESPAÇAMENTO PARA O CONTEÚDO NÃO FICAR ATRÁS DO MENU FIXO --- */
-.aba-conteudo {
-  margin-top: 100px;
-  padding-bottom: 30px;
-}
-
-
-#aba-rodadas {
-  margin-top: 0;
-}
-
-/* 2. CARD DO JOGADOR */
+/* --- CARD DO JOGADOR --- */
 .card-player {
   position: relative;
   flex: 0 0 85vw;
@@ -104,7 +119,7 @@ body {
   filter: drop-shadow(0 2px 4px rgba(0,0,0,0.5));
 }
 
-/* 3. CABEÇALHO DO CARD (NOME DO JOGADOR) */
+/* CABEÇALHO DO CARD (NOME DO JOGADOR) */
 .card-header {
   background-color: #21262d;
   padding: 12px;
@@ -113,6 +128,7 @@ body {
   border-top-left-radius: 11px;
   border-top-right-radius: 11px;
 }
+
 .card-header h2 {
   font-family: 'Press Start 2P', cursive;
   color: #f39c12;
@@ -136,7 +152,6 @@ body {
   padding: 10px;
 }
 
-/* Regra fixa para o Avatar nos Cards */
 .card-player .avatar {
   width: 110px;
   height: 150px;   
@@ -188,7 +203,6 @@ body {
   flex-shrink: 0;
 }
 
-/* Efeito quando a carta já foi utilizada */
 .carta-usada {
   opacity: 0.25;
   filter: grayscale(100%);
@@ -267,7 +281,6 @@ body {
   line-height: 1.1;
 }
 
-/* Verde para Positivos */
 .positivo,
 .pontos-valor.positivo,
 .pontos-descricao.positivo {
@@ -275,7 +288,6 @@ body {
   font-weight: bold;
 }
 
-/* Vermelho para Negativos */
 .negativo,
 .pontos-valor.negativo,
 .pontos-descricao.negativo {
@@ -283,7 +295,7 @@ body {
   font-weight: bold;
 }
 
-/* --- EVENTOS (GOLS, CARTÕES) --- */
+/* --- EVENTOS --- */
 .eventos {
   display: flex;
   flex-direction: column;
@@ -300,13 +312,7 @@ body {
   align-items: center;
 }
 
-.evento .positivo,
-.evento .negativo {
-  font-size: 0.85rem;
-  margin-left: 6px;
-}
-
-/* --- CONTAINER DO CARROSSEL (DESLIZE) --- */
+/* --- CARROSSEL DOS JOGADORES --- */
 #container-jogadores {
   display: flex !important;
   flex-direction: row !important; 
@@ -315,20 +321,20 @@ body {
   gap: 15px;
   padding: 10px 15px 20px 15px; 
   width: 100%;
-  box-sizing: border-border-box;
+  box-sizing: border-box;
   -webkit-overflow-scrolling: touch; 
 }
-
 
 #container-jogadores::-webkit-scrollbar {
   display: none;
 }
+
 #container-jogadores {
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
 
-/* --- LEMBRETE DE PRAZO (Abaixo do Carrossel) --- */
+/* --- LEMBRETE DE PRAZO --- */
 .lembrete-prazo-container {
   display: flex;
   align-items: center;
@@ -343,10 +349,6 @@ body {
   box-shadow: 0 4px 10px rgba(0,0,0,0.3);
 }
 
-.lembrete-icone {
-  font-size: 1.1rem;
-}
-
 .lembrete-texto {
   font-size: 0.75rem;
   color: #c9d1d9;
@@ -357,7 +359,107 @@ body {
   color: #f39c12; 
 }
 
-/* 1. CONTAINER PAI DA ABA */
+/* --- ABA DE PALPITES (NOVA) --- */
+#aba-palpites {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.card-formulario-palpite {
+  background-color: #161b22;
+  border: 1px solid #30363d;
+  border-radius: 12px;
+  padding: 20px;
+  width: 100%;
+  max-width: 450px;
+  margin: 0 auto;
+}
+
+.card-formulario-palpite h2 {
+  font-family: 'Press Start 2P', cursive;
+  color: #f39c12;
+  font-size: 0.9rem;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.campo-grupo {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-bottom: 12px;
+}
+
+.campo-grupo label {
+  font-size: 0.8rem;
+  color: #8b949e;
+  font-weight: bold;
+}
+
+.campo-grupo select,
+.campo-grupo input {
+  background-color: #0d1117;
+  border: 1px solid #30363d;
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 6px;
+  font-size: 0.9rem;
+}
+
+.divisor {
+  border: 0;
+  border-top: 1px solid #30363d;
+  margin: 15px 0;
+}
+
+.jogo-palpite-box {
+  background-color: #0d1117;
+  padding: 12px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.inputs-placar {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.inputs-placar input {
+  width: 45px;
+  text-align: center;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 0.8rem;
+  background-color: #21262d;
+  border: 1px solid #30363d;
+  color: #fff;
+  padding: 6px;
+  border-radius: 4px;
+}
+
+.btn-enviar-palpite {
+  width: 100%;
+  background-color: #2ecc71;
+  color: #000;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 0.75rem;
+  border: none;
+  padding: 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 15px;
+  transition: opacity 0.2s;
+}
+
+.btn-enviar-palpite:hover {
+  opacity: 0.9;
+}
+
+/* --- ABA DE REGRAS --- */
 #aba-regras {
   display: flex;
   flex-direction: column;
@@ -368,7 +470,6 @@ body {
   padding: 10px 16px;    
 }
 
-/* 2. CARD DO REGULAMENTO/REGRAS */
 #aba-regras .card-regras, 
 #aba-regras > div {     
   width: 100%;
@@ -377,15 +478,16 @@ body {
   box-sizing: border-box;
 }
 
-/* Ajuste de tela grande (PC / Desktop): volta para grade ou centralizado */
+/* --- DESKTOPS / TELAS MAIORES --- */
 @media (min-width: 768px) {
   #container-jogadores {
-    display: grid;
+    display: grid !important;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     overflow-x: visible;
   }
   
   .card-player {
     flex: initial;
+    max-width: 100%;
   }
 }

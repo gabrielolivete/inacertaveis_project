@@ -1,6 +1,7 @@
 {
   "nome": "RODADA BONUS 01",
-  "prazoPalpites": "28/07/26",
+  "rodadaBonus": true,
+  "prazoPalpites": "",
   "participantes": [
     {
       "nome": "MARCOLA",

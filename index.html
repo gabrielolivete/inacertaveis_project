@@ -15,35 +15,74 @@
 
 <body>
 
-  <!-- Bloco Fixo no Topo -->
+  <!-- 1. BLOCO FIXO NO TOPO  -->
   <div class="topo-fixo">
     <header class="header">
       <h1>INACERTAVEISS</h1>
     </header>
 
     <nav class="navbar">
-      <button class="nav-btn" onclick="mudarAba('historico', this)">📜 Histórico</button>
       <button class="nav-btn active" onclick="mudarAba('inicio', this)">🏠 Início</button>
-      <button class="nav-btn" onclick="mudarAba('conquistas', this)">🎖️ Badges</button>
-      <button class="nav-btn" onclick="mudarAba('regras', this)">📋 Regras</button>
+      <button class="nav-btn" onclick="mudarAba('palpites', this)">⚽ Palpites</button>
+      <button class="nav-btn" onclick="mudarAba('historico', this)">📜 Histórico</button>
+      <button class="nav-btn" onclick="mudarAba('conquistas', this)">🏅 Badges</button>
+      <button class="nav-btn" onclick="mudarAba('regras', this)">📜 Regras</button>
     </nav>
+
+    <!-- Indicador de Rodada -->
+    <div class="rodada-container" id="container-rodada-subtitulo">
+      <div class="rodada" id="nome-rodada">RODADA ATUAL</div>
+    </div>
   </div>
 
-  <!-- Indicador de Rodada -->
-  <div class="rodada-container" id="container-rodada-subtitulo">
-    <div class="rodada" id="nome-rodada">RODADA ATUAL</div>
-  </div>
-
-  <!-- Conteúdo Principal -->
-  <main class="container">
-    <!-- As abas continuam aqui... -->
-  </main>
-
-  <!-- Áreas que vão mudar de conteúdo dinamicamente via JS -->
+  <!-- 2. CONTEÚDO PRINCIPAL (Todas as abas do site) -->
   <main class="container">
 
-    <!-- ABA INÍCIO / HISTÓRICO (Cards das Rodadas) -->
-    <div id="aba-rodadas" class="aba-conteudo">
+    <!-- === ABA PALPITES === -->
+    <section id="aba-palpites" class="aba-conteudo" style="display: none;">
+      <div class="card-formulario-palpite">
+        <h2>VAI CRAVAR?</h2>
+
+        <form id="form-palpite">
+          <!-- 1. SELEÇÃO DO JOGADOR -->
+          <div class="campo-grupo">
+            <label for="select-jogador">Quem é você?</label>
+            <select id="select-jogador" required>
+              <option value="" disabled selected>Selecione seu perfil...</option>
+              <option value="marcola">Marcola</option>
+              <option value="gabs">Gabs</option>
+              <option value="joca">Joca</option>
+              <option value="fefezao">Fefezão</option>
+            </select>
+          </div>
+
+          <!-- 2. CHAVE SECRETA -->
+          <div class="campo-grupo">
+            <label for="chave-jogador">Chave Secreta:</label>
+            <input type="password" id="chave-jogador" placeholder="Digite sua senha/chave" required>
+          </div>
+
+          <hr class="divisor">
+
+          <h3
+            style="font-size: 0.8rem; color: #f39c12; margin-bottom: 12px; text-align: center; font-family: 'Press Start 2P', cursive;">
+            JOGOS DA RODADA
+          </h3>
+
+          <!-- ÁREA ONDE OS JOGOS DO JSON SERÃO INJETADOS AUTOMATICAMENTE -->
+          <div id="container-jogos-palpite">
+            <!-- O JavaScript vai desenhar os confrontos aqui -->
+          </div>
+
+          <button type="submit" class="btn-enviar-palpite">
+            CONFIRMAR PALPITE
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <!-- ABA 2: INÍCIO / HISTÓRICO (Cards das Rodadas) -->
+    <section id="aba-rodadas" class="aba-conteudo">
       <!-- Seletor de Rodada (Aparece apenas quando clicar na aba Histórico) -->
       <div id="seletor-historico" class="seletor-container" style="display: none;">
         <label for="select-rodada">Escolha a Rodada:</label>
@@ -52,20 +91,19 @@
         </select>
       </div>
 
-      <!-- Container onde os cards dos 4 participantes são injetados -->
+      <!-- Container onde os cards dos participantes são injetados -->
       <div id="container-jogadores"></div>
 
-      <!--  LEMBRETE DE HORÁRIO LIMITE (Abaixo do Carrossel) -->
+      <!-- Lembrete de Horário Limite -->
       <div id="lembrete-prazo" class="lembrete-prazo-container" style="display: none;">
         <span class="lembrete-texto">
           Limite para envio dos palpites: <strong id="data-prazo">--/-- às --:--h</strong>
         </span>
       </div>
-    </div>
+    </section>
 
-    <!-- ABA CONQUISTAS / BADGES -->
-    <div id="aba-conquistas" class="aba-conteudo" style="display: none;">
-
+    <!-- ABA 3: CONQUISTAS / BADGES -->
+    <section id="aba-conquistas" class="aba-conteudo" style="display: none;">
       <!-- TOP 4 MINI LEADERBOARD -->
       <div class="leaderboard-mini-container">
         <h3 class="secao-titulo">🏆 CLASSIFICAÇÃO GERAL</h3>
@@ -81,11 +119,10 @@
           <!-- Injetado via JS -->
         </div>
       </div>
+    </section>
 
-    </div>
-
-    <!-- ABA REGRAS -->
-    <div id="aba-regras" class="aba-conteudo" style="display: none;">
+    <!-- ABA 4: REGRAS -->
+    <section id="aba-regras" class="aba-conteudo" style="display: none;">
       <div class="card-player">
         <div class="card-header">
           <h2>REGULAMENTO OFICIAL</h2>
@@ -138,7 +175,11 @@
               rodada.</p>
             <p style="margin-bottom: 6px;"><b>🔥 Combo 2 Placares:</b> +30 pontos se acertar 2 placares exatos da
               rodada.</p>
-            <p style="margin-bottom: 6px;"><b>🔥 Rodada Bônus:</b> consiste em APENAS UM JOGO de outras competições com times brasileiros, como Sul-Americana e Libertadores. A rodada bônus ocorrerá aleatoriamente para partidas fora do calendário das rodadas principais. Aqui valerá apenas o placar exato, sem aplicação de cartas nem coringas. O jogador pode ganhar +50 pontos caso acerte em cheio o PALPITE RELÂMPAGO ⚡, mas também pode perder pontos caso erre.</p>
+            <p style="margin-bottom: 6px;"><b>🔥 Rodada Bônus:</b> consiste em APENAS UM JOGO de outras competições com
+              times brasileiros, como Sul-Americana e Libertadores. A rodada bônus ocorrerá aleatoriamente para partidas
+              fora do calendário das rodadas principais. Aqui valerá apenas o placar exato, sem aplicação de cartas nem
+              coringas. O jogador pode ganhar +50 pontos caso acerte em cheio o PALPITE RELÂMPAGO ⚡, mas também pode
+              perder pontos caso erre.</p>
           </section>
 
           <!-- CARTAS ESPECIAIS -->
@@ -184,7 +225,7 @@
 
         </div>
       </div>
-    </div>
+    </section>
 
   </main>
 
