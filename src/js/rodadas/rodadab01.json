@@ -80,7 +80,7 @@
       "jogos": [
         {
           "time1": "src/img/escudos/santos.png",
-          "placar": "",
+          "placar": "2x1",
           "time2": "src/img/escudos/univcentralvenezuela.png",
           "pontos": "",
           "descricao": "",
