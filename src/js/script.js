@@ -1,7 +1,7 @@
 // ==========================================
 // 1. CONFIGURAÇÃO PRINCIPAL
 // ==========================================
-const RODADAS_EXISTENTES = [19, 20, 21];
+const RODADAS_EXISTENTES = [19, 20, "B01"];
 const ULTIMA_RODADA = RODADAS_EXISTENTES[RODADAS_EXISTENTES.length - 1];
 
 // ==========================================
@@ -9,6 +9,7 @@ const ULTIMA_RODADA = RODADAS_EXISTENTES[RODADAS_EXISTENTES.length - 1];
 // ==========================================
 async function buscarDadosRodada(numeroRodada) {
   try {
+    // Ex: puxa src/js/rodadas/rodadaB01.json ou rodada20.json
     const resposta = await fetch(`src/js/rodadas/rodada${numeroRodada}.json`);
 
     if (!resposta.ok) {
@@ -17,8 +18,8 @@ async function buscarDadosRodada(numeroRodada) {
 
     const dados = await resposta.json();
 
-    // Salva os dados globalmente se for a última rodada
-    if (Number(numeroRodada) === ULTIMA_RODADA) {
+    // 💡 Compara como String para suportar textos ("B01") e números (20)
+    if (String(numeroRodada) === String(ULTIMA_RODADA)) {
       window.dadosUltimaRodada = dados;
     }
 
@@ -131,10 +132,17 @@ function preencherSeletorHistorico() {
 
   select.innerHTML = "";
 
-  RODADAS_EXISTENTES.forEach(num => {
+  RODADAS_EXISTENTES.forEach(item => {
     const option = document.createElement("option");
-    option.value = num;
-    option.innerText = `RODADA ${num < 10 ? '0' + num : num}`;
+    option.value = item;
+    
+    // Se for número, formata com zero (ex: RODADA 01). Se for texto/bônus, formata com "BÔNUS"
+    if (typeof item === 'number') {
+      option.innerText = `RODADA ${item < 10 ? '0' + item : item}`;
+    } else {
+      option.innerText = `RODADA BÔNUS ${item}`;
+    }
+
     select.appendChild(option);
   });
 }

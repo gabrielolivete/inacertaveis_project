@@ -1,0 +1,126 @@
+{
+  "nome": "RODADA BONUS 01",
+  "prazoPalpites": "",
+  "participantes": [
+    {
+      "nome": "MARCOLA",
+      "avatar": "src/img/avatares/marcola.png",
+      "avatarHead": "src/img/avatares/marcolahead.png",
+      "pontuacaoTotal": 465,
+      "cartas": [
+        { "img": "src/img/cartas/dobrometade.png", "usada": false },
+        { "img": "src/img/cartas/escudo.png", "usada": false },
+        { "img": "src/img/cartas/grego.png", "usada": false },
+        { "img": "src/img/cartas/segundachance.png", "usada": false },
+        { "img": "src/img/cartas/seguro.png", "usada": false },
+        { "img": "src/img/especial/coringa.png", "usada": false },
+        { "img": "src/img/especial/coringa.png", "usada": false },
+        { "img": "src/img/especial/coringa.png", "usada": false }
+      ],
+      "jogos": [
+        {
+          "time1": "src/img/escudos/santos.png",
+          "placar": "2 x 0",
+          "time2": "src/img/escudos/univcentralvenezuela.png",
+          "pontos": "",
+          "descricao": "",
+          "tipoPontos": "",
+          "coringa": false
+        }
+      ],
+      "eventos": [
+        { "texto": "⚽ SULAMERICANA 2026", "acertou": true }
+      ]
+    },
+    {
+      "nome": "GABS",
+      "avatar": "src/img/avatares/gabe.png",
+      "avatarHead": "src/img/avatares/gabehead.png",
+      "pontuacaoTotal": 485,
+      "cartas": [
+        { "img": "src/img/cartas/dobrometade.png", "usada": false },
+        { "img": "src/img/cartas/escudo.png", "usada": false },
+        { "img": "src/img/cartas/grego.png", "usada": false },
+        { "img": "src/img/cartas/segundachance.png", "usada": false },
+        { "img": "src/img/cartas/seguro.png", "usada": false },
+        { "img": "src/img/especial/coringa.png", "usada": false },
+        { "img": "src/img/especial/coringa.png", "usada": false },
+        { "img": "src/img/especial/coringa.png", "usada": false }
+      ],
+      "jogos": [
+        {
+          "time1": "src/img/escudos/santos.png",
+          "placar": "3 x 0",
+          "time2": "src/img/escudos/univcentralvenezuela.png",
+          "pontos": "",
+          "descricao": "",
+          "tipoPontos": "",
+          "coringa": false
+        }
+      ],
+      "eventos": [
+        { "texto": "⚽ SULAMERICANA 2026", "acertou": true }
+      ]
+    },
+    {
+      "nome": "JOCA",
+      "avatar": "src/img/avatares/joca.png",
+      "avatarHead": "src/img/avatares/jocahead.png",
+      "pontuacaoTotal": 465,
+      "cartas": [
+        { "img": "src/img/cartas/dobrometade.png", "usada": false },
+        { "img": "src/img/cartas/escudo.png", "usada": false },
+        { "img": "src/img/cartas/grego.png", "usada": false },
+        { "img": "src/img/cartas/segundachance.png", "usada": false },
+        { "img": "src/img/cartas/seguro.png", "usada": false },
+        { "img": "src/img/especial/coringa.png", "usada": false },
+        { "img": "src/img/especial/coringa.png", "usada": false },
+        { "img": "src/img/especial/coringa.png", "usada": false }
+      ],
+      "jogos": [
+        {
+          "time1": "src/img/escudos/santos.png",
+          "placar": "",
+          "time2": "src/img/escudos/univcentralvenezuela.png",
+          "pontos": "",
+          "descricao": "",
+          "tipoPontos": "",
+          "coringa": false
+        }
+      ],
+      "eventos": [
+        { "texto": "⚽ SULAMERICANA 2026", "acertou": true }
+      ]
+    },
+    {
+      "nome": "FEFEZAO",
+      "avatar": "src/img/avatares/fefezao.png",
+      "avatarHead": "src/img/avatares/fefezaohead.png",
+      "pontuacaoTotal": 475,
+      "cartas": [
+        { "img": "src/img/cartas/dobrometade.png", "usada": false },
+        { "img": "src/img/cartas/escudo.png", "usada": false },
+        { "img": "src/img/cartas/grego.png", "usada": false },
+        { "img": "src/img/cartas/segundachance.png", "usada": false },
+        { "img": "src/img/cartas/seguro.png", "usada": false },
+        { "img": "src/img/especial/coringa.png", "usada": false },
+        { "img": "src/img/especial/coringa.png", "usada": false },
+        { "img": "src/img/especial/coringa.png", "usada": true }
+      ],
+      "jogos": [
+        {
+          "time1": "src/img/escudos/santos.png",
+          "placar": "3 x 1",
+          "time2": "src/img/escudos/univcentralvenezuela.png",
+          "pontos": "",
+          "descricao": "",
+          "tipoPontos": "",
+          "coringa": false
+        }
+      ],
+      "eventos": [
+        { "texto": "⚽ SULAMERICANA 2026", "acertou": true }
+      ]
+    }
+  ]
+}
