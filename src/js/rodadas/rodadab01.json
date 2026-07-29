@@ -7,7 +7,7 @@
       "nome": "MARCOLA",
       "avatar": "src/img/avatares/marcola.png",
       "avatarHead": "src/img/avatares/marcolahead.png",
-      "pontuacaoTotal": 465,
+      "pontuacaoTotal": 445,
       "cartas": [
         { "img": "src/img/cartas/dobrometade.png", "usada": false },
         { "img": "src/img/cartas/escudo.png", "usada": false },
@@ -23,9 +23,9 @@
           "time1": "src/img/escudos/santos.png",
           "placar": "2 x 0",
           "time2": "src/img/escudos/univcentralvenezuela.png",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
+          "pontos": "-20",
+          "descricao": "-20 palpite",
+          "tipoPontos": "negativo",
           "coringa": false
         }
       ],
@@ -37,7 +37,7 @@
       "nome": "GABS",
       "avatar": "src/img/avatares/gabe.png",
       "avatarHead": "src/img/avatares/gabehead.png",
-      "pontuacaoTotal": 485,
+      "pontuacaoTotal": 470,
       "cartas": [
         { "img": "src/img/cartas/dobrometade.png", "usada": false },
         { "img": "src/img/cartas/escudo.png", "usada": false },
@@ -53,9 +53,9 @@
           "time1": "src/img/escudos/santos.png",
           "placar": "3 x 0",
           "time2": "src/img/escudos/univcentralvenezuela.png",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
+          "pontos": "-15",
+          "descricao": "-15 palpite",
+          "tipoPontos": "negativo",
           "coringa": false
         }
       ],
@@ -67,7 +67,7 @@
       "nome": "JOCA",
       "avatar": "src/img/avatares/joca.png",
       "avatarHead": "src/img/avatares/jocahead.png",
-      "pontuacaoTotal": 465,
+      "pontuacaoTotal": 450,
       "cartas": [
         { "img": "src/img/cartas/dobrometade.png", "usada": false },
         { "img": "src/img/cartas/escudo.png", "usada": false },
@@ -83,9 +83,9 @@
           "time1": "src/img/escudos/santos.png",
           "placar": "2 x 1",
           "time2": "src/img/escudos/univcentralvenezuela.png",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
+          "pontos": "-15",
+          "descricao": "-15 palpite",
+          "tipoPontos": "negativo",
           "coringa": false
         }
       ],
@@ -97,7 +97,7 @@
       "nome": "FEFEZAO",
       "avatar": "src/img/avatares/fefezao.png",
       "avatarHead": "src/img/avatares/fefezaohead.png",
-      "pontuacaoTotal": 475,
+      "pontuacaoTotal": 465,
       "cartas": [
         { "img": "src/img/cartas/dobrometade.png", "usada": false },
         { "img": "src/img/cartas/escudo.png", "usada": false },
@@ -113,9 +113,9 @@
           "time1": "src/img/escudos/santos.png",
           "placar": "3 x 1",
           "time2": "src/img/escudos/univcentralvenezuela.png",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
+          "pontos": "-10",
+          "descricao": "-10 palpite",
+          "tipoPontos": "negativo",
           "coringa": false
         }
       ],
