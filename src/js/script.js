@@ -266,6 +266,55 @@ function renderizarFormularioJogos(dadosRodada) {
   const containerJogos = document.getElementById("container-jogos-palpite");
   if (!containerJogos) return;
 
+  // 1. VERIFICAÇÃO DE PRAZO ENCERRADO (NOVO!)
+  const agora = new Date();
+  if (agora > PRAZO_LIMITE_PALPITES) {
+    containerJogos.innerHTML = `
+      <div style="
+        background: linear-gradient(135deg, rgba(231, 76, 60, 0.15), rgba(192, 57, 43, 0.15));
+        border: 2px dashed #e74c3c;
+        border-radius: 12px;
+        padding: 25px 20px;
+        text-align: center;
+        margin: 15px 0;
+      ">
+        <div style="font-size: 2.5rem; margin-bottom: 10px;">⏳</div>
+        <h3 style="
+          font-family: 'Press Start 2P', cursive;
+          font-size: 0.85rem;
+          color: #e74c3c;
+          margin-bottom: 12px;
+          line-height: 1.4;
+        ">
+          PALPITES ENCERRADOS!
+        </h3>
+        <p style="
+          color: #c9d1d9;
+          font-size: 0.85rem;
+          line-height: 1.5;
+          margin-bottom: 0;
+        ">
+          O prazo para envio de palpites da <strong>Rodada ${ULTIMA_RODADA}</strong> expirou.<br><br>
+          Acompanhe os resultados e pontuações na aba <strong>Início</strong>!
+        </p>
+      </div>
+    `;
+
+    // Esconde o botão de envio e a seção de seleção de perfil/chave se existirem no HTML
+    const btnEnviar = document.querySelector(".btn-enviar-palpite");
+    if (btnEnviar) btnEnviar.style.display = "none";
+
+    const secaoPerfil = document.getElementById("secao-autenticacao-palpite"); // ajuste a classe/id se tiver no seu HTML
+    if (secaoPerfil) secaoPerfil.style.display = "none";
+
+    return;
+  }
+
+  // Restaura a visibilidade do botão caso o prazo ainda esteja válido
+  const btnEnviar = document.querySelector(".btn-enviar-palpite");
+  if (btnEnviar) btnEnviar.style.display = "block";
+
+  // 2. VERIFICA SE É UMA RODADA BÔNUS
   if (dadosRodada.rodadaBonus === true) {
     containerJogos.innerHTML = `
       <div style="
@@ -297,15 +346,11 @@ function renderizarFormularioJogos(dadosRodada) {
       </div>
     `;
 
-    const btnEnviar = document.querySelector(".btn-enviar-palpite");
     if (btnEnviar) btnEnviar.style.display = "none";
-
     return;
   }
 
-  const btnEnviar = document.querySelector(".btn-enviar-palpite");
-  if (btnEnviar) btnEnviar.style.display = "block";
-
+  // 3. RENDERIZAÇÃO PADRÃO (SE DENTRO DO PRAZO)
   const primeiroParticipante = dadosRodada.participantes[0] || {};
   const jogosDaRodada = primeiroParticipante.jogos || [];
   const eventosDaRodada = primeiroParticipante.eventos || [];

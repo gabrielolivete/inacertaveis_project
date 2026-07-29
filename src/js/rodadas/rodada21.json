@@ -133,42 +133,51 @@
         { "img": "src/img/cartas/seguro.png", "usada": false },
         { "img": "src/img/especial/coringa.png", "usada": false },
         { "img": "src/img/especial/coringa.png", "usada": false },
-        { "img": "src/img/especial/coringa.png", "usada": false }
+        { "img": "src/img/especial/coringa.png", "usada": true }
       ],
       "jogos": [
-        {
-          "time1": "src/img/escudos/mirassol.png",
-          "placar": "0 x 4",
-          "time2": "src/img/escudos/remo.png",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
-          "coringa": false
-        },
-        {
-          "time1": "src/img/escudos/fluminense.png",
-          "placar": "0 x 4",
-          "time2": "src/img/escudos/bahia.png",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
-          "coringa": false
-        },
-        {
-          "time1": "src/img/escudos/corinthians.png",
-          "placar": "0 x 4",
-          "time2": "src/img/escudos/athletico.png",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
-          "coringa": false
-        }
-      ],
-      "eventos": [
-        { "texto": "⚽ ", "acertou": false },
-        { "texto": "🟨 ", "acertou": false },
-        { "texto": "🟥 ", "acertou": false }
-      ]
+    {
+      "time1": "src/img/escudos/mirassol.png",
+      "placar": "1 x 2",
+      "time2": "src/img/escudos/remo.png",
+      "pontos": "",
+      "descricao": "",
+      "tipoPontos": "",
+      "coringa": false
+    },
+    {
+      "time1": "src/img/escudos/fluminense.png",
+      "placar": "2 x 2",
+      "time2": "src/img/escudos/bahia.png",
+      "pontos": "",
+      "descricao": "",
+      "tipoPontos": "",
+      "coringa": true
+    },
+    {
+      "time1": "src/img/escudos/corinthians.png",
+      "placar": "1 x 1",
+      "time2": "src/img/escudos/athletico.png",
+      "pontos": "",
+      "descricao": "",
+      "tipoPontos": "",
+      "coringa": false
+    }
+  ],
+  "eventos": [
+    {
+      "texto": "⚽  John Kenedy (Fluminense",
+      "acertou": false
+    },
+    {
+      "texto": "🟨  Gustavo Henrique (Corinthians)",
+      "acertou": false
+    },
+    {
+      "texto": "🟥  Juan Freytes (Fluminense)",
+      "acertou": false
+    }
+  ]
     },
     {
       "nome": "FEFEZAO",
