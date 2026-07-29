@@ -383,7 +383,7 @@ function renderizarFormularioJogos(dadosRodada) {
       return `
         <div class="campo-grupo" style="margin-bottom: 5px;">
           <label for="ev-${index}" style="font-size: 0.75rem; color: #c9d1d9;">${LabelTexto}</label>
-          <input type="text" id="ev-${index}" data-texto-original="${ev.texto}" placeholder="Ex: Sim / Não / Nome do jogador..." required style="background-color: #161b22; color: #fff; border: 1px solid #30363d; padding: 8px; border-radius: 6px; font-size: 0.8rem;">
+          <input type="text" id="ev-${index}" data-texto-original="${ev.texto}" placeholder="Ex: Nome Jogador (Time)" required style="background-color: #161b22; color: #fff; border: 1px solid #30363d; padding: 8px; border-radius: 6px; font-size: 0.8rem;">
         </div>
       `;
     }).join('');
