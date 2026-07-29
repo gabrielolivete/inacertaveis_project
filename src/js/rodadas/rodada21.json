@@ -133,12 +133,12 @@
         { "img": "src/img/cartas/seguro.png", "usada": false },
         { "img": "src/img/especial/coringa.png", "usada": false },
         { "img": "src/img/especial/coringa.png", "usada": false },
-        { "img": "src/img/especial/coringa.png", "usada": true }
+        { "img": "src/img/especial/coringa.png", "usada": false }
       ],
       "jogos": [
     {
       "time1": "src/img/escudos/mirassol.png",
-      "placar": "1 x 2",
+      "placar": "0 x 4",
       "time2": "src/img/escudos/remo.png",
       "pontos": "",
       "descricao": "",
@@ -147,16 +147,16 @@
     },
     {
       "time1": "src/img/escudos/fluminense.png",
-      "placar": "2 x 2",
+      "placar": "0 x 4",
       "time2": "src/img/escudos/bahia.png",
       "pontos": "",
       "descricao": "",
       "tipoPontos": "",
-      "coringa": true
+      "coringa": false
     },
     {
       "time1": "src/img/escudos/corinthians.png",
-      "placar": "1 x 1",
+      "placar": "0 x 4",
       "time2": "src/img/escudos/athletico.png",
       "pontos": "",
       "descricao": "",
@@ -166,16 +166,8 @@
   ],
   "eventos": [
     {
-      "texto": "⚽  John Kenedy (Fluminense",
-      "acertou": false
-    },
-    {
-      "texto": "🟨  Gustavo Henrique (Corinthians)",
-      "acertou": false
-    },
-    {
-      "texto": "🟥  Juan Freytes (Fluminense)",
-      "acertou": false
+      "texto": "PALPITE W.O  ",
+      "acertou": true
     }
   ]
     },
