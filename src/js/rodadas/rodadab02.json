@@ -1,0 +1,172 @@
+{
+  "nome": "RODADA BONUS 02",
+  "rodadaBonus": true,
+  "competicao": "Copa do Brasil 2026",
+  "prazoPalpites": "Sábado, 01/08 às 17:00h",
+  "participantes": [
+    {
+      "nome": "MARCOLA",
+      "avatar": "src/img/avatares/marcola.png",
+      "avatarHead": "src/img/avatares/marcolahead.png",
+      "pontuacaoTotal": 445,
+      "cartas": [
+        { "img": "src/img/cartas/dobrometade.png", "usada": false },
+        { "img": "src/img/cartas/escudo.png", "usada": false },
+        { "img": "src/img/cartas/grego.png", "usada": false },
+        { "img": "src/img/cartas/segundachance.png", "usada": false },
+        { "img": "src/img/cartas/seguro.png", "usada": false },
+        { "img": "src/img/especial/coringa.png", "usada": false },
+        { "img": "src/img/especial/coringa.png", "usada": false },
+        { "img": "src/img/especial/coringa.png", "usada": false }
+      ],
+      "jogos": [
+        {
+          "time1": "src/img/escudos/vasco.png",
+          "placar": "",
+          "time2": "src/img/escudos/fluminense.png",
+          "pontos": "",
+          "descricao": "",
+          "tipoPontos": "",
+          "coringa": false
+        },
+        {
+          "time1": "src/img/escudos/mirassol.png",
+          "placar": "",
+          "time2": "src/img/escudos/gremio.png",
+          "pontos": "",
+          "descricao": "",
+          "tipoPontos": "",
+          "coringa": false
+        }
+      ],
+      "eventos": [
+        { "texto": "⚽ ", "acertou": false },
+        { "texto": "🟨 ", "acertou": false },
+        { "texto": "🟥 ", "acertou": false }
+      ]
+    },
+    {
+      "nome": "GABS",
+      "avatar": "src/img/avatares/gabe.png",
+      "avatarHead": "src/img/avatares/gabehead.png",
+      "pontuacaoTotal": 470,
+      "cartas": [
+        { "img": "src/img/cartas/dobrometade.png", "usada": false },
+        { "img": "src/img/cartas/escudo.png", "usada": false },
+        { "img": "src/img/cartas/grego.png", "usada": false },
+        { "img": "src/img/cartas/segundachance.png", "usada": false },
+        { "img": "src/img/cartas/seguro.png", "usada": false },
+        { "img": "src/img/especial/coringa.png", "usada": false },
+        { "img": "src/img/especial/coringa.png", "usada": false },
+        { "img": "src/img/especial/coringa.png", "usada": true }
+      ],
+      "jogos": [
+        {
+          "time1": "src/img/escudos/vasco.png",
+          "placar": "",
+          "time2": "src/img/escudos/fluminense.png",
+          "pontos": "",
+          "descricao": "",
+          "tipoPontos": "",
+          "coringa": false
+        },
+        {
+          "time1": "src/img/escudos/mirassol.png",
+          "placar": "",
+          "time2": "src/img/escudos/gremio.png",
+          "pontos": "",
+          "descricao": "",
+          "tipoPontos": "",
+          "coringa": false
+        }
+      ],
+      "eventos": [
+        { "texto": "⚽ ", "acertou": false },
+        { "texto": "🟨 ", "acertou": false },
+        { "texto": "🟥 ", "acertou": false }
+      ]
+    },
+    {
+      "nome": "JOCA",
+      "avatar": "src/img/avatares/joca.png",
+      "avatarHead": "src/img/avatares/jocahead.png",
+      "pontuacaoTotal": 450,
+      "cartas": [
+        { "img": "src/img/cartas/dobrometade.png", "usada": false },
+        { "img": "src/img/cartas/escudo.png", "usada": false },
+        { "img": "src/img/cartas/grego.png", "usada": false },
+        { "img": "src/img/cartas/segundachance.png", "usada": false },
+        { "img": "src/img/cartas/seguro.png", "usada": false },
+        { "img": "src/img/especial/coringa.png", "usada": false },
+        { "img": "src/img/especial/coringa.png", "usada": false },
+        { "img": "src/img/especial/coringa.png", "usada": false }
+      ],
+      "jogos": [
+        {
+          "time1": "src/img/escudos/vasco.png",
+          "placar": "",
+          "time2": "src/img/escudos/fluminense.png",
+          "pontos": "",
+          "descricao": "",
+          "tipoPontos": "",
+          "coringa": false
+        },
+        {
+          "time1": "src/img/escudos/mirassol.png",
+          "placar": "",
+          "time2": "src/img/escudos/gremio.png",
+          "pontos": "",
+          "descricao": "",
+          "tipoPontos": "",
+          "coringa": false
+        }
+      ],
+      "eventos": [
+        { "texto": "⚽ ", "acertou": false },
+        { "texto": "🟨 ", "acertou": false },
+        { "texto": "🟥 ", "acertou": false }
+      ]
+    },
+    {
+      "nome": "FEFEZAO",
+      "avatar": "src/img/avatares/fefezao.png",
+      "avatarHead": "src/img/avatares/fefezaohead.png",
+      "pontuacaoTotal": 465,
+      "cartas": [
+        { "img": "src/img/cartas/dobrometade.png", "usada": false },
+        { "img": "src/img/cartas/escudo.png", "usada": false },
+        { "img": "src/img/cartas/grego.png", "usada": false },
+        { "img": "src/img/cartas/segundachance.png", "usada": false },
+        { "img": "src/img/cartas/seguro.png", "usada": false },
+        { "img": "src/img/especial/coringa.png", "usada": false },
+        { "img": "src/img/especial/coringa.png", "usada": false },
+        { "img": "src/img/especial/coringa.png", "usada": true }
+      ],
+      "jogos": [
+        {
+          "time1": "src/img/escudos/vasco.png",
+          "placar": "",
+          "time2": "src/img/escudos/fluminense.png",
+          "pontos": "",
+          "descricao": "",
+          "tipoPontos": "",
+          "coringa": false
+        },
+        {
+          "time1": "src/img/escudos/mirassol.png",
+          "placar": "",
+          "time2": "src/img/escudos/gremio.png",
+          "pontos": "",
+          "descricao": "",
+          "tipoPontos": "",
+          "coringa": false
+        }
+      ],
+      "eventos": [
+        { "texto": "⚽ ", "acertou": false },
+        { "texto": "🟨 ", "acertou": false },
+        { "texto": "🟥 ", "acertou": false }
+      ]
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 // ==========================================
 // 1. CONFIGURAÇÃO PRINCIPAL
 // ==========================================
-const RODADAS_EXISTENTES = [19, 20, "b01", 21];
+const RODADAS_EXISTENTES = [20, "b01", 21];
 const ULTIMA_RODADA = RODADAS_EXISTENTES[RODADAS_EXISTENTES.length - 1];
 
 const CHAVES_JOGADORES_HASH = {
@@ -11,7 +11,44 @@ const CHAVES_JOGADORES_HASH = {
   fefezao: "d52a67fa602f58eec5dc5929160f395613c5288b0c50e8682064ab1cb8949ee7"
 };
 
-// Função auxiliar para converter o texto em SHA-256 usando o próprio navegador
+const NUMERO_ORGANIZADOR = "5541998814995";
+const PRAZO_LIMITE_PALPITES = new Date("2026-07-29T16:00:00");
+const LIMITE_ENVIOS_PERFIL = 2;
+
+// ==========================================
+// 2. FUNÇÕES AUXILIARES DE CÁLCULO E SEGURANÇA
+// ==========================================
+
+// Converter texto de pontos (Ex: "+3" -> 3, "-10" -> -10, "0" -> 0)
+function extrairPontosNumericos(textoPontos) {
+  if (!textoPontos) return 0;
+  const limpo = String(textoPontos).replace(/[^0-9+-]/g, '');
+  const valor = parseInt(limpo, 10);
+  return isNaN(valor) ? 0 : valor;
+}
+
+// Soma todos os pontos obtidos nos jogos e eventos da rodada atual
+function calcularPontosGanhosNaRodada(jogador) {
+  let soma = 0;
+
+  if (jogador.jogos && Array.isArray(jogador.jogos)) {
+    jogador.jogos.forEach(jogo => {
+      soma += extrairPontosNumericos(jogo.pontos);
+    });
+  }
+
+  if (jogador.eventos && Array.isArray(jogador.eventos)) {
+    jogador.eventos.forEach(ev => {
+      if (ev.pontos) {
+        soma += extrairPontosNumericos(ev.pontos);
+      }
+    });
+  }
+
+  return soma;
+}
+
+// Hash SHA-256 para senha do perfil
 async function gerarSHA256(texto) {
   const msgUint8 = new TextEncoder().encode(texto);
   const hashBuffer = await crypto.subtle.digest('SHA-256', msgUint8);
@@ -20,19 +57,49 @@ async function gerarSHA256(texto) {
 }
 
 // ==========================================
-// 2. BUSCA DE DADOS (FETCH JSON)
+// 3. BUSCA DE DADOS E CÁLCULO ACUMULADO
 // ==========================================
 async function buscarDadosRodada(numeroRodada) {
   try {
+    // 1. Busca a rodada solicitada
     const resposta = await fetch(`src/js/rodadas/rodada${numeroRodada}.json`);
-
-    if (!resposta.ok) {
-      throw new Error(`Erro ao carregar rodada ${numeroRodada}`);
-    }
-
+    if (!resposta.ok) throw new Error(`Erro ao carregar rodada ${numeroRodada}`);
     const dados = await resposta.json();
 
-    // Se for a rodada atual, armazena e atualiza o formulário de palpites
+    // 2. Localiza a rodada anterior no array RODADAS_EXISTENTES
+    const idxAtual = RODADAS_EXISTENTES.findIndex(r => String(r).toLowerCase() === String(numeroRodada).toLowerCase());
+    
+    let dadosRodadaAnterior = null;
+    if (idxAtual > 0) {
+      const rodadaAnteriorNum = RODADAS_EXISTENTES[idxAtual - 1];
+      try {
+        const respAnt = await fetch(`src/js/rodadas/rodada${rodadaAnteriorNum}.json`);
+        if (respAnt.ok) {
+          dadosRodadaAnterior = await respAnt.json();
+        }
+      } catch (e) {
+        console.warn(`Aviso: Não foi possível carregar a rodada anterior (${rodadaAnteriorNum}) para encadeamento.`);
+      }
+    }
+
+    dados.participantes.forEach(jogador => {
+      const pontosGanhosNestaRodada = calcularPontosGanhosNaRodada(jogador);
+
+      if (dadosRodadaAnterior) {
+        // Nas rodadas seguintes, pega a pontuação vinda da rodada anterior
+        const jogadorAnterior = dadosRodadaAnterior.participantes.find(p => p.nome === jogador.nome);
+        const pontuacaoBase = jogadorAnterior ? (jogadorAnterior.pontuacaoTotal || 500) : 500;
+        
+        jogador.pontuacaoTotal = pontuacaoBase + pontosGanhosNestaRodada;
+      } else {
+        // PRIMEIRA RODADA DO CAMPEONATO (Rodada 20):
+        // A base é FIXA em 500 pontos para todo mundo, sem pegar do JSON
+        const PONTUACAO_INICIAL_CAMPEONATO = 500;
+        jogador.pontuacaoTotal = PONTUACAO_INICIAL_CAMPEONATO + pontosGanhosNestaRodada;
+      }
+    });
+
+    // Se for a rodada atual do campeonato, salva globalmente
     if (String(numeroRodada).toLowerCase() === String(ULTIMA_RODADA).toLowerCase()) {
       window.dadosUltimaRodada = dados;
       renderizarFormularioJogos(dados);
@@ -45,20 +112,17 @@ async function buscarDadosRodada(numeroRodada) {
 }
 
 // ==========================================
-// 3. RENDERIZAÇÃO DA TELA (CARDS DOS JOGADORES)
+// 4. RENDERIZAÇÃO DA TELA (CARDS DOS JOGADORES)
 // ==========================================
 function renderizarRodada(dados) {
   const elementoRodada = document.getElementById("nome-rodada");
-  if (elementoRodada) {
-    elementoRodada.innerText = dados.nome;
-  }
+  if (elementoRodada) elementoRodada.innerText = dados.nome;
 
   const elementoPrazo = document.getElementById("data-prazo");
   const containerLembrete = document.getElementById("lembrete-prazo");
 
   if (dados.prazoPalpites && elementoPrazo) {
     elementoPrazo.innerText = dados.prazoPalpites;
-
     const seletorHist = document.getElementById('seletor-historico');
     if (containerLembrete && (!seletorHist || seletorHist.style.display === 'none')) {
       containerLembrete.style.display = "flex";
@@ -70,7 +134,28 @@ function renderizarRodada(dados) {
   const container = document.getElementById("container-jogadores");
   if (!container) return;
 
+  // Ordena a tabela pela pontuação recalculada
   const jogadoresOrdenados = [...dados.participantes].sort((a, b) => b.pontuacaoTotal - a.pontuacaoTotal);
+
+  const tagCompeticaoAbaixoCartas = (dados.rodadaBonus && dados.competicao) ? `
+    <div style="
+      text-align: center;
+      font-size: 0.7rem;
+      color: #3498db;
+      font-weight: bold;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      margin-top: 10px;
+      padding: 4px 8px;
+      background: rgba(52, 152, 219, 0.12);
+      border: 1px solid rgba(52, 152, 219, 0.3);
+      border-radius: 6px;
+      width: 100%;
+      box-sizing: border-box;
+    ">
+      🏆 ${dados.competicao}
+    </div>
+  ` : '';
 
   let htmlAcumulado = "";
 
@@ -79,20 +164,7 @@ function renderizarRodada(dados) {
       `<img class="carta-icone ${carta.usada ? 'carta-usada' : ''}" src="${carta.img}" alt="carta">`
     ).join('') : '';
 
-    const jogosHTML = jogador.jogos ? jogador.jogos.map(jogo => `
-      <div class="linha-palpite ${jogo.coringa ? 'destaque' : ''}">
-        ${jogo.coringa ? '<div class="coringa-tag">🃏 CORINGA 2X</div>' : ''}
-        <div class="confronto">
-          <img src="${jogo.time1}" alt="Time" class="escudo-time">
-          <span class="placar-palpite">${jogo.placar}</span>
-          <img src="${jogo.time2}" alt="Time" class="escudo-time">
-        </div>
-        <div class="pontos-palpite">
-          <span class="pontos-valor ${jogo.tipoPontos}">${jogo.pontos}</span>
-          <span class="pontos-descricao ${jogo.tipoPontos}">${jogo.descricao}</span>
-        </div>
-      </div>
-    `).join('') : '';
+    const jogosHTML = renderizarJogosJogador(jogador);
 
     const eventosHTML = jogador.eventos ? jogador.eventos.map(ev => `
       <div class="evento">
@@ -118,6 +190,7 @@ function renderizarRodada(dados) {
               <div class="cartas-jogo">
                 ${cartasHTML}
               </div>
+              ${tagCompeticaoAbaixoCartas}
             </div>
           </div>
           <div class="lista-palpites">
@@ -134,8 +207,27 @@ function renderizarRodada(dados) {
   container.innerHTML = htmlAcumulado;
 }
 
+function renderizarJogosJogador(jogador) {
+  if (!jogador.jogos) return '';
+
+  return jogador.jogos.map(jogo => `
+    <div class="linha-palpite ${jogo.coringa ? 'destaque' : ''}">
+      ${jogo.coringa ? '<div class="coringa-tag">🃏 CORINGA 2X</div>' : ''}
+      <div class="confronto">
+        <img src="${jogo.time1}" alt="Time" class="escudo-time">
+        <span class="placar-palpite">${jogo.placar}</span>
+        <img src="${jogo.time2}" alt="Time" class="escudo-time">
+      </div>
+      <div class="pontos-palpite">
+        <span class="pontos-valor ${jogo.tipoPontos}">${jogo.pontos}</span>
+        <span class="pontos-descricao ${jogo.tipoPontos}">${jogo.descricao}</span>
+      </div>
+    </div>
+  `).join('');
+}
+
 // ==========================================
-// 4. LÓGICA DO MENU E SELETOR DE HISTÓRICO
+// 5. NAVEGAÇÃO E HISTÓRICO
 // ==========================================
 function preencherSeletorHistorico() {
   const select = document.getElementById("select-rodada");
@@ -208,7 +300,7 @@ function mudarAba(nomeAba, elementoClicado) {
 }
 
 // ==========================================
-// 5. CARREGAR ABA BADGES E FORMULÁRIO DE JOGOS
+// 6. BADGES E LEADERBOARD
 // ==========================================
 async function carregarAbaBadges() {
   if (!window.dadosUltimaRodada) {
@@ -216,7 +308,7 @@ async function carregarAbaBadges() {
       const resp = await fetch(`src/js/rodadas/rodada${ULTIMA_RODADA}.json`);
       window.dadosUltimaRodada = await resp.json();
     } catch (e) {
-      console.error("Erro ao carregar dados para o mini leaderboard", e);
+      console.error("Erro ao carregar dados do mini leaderboard", e);
     }
   }
 
@@ -264,11 +356,13 @@ async function carregarAbaBadges() {
   }
 }
 
+// ==========================================
+// 7. FORMULÁRIO DE PALPITES & ENVIO
+// ==========================================
 function renderizarFormularioJogos(dadosRodada) {
   const containerJogos = document.getElementById("container-jogos-palpite");
   if (!containerJogos) return;
 
-  // 1. VERIFICAÇÃO DE PRAZO ENCERRADO (NOVO!)
   const agora = new Date();
   if (agora > PRAZO_LIMITE_PALPITES) {
     containerJogos.innerHTML = `
@@ -302,57 +396,18 @@ function renderizarFormularioJogos(dadosRodada) {
       </div>
     `;
 
-    // Esconde o botão de envio e a seção de seleção de perfil/chave se existirem no HTML
     const btnEnviar = document.querySelector(".btn-enviar-palpite");
     if (btnEnviar) btnEnviar.style.display = "none";
 
-    const secaoPerfil = document.getElementById("secao-autenticacao-palpite"); // ajuste a classe/id se tiver no seu HTML
+    const secaoPerfil = document.getElementById("secao-autenticacao-palpite");
     if (secaoPerfil) secaoPerfil.style.display = "none";
 
     return;
   }
 
-  // Restaura a visibilidade do botão caso o prazo ainda esteja válido
   const btnEnviar = document.querySelector(".btn-enviar-palpite");
   if (btnEnviar) btnEnviar.style.display = "block";
 
-  // 2. VERIFICA SE É UMA RODADA BÔNUS
-  if (dadosRodada.rodadaBonus === true) {
-    containerJogos.innerHTML = `
-      <div style="
-        background: linear-gradient(135deg, rgba(243, 156, 18, 0.15), rgba(231, 76, 60, 0.15));
-        border: 2px dashed #f39c12;
-        border-radius: 12px;
-        padding: 20px;
-        text-align: center;
-        margin: 15px 0;
-      ">
-        <h3 style="
-          font-family: 'Press Start 2P', cursive;
-          font-size: 0.85rem;
-          color: #f39c12;
-          margin-bottom: 12px;
-          line-height: 1.4;
-        ">
-          RODADA BÔNUS ATIVA!
-        </h3>
-        <p style="
-          color: #c9d1d9;
-          font-size: 0.85rem;
-          line-height: 1.5;
-          margin-bottom: 0;
-        ">
-          Os palpites para esta rodada bônus <strong>não serão feitos pelo site</strong>.<br><br>
-          Siga as instruções enviadas no grupo do WhatsApp para enviar seus palpites!
-        </p>
-      </div>
-    `;
-
-    if (btnEnviar) btnEnviar.style.display = "none";
-    return;
-  }
-
-  // 3. RENDERIZAÇÃO PADRÃO (SE DENTRO DO PRAZO)
   const primeiroParticipante = dadosRodada.participantes[0] || {};
   const jogosDaRodada = primeiroParticipante.jogos || [];
   const eventosDaRodada = primeiroParticipante.eventos || [];
@@ -397,9 +452,26 @@ function renderizarFormularioJogos(dadosRodada) {
   `).join('');
 
   if (eventosDaRodada.length > 0) {
+    html += `<hr class="divisor">`;
+
+    if (dadosRodada.rodadaBonus && dadosRodada.competicao) {
+      html += `
+        <div style="
+          text-align: center;
+          margin: 10px 0 5px 0;
+          font-size: 0.75rem;
+          color: #3498db;
+          font-weight: bold;
+          letter-spacing: 1px;
+          text-transform: uppercase;
+        ">
+          🏆 Competição: <span style="color: #fff;">${dadosRodada.competicao}</span>
+        </div>
+      `;
+    }
+
     html += `
-      <hr class="divisor">
-      <h3 style="font-size: 0.75rem; color: #f39c12; margin: 15px 0 10px 0; text-align: center; font-family: 'Press Start 2P', cursive;">
+      <h3 style="font-size: 0.75rem; color: #f39c12; margin: 5px 0 10px 0; text-align: center; font-family: 'Press Start 2P', cursive;">
         PALPITES ESPECIAIS
       </h3>
       <div id="container-eventos-palpite" style="display: flex; flex-direction: column; gap: 10px;">
@@ -421,22 +493,13 @@ function renderizarFormularioJogos(dadosRodada) {
   containerJogos.innerHTML = html;
 }
 
-// ==========================================
-// 6. FORMULÁRIO DE PALPITES
-// ==========================================
-const NUMERO_ORGANIZADOR = "5541998814995";
-const PRAZO_LIMITE_PALPITES = new Date("2026-07-29T16:00:00");
-const LIMITE_ENVIOS_PERFIL = 2;
-
 function inicializarFormularioPalpites() {
   const form = document.getElementById("form-palpite");
   if (!form) return;
 
-  // 💡 Adicionado 'async' no manipulador do evento submit
   form.addEventListener("submit", async function (event) {
     event.preventDefault();
 
-    // 1. VERIFICAÇÃO DE DATA E HORÁRIO LIMITE
     const agora = new Date();
     if (agora > PRAZO_LIMITE_PALPITES) {
       alert("⏳ O prazo para envio de palpites desta rodada já se encerrou!");
@@ -446,7 +509,6 @@ function inicializarFormularioPalpites() {
     const jogadorSelec = document.getElementById("select-jogador").value;
     const chaveDigitada = document.getElementById("chave-jogador").value.trim();
 
-    // 2. VALIDAÇÃO DE SELEÇÃO E CHAVE SECRETA (HASH SHA-256)
     if (!jogadorSelec) {
       alert("⚠️ Por favor, selecione qual é o seu perfil!");
       return;
@@ -459,7 +521,6 @@ function inicializarFormularioPalpites() {
       return;
     }
 
-    // 3. TRAVA COM RESET AUTOMÁTICO POR RODADA
     const chaveStorage = `envios_r${ULTIMA_RODADA}_${jogadorSelec}`;
     let enviosAtuais = parseInt(localStorage.getItem(chaveStorage) || "0", 10);
 
@@ -468,7 +529,6 @@ function inicializarFormularioPalpites() {
       return;
     }
 
-    // ⚽ 4. MONTA O CONTEÚDO DOS PALPITES (JOGOS E CORINGA)
     const jogosOriginais = window.dadosUltimaRodada?.participantes[0]?.jogos || [];
     const jogosContainer = document.getElementById("container-jogos-palpite");
     const caixasDeJogo = jogosContainer.querySelectorAll(".jogo-palpite-box");
@@ -507,7 +567,6 @@ function inicializarFormularioPalpites() {
       });
     });
 
-    // 🎯 5. CAPTURA DOS PALPITES ESPECIAIS (EVENTOS)
     const containerEventos = document.getElementById("container-eventos-palpite");
     let listaEventosJSON = [];
 
@@ -528,7 +587,6 @@ function inicializarFormularioPalpites() {
       });
     }
 
-    // 📦 6. DADOS FORMATADOS PARA O JSON
     const dadosParaColar = {
       jogos: listaJogosJSON,
       eventos: listaEventosJSON
@@ -540,7 +598,6 @@ function inicializarFormularioPalpites() {
     mensagemWhatsapp += `%0A📋 *BLOCO PRONTO PARA O JSON DO JOGADOR:*%0A`;
     mensagemWhatsapp += "```json%0A" + encodeURIComponent(jsonString) + "%0A```";
 
-    // INCREMENTA A CONTAGEM DE ENVIOS NO NAVEGADOR
     localStorage.setItem(chaveStorage, enviosAtuais + 1);
 
     alert(`🎉 Palpite validado com sucesso, ${jogadorSelec.toUpperCase()}!\n\nEste é seu envio ${enviosAtuais + 1} de ${LIMITE_ENVIOS_PERFIL}. Redirecionando para o WhatsApp...`);
@@ -553,7 +610,7 @@ function inicializarFormularioPalpites() {
 }
 
 // ==========================================
-// 7. INICIALIZAÇÃO DA PÁGINA
+// 8. INICIALIZAÇÃO DA PÁGINA
 // ==========================================
 document.addEventListener("DOMContentLoaded", () => {
   preencherSeletorHistorico();
