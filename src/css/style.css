@@ -145,9 +145,9 @@ main,
 
 .perfil {
   display: flex;
-  align-items: flex-end;
+  align-items: center;
   justify-content: space-between;
-  gap: 12px;
+  gap: 20px;
   min-height: 160px; 
   padding: 10px;
 }
@@ -163,24 +163,33 @@ main,
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: flex-start;
+  flex-grow: 1;
   text-align: center;
-  flex: 1;
-}
-
-.total-label {
-  display: block;
-  font-size: 1rem;
-  font-weight: bold;
-  color: #8b949e;
-  margin-bottom: 6px;
+  margin-top: 20px;
 }
 
 .total-pontos {
   font-family: 'Press Start 2P', cursive;
-  font-size: 2rem;
+  font-size: 2.2rem;
   color: #ffffff;
   line-height: 1;
-  margin-bottom: 8px;
+  margin-bottom: 25px;
+}
+
+.total-pontos-wrapper {
+  display: flex;
+  align-items: baseline; 
+  justify-content: center;
+  gap: 8px;            
+  margin-bottom: 25px;  
+}
+
+.pts-label {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 0.85rem;
+  color: #8b949e;
+  text-transform: lowercase;
 }
 
 /* --- CARTAS DO JOGO --- */
@@ -189,7 +198,6 @@ main,
   flex-wrap: nowrap;
   justify-content: center;
   gap: 3px;
-  width: 100%;
 }
 
 .carta-icone {

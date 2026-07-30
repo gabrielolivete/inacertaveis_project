@@ -111,8 +111,10 @@ function renderizarRodada(dados) {
           <div class="perfil">
             <img class="avatar" src="${jogador.avatar}" alt="${jogador.nome}">
             <div class="total-container">
-              <span class="total-label">PONTUAÇÃO TOTAL</span>
-              <span class="total-pontos">${jogador.pontuacaoTotal}</span>
+              <div class="total-pontos-wrapper">
+                <span class="total-pontos">${jogador.pontuacaoTotal}</span>
+                <span class="pts-label">pts</span>
+              </div>
               <div class="cartas-jogo">
                 ${cartasHTML}
               </div>

@@ -6,7 +6,7 @@
       "nome": "MARCOLA",
       "avatar": "src/img/avatares/marcola.png",
       "avatarHead": "src/img/avatares/marcolahead.png",
-      "pontuacaoTotal": 445,
+      "pontuacaoTotal": 425,
       "cartas": [
         { "img": "src/img/cartas/dobrometade.png", "usada": false },
         { "img": "src/img/cartas/escudo.png", "usada": false },
@@ -22,18 +22,18 @@
       "time1": "src/img/escudos/mirassol.png",
       "placar": "1 x 2",
       "time2": "src/img/escudos/remo.png",
-      "pontos": "",
-      "descricao": "",
-      "tipoPontos": "",
+      "pontos": "-10",
+      "descricao": "-10 palpite",
+      "tipoPontos": "negativo",
       "coringa": false
     },
     {
       "time1": "src/img/escudos/fluminense.png",
       "placar": "1 x 1",
       "time2": "src/img/escudos/bahia.png",
-      "pontos": "",
-      "descricao": "",
-      "tipoPontos": "",
+      "pontos": "-10",
+      "descricao": "-10 palpite",
+      "tipoPontos": "negativo",
       "coringa": false
     },
     {
@@ -65,7 +65,7 @@
       "nome": "GABS",
       "avatar": "src/img/avatares/gabe.png",
       "avatarHead": "src/img/avatares/gabehead.png",
-      "pontuacaoTotal": 470,
+      "pontuacaoTotal": 450,
       "cartas": [
         { "img": "src/img/cartas/dobrometade.png", "usada": false },
         { "img": "src/img/cartas/escudo.png", "usada": false },
@@ -81,18 +81,18 @@
       "time1": "src/img/escudos/mirassol.png",
       "placar": "2 x 0",
       "time2": "src/img/escudos/remo.png",
-      "pontos": "",
-      "descricao": "",
-      "tipoPontos": "",
+      "pontos": "-5",
+      "descricao": "-5 palpite",
+      "tipoPontos": "negativo",
       "coringa": false
     },
     {
       "time1": "src/img/escudos/fluminense.png",
       "placar": "2 x 1",
       "time2": "src/img/escudos/bahia.png",
-      "pontos": "",
-      "descricao": "",
-      "tipoPontos": "",
+      "pontos": "-15",
+      "descricao": "-15 palpite",
+      "tipoPontos": "negativo",
       "coringa": false
     },
     {
@@ -124,7 +124,7 @@
       "nome": "JOCA",
       "avatar": "src/img/avatares/joca.png",
       "avatarHead": "src/img/avatares/jocahead.png",
-      "pontuacaoTotal": 450,
+      "pontuacaoTotal": 405,
       "cartas": [
         { "img": "src/img/cartas/dobrometade.png", "usada": false },
         { "img": "src/img/cartas/escudo.png", "usada": false },
@@ -140,18 +140,18 @@
       "time1": "src/img/escudos/mirassol.png",
       "placar": "0 x 4",
       "time2": "src/img/escudos/remo.png",
-      "pontos": "",
-      "descricao": "",
-      "tipoPontos": "",
+      "pontos": "-25",
+      "descricao": "-25 palpite",
+      "tipoPontos": "negativo",
       "coringa": false
     },
     {
       "time1": "src/img/escudos/fluminense.png",
       "placar": "0 x 4",
       "time2": "src/img/escudos/bahia.png",
-      "pontos": "",
-      "descricao": "",
-      "tipoPontos": "",
+      "pontos": "-20",
+      "descricao": "-20 palpite",
+      "tipoPontos": "negativo",
       "coringa": false
     },
     {
@@ -175,7 +175,7 @@
       "nome": "FEFEZAO",
       "avatar": "src/img/avatares/fefezao.png",
       "avatarHead": "src/img/avatares/fefezaohead.png",
-      "pontuacaoTotal": 465,
+      "pontuacaoTotal": 445,
       "cartas": [
         { "img": "src/img/cartas/dobrometade.png", "usada": false },
         { "img": "src/img/cartas/escudo.png", "usada": false },
@@ -191,18 +191,18 @@
       "time1": "src/img/escudos/mirassol.png",
       "placar": "0 x 1",
       "time2": "src/img/escudos/remo.png",
-      "pontos": "",
-      "descricao": "",
-      "tipoPontos": "",
+      "pontos": "-10",
+      "descricao": "-10 palpite",
+      "tipoPontos": "negativo",
       "coringa": false
     },
     {
       "time1": "src/img/escudos/fluminense.png",
       "placar": "1 x 1",
       "time2": "src/img/escudos/bahia.png",
-      "pontos": "",
-      "descricao": "",
-      "tipoPontos": "",
+      "pontos": "-10",
+      "descricao": "-10 palpite",
+      "tipoPontos": "negativo",
       "coringa": false
     },
     {
