@@ -6,7 +6,6 @@
       "nome": "MARCOLA",
       "avatar": "src/img/avatares/marcola.png",
       "avatarHead": "src/img/avatares/marcolahead.png",
-      "pontuacaoTotal": 425,
       "cartas": [
         { "img": "src/img/cartas/dobrometade.png", "usada": false },
         { "img": "src/img/cartas/escudo.png", "usada": false },
@@ -40,9 +39,9 @@
       "time1": "src/img/escudos/corinthians.png",
       "placar": "0 x 1",
       "time2": "src/img/escudos/athletico.png",
-      "pontos": "",
-      "descricao": "",
-      "tipoPontos": "",
+      "pontos": "-5",
+      "descricao": "-5 palpite",
+      "tipoPontos": "negativo",
       "coringa": false
     }
   ],
@@ -65,7 +64,6 @@
       "nome": "GABS",
       "avatar": "src/img/avatares/gabe.png",
       "avatarHead": "src/img/avatares/gabehead.png",
-      "pontuacaoTotal": 450,
       "cartas": [
         { "img": "src/img/cartas/dobrometade.png", "usada": false },
         { "img": "src/img/cartas/escudo.png", "usada": false },
@@ -99,9 +97,9 @@
       "time1": "src/img/escudos/corinthians.png",
       "placar": "1 x 0",
       "time2": "src/img/escudos/athletico.png",
-      "pontos": "",
-      "descricao": "",
-      "tipoPontos": "",
+      "pontos": "+5",
+      "descricao": "-5 palpipte<br>+10 amarelo",
+      "tipoPontos": "positivo",
       "coringa": true
     }
   ],
@@ -112,7 +110,7 @@
     },
     {
       "texto": "🟨  Rodrigo Garro (Corinthians)",
-      "acertou": false
+      "acertou": true
     },
     {
       "texto": "🟥  Lucas Esquivel (Athletico PR)",
@@ -124,7 +122,6 @@
       "nome": "JOCA",
       "avatar": "src/img/avatares/joca.png",
       "avatarHead": "src/img/avatares/jocahead.png",
-      "pontuacaoTotal": 405,
       "cartas": [
         { "img": "src/img/cartas/dobrometade.png", "usada": false },
         { "img": "src/img/cartas/escudo.png", "usada": false },
@@ -158,9 +155,9 @@
       "time1": "src/img/escudos/corinthians.png",
       "placar": "0 x 4",
       "time2": "src/img/escudos/athletico.png",
-      "pontos": "",
-      "descricao": "",
-      "tipoPontos": "",
+      "pontos": "-20",
+      "descricao": "-20 palpite",
+      "tipoPontos": "negativo",
       "coringa": false
     }
   ],
@@ -175,7 +172,6 @@
       "nome": "FEFEZAO",
       "avatar": "src/img/avatares/fefezao.png",
       "avatarHead": "src/img/avatares/fefezaohead.png",
-      "pontuacaoTotal": 445,
       "cartas": [
         { "img": "src/img/cartas/dobrometade.png", "usada": false },
         { "img": "src/img/cartas/escudo.png", "usada": false },
@@ -209,9 +205,9 @@
       "time1": "src/img/escudos/corinthians.png",
       "placar": "2 x 0",
       "time2": "src/img/escudos/athletico.png",
-      "pontos": "",
-      "descricao": "",
-      "tipoPontos": "",
+      "pontos": "-10",
+      "descricao": "-10 palpite",
+      "tipoPontos": "negativo",
       "coringa": false
     }
   ],

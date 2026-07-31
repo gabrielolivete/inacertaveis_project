@@ -1,7 +1,7 @@
 // ==========================================
 // 1. CONFIGURAÇÃO PRINCIPAL
 // ==========================================
-const RODADAS_EXISTENTES = [20, "b01", 21];
+const RODADAS_EXISTENTES = [20, "b01", 21, "b02"];
 const ULTIMA_RODADA = RODADAS_EXISTENTES[RODADAS_EXISTENTES.length - 1];
 
 const CHAVES_JOGADORES_HASH = {
@@ -12,7 +12,7 @@ const CHAVES_JOGADORES_HASH = {
 };
 
 const NUMERO_ORGANIZADOR = "5541998814995";
-const PRAZO_LIMITE_PALPITES = new Date("2026-07-29T16:00:00");
+const PRAZO_LIMITE_PALPITES = new Date("2026-08-01T17:00:00");
 const LIMITE_ENVIOS_PERFIL = 2;
 
 // ==========================================
@@ -57,57 +57,87 @@ async function gerarSHA256(texto) {
 }
 
 // ==========================================
-// 3. BUSCA DE DADOS E CÁLCULO ACUMULADO
+// 3. BUSCA DE DADOS E CÁLCULO ACUMULADO HISTÓRICO
 // ==========================================
-async function buscarDadosRodada(numeroRodada) {
-  try {
-    // 1. Busca a rodada solicitada
-    const resposta = await fetch(`src/js/rodadas/rodada${numeroRodada}.json`);
-    if (!resposta.ok) throw new Error(`Erro ao carregar rodada ${numeroRodada}`);
-    const dados = await resposta.json();
 
-    // 2. Localiza a rodada anterior no array RODADAS_EXISTENTES
-    const idxAtual = RODADAS_EXISTENTES.findIndex(r => String(r).toLowerCase() === String(numeroRodada).toLowerCase());
-    
-    let dadosRodadaAnterior = null;
-    if (idxAtual > 0) {
-      const rodadaAnteriorNum = RODADAS_EXISTENTES[idxAtual - 1];
-      try {
-        const respAnt = await fetch(`src/js/rodadas/rodada${rodadaAnteriorNum}.json`);
-        if (respAnt.ok) {
-          dadosRodadaAnterior = await respAnt.json();
-        }
-      } catch (e) {
-        console.warn(`Aviso: Não foi possível carregar a rodada anterior (${rodadaAnteriorNum}) para encadeamento.`);
+// Função auxiliar que carrega um JSON de rodada específico
+async function carregarJsonRodada(numeroRodada) {
+  try {
+    const resposta = await fetch(`src/js/rodadas/rodada${numeroRodada}.json`);
+    if (!resposta.ok) return null;
+    return await resposta.json();
+  } catch (e) {
+    console.warn(`Aviso: Erro ao carregar a rodada ${numeroRodada}`);
+    return null;
+  }
+}
+
+async function buscarDadosRodada(numeroRodadaAlvo) {
+  try {
+    // 1. Encontra o índice da rodada solicitada no histórico
+    const idxAlvo = RODADAS_EXISTENTES.findIndex(
+      r => String(r).toLowerCase() === String(numeroRodadaAlvo).toLowerCase()
+    );
+
+    if (idxAlvo === -1) {
+      throw new Error(`Rodada ${numeroRodadaAlvo} não encontrada em RODADAS_EXISTENTES.`);
+    }
+
+    // 2. Mapa de pontuação acumulada para os jogadores. Todos começam com 500 pts no início.
+    const PONTUACAO_INICIAL_CAMPEONATO = 500;
+    const placarAcumulado = {};
+
+    // 3. Carrega o JSON da rodada alvo para ser a referência visual da tela
+    const dadosRodadaExibicao = await carregarJsonRodada(numeroRodadaAlvo);
+    if (!dadosRodadaExibicao) {
+      throw new Error(`Não foi possível carregar o arquivo da rodada ${numeroRodadaAlvo}`);
+    }
+
+    // Inicializa os participantes da tela com base de 500
+    dadosRodadaExibicao.participantes.forEach(p => {
+      placarAcumulado[p.nome] = PONTUACAO_INICIAL_CAMPEONATO;
+    });
+
+    // 4. Percorre o histórico DESDE A PRIMEIRA RODADA (índice 0) ATÉ A RODADA ALVO (idxAlvo)
+    for (let i = 0; i <= idxAlvo; i++) {
+      const rodadaNum = RODADAS_EXISTENTES[i];
+      
+      // Se for a rodada atual do loop, reusa os dados já carregados, senão busca o JSON
+      const dadosRodadaLoop = (i === idxAlvo) 
+        ? dadosRodadaExibicao 
+        : await carregarJsonRodada(rodadaNum);
+
+      if (dadosRodadaLoop && dadosRodadaLoop.participantes) {
+        dadosRodadaLoop.participantes.forEach(jogador => {
+          const pontosNestaRodada = calcularPontosGanhosNaRodada(jogador);
+
+          // Se o jogador ainda não tinha sido registrado no mapa, inicia com 500
+          if (placarAcumulado[jogador.nome] === undefined) {
+            placarAcumulado[jogador.nome] = PONTUACAO_INICIAL_CAMPEONATO;
+          }
+
+          // Soma/subtrai os pontos da rodada no acumulado
+          placarAcumulado[jogador.nome] += pontosNestaRodada;
+        });
       }
     }
 
-    dados.participantes.forEach(jogador => {
-      const pontosGanhosNestaRodada = calcularPontosGanhosNaRodada(jogador);
-
-      if (dadosRodadaAnterior) {
-        // Nas rodadas seguintes, pega a pontuação vinda da rodada anterior
-        const jogadorAnterior = dadosRodadaAnterior.participantes.find(p => p.nome === jogador.nome);
-        const pontuacaoBase = jogadorAnterior ? (jogadorAnterior.pontuacaoTotal || 500) : 500;
-        
-        jogador.pontuacaoTotal = pontuacaoBase + pontosGanhosNestaRodada;
-      } else {
-        // PRIMEIRA RODADA DO CAMPEONATO (Rodada 20):
-        // A base é FIXA em 500 pontos para todo mundo, sem pegar do JSON
-        const PONTUACAO_INICIAL_CAMPEONATO = 500;
-        jogador.pontuacaoTotal = PONTUACAO_INICIAL_CAMPEONATO + pontosGanhosNestaRodada;
-      }
+    // 5. Aplica a pontuação total calculada dinamicamente no objeto de exibição
+    dadosRodadaExibicao.participantes.forEach(jogador => {
+      jogador.pontuacaoTotal = placarAcumulado[jogador.nome] !== undefined 
+        ? placarAcumulado[jogador.nome] 
+        : PONTUACAO_INICIAL_CAMPEONATO;
     });
 
     // Se for a rodada atual do campeonato, salva globalmente
-    if (String(numeroRodada).toLowerCase() === String(ULTIMA_RODADA).toLowerCase()) {
-      window.dadosUltimaRodada = dados;
-      renderizarFormularioJogos(dados);
+    if (String(numeroRodadaAlvo).toLowerCase() === String(ULTIMA_RODADA).toLowerCase()) {
+      window.dadosUltimaRodada = dadosRodadaExibicao;
+      renderizarFormularioJogos(dadosRodadaExibicao);
     }
 
-    renderizarRodada(dados);
+    renderizarRodada(dadosRodadaExibicao);
   } catch (erro) {
-    console.error("Erro ao carregar os dados:", erro);
+    console.error("Erro ao carregar e calcular os dados acumulados:", erro);
   }
 }
 
@@ -134,7 +164,7 @@ function renderizarRodada(dados) {
   const container = document.getElementById("container-jogadores");
   if (!container) return;
 
-  // Ordena a tabela pela pontuação recalculada
+  // Ordena a tabela pela pontuação recalculada dinamicamente
   const jogadoresOrdenados = [...dados.participantes].sort((a, b) => b.pontuacaoTotal - a.pontuacaoTotal);
 
   const tagCompeticaoAbaixoCartas = (dados.rodadaBonus && dados.competicao) ? `
@@ -304,12 +334,7 @@ function mudarAba(nomeAba, elementoClicado) {
 // ==========================================
 async function carregarAbaBadges() {
   if (!window.dadosUltimaRodada) {
-    try {
-      const resp = await fetch(`src/js/rodadas/rodada${ULTIMA_RODADA}.json`);
-      window.dadosUltimaRodada = await resp.json();
-    } catch (e) {
-      console.error("Erro ao carregar dados do mini leaderboard", e);
-    }
+    await buscarDadosRodada(ULTIMA_RODADA);
   }
 
   if (window.dadosUltimaRodada) {
