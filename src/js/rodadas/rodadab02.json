@@ -19,30 +19,39 @@
         { "img": "src/img/especial/coringa.png", "usada": false }
       ],
       "jogos": [
-        {
-          "time1": "src/img/escudos/vasco.png",
-          "placar": "",
-          "time2": "src/img/escudos/fluminense.png",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
-          "coringa": false
-        },
-        {
-          "time1": "src/img/escudos/mirassol.png",
-          "placar": "",
-          "time2": "src/img/escudos/gremio.png",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
-          "coringa": false
-        }
-      ],
-      "eventos": [
-        { "texto": "⚽ ", "acertou": false },
-        { "texto": "🟨 ", "acertou": false },
-        { "texto": "🟥 ", "acertou": false }
-      ]
+    {
+      "time1": "src/img/escudos/vasco.png",
+      "placar": "2 x 0",
+      "time2": "src/img/escudos/fluminense.png",
+      "pontos": "",
+      "descricao": "",
+      "tipoPontos": "",
+      "coringa": false
+    },
+    {
+      "time1": "src/img/escudos/mirassol.png",
+      "placar": "3 x 1",
+      "time2": "src/img/escudos/gremio.png",
+      "pontos": "",
+      "descricao": "",
+      "tipoPontos": "",
+      "coringa": false
+    }
+  ],
+  "eventos": [
+    {
+      "texto": "⚽  Britewhite (Grêmio)",
+      "acertou": false
+    },
+    {
+      "texto": "🟨  Fábio (Fluminense)",
+      "acertou": false
+    },
+    {
+      "texto": "🟥  Pavón (Gremio)",
+      "acertou": false
+    }
+  ]
     },
     {
       "nome": "GABS",
@@ -59,30 +68,39 @@
         { "img": "src/img/especial/coringa.png", "usada": true }
       ],
       "jogos": [
-        {
-          "time1": "src/img/escudos/vasco.png",
-          "placar": "",
-          "time2": "src/img/escudos/fluminense.png",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
-          "coringa": false
-        },
-        {
-          "time1": "src/img/escudos/mirassol.png",
-          "placar": "",
-          "time2": "src/img/escudos/gremio.png",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
-          "coringa": false
-        }
-      ],
-      "eventos": [
-        { "texto": "⚽ ", "acertou": false },
-        { "texto": "🟨 ", "acertou": false },
-        { "texto": "🟥 ", "acertou": false }
-      ]
+    {
+      "time1": "src/img/escudos/vasco.png",
+      "placar": "1 x 0",
+      "time2": "src/img/escudos/fluminense.png",
+      "pontos": "",
+      "descricao": "",
+      "tipoPontos": "",
+      "coringa": false
+    },
+    {
+      "time1": "src/img/escudos/mirassol.png",
+      "placar": "2 x 1",
+      "time2": "src/img/escudos/gremio.png",
+      "pontos": "",
+      "descricao": "",
+      "tipoPontos": "",
+      "coringa": false
+    }
+  ],
+  "eventos": [
+    {
+      "texto": "⚽  Carlos Vinicius (Grêmio)",
+      "acertou": false
+    },
+    {
+      "texto": "🟨  Canobbio (Fluminense)",
+      "acertou": false
+    },
+    {
+      "texto": "🟥  Canobbio (Fluminense)",
+      "acertou": false
+    }
+  ]
     },
     {
       "nome": "JOCA",
@@ -101,7 +119,7 @@
       "jogos": [
         {
           "time1": "src/img/escudos/vasco.png",
-          "placar": "",
+          "placar": "0 x 4",
           "time2": "src/img/escudos/fluminense.png",
           "pontos": "",
           "descricao": "",
@@ -110,7 +128,7 @@
         },
         {
           "time1": "src/img/escudos/mirassol.png",
-          "placar": "",
+          "placar": "0 x 4",
           "time2": "src/img/escudos/gremio.png",
           "pontos": "",
           "descricao": "",
@@ -119,9 +137,7 @@
         }
       ],
       "eventos": [
-        { "texto": "⚽ ", "acertou": false },
-        { "texto": "🟨 ", "acertou": false },
-        { "texto": "🟥 ", "acertou": false }
+        { "texto": "PALPITE W.O", "acertou": true }
       ]
     },
     {
@@ -139,30 +155,39 @@
         { "img": "src/img/especial/coringa.png", "usada": true }
       ],
       "jogos": [
-        {
-          "time1": "src/img/escudos/vasco.png",
-          "placar": "",
-          "time2": "src/img/escudos/fluminense.png",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
-          "coringa": false
-        },
-        {
-          "time1": "src/img/escudos/mirassol.png",
-          "placar": "",
-          "time2": "src/img/escudos/gremio.png",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
-          "coringa": false
-        }
-      ],
-      "eventos": [
-        { "texto": "⚽ ", "acertou": false },
-        { "texto": "🟨 ", "acertou": false },
-        { "texto": "🟥 ", "acertou": false }
-      ]
+    {
+      "time1": "src/img/escudos/vasco.png",
+      "placar": "0 x 1",
+      "time2": "src/img/escudos/fluminense.png",
+      "pontos": "",
+      "descricao": "",
+      "tipoPontos": "",
+      "coringa": false
+    },
+    {
+      "time1": "src/img/escudos/mirassol.png",
+      "placar": "1 x 1",
+      "time2": "src/img/escudos/gremio.png",
+      "pontos": "",
+      "descricao": "",
+      "tipoPontos": "",
+      "coringa": false
+    }
+  ],
+  "eventos": [
+    {
+      "texto": "⚽  Hulk (Fluminense)",
+      "acertou": false
+    },
+    {
+      "texto": "🟨  Hulk (Fluminense)",
+      "acertou": false
+    },
+    {
+      "texto": "🟥  Carlos Eduardo (Mirassol)",
+      "acertou": false
+    }
+  ]
     }
   ]
 }
