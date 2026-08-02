@@ -168,8 +168,8 @@
       "time1": "src/img/escudos/mirassol.png",
       "placar": "1 x 1",
       "time2": "src/img/escudos/gremio.png",
-      "pontos": "+50",
-      "descricao": "+50 CRAVOU",
+      "pontos": "+60",
+      "descricao": "+50 CRAVOU<br>+10 lider da rodada",
       "tipoPontos": "positivo",
       "coringa": false
     }
