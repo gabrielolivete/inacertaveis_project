@@ -32,9 +32,9 @@
       "time1": "src/img/escudos/mirassol.png",
       "placar": "3 x 1",
       "time2": "src/img/escudos/gremio.png",
-      "pontos": "",
-      "descricao": "",
-      "tipoPontos": "",
+      "pontos": "-10",
+      "descricao": "-10 palpite",
+      "tipoPontos": "negativo",
       "coringa": false
     }
   ],
@@ -81,9 +81,9 @@
       "time1": "src/img/escudos/mirassol.png",
       "placar": "2 x 1",
       "time2": "src/img/escudos/gremio.png",
-      "pontos": "",
-      "descricao": "",
-      "tipoPontos": "",
+      "pontos": "-5",
+      "descricao": "-5 palpite",
+      "tipoPontos": "negativo",
       "coringa": false
     }
   ],
@@ -94,7 +94,7 @@
     },
     {
       "texto": "🟨  Canobbio (Fluminense)",
-      "acertou": false
+      "acertou": true
     },
     {
       "texto": "🟥  Canobbio (Fluminense)",
@@ -130,9 +130,9 @@
           "time1": "src/img/escudos/mirassol.png",
           "placar": "0 x 4",
           "time2": "src/img/escudos/gremio.png",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
+          "pontos": "-20",
+          "descricao": "-20 palpite",
+          "tipoPontos": "negativo",
           "coringa": false
         }
       ],
@@ -168,9 +168,9 @@
       "time1": "src/img/escudos/mirassol.png",
       "placar": "1 x 1",
       "time2": "src/img/escudos/gremio.png",
-      "pontos": "",
-      "descricao": "",
-      "tipoPontos": "",
+      "pontos": "+50",
+      "descricao": "+50 CRAVOU",
+      "tipoPontos": "positivo",
       "coringa": false
     }
   ],
