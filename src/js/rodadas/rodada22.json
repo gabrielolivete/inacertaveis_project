@@ -1,6 +1,6 @@
 {
-  "nome": "RODADA",
-  "prazoPalpites": "",
+  "nome": "RODADA 22",
+  "prazoPalpites": "Sábado, 08/08/2026 às 15:30",
   "participantes": [
     {
       "nome": "MARCOLA",
@@ -18,27 +18,27 @@
       ],
       "jogos": [
         {
-          "time1": "",
+          "time1": "src/img/escudos/coritiba.png",
           "placar": "",
-          "time2": "",
+          "time2": "src/img/escudos/chapecoense.png",
           "pontos": "",
           "descricao": "",
           "tipoPontos": "",
           "coringa": false
         },
         {
-          "time1": "",
+          "time1": "src/img/escudos/palmeiras.png",
           "placar": "",
-          "time2": "",
+          "time2": "src/img/escudos/internacional.png",
           "pontos": "",
           "descricao": "",
           "tipoPontos": "",
           "coringa": false
         },
         {
-          "time1": "",
+          "time1": "src/img/escudos/santos.png",
           "placar": "",
-          "time2": "",
+          "time2": "src/img/escudos/athletico.png",
           "pontos": "",
           "descricao": "",
           "tipoPontos": "",
@@ -67,27 +67,27 @@
       ],
       "jogos": [
         {
-          "time1": "",
+          "time1": "src/img/escudos/coritiba.png",
           "placar": "",
-          "time2": "",
+          "time2": "src/img/escudos/chapecoense.png",
           "pontos": "",
           "descricao": "",
           "tipoPontos": "",
           "coringa": false
         },
         {
-          "time1": "",
+          "time1": "src/img/escudos/palmeiras.png",
           "placar": "",
-          "time2": "",
+          "time2": "src/img/escudos/internacional.png",
           "pontos": "",
           "descricao": "",
           "tipoPontos": "",
           "coringa": false
         },
         {
-          "time1": "",
+          "time1": "src/img/escudos/santos.png",
           "placar": "",
-          "time2": "",
+          "time2": "src/img/escudos/athletico.png",
           "pontos": "",
           "descricao": "",
           "tipoPontos": "",
@@ -96,7 +96,7 @@
       ],
       "eventos": [
         { "texto": "⚽ ", "acertou": false },
-        { "texto": "🟨 ", "acertou": true },
+        { "texto": "🟨 ", "acertou": false },
         { "texto": "🟥 ", "acertou": false }
       ]
     },
@@ -116,27 +116,27 @@
       ],
       "jogos": [
         {
-          "time1": "",
+          "time1": "src/img/escudos/coritiba.png",
           "placar": "",
-          "time2": "",
+          "time2": "src/img/escudos/chapecoense.png",
           "pontos": "",
           "descricao": "",
           "tipoPontos": "",
           "coringa": false
         },
         {
-          "time1": "",
+          "time1": "src/img/escudos/palmeiras.png",
           "placar": "",
-          "time2": "",
+          "time2": "src/img/escudos/internacional.png",
           "pontos": "",
           "descricao": "",
           "tipoPontos": "",
           "coringa": false
         },
         {
-          "time1": "",
+          "time1": "src/img/escudos/santos.png",
           "placar": "",
-          "time2": "",
+          "time2": "src/img/escudos/athletico.png",
           "pontos": "",
           "descricao": "",
           "tipoPontos": "",
@@ -165,27 +165,27 @@
       ],
       "jogos": [
         {
-          "time1": "",
+          "time1": "src/img/escudos/coritiba.png",
           "placar": "",
-          "time2": "",
+          "time2": "src/img/escudos/chapecoense.png",
           "pontos": "",
           "descricao": "",
           "tipoPontos": "",
           "coringa": false
         },
         {
-          "time1": "",
+          "time1": "src/img/escudos/palmeiras.png",
           "placar": "",
-          "time2": "",
+          "time2": "src/img/escudos/internacional.png",
           "pontos": "",
           "descricao": "",
           "tipoPontos": "",
-          "coringa": true
+          "coringa": false
         },
         {
-          "time1": "",
+          "time1": "src/img/escudos/santos.png",
           "placar": "",
-          "time2": "",
+          "time2": "src/img/escudos/athletico.png",
           "pontos": "",
           "descricao": "",
           "tipoPontos": "",
