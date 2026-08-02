@@ -23,9 +23,9 @@
       "time1": "src/img/escudos/vasco.png",
       "placar": "2 x 0",
       "time2": "src/img/escudos/fluminense.png",
-      "pontos": "",
-      "descricao": "",
-      "tipoPontos": "",
+      "pontos": "-10",
+      "descricao": "-10 palpite",
+      "tipoPontos": "negativo",
       "coringa": false
     },
     {
@@ -72,9 +72,9 @@
       "time1": "src/img/escudos/vasco.png",
       "placar": "1 x 0",
       "time2": "src/img/escudos/fluminense.png",
-      "pontos": "",
-      "descricao": "",
-      "tipoPontos": "",
+      "pontos": "+5",
+      "descricao": "-5 palpite<br>+10 amarelo",
+      "tipoPontos": "positivo",
       "coringa": false
     },
     {
@@ -121,9 +121,9 @@
           "time1": "src/img/escudos/vasco.png",
           "placar": "0 x 4",
           "time2": "src/img/escudos/fluminense.png",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
+          "pontos": "-20",
+          "descricao": "-20 palpite",
+          "tipoPontos": "negativo",
           "coringa": false
         },
         {
@@ -159,9 +159,9 @@
       "time1": "src/img/escudos/vasco.png",
       "placar": "0 x 1",
       "time2": "src/img/escudos/fluminense.png",
-      "pontos": "",
-      "descricao": "",
-      "tipoPontos": "",
+      "pontos": "-5",
+      "descricao": "-5 palpite",
+      "tipoPontos": "negativo",
       "coringa": false
     },
     {
