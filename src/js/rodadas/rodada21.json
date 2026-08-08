@@ -97,8 +97,8 @@
       "time1": "src/img/escudos/corinthians.png",
       "placar": "1 x 0",
       "time2": "src/img/escudos/athletico.png",
-      "pontos": "+5",
-      "descricao": "-5 palpipte<br>+10 amarelo",
+      "pontos": "+10",
+      "descricao": "-10 palpipte(2x)<br>+20 amarelo(2x)",
       "tipoPontos": "positivo",
       "coringa": true
     }
