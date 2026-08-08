@@ -17,39 +17,48 @@
         { "img": "src/img/especial/coringa.png", "usada": false }
       ],
       "jogos": [
-        {
-          "time1": "src/img/escudos/coritiba.png",
-          "placar": "",
-          "time2": "src/img/escudos/chapecoense.png",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
-          "coringa": false
-        },
-        {
-          "time1": "src/img/escudos/palmeiras.png",
-          "placar": "",
-          "time2": "src/img/escudos/internacional.png",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
-          "coringa": false
-        },
-        {
-          "time1": "src/img/escudos/santos.png",
-          "placar": "",
-          "time2": "src/img/escudos/athletico.png",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
-          "coringa": false
-        }
-      ],
-      "eventos": [
-        { "texto": "⚽ ", "acertou": false },
-        { "texto": "🟨 ", "acertou": false },
-        { "texto": "🟥 ", "acertou": false }
-      ]
+    {
+      "time1": "src/img/escudos/coritiba.png",
+      "placar": "3 x 0",
+      "time2": "src/img/escudos/chapecoense.png",
+      "pontos": "",
+      "descricao": "",
+      "tipoPontos": "",
+      "coringa": false
+    },
+    {
+      "time1": "src/img/escudos/palmeiras.png",
+      "placar": "3 x 0",
+      "time2": "src/img/escudos/internacional.png",
+      "pontos": "",
+      "descricao": "",
+      "tipoPontos": "",
+      "coringa": true
+    },
+    {
+      "time1": "src/img/escudos/santos.png",
+      "placar": "1 x 1",
+      "time2": "src/img/escudos/athletico.png",
+      "pontos": "",
+      "descricao": "",
+      "tipoPontos": "",
+      "coringa": false
+    }
+  ],
+  "eventos": [
+    {
+      "texto": "⚽  Flaco Lopez (Palmeiras)",
+      "acertou": false
+    },
+    {
+      "texto": "🟨  Gabriel Barbosa (Santos)",
+      "acertou": false
+    },
+    {
+      "texto": "🟥  Bruno Tubarão (Chapecoense)",
+      "acertou": false
+    }
+  ]
     },
     {
       "nome": "GABS",
@@ -66,39 +75,48 @@
         { "img": "src/img/especial/coringa.png", "usada": false }
       ],
       "jogos": [
-        {
-          "time1": "src/img/escudos/coritiba.png",
-          "placar": "",
-          "time2": "src/img/escudos/chapecoense.png",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
-          "coringa": false
-        },
-        {
-          "time1": "src/img/escudos/palmeiras.png",
-          "placar": "",
-          "time2": "src/img/escudos/internacional.png",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
-          "coringa": false
-        },
-        {
-          "time1": "src/img/escudos/santos.png",
-          "placar": "",
-          "time2": "src/img/escudos/athletico.png",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
-          "coringa": false
-        }
-      ],
-      "eventos": [
-        { "texto": "⚽ ", "acertou": false },
-        { "texto": "🟨 ", "acertou": false },
-        { "texto": "🟥 ", "acertou": false }
-      ]
+    {
+      "time1": "src/img/escudos/coritiba.png",
+      "placar": "2 x 0",
+      "time2": "src/img/escudos/chapecoense.png",
+      "pontos": "",
+      "descricao": "",
+      "tipoPontos": "",
+      "coringa": true
+    },
+    {
+      "time1": "src/img/escudos/palmeiras.png",
+      "placar": "1 x 0",
+      "time2": "src/img/escudos/internacional.png",
+      "pontos": "",
+      "descricao": "",
+      "tipoPontos": "",
+      "coringa": false
+    },
+    {
+      "time1": "src/img/escudos/santos.png",
+      "placar": "1 x 1",
+      "time2": "src/img/escudos/athletico.png",
+      "pontos": "",
+      "descricao": "",
+      "tipoPontos": "",
+      "coringa": false
+    }
+  ],
+  "eventos": [
+    {
+      "texto": "⚽  Breno Lopes (Coritiba)",
+      "acertou": false
+    },
+    {
+      "texto": "🟨  Gabriel Mercado (Internacional)",
+      "acertou": false
+    },
+    {
+      "texto": "🟥  Abel Ferreira (Palmeiras)",
+      "acertou": false
+    }
+  ]
     },
     {
       "nome": "JOCA",
@@ -115,39 +133,48 @@
         { "img": "src/img/especial/coringa.png", "usada": false }
       ],
       "jogos": [
-        {
-          "time1": "src/img/escudos/coritiba.png",
-          "placar": "",
-          "time2": "src/img/escudos/chapecoense.png",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
-          "coringa": false
-        },
-        {
-          "time1": "src/img/escudos/palmeiras.png",
-          "placar": "",
-          "time2": "src/img/escudos/internacional.png",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
-          "coringa": false
-        },
-        {
-          "time1": "src/img/escudos/santos.png",
-          "placar": "",
-          "time2": "src/img/escudos/athletico.png",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
-          "coringa": false
-        }
-      ],
-      "eventos": [
-        { "texto": "⚽ ", "acertou": false },
-        { "texto": "🟨 ", "acertou": false },
-        { "texto": "🟥 ", "acertou": false }
-      ]
+    {
+      "time1": "src/img/escudos/coritiba.png",
+      "placar": "2 x 1",
+      "time2": "src/img/escudos/chapecoense.png",
+      "pontos": "",
+      "descricao": "",
+      "tipoPontos": "",
+      "coringa": true
+    },
+    {
+      "time1": "src/img/escudos/palmeiras.png",
+      "placar": "3 x 1",
+      "time2": "src/img/escudos/internacional.png",
+      "pontos": "",
+      "descricao": "",
+      "tipoPontos": "",
+      "coringa": false
+    },
+    {
+      "time1": "src/img/escudos/santos.png",
+      "placar": "1 x 1",
+      "time2": "src/img/escudos/athletico.png",
+      "pontos": "",
+      "descricao": "",
+      "tipoPontos": "",
+      "coringa": false
+    }
+  ],
+  "eventos": [
+    {
+      "texto": "⚽  Jose Manuel Lopes (palmeiras)",
+      "acertou": false
+    },
+    {
+      "texto": "🟨  Thiago Santos (coritiba)",
+      "acertou": false
+    },
+    {
+      "texto": "🟥  Everton (chapecoense)",
+      "acertou": false
+    }
+  ]
     },
     {
       "nome": "FEFEZAO",
@@ -164,39 +191,48 @@
         { "img": "src/img/especial/coringa.png", "usada": true }
       ],
       "jogos": [
-        {
-          "time1": "src/img/escudos/coritiba.png",
-          "placar": "",
-          "time2": "src/img/escudos/chapecoense.png",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
-          "coringa": false
-        },
-        {
-          "time1": "src/img/escudos/palmeiras.png",
-          "placar": "",
-          "time2": "src/img/escudos/internacional.png",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
-          "coringa": false
-        },
-        {
-          "time1": "src/img/escudos/santos.png",
-          "placar": "",
-          "time2": "src/img/escudos/athletico.png",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
-          "coringa": false
-        }
-      ],
-      "eventos": [
-        { "texto": "⚽ ", "acertou": false },
-        { "texto": "🟨 ", "acertou": false },
-        { "texto": "🟥 ", "acertou": false }
-      ]
+    {
+      "time1": "src/img/escudos/coritiba.png",
+      "placar": "2 x 0",
+      "time2": "src/img/escudos/chapecoense.png",
+      "pontos": "",
+      "descricao": "",
+      "tipoPontos": "",
+      "coringa": true
+    },
+    {
+      "time1": "src/img/escudos/palmeiras.png",
+      "placar": "3 x 1",
+      "time2": "src/img/escudos/internacional.png",
+      "pontos": "",
+      "descricao": "",
+      "tipoPontos": "",
+      "coringa": false
+    },
+    {
+      "time1": "src/img/escudos/santos.png",
+      "placar": "1 x 0",
+      "time2": "src/img/escudos/athletico.png",
+      "pontos": "",
+      "descricao": "",
+      "tipoPontos": "",
+      "coringa": false
+    }
+  ],
+  "eventos": [
+    {
+      "texto": "⚽  Pedro Rocha (Coritiba)",
+      "acertou": false
+    },
+    {
+      "texto": "🟨  Sebastian Gomez (Coritiba)",
+      "acertou": false
+    },
+    {
+      "texto": "🟥  Camilo (Chapecoense)",
+      "acertou": false
+    }
+  ]
     }
   ]
 }
