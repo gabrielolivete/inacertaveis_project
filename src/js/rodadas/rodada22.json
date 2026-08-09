@@ -30,9 +30,9 @@
       "time1": "src/img/escudos/palmeiras.png",
       "placar": "3 x 0",
       "time2": "src/img/escudos/internacional.png",
-      "pontos": "",
-      "descricao": "",
-      "tipoPontos": "",
+      "pontos": "-15",
+      "descricao": "-15 palpite",
+      "tipoPontos": "negativo",
       "coringa": true
     },
     {
@@ -88,9 +88,9 @@
       "time1": "src/img/escudos/palmeiras.png",
       "placar": "1 x 0",
       "time2": "src/img/escudos/internacional.png",
-      "pontos": "",
-      "descricao": "",
-      "tipoPontos": "",
+      "pontos": "-5",
+      "descricao": "-5 palpite",
+      "tipoPontos": "negativo",
       "coringa": false
     },
     {
@@ -146,9 +146,9 @@
       "time1": "src/img/escudos/palmeiras.png",
       "placar": "3 x 1",
       "time2": "src/img/escudos/internacional.png",
-      "pontos": "",
-      "descricao": "",
-      "tipoPontos": "",
+      "pontos": "-20",
+      "descricao": "-20 palpite",
+      "tipoPontos": "negativo",
       "coringa": false
     },
     {
@@ -204,9 +204,9 @@
       "time1": "src/img/escudos/palmeiras.png",
       "placar": "3 x 1",
       "time2": "src/img/escudos/internacional.png",
-      "pontos": "",
-      "descricao": "",
-      "tipoPontos": "",
+      "pontos": "-20",
+      "descricao": "-20 palpite",
+      "tipoPontos": "negativo",
       "coringa": false
     },
     {
