@@ -21,9 +21,9 @@
       "time1": "src/img/escudos/coritiba.png",
       "placar": "3 x 0",
       "time2": "src/img/escudos/chapecoense.png",
-      "pontos": "",
-      "descricao": "",
-      "tipoPontos": "",
+      "pontos": "-10",
+      "descricao": "-10 palpite",
+      "tipoPontos": "negativo",
       "coringa": false
     },
     {
@@ -79,9 +79,9 @@
       "time1": "src/img/escudos/coritiba.png",
       "placar": "2 x 0",
       "time2": "src/img/escudos/chapecoense.png",
-      "pontos": "",
-      "descricao": "",
-      "tipoPontos": "",
+      "pontos": "-10",
+      "descricao": "-5 palpite(2x)",
+      "tipoPontos": "negativo",
       "coringa": true
     },
     {
@@ -137,9 +137,9 @@
       "time1": "src/img/escudos/coritiba.png",
       "placar": "2 x 1",
       "time2": "src/img/escudos/chapecoense.png",
-      "pontos": "",
-      "descricao": "",
-      "tipoPontos": "",
+      "pontos": "+100",
+      "descricao": "+50 palpite(2x)",
+      "tipoPontos": "positivo",
       "coringa": true
     },
     {
@@ -163,15 +163,15 @@
   ],
   "eventos": [
     {
-      "texto": "⚽  Jose Manuel Lopes (palmeiras)",
+      "texto": "⚽  Jose Manuel Lopes (Palmeiras)",
       "acertou": false
     },
     {
-      "texto": "🟨  Thiago Santos (coritiba)",
+      "texto": "🟨  Thiago Santos (Coritiba)",
       "acertou": false
     },
     {
-      "texto": "🟥  Everton (chapecoense)",
+      "texto": "🟥  Everton (Chapecoense)",
       "acertou": false
     }
   ]
@@ -195,9 +195,9 @@
       "time1": "src/img/escudos/coritiba.png",
       "placar": "2 x 0",
       "time2": "src/img/escudos/chapecoense.png",
-      "pontos": "",
-      "descricao": "",
-      "tipoPontos": "",
+      "pontos": "+20",
+      "descricao": "-5 palpite(2x)<br>+15 gol(2x)",
+      "tipoPontos": "positivo",
       "coringa": true
     },
     {
@@ -222,7 +222,7 @@
   "eventos": [
     {
       "texto": "⚽  Pedro Rocha (Coritiba)",
-      "acertou": false
+      "acertou": true
     },
     {
       "texto": "🟨  Sebastian Gomez (Coritiba)",
