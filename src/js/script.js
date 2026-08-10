@@ -1,7 +1,7 @@
 // ==========================================
 // 1. CONFIGURAÇÃO PRINCIPAL
 // ==========================================
-const RODADAS_EXISTENTES = [20, "b01", 21, "b02", 22];
+const RODADAS_EXISTENTES = [20, "b01", 21, "b02", 22, "b03"];
 const ULTIMA_RODADA = RODADAS_EXISTENTES[RODADAS_EXISTENTES.length - 1];
 
 const CHAVES_JOGADORES_HASH = {
@@ -12,7 +12,7 @@ const CHAVES_JOGADORES_HASH = {
 };
 
 const NUMERO_ORGANIZADOR = "5541998814995";
-const PRAZO_LIMITE_PALPITES = new Date("2026-08-08T15:30:00");
+const PRAZO_LIMITE_PALPITES = new Date("2026-08-11T18:00:00");
 const LIMITE_ENVIOS_PERFIL = 2;
 
 // ==========================================
@@ -101,22 +101,16 @@ async function buscarDadosRodada(numeroRodadaAlvo) {
     // 4. Percorre o histórico DESDE A PRIMEIRA RODADA (índice 0) ATÉ A RODADA ALVO (idxAlvo)
     for (let i = 0; i <= idxAlvo; i++) {
       const rodadaNum = RODADAS_EXISTENTES[i];
-      
-      // Se for a rodada atual do loop, reusa os dados já carregados, senão busca o JSON
-      const dadosRodadaLoop = (i === idxAlvo) 
-        ? dadosRodadaExibicao 
-        : await carregarJsonRodada(rodadaNum);
+      const dadosRodadaLoop = await carregarJsonRodada(rodadaNum);
 
       if (dadosRodadaLoop && dadosRodadaLoop.participantes) {
         dadosRodadaLoop.participantes.forEach(jogador => {
           const pontosNestaRodada = calcularPontosGanhosNaRodada(jogador);
 
-          // Se o jogador ainda não tinha sido registrado no mapa, inicia com 500
           if (placarAcumulado[jogador.nome] === undefined) {
             placarAcumulado[jogador.nome] = PONTUACAO_INICIAL_CAMPEONATO;
           }
 
-          // Soma/subtrai os pontos da rodada no acumulado
           placarAcumulado[jogador.nome] += pontosNestaRodada;
         });
       }
@@ -164,7 +158,11 @@ function renderizarRodada(dados) {
   const container = document.getElementById("container-jogadores");
   if (!container) return;
 
-  // Ordena a tabela pela pontuação recalculada dinamicamente
+  // 1. Descobre a maior pontuação obtida exclusivamente NESTA rodada
+  const pontuacoesDaRodada = dados.participantes.map(p => calcularPontosGanhosNaRodada(p));
+  const maiorPontuacaoRodada = Math.max(...pontuacoesDaRodada);
+
+  // 2. Ordena a lista de jogadores pela pontuação ACUMULADA DO CAMPEONATO (Classificação geral)
   const jogadoresOrdenados = [...dados.participantes].sort((a, b) => b.pontuacaoTotal - a.pontuacaoTotal);
 
   const tagCompeticaoAbaixoCartas = (dados.rodadaBonus && dados.competicao) ? `
@@ -189,7 +187,10 @@ function renderizarRodada(dados) {
 
   let htmlAcumulado = "";
 
-  jogadoresOrdenados.forEach((jogador, index) => {
+  jogadoresOrdenados.forEach((jogador) => {
+    const pontosRodadaAtual = calcularPontosGanhosNaRodada(jogador);
+    const eLiderDaRodada = pontosRodadaAtual === maiorPontuacaoRodada;
+
     const cartasHTML = jogador.cartas ? jogador.cartas.map(carta =>
       `<img class="carta-icone ${carta.usada ? 'carta-usada' : ''}" src="${carta.img}" alt="carta">`
     ).join('') : '';
@@ -205,7 +206,7 @@ function renderizarRodada(dados) {
 
     htmlAcumulado += `
       <article class="card-player">
-        ${index === 0 ? '<img src="src/img/especial/lider.png" class="badge-lider-sobreposta" alt="Líder">' : ''}
+        ${eLiderDaRodada ? '<img src="src/img/especial/lider.png" class="badge-lider-sobreposta" alt="Líder da Rodada">' : ''}
         <div class="card-header">
           <h2>${jogador.nome}</h2>
         </div>
@@ -515,6 +516,31 @@ function renderizarFormularioJogos(dadosRodada) {
     html += `</div>`;
   }
 
+  // NOVA SEÇÃO: USO DE CARTAS ESPECIAIS
+  html += `
+    <hr class="divisor">
+    <div style="margin-top: 15px;">
+      <h3 style="font-size: 0.75rem; color: #9b59b6; margin: 5px 0 8px 0; text-align: center; font-family: 'Press Start 2P', cursive;">
+        🃏 CARTAS ESPECIAIS
+      </h3>
+      <p style="font-size: 0.7rem; color: #8b949e; text-align: center; margin-bottom: 8px; line-height: 1.3;">
+        Se desejar usar uma carta nesta rodada (Escudo, Seguro, Presente de Grego ou Dobro/Metade), especifique abaixo.
+      </p>
+      <textarea id="texto-cartas-especiais" rows="2" placeholder="Ex: Vou usar a carta Escudo nesta rodada&#10;Ex: Presente de Grego entre Fefe e Marcos no jogo 2" style="
+        width: 100%;
+        background-color: #161b22;
+        color: #fff;
+        border: 1px solid #30363d;
+        border-radius: 6px;
+        padding: 8px;
+        font-size: 0.8rem;
+        box-sizing: border-box;
+        resize: vertical;
+        font-family: inherit;
+      "></textarea>
+    </div>
+  `;
+
   containerJogos.innerHTML = html;
 }
 
@@ -612,10 +638,23 @@ function inicializarFormularioPalpites() {
       });
     }
 
+    // CAPTURA DO USO DE CARTAS ESPECIAIS
+    const campoCartas = document.getElementById("texto-cartas-especiais");
+    const mensagemCartas = campoCartas ? campoCartas.value.trim() : "";
+
+    if (mensagemCartas) {
+      textoLeitura += `%0A🎴 *USO DE CARTA ESPECIAL:*%0A${encodeURIComponent(mensagemCartas)}%0A`;
+    }
+
+    // MONTA O DADO FINAL DO JSON
     const dadosParaColar = {
       jogos: listaJogosJSON,
       eventos: listaEventosJSON
     };
+
+    if (mensagemCartas) {
+      dadosParaColar.cartaEspecialUsada = mensagemCartas;
+    }
 
     const jsonString = JSON.stringify(dadosParaColar, null, 2);
 

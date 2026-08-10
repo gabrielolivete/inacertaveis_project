@@ -39,9 +39,9 @@
       "time1": "src/img/escudos/santos.png",
       "placar": "1 x 1",
       "time2": "src/img/escudos/athletico.png",
-      "pontos": "",
-      "descricao": "",
-      "tipoPontos": "",
+      "pontos": "-10",
+      "descricao": "-10 palpite",
+      "tipoPontos": "negativo",
       "coringa": false
     }
   ],
@@ -97,9 +97,9 @@
       "time1": "src/img/escudos/santos.png",
       "placar": "1 x 1",
       "time2": "src/img/escudos/athletico.png",
-      "pontos": "",
-      "descricao": "",
-      "tipoPontos": "",
+      "pontos": "-10",
+      "descricao": "-10 palpite",
+      "tipoPontos": "negativo",
       "coringa": false
     }
   ],
@@ -137,8 +137,8 @@
       "time1": "src/img/escudos/coritiba.png",
       "placar": "2 x 1",
       "time2": "src/img/escudos/chapecoense.png",
-      "pontos": "+100",
-      "descricao": "+50 palpite(2x)",
+      "pontos": "+110",
+      "descricao": "+50 palpite(2x)<br>+10 lider da rodada",
       "tipoPontos": "positivo",
       "coringa": true
     },
@@ -155,15 +155,15 @@
       "time1": "src/img/escudos/santos.png",
       "placar": "1 x 1",
       "time2": "src/img/escudos/athletico.png",
-      "pontos": "",
-      "descricao": "",
-      "tipoPontos": "",
+      "pontos": "-10",
+      "descricao": "-10 palpite",
+      "tipoPontos": "negativo",
       "coringa": false
     }
   ],
   "eventos": [
     {
-      "texto": "⚽  Jose Manuel Lopes (Palmeiras)",
+      "texto": "⚽  Flaco Lopez (Palmeiras)",
       "acertou": false
     },
     {
@@ -213,9 +213,9 @@
       "time1": "src/img/escudos/santos.png",
       "placar": "1 x 0",
       "time2": "src/img/escudos/athletico.png",
-      "pontos": "",
-      "descricao": "",
-      "tipoPontos": "",
+      "pontos": "-15",
+      "descricao": "-15 palpite",
+      "tipoPontos": "negativo",
       "coringa": false
     }
   ],

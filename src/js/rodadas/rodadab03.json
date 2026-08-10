@@ -1,6 +1,8 @@
 {
-  "nome": "RODADA",
-  "prazoPalpites": "",
+  "nome": "RODADA BONUS 03",
+  "rodadaBonus": true,
+  "competicao": "Copa Libertadores da América 2026",
+  "prazoPalpites": "Terça-feira, 11/08 às 18:00h",
   "participantes": [
     {
       "nome": "MARCOLA",
@@ -14,31 +16,31 @@
         { "img": "src/img/cartas/seguro.png", "usada": false },
         { "img": "src/img/especial/coringa.png", "usada": false },
         { "img": "src/img/especial/coringa.png", "usada": false },
-        { "img": "src/img/especial/coringa.png", "usada": false }
+        { "img": "src/img/especial/coringa.png", "usada": true }
       ],
       "jogos": [
         {
-          "time1": "",
+          "time1": "src/img/escudos/fluminense.png",
           "placar": "",
-          "time2": "",
+          "time2": "src/img/escudos/indrivadavia.png",
           "pontos": "",
           "descricao": "",
           "tipoPontos": "",
           "coringa": false
         },
         {
-          "time1": "",
+          "time1": "src/img/escudos/cruzeiro.png",
           "placar": "",
-          "time2": "",
+          "time2": "src/img/escudos/flamengo.png",
           "pontos": "",
           "descricao": "",
           "tipoPontos": "",
           "coringa": false
         },
         {
-          "time1": "",
+          "time1": "src/img/escudos/rosariocentral.png",
           "placar": "",
-          "time2": "",
+          "time2": "src/img/escudos/corinthians.png",
           "pontos": "",
           "descricao": "",
           "tipoPontos": "",
@@ -62,32 +64,32 @@
         { "img": "src/img/cartas/segundachance.png", "usada": false },
         { "img": "src/img/cartas/seguro.png", "usada": false },
         { "img": "src/img/especial/coringa.png", "usada": false },
-        { "img": "src/img/especial/coringa.png", "usada": false },
-        { "img": "src/img/especial/coringa.png", "usada": false }
+        { "img": "src/img/especial/coringa.png", "usada": true },
+        { "img": "src/img/especial/coringa.png", "usada": true }
       ],
       "jogos": [
         {
-          "time1": "",
+          "time1": "src/img/escudos/fluminense.png",
           "placar": "",
-          "time2": "",
+          "time2": "src/img/escudos/indrivadavia.png",
           "pontos": "",
           "descricao": "",
           "tipoPontos": "",
           "coringa": false
         },
         {
-          "time1": "",
+          "time1": "src/img/escudos/cruzeiro.png",
           "placar": "",
-          "time2": "",
+          "time2": "src/img/escudos/flamengo.png",
           "pontos": "",
           "descricao": "",
           "tipoPontos": "",
           "coringa": false
         },
         {
-          "time1": "",
+          "time1": "src/img/escudos/rosariocentral.png",
           "placar": "",
-          "time2": "",
+          "time2": "src/img/escudos/corinthians.png",
           "pontos": "",
           "descricao": "",
           "tipoPontos": "",
@@ -112,31 +114,31 @@
         { "img": "src/img/cartas/seguro.png", "usada": false },
         { "img": "src/img/especial/coringa.png", "usada": false },
         { "img": "src/img/especial/coringa.png", "usada": false },
-        { "img": "src/img/especial/coringa.png", "usada": false }
+        { "img": "src/img/especial/coringa.png", "usada": true }
       ],
       "jogos": [
         {
-          "time1": "",
+          "time1": "src/img/escudos/fluminense.png",
           "placar": "",
-          "time2": "",
+          "time2": "src/img/escudos/indrivadavia.png",
           "pontos": "",
           "descricao": "",
           "tipoPontos": "",
           "coringa": false
         },
         {
-          "time1": "",
+          "time1": "src/img/escudos/cruzeiro.png",
           "placar": "",
-          "time2": "",
+          "time2": "src/img/escudos/flamengo.png",
           "pontos": "",
           "descricao": "",
           "tipoPontos": "",
           "coringa": false
         },
         {
-          "time1": "",
+          "time1": "src/img/escudos/rosariocentral.png",
           "placar": "",
-          "time2": "",
+          "time2": "src/img/escudos/corinthians.png",
           "pontos": "",
           "descricao": "",
           "tipoPontos": "",
@@ -160,32 +162,32 @@
         { "img": "src/img/cartas/segundachance.png", "usada": false },
         { "img": "src/img/cartas/seguro.png", "usada": false },
         { "img": "src/img/especial/coringa.png", "usada": false },
-        { "img": "src/img/especial/coringa.png", "usada": false },
-        { "img": "src/img/especial/coringa.png", "usada": false }
+        { "img": "src/img/especial/coringa.png", "usada": true },
+        { "img": "src/img/especial/coringa.png", "usada": true }
       ],
       "jogos": [
         {
-          "time1": "",
+          "time1": "src/img/escudos/fluminense.png",
           "placar": "",
-          "time2": "",
+          "time2": "src/img/escudos/indrivadavia.png",
           "pontos": "",
           "descricao": "",
           "tipoPontos": "",
           "coringa": false
         },
         {
-          "time1": "",
+          "time1": "src/img/escudos/cruzeiro.png",
           "placar": "",
-          "time2": "",
+          "time2": "src/img/escudos/flamengo.png",
           "pontos": "",
           "descricao": "",
           "tipoPontos": "",
-          "coringa": true
+          "coringa": false
         },
         {
-          "time1": "",
+          "time1": "src/img/escudos/rosariocentral.png",
           "placar": "",
-          "time2": "",
+          "time2": "src/img/escudos/corinthians.png",
           "pontos": "",
           "descricao": "",
           "tipoPontos": "",
