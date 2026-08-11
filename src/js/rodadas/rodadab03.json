@@ -23,9 +23,9 @@
       "time1": "src/img/escudos/fluminense.png",
       "placar": "2 x 0",
       "time2": "src/img/escudos/indrivadavia.png",
-      "pontos": "",
-      "descricao": "",
-      "tipoPontos": "",
+      "pontos": "-10",
+      "descricao": "-10 palpite",
+      "tipoPontos": "negativo",
       "coringa": false
     },
     {
@@ -81,9 +81,9 @@
       "time1": "src/img/escudos/fluminense.png",
       "placar": "1 x 1",
       "time2": "src/img/escudos/indrivadavia.png",
-      "pontos": "",
-      "descricao": "",
-      "tipoPontos": "",
+      "pontos": "-10",
+      "descricao": "-10 palpite",
+      "tipoPontos": "negativo",
       "coringa": false
     },
     {
@@ -139,9 +139,9 @@
       "time1": "src/img/escudos/fluminense.png",
       "placar": "2 x 0",
       "time2": "src/img/escudos/indrivadavia.png",
-      "pontos": "",
-      "descricao": "",
-      "tipoPontos": "",
+      "pontos": "-10",
+      "descricao": "-10 palpite",
+      "tipoPontos": "negativo",
       "coringa": false
     },
     {
@@ -197,9 +197,9 @@
       "time1": "src/img/escudos/fluminense.png",
       "placar": "2 x 0",
       "time2": "src/img/escudos/indrivadavia.png",
-      "pontos": "",
-      "descricao": "",
-      "tipoPontos": "",
+      "pontos": "-10",
+      "descricao": "-10 palpite",
+      "tipoPontos": "negativo",
       "coringa": false
     },
     {
