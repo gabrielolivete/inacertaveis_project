@@ -32,9 +32,9 @@
       "time1": "src/img/escudos/cruzeiro.png",
       "placar": "1 x 0",
       "time2": "src/img/escudos/flamengo.png",
-      "pontos": "",
-      "descricao": "",
-      "tipoPontos": "",
+      "pontos": "-5",
+      "descricao": "-5 palpite",
+      "tipoPontos": "negativo",
       "coringa": false
     },
     {
@@ -90,9 +90,9 @@
       "time1": "src/img/escudos/cruzeiro.png",
       "placar": "1 x 2",
       "time2": "src/img/escudos/flamengo.png",
-      "pontos": "",
-      "descricao": "",
-      "tipoPontos": "",
+      "pontos": "-5",
+      "descricao": "-5 palpite",
+      "tipoPontos": "negativo",
       "coringa": false
     },
     {
@@ -148,9 +148,9 @@
       "time1": "src/img/escudos/cruzeiro.png",
       "placar": "1 x 1",
       "time2": "src/img/escudos/flamengo.png",
-      "pontos": "",
-      "descricao": "Presente Grego",
-      "tipoPontos": "",
+      "pontos": "+50",
+      "descricao": "CRAVOU!<br>Presente Grego",
+      "tipoPontos": "positivo",
       "coringa": false
     },
     {
@@ -206,9 +206,9 @@
       "time1": "src/img/escudos/cruzeiro.png",
       "placar": "1 x 2",
       "time2": "src/img/escudos/flamengo.png",
-      "pontos": "",
-      "descricao": "Presente Grego",
-      "tipoPontos": "",
+      "pontos": "-5",
+      "descricao": "-5 palpite<br>Presente Grego",
+      "tipoPontos": "negativo",
       "coringa": false
     },
     {
