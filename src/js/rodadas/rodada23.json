@@ -1,6 +1,6 @@
 {
   "nome": "RODADA 23",
-  "prazoPalpites": "",
+  "prazoPalpites": "Sábado, 15/08/2026 às 15:30",
   "participantes": [
     {
       "nome": "MARCOLA",
@@ -14,31 +14,31 @@
         { "img": "src/img/cartas/seguro.png", "usada": false },
         { "img": "src/img/especial/coringa.png", "usada": false },
         { "img": "src/img/especial/coringa.png", "usada": false },
-        { "img": "src/img/especial/coringa.png", "usada": false }
+        { "img": "src/img/especial/coringa.png", "usada": true }
       ],
       "jogos": [
         {
-          "time1": "",
+          "time1": "src/img/escudos/saopaulo.png",
           "placar": "",
-          "time2": "",
+          "time2": "src/img/escudos/coritiba.png",
           "pontos": "",
           "descricao": "",
           "tipoPontos": "",
           "coringa": false
         },
         {
-          "time1": "",
+          "time1": "src/img/escudos/atleticomg.png",
           "placar": "",
-          "time2": "",
+          "time2": "src/img/escudos/gremio.png",
           "pontos": "",
           "descricao": "",
           "tipoPontos": "",
           "coringa": false
         },
         {
-          "time1": "src",
+          "time1": "src/img/escudos/internacional.png",
           "placar": "",
-          "time2": "",
+          "time2": "src/img/escudos/remo.png",
           "pontos": "",
           "descricao": "",
           "tipoPontos": "",
@@ -58,36 +58,36 @@
       "cartas": [
         { "img": "src/img/cartas/dobrometade.png", "usada": false },
         { "img": "src/img/cartas/escudo.png", "usada": false },
-        { "img": "src/img/cartas/grego.png", "usada": false },
+        { "img": "src/img/cartas/grego.png", "usada": true },
         { "img": "src/img/cartas/segundachance.png", "usada": false },
         { "img": "src/img/cartas/seguro.png", "usada": false },
         { "img": "src/img/especial/coringa.png", "usada": false },
-        { "img": "src/img/especial/coringa.png", "usada": false },
-        { "img": "src/img/especial/coringa.png", "usada": false }
+        { "img": "src/img/especial/coringa.png", "usada": true },
+        { "img": "src/img/especial/coringa.png", "usada": true }
       ],
       "jogos": [
         {
-          "time1": "",
+          "time1": "src/img/escudos/saopaulo.png",
           "placar": "",
-          "time2": "",
+          "time2": "src/img/escudos/coritiba.png",
           "pontos": "",
           "descricao": "",
           "tipoPontos": "",
           "coringa": false
         },
         {
-          "time1": "",
+          "time1": "src/img/escudos/atleticomg.png",
           "placar": "",
-          "time2": "",
+          "time2": "src/img/escudos/gremio.png",
           "pontos": "",
           "descricao": "",
           "tipoPontos": "",
           "coringa": false
         },
         {
-          "time1": "",
+          "time1": "src/img/escudos/internacional.png",
           "placar": "",
-          "time2": "",
+          "time2": "src/img/escudos/remo.png",
           "pontos": "",
           "descricao": "",
           "tipoPontos": "",
@@ -112,31 +112,31 @@
         { "img": "src/img/cartas/seguro.png", "usada": false },
         { "img": "src/img/especial/coringa.png", "usada": false },
         { "img": "src/img/especial/coringa.png", "usada": false },
-        { "img": "src/img/especial/coringa.png", "usada": false }
+        { "img": "src/img/especial/coringa.png", "usada": true }
       ],
       "jogos": [
         {
-          "time1": "",
+          "time1": "src/img/escudos/saopaulo.png",
           "placar": "",
-          "time2": "",
+          "time2": "src/img/escudos/coritiba.png",
           "pontos": "",
           "descricao": "",
           "tipoPontos": "",
           "coringa": false
         },
         {
-          "time1": "",
+          "time1": "src/img/escudos/atleticomg.png",
           "placar": "",
-          "time2": "",
+          "time2": "src/img/escudos/gremio.png",
           "pontos": "",
           "descricao": "",
           "tipoPontos": "",
           "coringa": false
         },
         {
-          "time1": "",
+          "time1": "src/img/escudos/internacional.png",
           "placar": "",
-          "time2": "",
+          "time2": "src/img/escudos/remo.png",
           "pontos": "",
           "descricao": "",
           "tipoPontos": "",
@@ -160,32 +160,32 @@
         { "img": "src/img/cartas/segundachance.png", "usada": false },
         { "img": "src/img/cartas/seguro.png", "usada": false },
         { "img": "src/img/especial/coringa.png", "usada": false },
-        { "img": "src/img/especial/coringa.png", "usada": false },
-        { "img": "src/img/especial/coringa.png", "usada": false }
+        { "img": "src/img/especial/coringa.png", "usada": true },
+        { "img": "src/img/especial/coringa.png", "usada": true }
       ],
       "jogos": [
         {
-          "time1": "",
+          "time1": "src/img/escudos/saopaulo.png",
           "placar": "",
-          "time2": "",
+          "time2": "src/img/escudos/coritiba.png",
           "pontos": "",
           "descricao": "",
           "tipoPontos": "",
           "coringa": false
         },
         {
-          "time1": "",
+          "time1": "src/img/escudos/atleticomg.png",
           "placar": "",
-          "time2": "",
+          "time2": "src/img/escudos/gremio.png",
           "pontos": "",
           "descricao": "",
           "tipoPontos": "",
           "coringa": false
         },
         {
-          "time1": "",
+          "time1": "src/img/escudos/internacional.png",
           "placar": "",
-          "time2": "",
+          "time2": "src/img/escudos/remo.png",
           "pontos": "",
           "descricao": "",
           "tipoPontos": "",
