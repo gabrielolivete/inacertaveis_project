@@ -41,9 +41,9 @@
       "time1": "src/img/escudos/rosariocentral.png",
       "placar": "2 x 0",
       "time2": "src/img/escudos/corinthians.png",
-      "pontos": "",
-      "descricao": "",
-      "tipoPontos": "",
+      "pontos": "-10",
+      "descricao": "-10 palpite",
+      "tipoPontos": "negativo",
       "coringa": false
     }
   ],
@@ -99,9 +99,9 @@
       "time1": "src/img/escudos/rosariocentral.png",
       "placar": "0 x 1",
       "time2": "src/img/escudos/corinthians.png",
-      "pontos": "",
-      "descricao": "",
-      "tipoPontos": "",
+      "pontos": "-5",
+      "descricao": "-5 palpite",
+      "tipoPontos": "negativo",
       "coringa": false
     }
   ],
@@ -148,8 +148,8 @@
       "time1": "src/img/escudos/cruzeiro.png",
       "placar": "1 x 1",
       "time2": "src/img/escudos/flamengo.png",
-      "pontos": "+50",
-      "descricao": "CRAVOU!<br>Presente Grego",
+      "pontos": "+60",
+      "descricao": "+50 CRAVOU!<br>Presente Grego<br>+10 lider da rodada",
       "tipoPontos": "positivo",
       "coringa": false
     },
@@ -157,9 +157,9 @@
       "time1": "src/img/escudos/rosariocentral.png",
       "placar": "1 x 1",
       "time2": "src/img/escudos/corinthians.png",
-      "pontos": "",
-      "descricao": "",
-      "tipoPontos": "",
+      "pontos": "-10",
+      "descricao": "-10 palpite",
+      "tipoPontos": "negativo",
       "coringa": false
     }
   ],
@@ -215,9 +215,9 @@
       "time1": "src/img/escudos/rosariocentral.png",
       "placar": "1 x 0",
       "time2": "src/img/escudos/corinthians.png",
-      "pontos": "",
-      "descricao": "",
-      "tipoPontos": "",
+      "pontos": "-5",
+      "descricao": "-5 palpite",
+      "tipoPontos": "negativo",
       "coringa": false
     }
   ],
