@@ -77,10 +77,10 @@
       "jogos": [
     {
       "time1": "src/img/escudos/saopaulo.png",
-      "placar": "2 x 1",
+      "placar": "1 x 2",
       "time2": "src/img/escudos/coritiba.png",
       "pontos": "",
-      "descricao": "Presente Grego",
+      "descricao": "Carta Seguro na rodada",
       "tipoPontos": "",
       "coringa": false
     },
@@ -89,7 +89,7 @@
       "placar": "1 x 1",
       "time2": "src/img/escudos/gremio.png",
       "pontos": "",
-      "descricao": "Carta Seguro utilizada pra rodada",
+      "descricao": "",
       "tipoPontos": "",
       "coringa": false
     },
@@ -135,10 +135,10 @@
       "jogos": [
     {
       "time1": "src/img/escudos/saopaulo.png",
-      "placar": "1 x 6",
+      "placar": "2 x 1",
       "time2": "src/img/escudos/coritiba.png",
       "pontos": "",
-      "descricao": "Presente Grego",
+      "descricao": "",
       "tipoPontos": "",
       "coringa": false
     },
