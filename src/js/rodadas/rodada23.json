@@ -17,39 +17,48 @@
         { "img": "src/img/especial/coringa.png", "usada": true }
       ],
       "jogos": [
-        {
-          "time1": "src/img/escudos/saopaulo.png",
-          "placar": "",
-          "time2": "src/img/escudos/coritiba.png",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
-          "coringa": false
-        },
-        {
-          "time1": "src/img/escudos/atleticomg.png",
-          "placar": "",
-          "time2": "src/img/escudos/gremio.png",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
-          "coringa": false
-        },
-        {
-          "time1": "src/img/escudos/internacional.png",
-          "placar": "",
-          "time2": "src/img/escudos/remo.png",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
-          "coringa": false
-        }
-      ],
-      "eventos": [
-        { "texto": "⚽ ", "acertou": false },
-        { "texto": "🟨 ", "acertou": false },
-        { "texto": "🟥 ", "acertou": false }
-      ]
+    {
+      "time1": "src/img/escudos/saopaulo.png",
+      "placar": "1 x 1",
+      "time2": "src/img/escudos/coritiba.png",
+      "pontos": "",
+      "descricao": "",
+      "tipoPontos": "",
+      "coringa": false
+    },
+    {
+      "time1": "src/img/escudos/atleticomg.png",
+      "placar": "2 x 0",
+      "time2": "src/img/escudos/gremio.png",
+      "pontos": "",
+      "descricao": "",
+      "tipoPontos": "",
+      "coringa": false
+    },
+    {
+      "time1": "src/img/escudos/internacional.png",
+      "placar": "1 x 0",
+      "time2": "src/img/escudos/remo.png",
+      "pontos": "",
+      "descricao": "Presente Grego",
+      "tipoPontos": "",
+      "coringa": false
+    }
+  ],
+  "eventos": [
+    {
+      "texto": "⚽  Alan Patrick (Inter)",
+      "acertou": false
+    },
+    {
+      "texto": "🟨  Alef Manga (remo)",
+      "acertou": false
+    },
+    {
+      "texto": "🟥  Alef Manga (Remo)",
+      "acertou": false
+    }
+  ]
     },
     {
       "nome": "GABS",
@@ -66,39 +75,48 @@
         { "img": "src/img/especial/coringa.png", "usada": true }
       ],
       "jogos": [
-        {
-          "time1": "src/img/escudos/saopaulo.png",
-          "placar": "",
-          "time2": "src/img/escudos/coritiba.png",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
-          "coringa": false
-        },
-        {
-          "time1": "src/img/escudos/atleticomg.png",
-          "placar": "",
-          "time2": "src/img/escudos/gremio.png",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
-          "coringa": false
-        },
-        {
-          "time1": "src/img/escudos/internacional.png",
-          "placar": "",
-          "time2": "src/img/escudos/remo.png",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
-          "coringa": false
-        }
-      ],
-      "eventos": [
-        { "texto": "⚽ ", "acertou": false },
-        { "texto": "🟨 ", "acertou": false },
-        { "texto": "🟥 ", "acertou": false }
-      ]
+    {
+      "time1": "src/img/escudos/saopaulo.png",
+      "placar": "2 x 1",
+      "time2": "src/img/escudos/coritiba.png",
+      "pontos": "",
+      "descricao": "Presente Grego",
+      "tipoPontos": "",
+      "coringa": false
+    },
+    {
+      "time1": "src/img/escudos/atleticomg.png",
+      "placar": "1 x 1",
+      "time2": "src/img/escudos/gremio.png",
+      "pontos": "",
+      "descricao": "",
+      "tipoPontos": "",
+      "coringa": false
+    },
+    {
+      "time1": "src/img/escudos/internacional.png",
+      "placar": "2 x 0",
+      "time2": "src/img/escudos/remo.png",
+      "pontos": "",
+      "descricao": "Presente Grego",
+      "tipoPontos": "",
+      "coringa": false
+    }
+  ],
+  "eventos": [
+    {
+      "texto": "⚽  Breno Lopes (Coritiba)",
+      "acertou": false
+    },
+    {
+      "texto": "🟨  Alef Manga (Remo)",
+      "acertou": false
+    },
+    {
+      "texto": "🟥  Alef Manga (Remo)",
+      "acertou": false
+    }
+  ]
     },
     {
       "nome": "JOCA",
@@ -115,39 +133,48 @@
         { "img": "src/img/especial/coringa.png", "usada": true }
       ],
       "jogos": [
-        {
-          "time1": "src/img/escudos/saopaulo.png",
-          "placar": "",
-          "time2": "src/img/escudos/coritiba.png",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
-          "coringa": false
-        },
-        {
-          "time1": "src/img/escudos/atleticomg.png",
-          "placar": "",
-          "time2": "src/img/escudos/gremio.png",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
-          "coringa": false
-        },
-        {
-          "time1": "src/img/escudos/internacional.png",
-          "placar": "",
-          "time2": "src/img/escudos/remo.png",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
-          "coringa": false
-        }
-      ],
-      "eventos": [
-        { "texto": "⚽ ", "acertou": false },
-        { "texto": "🟨 ", "acertou": false },
-        { "texto": "🟥 ", "acertou": false }
-      ]
+    {
+      "time1": "src/img/escudos/saopaulo.png",
+      "placar": "1 x 6",
+      "time2": "src/img/escudos/coritiba.png",
+      "pontos": "",
+      "descricao": "Presente Grego",
+      "tipoPontos": "",
+      "coringa": false
+    },
+    {
+      "time1": "src/img/escudos/atleticomg.png",
+      "placar": "1 x 1",
+      "time2": "src/img/escudos/gremio.png",
+      "pontos": "",
+      "descricao": "",
+      "tipoPontos": "",
+      "coringa": false
+    },
+    {
+      "time1": "src/img/escudos/internacional.png",
+      "placar": "1 x 0",
+      "time2": "src/img/escudos/remo.png",
+      "pontos": "",
+      "descricao": "",
+      "tipoPontos": "",
+      "coringa": false
+    }
+  ],
+  "eventos": [
+    {
+      "texto": "⚽  Breno Lopes (Coritiba)",
+      "acertou": false
+    },
+    {
+      "texto": "🟨  Victor Gabriel(Internacional)",
+      "acertou": false
+    },
+    {
+      "texto": "🟥  Diego Caito (Gremio)",
+      "acertou": false
+    }
+  ]
     },
     {
       "nome": "FEFEZAO",
@@ -164,39 +191,48 @@
         { "img": "src/img/especial/coringa.png", "usada": true }
       ],
       "jogos": [
-        {
-          "time1": "src/img/escudos/saopaulo.png",
-          "placar": "",
-          "time2": "src/img/escudos/coritiba.png",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
-          "coringa": false
-        },
-        {
-          "time1": "src/img/escudos/atleticomg.png",
-          "placar": "",
-          "time2": "src/img/escudos/gremio.png",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
-          "coringa": false
-        },
-        {
-          "time1": "src/img/escudos/internacional.png",
-          "placar": "",
-          "time2": "src/img/escudos/remo.png",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
-          "coringa": false
-        }
-      ],
-      "eventos": [
-        { "texto": "⚽ ", "acertou": false },
-        { "texto": "🟨 ", "acertou": false },
-        { "texto": "🟥 ", "acertou": false }
-      ]
+    {
+      "time1": "src/img/escudos/saopaulo.png",
+      "placar": "1 x 0",
+      "time2": "src/img/escudos/coritiba.png",
+      "pontos": "",
+      "descricao": "",
+      "tipoPontos": "",
+      "coringa": false
+    },
+    {
+      "time1": "src/img/escudos/atleticomg.png",
+      "placar": "2 x 1",
+      "time2": "src/img/escudos/gremio.png",
+      "pontos": "",
+      "descricao": "",
+      "tipoPontos": "",
+      "coringa": false
+    },
+    {
+      "time1": "src/img/escudos/internacional.png",
+      "placar": "2 x 0",
+      "time2": "src/img/escudos/remo.png",
+      "pontos": "",
+      "descricao": "",
+      "tipoPontos": "",
+      "coringa": false
+    }
+  ],
+  "eventos": [
+    {
+      "texto": "⚽  Luciano ( São Paulo)",
+      "acertou": false
+    },
+    {
+      "texto": "🟨  Sebastian Gomez (Coritiba)",
+      "acertou": false
+    },
+    {
+      "texto": "🟥  Thiago Santos (Coritiba)",
+      "acertou": false
+    }
+  ]
     }
   ]
 }
