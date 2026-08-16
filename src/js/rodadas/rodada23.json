@@ -21,9 +21,9 @@
       "time1": "src/img/escudos/saopaulo.png",
       "placar": "1 x 1",
       "time2": "src/img/escudos/coritiba.png",
-      "pontos": "",
-      "descricao": "",
-      "tipoPontos": "",
+      "pontos": "+50",
+      "descricao": "+50 CRAVOU!!!",
+      "tipoPontos": "positivo",
       "coringa": false
     },
     {
@@ -79,9 +79,9 @@
       "time1": "src/img/escudos/saopaulo.png",
       "placar": "1 x 2",
       "time2": "src/img/escudos/coritiba.png",
-      "pontos": "",
-      "descricao": "Carta Seguro na rodada",
-      "tipoPontos": "",
+      "pontos": "-5",
+      "descricao": "-5 palpite<br>Carta Seguro na rodada",
+      "tipoPontos": "negativo",
       "coringa": false
     },
     {
@@ -137,9 +137,9 @@
       "time1": "src/img/escudos/saopaulo.png",
       "placar": "2 x 1",
       "time2": "src/img/escudos/coritiba.png",
-      "pontos": "",
-      "descricao": "",
-      "tipoPontos": "",
+      "pontos": "-5",
+      "descricao": "-5 palpite",
+      "tipoPontos": "negativo",
       "coringa": false
     },
     {
@@ -195,9 +195,9 @@
       "time1": "src/img/escudos/saopaulo.png",
       "placar": "1 x 0",
       "time2": "src/img/escudos/coritiba.png",
-      "pontos": "",
-      "descricao": "",
-      "tipoPontos": "",
+      "pontos": "-5",
+      "descricao": "-5 palpite",
+      "tipoPontos": "negativo",
       "coringa": false
     },
     {
