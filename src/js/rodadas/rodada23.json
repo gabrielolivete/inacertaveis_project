@@ -21,8 +21,8 @@
       "time1": "src/img/escudos/saopaulo.png",
       "placar": "1 x 1",
       "time2": "src/img/escudos/coritiba.png",
-      "pontos": "+50",
-      "descricao": "+50 CRAVOU!!!",
+      "pontos": "+60",
+      "descricao": "+50 CRAVOU!!!<br>Lider da rodada",
       "tipoPontos": "positivo",
       "coringa": false
     },
@@ -30,18 +30,18 @@
       "time1": "src/img/escudos/atleticomg.png",
       "placar": "2 x 0",
       "time2": "src/img/escudos/gremio.png",
-      "pontos": "",
-      "descricao": "",
-      "tipoPontos": "",
+      "pontos": "-5",
+      "descricao": "-5 palpite",
+      "tipoPontos": "negativo",
       "coringa": false
     },
     {
       "time1": "src/img/escudos/internacional.png",
       "placar": "1 x 0",
       "time2": "src/img/escudos/remo.png",
-      "pontos": "",
-      "descricao": "Presente Grego",
-      "tipoPontos": "",
+      "pontos": "-5",
+      "descricao": "-5 palpite<br>Presente Grego",
+      "tipoPontos": "negativo",
       "coringa": false
     }
   ],
@@ -79,26 +79,26 @@
       "time1": "src/img/escudos/saopaulo.png",
       "placar": "1 x 2",
       "time2": "src/img/escudos/coritiba.png",
-      "pontos": "-5",
-      "descricao": "-5 palpite<br>Carta Seguro na rodada",
-      "tipoPontos": "negativo",
+      "pontos": "0",
+      "descricao": "-5 palpite<br>Carta Seguro",
+      "tipoPontos": "",
       "coringa": false
     },
     {
       "time1": "src/img/escudos/atleticomg.png",
       "placar": "1 x 1",
       "time2": "src/img/escudos/gremio.png",
-      "pontos": "",
-      "descricao": "",
-      "tipoPontos": "",
+      "pontos": "-15",
+      "descricao": "-15 palpite",
+      "tipoPontos": "negativo",
       "coringa": false
     },
     {
       "time1": "src/img/escudos/internacional.png",
       "placar": "2 x 0",
       "time2": "src/img/escudos/remo.png",
-      "pontos": "",
-      "descricao": "Presente Grego",
+      "pontos": "0",
+      "descricao": "-10 palpite<br>Presente Grego",
       "tipoPontos": "",
       "coringa": false
     }
@@ -146,18 +146,18 @@
       "time1": "src/img/escudos/atleticomg.png",
       "placar": "1 x 1",
       "time2": "src/img/escudos/gremio.png",
-      "pontos": "",
-      "descricao": "",
-      "tipoPontos": "",
+      "pontos": "-15",
+      "descricao": "-15 palpite",
+      "tipoPontos": "negativo",
       "coringa": false
     },
     {
       "time1": "src/img/escudos/internacional.png",
       "placar": "1 x 0",
       "time2": "src/img/escudos/remo.png",
-      "pontos": "",
-      "descricao": "",
-      "tipoPontos": "",
+      "pontos": "-5",
+      "descricao": "-5 palpite",
+      "tipoPontos": "negativo",
       "coringa": false
     }
   ],
@@ -204,18 +204,18 @@
       "time1": "src/img/escudos/atleticomg.png",
       "placar": "2 x 1",
       "time2": "src/img/escudos/gremio.png",
-      "pontos": "",
-      "descricao": "",
-      "tipoPontos": "",
+      "pontos": "-10",
+      "descricao": "-10 palpite",
+      "tipoPontos": "negativo",
       "coringa": false
     },
     {
       "time1": "src/img/escudos/internacional.png",
       "placar": "2 x 0",
       "time2": "src/img/escudos/remo.png",
-      "pontos": "",
-      "descricao": "",
-      "tipoPontos": "",
+      "pontos": "-10",
+      "descricao": "-10 palpite",
+      "tipoPontos": "negativo",
       "coringa": false
     }
   ],

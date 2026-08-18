@@ -5,8 +5,8 @@
       "nome": "Rei do Placar",
       "descricao": "Detentor de mais palpites exatos",
       "icone": "src/img/especial/reidoplacar.png",
-      "lider_atual": "FEFEZAO/JOCA",
-      "valor": "1"
+      "lider_atual": "JOCA",
+      "valor": "2"
     },
     {
       "id": "artilheiro",
@@ -25,10 +25,10 @@
       "valor": "3"
     },
     {
-      "id": "punisher",
-      "nome": "Punisher",
-      "descricao": "Mais cartões vermelhos acertados",
-      "icone": "src/img/especial/punisher.png",
+      "id": "garcom",
+      "nome": "Garçom",
+      "descricao": "Mais palpites de assistência acertados",
+      "icone": "src/img/especial/garcom.png",
       "lider_atual": "",
       "valor": ""
     },

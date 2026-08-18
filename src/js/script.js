@@ -1,7 +1,7 @@
 // ==========================================
 // 1. CONFIGURAÇÃO PRINCIPAL
 // ==========================================
-const RODADAS_EXISTENTES = [20, "b01", 21, "b02", 22, "b03", 23];
+const RODADAS_EXISTENTES = [20, "b01", 21, "b02", 22, "b03", 23, "b04"];
 const ULTIMA_RODADA = RODADAS_EXISTENTES[RODADAS_EXISTENTES.length - 1];
 
 const CHAVES_JOGADORES_HASH = {
@@ -12,7 +12,7 @@ const CHAVES_JOGADORES_HASH = {
 };
 
 const NUMERO_ORGANIZADOR = "5541998814995";
-const PRAZO_LIMITE_PALPITES = new Date("2026-08-15T15:30:00");
+const PRAZO_LIMITE_PALPITES = new Date("2026-08-18T20:30:00");
 const LIMITE_ENVIOS_PERFIL = 2;
 
 // ==========================================
@@ -195,6 +195,27 @@ function renderizarRodada(dados) {
       `<img class="carta-icone ${carta.usada ? 'carta-usada' : ''}" src="${carta.img}" alt="carta">`
     ).join('') : '';
 
+    // SEÇÃO NOVA: TAG DA CARTA ATIVA USADA NA RODADA
+    const tagCartaAtivaHTML = jogador.cartaAtiva ? `
+      <div style="
+        text-align: center;
+        font-size: 0.68rem;
+        color: #9b59b6;
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        margin-top: 6px;
+        padding: 3px 6px;
+        background: rgba(155, 89, 182, 0.15);
+        border: 1px solid rgba(155, 89, 182, 0.4);
+        border-radius: 6px;
+        width: 100%;
+        box-sizing: border-box;
+      ">
+        🃏 ${jogador.cartaAtiva}
+      </div>
+    ` : '';
+
     const jogosHTML = renderizarJogosJogador(jogador);
 
     const eventosHTML = jogador.eventos ? jogador.eventos.map(ev => `
@@ -221,6 +242,7 @@ function renderizarRodada(dados) {
               <div class="cartas-jogo">
                 ${cartasHTML}
               </div>
+              ${tagCartaAtivaHTML}
               ${tagCompeticaoAbaixoCartas}
             </div>
           </div>
