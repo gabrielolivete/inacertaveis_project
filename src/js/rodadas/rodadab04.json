@@ -42,9 +42,9 @@
       "time1": "src/img/escudos/olimpia.png",
       "placar": "3 x 1",
       "time2": "src/img/escudos/vasco.png",
-      "pontos": "",
-      "descricao": "",
-      "tipoPontos": "",
+      "pontos": "-50",
+      "descricao": "-25 palpite(2x)",
+      "tipoPontos": "negativo",
       "coringa": true
     }
   ],
@@ -101,9 +101,9 @@
       "time1": "src/img/escudos/olimpia.png",
       "placar": "1 x 0",
       "time2": "src/img/escudos/vasco.png",
-      "pontos": "",
-      "descricao": "",
-      "tipoPontos": "",
+      "pontos": "-20",
+      "descricao": "-20 palpite",
+      "tipoPontos": "negativo",
       "coringa": false
     }
   ],
@@ -160,9 +160,9 @@
           "time1": "src/img/escudos/olimpia.png",
           "placar": "1 x 1",
           "time2": "src/img/escudos/vasco.png",
-          "pontos": "",
-          "descricao": "Presente Grego",
-          "tipoPontos": "",
+          "pontos": "-15",
+          "descricao": "Presente Grego<br>-15 palpite",
+          "tipoPontos": "negativo",
           "coringa": false
         }
       ],
@@ -210,9 +210,9 @@
       "time1": "src/img/escudos/olimpia.png",
       "placar": "1 x 2",
       "time2": "src/img/escudos/vasco.png",
-      "pontos": "",
-      "descricao": "Presente Grego<br>Troca 0x4",
-      "tipoPontos": "",
+      "pontos": "-10",
+      "descricao": "Presente Grego<br>Troca 0x4<br>-10 palpite",
+      "tipoPontos": "negativo",
       "coringa": false
     }
   ],
