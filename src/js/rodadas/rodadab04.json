@@ -176,7 +176,7 @@
       "nome": "FEFEZAO",
       "avatar": "src/img/avatares/fefezao.png",
       "avatarHead": "src/img/avatares/fefezaohead.png",
-      "cartaAtiva":"",
+      "cartaAtiva":"Segunda Chance",
       "cartas": [
         { "img": "src/img/cartas/dobrometade.png", "usada": false },
         { "img": "src/img/cartas/escudo.png", "usada": false },
@@ -208,10 +208,10 @@
     },
     {
       "time1": "src/img/escudos/olimpia.png",
-      "placar": "0 x 4",
+      "placar": "1 x 2",
       "time2": "src/img/escudos/vasco.png",
       "pontos": "",
-      "descricao": "Presente Grego",
+      "descricao": "Presente Grego<br>Troca 0x4",
       "tipoPontos": "",
       "coringa": false
     }
