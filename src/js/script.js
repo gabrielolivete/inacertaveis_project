@@ -1,7 +1,7 @@
 // ==========================================
 // 1. CONFIGURAÇÃO PRINCIPAL
 // ==========================================
-const RODADAS_EXISTENTES = [20, "b01", 21, "b02", 22, "b03", 23, "b04"];
+const RODADAS_EXISTENTES = [20, "b01", 21, "b02", 22, "b03", 23, "b04", 24];
 const ULTIMA_RODADA = RODADAS_EXISTENTES[RODADAS_EXISTENTES.length - 1];
 
 const CHAVES_JOGADORES_HASH = {
@@ -12,7 +12,7 @@ const CHAVES_JOGADORES_HASH = {
 };
 
 const NUMERO_ORGANIZADOR = "5541998814995";
-const PRAZO_LIMITE_PALPITES = new Date("2026-08-18T20:30:00");
+const PRAZO_LIMITE_PALPITES = new Date("2026-08-22T15:00:00");
 const LIMITE_ENVIOS_PERFIL = 2;
 
 // ==========================================

@@ -1,6 +1,6 @@
 {
-  "nome": "RODADA 23",
-  "prazoPalpites": "",
+  "nome": "RODADA 24",
+  "prazoPalpites": "Sábado, 22/08 às 15:00h",
   "participantes": [
     {
       "nome": "MARCOLA",
@@ -19,27 +19,27 @@
       ],
       "jogos": [
         {
-          "time1": "",
+          "time1": "src/img/escudos/internacional.png",
           "placar": "",
-          "time2": "",
+          "time2": "src/img/escudos/atleticomg.png",
           "pontos": "",
           "descricao": "",
           "tipoPontos": "",
           "coringa": false
         },
         {
-          "time1": "",
+          "time1": "src/img/escudos/santos.png",
           "placar": "",
-          "time2": "",
+          "time2": "src/img/escudos/mirassol.png",
           "pontos": "",
           "descricao": "",
           "tipoPontos": "",
           "coringa": false
         },
         {
-          "time1": "",
+          "time1": "src/img/escudos/botafogo.png",
           "placar": "",
-          "time2": "",
+          "time2": "src/img/escudos/athletico.png",
           "pontos": "",
           "descricao": "",
           "tipoPontos": "",
@@ -69,27 +69,27 @@
       ],
       "jogos": [
         {
-          "time1": "",
+          "time1": "src/img/escudos/internacional.png",
           "placar": "",
-          "time2": "",
+          "time2": "src/img/escudos/atleticomg.png",
           "pontos": "",
           "descricao": "",
           "tipoPontos": "",
           "coringa": false
         },
         {
-          "time1": "",
+          "time1": "src/img/escudos/santos.png",
           "placar": "",
-          "time2": "",
+          "time2": "src/img/escudos/mirassol.png",
           "pontos": "",
           "descricao": "",
           "tipoPontos": "",
           "coringa": false
         },
         {
-          "time1": "",
+          "time1": "src/img/escudos/botafogo.png",
           "placar": "",
-          "time2": "",
+          "time2": "src/img/escudos/athletico.png",
           "pontos": "",
           "descricao": "",
           "tipoPontos": "",
@@ -119,27 +119,27 @@
       ],
       "jogos": [
         {
-          "time1": "",
+          "time1": "src/img/escudos/internacional.png",
           "placar": "",
-          "time2": "",
+          "time2": "src/img/escudos/atleticomg.png",
           "pontos": "",
           "descricao": "",
           "tipoPontos": "",
           "coringa": false
         },
         {
-          "time1": "",
+          "time1": "src/img/escudos/santos.png",
           "placar": "",
-          "time2": "",
+          "time2": "src/img/escudos/mirassol.png",
           "pontos": "",
           "descricao": "",
           "tipoPontos": "",
           "coringa": false
         },
         {
-          "time1": "",
+          "time1": "src/img/escudos/botafogo.png",
           "placar": "",
-          "time2": "",
+          "time2": "src/img/escudos/athletico.png",
           "pontos": "",
           "descricao": "",
           "tipoPontos": "",
@@ -169,27 +169,27 @@
       ],
       "jogos": [
         {
-          "time1": "",
+          "time1": "src/img/escudos/internacional.png",
           "placar": "",
-          "time2": "",
+          "time2": "src/img/escudos/atleticomg.png",
           "pontos": "",
           "descricao": "",
           "tipoPontos": "",
           "coringa": false
         },
         {
-          "time1": "",
+          "time1": "src/img/escudos/santos.png",
           "placar": "",
-          "time2": "",
+          "time2": "src/img/escudos/mirassol.png",
           "pontos": "",
           "descricao": "",
           "tipoPontos": "",
           "coringa": false
         },
         {
-          "time1": "",
+          "time1": "src/img/escudos/botafogo.png",
           "placar": "",
-          "time2": "",
+          "time2": "src/img/escudos/athletico.png",
           "pontos": "",
           "descricao": "",
           "tipoPontos": "",
