@@ -49,7 +49,8 @@
       "eventos": [
         { "texto": "⚽ ", "acertou": false },
         { "texto": "🟨 ", "acertou": false },
-        { "texto": "🟥 ", "acertou": false }
+        { "texto": "🫂 ", "acertou": false
+    }
       ]
     },
     {
@@ -99,7 +100,7 @@
       "eventos": [
         { "texto": "⚽ ", "acertou": false },
         { "texto": "🟨 ", "acertou": false },
-        { "texto": "🟥 ", "acertou": false }
+        { "texto": "🫂 ", "acertou": false }
       ]
     },
     {
@@ -149,7 +150,7 @@
       "eventos": [
         { "texto": "⚽ ", "acertou": false },
         { "texto": "🟨 ", "acertou": false },
-        { "texto": "🟥 ", "acertou": false }
+        { "texto": "🫂 ", "acertou": false }
       ]
     },
     {
@@ -199,7 +200,7 @@
       "eventos": [
         { "texto": "⚽ ", "acertou": false },
         { "texto": "🟨 ", "acertou": false },
-        { "texto": "🟥 ", "acertou": false }
+        { "texto": "🫂 ", "acertou": false }
       ]
     }
   ]
