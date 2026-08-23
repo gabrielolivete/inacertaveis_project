@@ -8,37 +8,61 @@
       "avatarHead": "src/img/avatares/marcolahead.png",
       "cartaAtiva": "",
       "cartas": [
-        { "img": "src/img/cartas/dobrometade.png", "usada": false },
-        { "img": "src/img/cartas/escudo.png", "usada": false },
-        { "img": "src/img/cartas/grego.png", "usada": true },
-        { "img": "src/img/cartas/segundachance.png", "usada": false },
-        { "img": "src/img/cartas/seguro.png", "usada": false },
-        { "img": "src/img/especial/coringa.png", "usada": false },
-        { "img": "src/img/especial/coringa.png", "usada": true },
-        { "img": "src/img/especial/coringa.png", "usada": true }
+        {
+          "img": "src/img/cartas/dobrometade.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/cartas/escudo.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/cartas/grego.png",
+          "usada": true
+        },
+        {
+          "img": "src/img/cartas/segundachance.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/cartas/seguro.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/especial/coringa.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/especial/coringa.png",
+          "usada": true
+        },
+        {
+          "img": "src/img/especial/coringa.png",
+          "usada": true
+        }
       ],
       "jogos": [
         {
           "time1": "src/img/escudos/internacional.png",
-          "placar": "",
+          "placar": "0 x 1",
           "time2": "src/img/escudos/atleticomg.png",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
+          "pontos": "-5",
+          "descricao": "-5 palpite",
+          "tipoPontos": "negativo",
           "coringa": false
         },
         {
           "time1": "src/img/escudos/santos.png",
-          "placar": "",
+          "placar": "2 x 0",
           "time2": "src/img/escudos/mirassol.png",
           "pontos": "",
           "descricao": "",
           "tipoPontos": "",
-          "coringa": false
+          "coringa": true
         },
         {
           "time1": "src/img/escudos/botafogo.png",
-          "placar": "",
+          "placar": "0 x 1",
           "time2": "src/img/escudos/athletico.png",
           "pontos": "",
           "descricao": "",
@@ -47,40 +71,72 @@
         }
       ],
       "eventos": [
-        { "texto": "⚽ ", "acertou": false },
-        { "texto": "🟨 ", "acertou": false },
-        { "texto": "🫂 ", "acertou": false
-    }
+        {
+          "texto": "⚽  Viveiros (Athletico - Pr)",
+          "acertou": false
+        },
+        {
+          "texto": "🟨  Neymar (Santos)",
+          "acertou": false
+        },
+        {
+          "texto": "🫂  Neymar (Santos)",
+          "acertou": false
+        }
       ]
     },
     {
       "nome": "GABS",
       "avatar": "src/img/avatares/gabe.png",
       "avatarHead": "src/img/avatares/gabehead.png",
-      "cartaAtiva":"",
+      "cartaAtiva": "",
       "cartas": [
-        { "img": "src/img/cartas/dobrometade.png", "usada": false },
-        { "img": "src/img/cartas/escudo.png", "usada": false },
-        { "img": "src/img/cartas/grego.png", "usada": true },
-        { "img": "src/img/cartas/segundachance.png", "usada": false },
-        { "img": "src/img/cartas/seguro.png", "usada": true },
-        { "img": "src/img/especial/coringa.png", "usada": false },
-        { "img": "src/img/especial/coringa.png", "usada": true },
-        { "img": "src/img/especial/coringa.png", "usada": true }
+        {
+          "img": "src/img/cartas/dobrometade.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/cartas/escudo.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/cartas/grego.png",
+          "usada": true
+        },
+        {
+          "img": "src/img/cartas/segundachance.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/cartas/seguro.png",
+          "usada": true
+        },
+        {
+          "img": "src/img/especial/coringa.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/especial/coringa.png",
+          "usada": true
+        },
+        {
+          "img": "src/img/especial/coringa.png",
+          "usada": true
+        }
       ],
       "jogos": [
         {
           "time1": "src/img/escudos/internacional.png",
-          "placar": "",
+          "placar": "0 x 0",
           "time2": "src/img/escudos/atleticomg.png",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
+          "pontos": "+50",
+          "descricao": "CRAVOU!",
+          "tipoPontos": "positivo",
           "coringa": false
         },
         {
           "time1": "src/img/escudos/santos.png",
-          "placar": "",
+          "placar": "1 x 2",
           "time2": "src/img/escudos/mirassol.png",
           "pontos": "",
           "descricao": "",
@@ -89,7 +145,7 @@
         },
         {
           "time1": "src/img/escudos/botafogo.png",
-          "placar": "",
+          "placar": "0 x 2",
           "time2": "src/img/escudos/athletico.png",
           "pontos": "",
           "descricao": "",
@@ -98,39 +154,72 @@
         }
       ],
       "eventos": [
-        { "texto": "⚽ ", "acertou": false },
-        { "texto": "🟨 ", "acertou": false },
-        { "texto": "🫂 ", "acertou": false }
+        {
+          "texto": "⚽  Viveros (Athletico)",
+          "acertou": false
+        },
+        {
+          "texto": "🟨  Neymar (Santos)",
+          "acertou": false
+        },
+        {
+          "texto": "🫂  Neymar (Santos)",
+          "acertou": false
+        }
       ]
     },
     {
       "nome": "JOCA",
       "avatar": "src/img/avatares/joca.png",
       "avatarHead": "src/img/avatares/jocahead.png",
-      "cartaAtiva":"",
+      "cartaAtiva": "",
       "cartas": [
-        { "img": "src/img/cartas/dobrometade.png", "usada": false },
-        { "img": "src/img/cartas/escudo.png", "usada": false },
-        { "img": "src/img/cartas/grego.png", "usada": true },
-        { "img": "src/img/cartas/segundachance.png", "usada": false },
-        { "img": "src/img/cartas/seguro.png", "usada": false },
-        { "img": "src/img/especial/coringa.png", "usada": false },
-        { "img": "src/img/especial/coringa.png", "usada": false },
-        { "img": "src/img/especial/coringa.png", "usada": true }
+        {
+          "img": "src/img/cartas/dobrometade.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/cartas/escudo.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/cartas/grego.png",
+          "usada": true
+        },
+        {
+          "img": "src/img/cartas/segundachance.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/cartas/seguro.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/especial/coringa.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/especial/coringa.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/especial/coringa.png",
+          "usada": true
+        }
       ],
       "jogos": [
         {
           "time1": "src/img/escudos/internacional.png",
-          "placar": "",
+          "placar": "1 x 1",
           "time2": "src/img/escudos/atleticomg.png",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
+          "pontos": "-10",
+          "descricao": "-10 palpite",
+          "tipoPontos": "negativo",
           "coringa": false
         },
         {
           "time1": "src/img/escudos/santos.png",
-          "placar": "",
+          "placar": "2 x 1",
           "time2": "src/img/escudos/mirassol.png",
           "pontos": "",
           "descricao": "",
@@ -139,7 +228,7 @@
         },
         {
           "time1": "src/img/escudos/botafogo.png",
-          "placar": "",
+          "placar": "0 x 1",
           "time2": "src/img/escudos/athletico.png",
           "pontos": "",
           "descricao": "",
@@ -148,39 +237,72 @@
         }
       ],
       "eventos": [
-        { "texto": "⚽ ", "acertou": false },
-        { "texto": "🟨 ", "acertou": false },
-        { "texto": "🫂 ", "acertou": false }
+        {
+          "texto": "⚽  Gabigol (Santos)",
+          "acertou": false
+        },
+        {
+          "texto": "🟨  Victor Gabriel(Internacional)",
+          "acertou": false
+        },
+        {
+          "texto": "🫂  Ruan Tressoldi (Atletico-MG)",
+          "acertou": false
+        }
       ]
     },
     {
       "nome": "FEFEZAO",
       "avatar": "src/img/avatares/fefezao.png",
       "avatarHead": "src/img/avatares/fefezaohead.png",
-      "cartaAtiva":"",
+      "cartaAtiva": "",
       "cartas": [
-        { "img": "src/img/cartas/dobrometade.png", "usada": false },
-        { "img": "src/img/cartas/escudo.png", "usada": false },
-        { "img": "src/img/cartas/grego.png", "usada": false },
-        { "img": "src/img/cartas/segundachance.png", "usada": true },
-        { "img": "src/img/cartas/seguro.png", "usada": false },
-        { "img": "src/img/especial/coringa.png", "usada": false },
-        { "img": "src/img/especial/coringa.png", "usada": true },
-        { "img": "src/img/especial/coringa.png", "usada": true }
+        {
+          "img": "src/img/cartas/dobrometade.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/cartas/escudo.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/cartas/grego.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/cartas/segundachance.png",
+          "usada": true
+        },
+        {
+          "img": "src/img/cartas/seguro.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/especial/coringa.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/especial/coringa.png",
+          "usada": true
+        },
+        {
+          "img": "src/img/especial/coringa.png",
+          "usada": true
+        }
       ],
       "jogos": [
         {
           "time1": "src/img/escudos/internacional.png",
-          "placar": "",
+          "placar": "1 x 0",
           "time2": "src/img/escudos/atleticomg.png",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
+          "pontos": "-5",
+          "descricao": "-5 palpite",
+          "tipoPontos": "negativo",
           "coringa": false
         },
         {
           "time1": "src/img/escudos/santos.png",
-          "placar": "",
+          "placar": "2 x 1",
           "time2": "src/img/escudos/mirassol.png",
           "pontos": "",
           "descricao": "",
@@ -189,7 +311,7 @@
         },
         {
           "time1": "src/img/escudos/botafogo.png",
-          "placar": "",
+          "placar": "1 x 1",
           "time2": "src/img/escudos/athletico.png",
           "pontos": "",
           "descricao": "",
@@ -198,9 +320,18 @@
         }
       ],
       "eventos": [
-        { "texto": "⚽ ", "acertou": false },
-        { "texto": "🟨 ", "acertou": false },
-        { "texto": "🫂 ", "acertou": false }
+        {
+          "texto": "⚽  Viveros (Atlhetico)",
+          "acertou": false
+        },
+        {
+          "texto": "🟨  Neymar (Santos)",
+          "acertou": false
+        },
+        {
+          "texto": "🫂  Neymar (Santos)",
+          "acertou": false
+        }
       ]
     }
   ]
