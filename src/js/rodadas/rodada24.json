@@ -58,7 +58,7 @@
           "pontos": "",
           "descricao": "",
           "tipoPontos": "",
-          "coringa": true
+          "coringa": false
         },
         {
           "time1": "src/img/escudos/botafogo.png",
