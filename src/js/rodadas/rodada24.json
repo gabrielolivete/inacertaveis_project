@@ -55,9 +55,9 @@
           "time1": "src/img/escudos/santos.png",
           "placar": "2 x 0",
           "time2": "src/img/escudos/mirassol.png",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
+          "pontos": "+20",
+          "descricao": "+20 amarelo e<br>assist",
+          "tipoPontos": "positivo",
           "coringa": false
         },
         {
@@ -77,11 +77,11 @@
         },
         {
           "texto": "🟨  Neymar (Santos)",
-          "acertou": false
+          "acertou": true
         },
         {
           "texto": "🫂  Neymar (Santos)",
-          "acertou": false
+          "acertou": true
         }
       ]
     },
@@ -138,9 +138,9 @@
           "time1": "src/img/escudos/santos.png",
           "placar": "1 x 2",
           "time2": "src/img/escudos/mirassol.png",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
+          "pontos": "+25",
+          "descricao": "+25 amarelo e<br>assist",
+          "tipoPontos": "positivo",
           "coringa": false
         },
         {
@@ -160,11 +160,11 @@
         },
         {
           "texto": "🟨  Neymar (Santos)",
-          "acertou": false
+          "acertou": true
         },
         {
           "texto": "🫂  Neymar (Santos)",
-          "acertou": false
+          "acertou": true
         }
       ]
     },
@@ -221,9 +221,9 @@
           "time1": "src/img/escudos/santos.png",
           "placar": "2 x 1",
           "time2": "src/img/escudos/mirassol.png",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
+          "pontos": "-5",
+          "descricao": "-5 palpite",
+          "tipoPontos": "negativo",
           "coringa": false
         },
         {
@@ -304,9 +304,9 @@
           "time1": "src/img/escudos/santos.png",
           "placar": "2 x 1",
           "time2": "src/img/escudos/mirassol.png",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
+          "pontos": "+25",
+          "descricao": "+25 amarelo e<br>assist",
+          "tipoPontos": "positivo",
           "coringa": false
         },
         {
@@ -326,11 +326,11 @@
         },
         {
           "texto": "🟨  Neymar (Santos)",
-          "acertou": false
+          "acertou": true
         },
         {
           "texto": "🫂  Neymar (Santos)",
-          "acertou": false
+          "acertou": true
         }
       ]
     }
