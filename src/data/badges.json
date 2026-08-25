@@ -14,7 +14,7 @@
       "descricao": "Mais palpites de gol acertados",
       "icone": "src/img/especial/artilheiro.png",
       "lider_atual": "FEFEZAO",
-      "valor": "2"
+      "valor": "3"
     },
     {
       "id": "xerife",
@@ -22,23 +22,23 @@
       "descricao": "Mais cartões amarelos acertados",
       "icone": "src/img/especial/xerife.png",
       "lider_atual": "GABS",
-      "valor": "3"
+      "valor": "4"
     },
     {
       "id": "garcom",
       "nome": "Garçom",
       "descricao": "Mais palpites de assistência acertados",
       "icone": "src/img/especial/garcom.png",
-      "lider_atual": "",
-      "valor": ""
+      "lider_atual": "MAR/FEF/GAB",
+      "valor": "1"
     },
     {
       "id": "esse_dia_foi_louco",
       "nome": "Esse dia foi louco",
       "descricao": "Detentor da melhor rodada do campeonato",
       "icone": "src/img/especial/essediafoilouco.png",
-      "lider_atual": "JOCA",
-      "valor": "+80 R22"
+      "lider_atual": "GABS",
+      "valor": "+85 R24"
     },
     {
       "id": "pe_de_rato",

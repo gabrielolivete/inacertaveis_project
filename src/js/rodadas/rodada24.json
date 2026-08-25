@@ -64,16 +64,16 @@
           "time1": "src/img/escudos/botafogo.png",
           "placar": "0 x 1",
           "time2": "src/img/escudos/athletico.png",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
+          "pontos": "-5",
+          "descricao": "-20 palpite<br>+15 gol",
+          "tipoPontos": "negativo",
           "coringa": false
         }
       ],
       "eventos": [
         {
           "texto": "⚽  Viveiros (Athletico - Pr)",
-          "acertou": false
+          "acertou": true
         },
         {
           "texto": "🟨  Neymar (Santos)",
@@ -129,8 +129,8 @@
           "time1": "src/img/escudos/internacional.png",
           "placar": "0 x 0",
           "time2": "src/img/escudos/atleticomg.png",
-          "pontos": "+50",
-          "descricao": "CRAVOU!",
+          "pontos": "+60",
+          "descricao": "CRAVOU!<br>+10 lider",
           "tipoPontos": "positivo",
           "coringa": false
         },
@@ -147,8 +147,8 @@
           "time1": "src/img/escudos/botafogo.png",
           "placar": "0 x 2",
           "time2": "src/img/escudos/athletico.png",
-          "pontos": "",
-          "descricao": "",
+          "pontos": "0",
+          "descricao": "-15 palpite<br>+15 gol",
           "tipoPontos": "",
           "coringa": false
         }
@@ -156,7 +156,7 @@
       "eventos": [
         {
           "texto": "⚽  Viveros (Athletico)",
-          "acertou": false
+          "acertou": true
         },
         {
           "texto": "🟨  Neymar (Santos)",
@@ -230,9 +230,9 @@
           "time1": "src/img/escudos/botafogo.png",
           "placar": "0 x 1",
           "time2": "src/img/escudos/athletico.png",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
+          "pontos": "-20",
+          "descricao": "-20 palpite",
+          "tipoPontos": "negativo",
           "coringa": false
         }
       ],
@@ -313,8 +313,8 @@
           "time1": "src/img/escudos/botafogo.png",
           "placar": "1 x 1",
           "time2": "src/img/escudos/athletico.png",
-          "pontos": "",
-          "descricao": "",
+          "pontos": "0",
+          "descricao": "-15 palpite<br>+15 gol",
           "tipoPontos": "",
           "coringa": false
         }
@@ -322,7 +322,7 @@
       "eventos": [
         {
           "texto": "⚽  Viveros (Atlhetico)",
-          "acertou": false
+          "acertou": true
         },
         {
           "texto": "🟨  Neymar (Santos)",
