@@ -172,7 +172,7 @@
       "nome": "JOCA",
       "avatar": "src/img/avatares/joca.png",
       "avatarHead": "src/img/avatares/jocahead.png",
-      "cartaAtiva": "",
+      "cartaAtiva": "Escudo",
       "cartas": [
         {
           "img": "src/img/cartas/dobrometade.png",
@@ -180,7 +180,7 @@
         },
         {
           "img": "src/img/cartas/escudo.png",
-          "usada": false
+          "usada": true
         },
         {
           "img": "src/img/cartas/grego.png",
@@ -212,7 +212,7 @@
           "time1": "src/img/escudos/internacional.png",
           "placar": "1 x 1",
           "time2": "src/img/escudos/atleticomg.png",
-          "pontos": "-10",
+          "pontos": "0",
           "descricao": "-10 palpite",
           "tipoPontos": "negativo",
           "coringa": false
@@ -221,7 +221,7 @@
           "time1": "src/img/escudos/santos.png",
           "placar": "2 x 1",
           "time2": "src/img/escudos/mirassol.png",
-          "pontos": "-5",
+          "pontos": "0",
           "descricao": "-5 palpite",
           "tipoPontos": "negativo",
           "coringa": false
@@ -230,7 +230,7 @@
           "time1": "src/img/escudos/botafogo.png",
           "placar": "0 x 1",
           "time2": "src/img/escudos/athletico.png",
-          "pontos": "-20",
+          "pontos": "0",
           "descricao": "-20 palpite",
           "tipoPontos": "negativo",
           "coringa": false

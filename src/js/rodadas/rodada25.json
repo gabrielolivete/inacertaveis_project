@@ -1,6 +1,6 @@
 {
-  "nome": "RODADA 23",
-  "prazoPalpites": "",
+  "nome": "RODADA 25",
+  "prazoPalpites": "Sábado, 29/08 às 17:00h",
   "participantes": [
     {
       "nome": "MARCOLA",
@@ -19,27 +19,27 @@
       ],
       "jogos": [
         {
-          "time1": "",
+          "time1": "src/img/escudos/atleticomg.png",
           "placar": "",
-          "time2": "",
+          "time2": "src/img/escudos/vitoria.png",
           "pontos": "",
           "descricao": "",
           "tipoPontos": "",
           "coringa": false
         },
         {
-          "time1": "",
+          "time1": "src/img/escudos/athletico.png",
           "placar": "",
-          "time2": "",
+          "time2": "src/img/escudos/fluminense.png",
           "pontos": "",
           "descricao": "",
           "tipoPontos": "",
           "coringa": false
         },
         {
-          "time1": "",
+          "time1": "src/img/escudos/remo.png",
           "placar": "",
-          "time2": "",
+          "time2": "src/img/escudos/coritiba.png",
           "pontos": "",
           "descricao": "",
           "tipoPontos": "",
@@ -69,27 +69,27 @@
       ],
       "jogos": [
         {
-          "time1": "",
+          "time1": "src/img/escudos/atleticomg.png",
           "placar": "",
-          "time2": "",
+          "time2": "src/img/escudos/vitoria.png",
           "pontos": "",
           "descricao": "",
           "tipoPontos": "",
           "coringa": false
         },
         {
-          "time1": "",
+          "time1": "src/img/escudos/athletico.png",
           "placar": "",
-          "time2": "",
+          "time2": "src/img/escudos/fluminense.png",
           "pontos": "",
           "descricao": "",
           "tipoPontos": "",
           "coringa": false
         },
         {
-          "time1": "",
+          "time1": "src/img/escudos/remo.png",
           "placar": "",
-          "time2": "",
+          "time2": "src/img/escudos/coritiba.png",
           "pontos": "",
           "descricao": "",
           "tipoPontos": "",
@@ -109,7 +109,7 @@
       "cartaAtiva":"",
       "cartas": [
         { "img": "src/img/cartas/dobrometade.png", "usada": false },
-        { "img": "src/img/cartas/escudo.png", "usada": false },
+        { "img": "src/img/cartas/escudo.png", "usada": true },
         { "img": "src/img/cartas/grego.png", "usada": true },
         { "img": "src/img/cartas/segundachance.png", "usada": false },
         { "img": "src/img/cartas/seguro.png", "usada": false },
@@ -119,27 +119,27 @@
       ],
       "jogos": [
         {
-          "time1": "",
+          "time1": "src/img/escudos/atleticomg.png",
           "placar": "",
-          "time2": "",
+          "time2": "src/img/escudos/vitoria.png",
           "pontos": "",
           "descricao": "",
           "tipoPontos": "",
           "coringa": false
         },
         {
-          "time1": "",
+          "time1": "src/img/escudos/athletico.png",
           "placar": "",
-          "time2": "",
+          "time2": "src/img/escudos/fluminense.png",
           "pontos": "",
           "descricao": "",
           "tipoPontos": "",
           "coringa": false
         },
         {
-          "time1": "",
+          "time1": "src/img/escudos/remo.png",
           "placar": "",
-          "time2": "",
+          "time2": "src/img/escudos/coritiba.png",
           "pontos": "",
           "descricao": "",
           "tipoPontos": "",
@@ -169,27 +169,27 @@
       ],
       "jogos": [
         {
-          "time1": "",
+          "time1": "src/img/escudos/atleticomg.png",
           "placar": "",
-          "time2": "",
+          "time2": "src/img/escudos/vitoria.png",
           "pontos": "",
           "descricao": "",
           "tipoPontos": "",
           "coringa": false
         },
         {
-          "time1": "",
+          "time1": "src/img/escudos/athletico.png",
           "placar": "",
-          "time2": "",
+          "time2": "src/img/escudos/fluminense.png",
           "pontos": "",
           "descricao": "",
           "tipoPontos": "",
           "coringa": false
         },
         {
-          "time1": "",
+          "time1": "src/img/escudos/remo.png",
           "placar": "",
-          "time2": "",
+          "time2": "src/img/escudos/coritiba.png",
           "pontos": "",
           "descricao": "",
           "tipoPontos": "",
