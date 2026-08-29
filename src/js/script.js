@@ -12,7 +12,7 @@ const CHAVES_JOGADORES_HASH = {
 };
 
 const NUMERO_ORGANIZADOR = "5541998814995";
-const PRAZO_LIMITE_PALPITES = new Date("2026-08-29T15:00:00");
+const PRAZO_LIMITE_PALPITES = new Date("2026-08-29T17:00:00");
 const LIMITE_ENVIOS_PERFIL = 2;
 
 // ==========================================
