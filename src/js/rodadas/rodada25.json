@@ -22,17 +22,17 @@
       "time1": "src/img/escudos/atleticomg.png",
       "placar": "2 x 0",
       "time2": "src/img/escudos/vitoria.png",
-      "pontos": "",
-      "descricao": "",
-      "tipoPontos": "",
+      "pontos": "-5",
+      "descricao": "-5 palpite",
+      "tipoPontos": "negativo",
       "coringa": false
     },
     {
       "time1": "src/img/escudos/athletico.png",
       "placar": "3 x 0",
       "time2": "src/img/escudos/fluminense.png",
-      "pontos": "",
-      "descricao": "",
+      "pontos": "0",
+      "descricao": "-15 palpite<br>+15 gol",
       "tipoPontos": "",
       "coringa": false
     },
@@ -49,7 +49,7 @@
   "eventos": [
     {
       "texto": "⚽  Viveiros (Athletico)",
-      "acertou": false
+      "acertou": true
     },
     {
       "texto": "🟨  Alef Manga (Remo)",
@@ -81,18 +81,18 @@
       "time1": "src/img/escudos/atleticomg.png",
       "placar": "2 x 0",
       "time2": "src/img/escudos/vitoria.png",
-      "pontos": "",
-      "descricao": "",
-      "tipoPontos": "",
+      "pontos": "-5",
+      "descricao": "-5 palpite",
+      "tipoPontos": "negativo",
       "coringa": false
     },
     {
       "time1": "src/img/escudos/athletico.png",
       "placar": "2 x 3",
       "time2": "src/img/escudos/fluminense.png",
-      "pontos": "",
-      "descricao": "",
-      "tipoPontos": "",
+      "pontos": "+10",
+      "descricao": "-5 palpite<br>+15 gol",
+      "tipoPontos": "positivo",
       "coringa": false
     },
     {
@@ -108,7 +108,7 @@
   "eventos": [
     {
       "texto": "⚽  Viveros (Athletico)",
-      "acertou": false
+      "acertou": true
     },
     {
       "texto": "🟨  Jacy (Coritiba)",
@@ -140,18 +140,18 @@
           "time1": "src/img/escudos/atleticomg.png",
           "placar": "1 x 0",
           "time2": "src/img/escudos/vitoria.png",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
+          "pontos": "-10",
+          "descricao": "-10 palpite",
+          "tipoPontos": "negativo",
           "coringa": false
         },
         {
           "time1": "src/img/escudos/athletico.png",
           "placar": "2 x 1",
           "time2": "src/img/escudos/fluminense.png",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
+          "pontos": "-15",
+          "descricao": "-15 palpite",
+          "tipoPontos": "negativo",
           "coringa": false
         },
         {
@@ -190,18 +190,18 @@
       "time1": "src/img/escudos/atleticomg.png",
       "placar": "2 x 0",
       "time2": "src/img/escudos/vitoria.png",
-      "pontos": "",
-      "descricao": "",
-      "tipoPontos": "",
+      "pontos": "-5",
+      "descricao": "-5 palpite",
+      "tipoPontos": "negativo",
       "coringa": false
     },
     {
       "time1": "src/img/escudos/athletico.png",
       "placar": "2 x 0",
       "time2": "src/img/escudos/fluminense.png",
-      "pontos": "",
-      "descricao": "",
-      "tipoPontos": "",
+      "pontos": "-5",
+      "descricao": "-20 palpite<br>+15 gol",
+      "tipoPontos": "negativo",
       "coringa": false
     },
     {
@@ -217,7 +217,7 @@
   "eventos": [
     {
       "texto": "⚽  Viveros (Athletico)",
-      "acertou": false
+      "acertou": true
     },
     {
       "texto": "🟨  Sebastián Gómez (Coritiba)",
