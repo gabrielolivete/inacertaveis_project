@@ -40,9 +40,9 @@
       "time1": "src/img/escudos/remo.png",
       "placar": "0 x 2",
       "time2": "src/img/escudos/coritiba.png",
-      "pontos": "",
-      "descricao": "",
-      "tipoPontos": "",
+      "pontos": "-15",
+      "descricao": "-15 palpite",
+      "tipoPontos": "negativo",
       "coringa": false
     }
   ],
@@ -99,9 +99,9 @@
       "time1": "src/img/escudos/remo.png",
       "placar": "0 x 0",
       "time2": "src/img/escudos/coritiba.png",
-      "pontos": "",
-      "descricao": "Presente Grego",
-      "tipoPontos": "",
+      "pontos": "-25",
+      "descricao": "-25 palpite<br>Presente Grego",
+      "tipoPontos": "negativo",
       "coringa": false
     }
   ],
@@ -158,9 +158,9 @@
           "time1": "src/img/escudos/remo.png",
           "placar": "0 x 1",
           "time2": "src/img/escudos/coritiba.png",
-          "pontos": "",
-          "descricao": "Presente Grego",
-          "tipoPontos": "",
+          "pontos": "-5",
+          "descricao": "-20 palpite<br>Presente Grego<br>+15 gol",
+          "tipoPontos": "negativo",
           "coringa": false
         }
       ],
@@ -208,9 +208,9 @@
       "time1": "src/img/escudos/remo.png",
       "placar": "1 x 1",
       "time2": "src/img/escudos/coritiba.png",
-      "pontos": "",
-      "descricao": "",
-      "tipoPontos": "",
+      "pontos": "-30",
+      "descricao": "-15 palpite(2x)",
+      "tipoPontos": "negativo",
       "coringa": true
     }
   ],
