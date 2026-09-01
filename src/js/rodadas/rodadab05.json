@@ -20,39 +20,48 @@
         { "img": "src/img/especial/coringa.png", "usada": true }
       ],
       "jogos": [
-        {
-          "time1": "src/img/escudos/atleticomg.png",
-          "placar": "",
-          "time2": "src/img/escudos/cruzeiro.png",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
-          "coringa": false
-        },
-        {
-          "time1": "src/img/escudos/santos.png",
-          "placar": "",
-          "time2": "src/img/escudos/palmeiras.png",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
-          "coringa": false
-        },
-        {
-          "time1": "src/img/escudos/gremio.png",
-          "placar": "",
-          "time2": "src/img/escudos/internacional.png",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
-          "coringa": false
-        }
-      ],
-      "eventos": [
-        { "texto": "⚽ ", "acertou": false },
-        { "texto": "🟨 ", "acertou": false },
-        { "texto": "🫂 ", "acertou": false }
-      ]
+    {
+      "time1": "src/img/escudos/atleticomg.png",
+      "placar": "1 x 0",
+      "time2": "src/img/escudos/cruzeiro.png",
+      "pontos": "",
+      "descricao": "",
+      "tipoPontos": "",
+      "coringa": false
+    },
+    {
+      "time1": "src/img/escudos/santos.png",
+      "placar": "1 x 1",
+      "time2": "src/img/escudos/palmeiras.png",
+      "pontos": "",
+      "descricao": "",
+      "tipoPontos": "",
+      "coringa": false
+    },
+    {
+      "time1": "src/img/escudos/gremio.png",
+      "placar": "1 x 1",
+      "time2": "src/img/escudos/internacional.png",
+      "pontos": "",
+      "descricao": "",
+      "tipoPontos": "",
+      "coringa": false
+    }
+  ],
+  "eventos": [
+    {
+      "texto": "⚽  Flaco Lopez (Palmeiras)",
+      "acertou": false
+    },
+    {
+      "texto": "🟨  Lyanco (Atletico-MG)",
+      "acertou": false
+    },
+    {
+      "texto": "🫂  Neymar (Santos)",
+      "acertou": false
+    }
+  ]
     },
     {
       "nome": "GABS",
@@ -70,39 +79,48 @@
         { "img": "src/img/especial/coringa.png", "usada": true }
       ],
       "jogos": [
-        {
-          "time1": "src/img/escudos/atleticomg.png",
-          "placar": "",
-          "time2": "src/img/escudos/cruzeiro.png",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
-          "coringa": false
-        },
-        {
-          "time1": "src/img/escudos/santos.png",
-          "placar": "",
-          "time2": "src/img/escudos/palmeiras.png",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
-          "coringa": false
-        },
-        {
-          "time1": "src/img/escudos/gremio.png",
-          "placar": "",
-          "time2": "src/img/escudos/internacional.png",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
-          "coringa": false
-        }
-      ],
-      "eventos": [
-        { "texto": "⚽ ", "acertou": false },
-        { "texto": "🟨 ", "acertou": false },
-        { "texto": "🫂 ", "acertou": false }
-      ]
+    {
+      "time1": "src/img/escudos/atleticomg.png",
+      "placar": "0 x 1",
+      "time2": "src/img/escudos/cruzeiro.png",
+      "pontos": "",
+      "descricao": "",
+      "tipoPontos": "",
+      "coringa": false
+    },
+    {
+      "time1": "src/img/escudos/santos.png",
+      "placar": "1 x 2",
+      "time2": "src/img/escudos/palmeiras.png",
+      "pontos": "",
+      "descricao": "",
+      "tipoPontos": "",
+      "coringa": false
+    },
+    {
+      "time1": "src/img/escudos/gremio.png",
+      "placar": "1 x 1",
+      "time2": "src/img/escudos/internacional.png",
+      "pontos": "",
+      "descricao": "",
+      "tipoPontos": "",
+      "coringa": false
+    }
+  ],
+  "eventos": [
+    {
+      "texto": "⚽  Flaco Lopez (Palmeiras)",
+      "acertou": false
+    },
+    {
+      "texto": "🟨  Neymar (Santos)",
+      "acertou": false
+    },
+    {
+      "texto": "🫂  Matheus Pereira (Cruzeiro)",
+      "acertou": false
+    }
+  ]
     },
     {
       "nome": "JOCA",
@@ -120,39 +138,48 @@
         { "img": "src/img/especial/coringa.png", "usada": true }
       ],
       "jogos": [
-        {
-          "time1": "src/img/escudos/atleticomg.png",
-          "placar": "",
-          "time2": "src/img/escudos/cruzeiro.png",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
-          "coringa": false
-        },
-        {
-          "time1": "src/img/escudos/santos.png",
-          "placar": "",
-          "time2": "src/img/escudos/palmeiras.png",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
-          "coringa": false
-        },
-        {
-          "time1": "src/img/escudos/gremio.png",
-          "placar": "",
-          "time2": "src/img/escudos/internacional.png",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
-          "coringa": false
-        }
-      ],
-      "eventos": [
-        { "texto": "⚽ ", "acertou": false },
-        { "texto": "🟨 ", "acertou": false },
-        { "texto": "🫂 ", "acertou": false }
-      ]
+    {
+      "time1": "src/img/escudos/atleticomg.png",
+      "placar": "0 x 1",
+      "time2": "src/img/escudos/cruzeiro.png",
+      "pontos": "",
+      "descricao": "",
+      "tipoPontos": "",
+      "coringa": false
+    },
+    {
+      "time1": "src/img/escudos/santos.png",
+      "placar": "1 x 2",
+      "time2": "src/img/escudos/palmeiras.png",
+      "pontos": "",
+      "descricao": "",
+      "tipoPontos": "",
+      "coringa": true
+    },
+    {
+      "time1": "src/img/escudos/gremio.png",
+      "placar": "0 x 1",
+      "time2": "src/img/escudos/internacional.png",
+      "pontos": "",
+      "descricao": "",
+      "tipoPontos": "",
+      "coringa": false
+    }
+  ],
+  "eventos": [
+    {
+      "texto": "⚽  Flaco Lopes(Palmeiras)",
+      "acertou": false
+    },
+    {
+      "texto": "🟨  Gonzalo Escobar (Santos)",
+      "acertou": false
+    },
+    {
+      "texto": "🫂  Andreas (Palmeiras)",
+      "acertou": false
+    }
+  ]
     },
     {
       "nome": "FEFEZAO",
@@ -170,39 +197,48 @@
         { "img": "src/img/especial/coringa.png", "usada": true }
       ],
       "jogos": [
-        {
-          "time1": "src/img/escudos/atleticomg.png",
-          "placar": "",
-          "time2": "src/img/escudos/cruzeiro.png",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
-          "coringa": false
-        },
-        {
-          "time1": "src/img/escudos/santos.png",
-          "placar": "",
-          "time2": "src/img/escudos/palmeiras.png",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
-          "coringa": false
-        },
-        {
-          "time1": "src/img/escudos/gremio.png",
-          "placar": "",
-          "time2": "src/img/escudos/internacional.png",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
-          "coringa": false
-        }
-      ],
-      "eventos": [
-        { "texto": "⚽ ", "acertou": false },
-        { "texto": "🟨 ", "acertou": false },
-        { "texto": "🫂 ", "acertou": false }
-      ]
+    {
+      "time1": "src/img/escudos/atleticomg.png",
+      "placar": "0 x 1",
+      "time2": "src/img/escudos/cruzeiro.png",
+      "pontos": "",
+      "descricao": "",
+      "tipoPontos": "",
+      "coringa": false
+    },
+    {
+      "time1": "src/img/escudos/santos.png",
+      "placar": "2 x 1",
+      "time2": "src/img/escudos/palmeiras.png",
+      "pontos": "",
+      "descricao": "",
+      "tipoPontos": "",
+      "coringa": false
+    },
+    {
+      "time1": "src/img/escudos/gremio.png",
+      "placar": "1 x 0",
+      "time2": "src/img/escudos/internacional.png",
+      "pontos": "",
+      "descricao": "",
+      "tipoPontos": "",
+      "coringa": false
+    }
+  ],
+  "eventos": [
+    {
+      "texto": "⚽  Neymar (Santos)",
+      "acertou": false
+    },
+    {
+      "texto": "🟨  Neymar (Santos)",
+      "acertou": false
+    },
+    {
+      "texto": "🫂  Neymar (Santos)",
+      "acertou": false
+    }
+  ]
     }
   ]
 }
