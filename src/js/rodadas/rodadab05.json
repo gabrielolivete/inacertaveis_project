@@ -1,0 +1,208 @@
+{
+  "nome": "RODADA BONUS 05",
+  "rodadaBonus": true,
+  "competicao": "Copa do Brasil 2026",
+  "prazoPalpites": "Terça-feira, 01/09 às 20:30h",
+  "participantes": [
+    {
+      "nome": "MARCOLA",
+      "avatar": "src/img/avatares/marcola.png",
+      "avatarHead": "src/img/avatares/marcolahead.png",
+      "cartaAtiva": "",
+      "cartas": [
+        { "img": "src/img/cartas/dobrometade.png", "usada": false },
+        { "img": "src/img/cartas/escudo.png", "usada": false },
+        { "img": "src/img/cartas/grego.png", "usada": true },
+        { "img": "src/img/cartas/segundachance.png", "usada": false },
+        { "img": "src/img/cartas/seguro.png", "usada": false },
+        { "img": "src/img/especial/coringa.png", "usada": false },
+        { "img": "src/img/especial/coringa.png", "usada": true },
+        { "img": "src/img/especial/coringa.png", "usada": true }
+      ],
+      "jogos": [
+        {
+          "time1": "src/img/escudos/atleticomg.png",
+          "placar": "",
+          "time2": "src/img/escudos/cruzeiro.png",
+          "pontos": "",
+          "descricao": "",
+          "tipoPontos": "",
+          "coringa": false
+        },
+        {
+          "time1": "src/img/escudos/santos.png",
+          "placar": "",
+          "time2": "src/img/escudos/palmeiras.png",
+          "pontos": "",
+          "descricao": "",
+          "tipoPontos": "",
+          "coringa": false
+        },
+        {
+          "time1": "src/img/escudos/gremio.png",
+          "placar": "",
+          "time2": "src/img/escudos/internacional.png",
+          "pontos": "",
+          "descricao": "",
+          "tipoPontos": "",
+          "coringa": false
+        }
+      ],
+      "eventos": [
+        { "texto": "⚽ ", "acertou": false },
+        { "texto": "🟨 ", "acertou": false },
+        { "texto": "🫂 ", "acertou": false }
+      ]
+    },
+    {
+      "nome": "GABS",
+      "avatar": "src/img/avatares/gabe.png",
+      "avatarHead": "src/img/avatares/gabehead.png",
+      "cartaAtiva":"",
+      "cartas": [
+        { "img": "src/img/cartas/dobrometade.png", "usada": false },
+        { "img": "src/img/cartas/escudo.png", "usada": false },
+        { "img": "src/img/cartas/grego.png", "usada": true },
+        { "img": "src/img/cartas/segundachance.png", "usada": false },
+        { "img": "src/img/cartas/seguro.png", "usada": true },
+        { "img": "src/img/especial/coringa.png", "usada": false },
+        { "img": "src/img/especial/coringa.png", "usada": true },
+        { "img": "src/img/especial/coringa.png", "usada": true }
+      ],
+      "jogos": [
+        {
+          "time1": "src/img/escudos/atleticomg.png",
+          "placar": "",
+          "time2": "src/img/escudos/cruzeiro.png",
+          "pontos": "",
+          "descricao": "",
+          "tipoPontos": "",
+          "coringa": false
+        },
+        {
+          "time1": "src/img/escudos/santos.png",
+          "placar": "",
+          "time2": "src/img/escudos/palmeiras.png",
+          "pontos": "",
+          "descricao": "",
+          "tipoPontos": "",
+          "coringa": false
+        },
+        {
+          "time1": "src/img/escudos/gremio.png",
+          "placar": "",
+          "time2": "src/img/escudos/internacional.png",
+          "pontos": "",
+          "descricao": "",
+          "tipoPontos": "",
+          "coringa": false
+        }
+      ],
+      "eventos": [
+        { "texto": "⚽ ", "acertou": false },
+        { "texto": "🟨 ", "acertou": false },
+        { "texto": "🫂 ", "acertou": false }
+      ]
+    },
+    {
+      "nome": "JOCA",
+      "avatar": "src/img/avatares/joca.png",
+      "avatarHead": "src/img/avatares/jocahead.png",
+      "cartaAtiva":"",
+      "cartas": [
+        { "img": "src/img/cartas/dobrometade.png", "usada": false },
+        { "img": "src/img/cartas/escudo.png", "usada": true },
+        { "img": "src/img/cartas/grego.png", "usada": true },
+        { "img": "src/img/cartas/segundachance.png", "usada": false },
+        { "img": "src/img/cartas/seguro.png", "usada": false },
+        { "img": "src/img/especial/coringa.png", "usada": false },
+        { "img": "src/img/especial/coringa.png", "usada": false },
+        { "img": "src/img/especial/coringa.png", "usada": true }
+      ],
+      "jogos": [
+        {
+          "time1": "src/img/escudos/atleticomg.png",
+          "placar": "",
+          "time2": "src/img/escudos/cruzeiro.png",
+          "pontos": "",
+          "descricao": "",
+          "tipoPontos": "",
+          "coringa": false
+        },
+        {
+          "time1": "src/img/escudos/santos.png",
+          "placar": "",
+          "time2": "src/img/escudos/palmeiras.png",
+          "pontos": "",
+          "descricao": "",
+          "tipoPontos": "",
+          "coringa": false
+        },
+        {
+          "time1": "src/img/escudos/gremio.png",
+          "placar": "",
+          "time2": "src/img/escudos/internacional.png",
+          "pontos": "",
+          "descricao": "",
+          "tipoPontos": "",
+          "coringa": false
+        }
+      ],
+      "eventos": [
+        { "texto": "⚽ ", "acertou": false },
+        { "texto": "🟨 ", "acertou": false },
+        { "texto": "🫂 ", "acertou": false }
+      ]
+    },
+    {
+      "nome": "FEFEZAO",
+      "avatar": "src/img/avatares/fefezao.png",
+      "avatarHead": "src/img/avatares/fefezaohead.png",
+      "cartaAtiva":"",
+      "cartas": [
+        { "img": "src/img/cartas/dobrometade.png", "usada": false },
+        { "img": "src/img/cartas/escudo.png", "usada": false },
+        { "img": "src/img/cartas/grego.png", "usada": true },
+        { "img": "src/img/cartas/segundachance.png", "usada": true },
+        { "img": "src/img/cartas/seguro.png", "usada": false },
+        { "img": "src/img/especial/coringa.png", "usada": true },
+        { "img": "src/img/especial/coringa.png", "usada": true },
+        { "img": "src/img/especial/coringa.png", "usada": true }
+      ],
+      "jogos": [
+        {
+          "time1": "src/img/escudos/atleticomg.png",
+          "placar": "",
+          "time2": "src/img/escudos/cruzeiro.png",
+          "pontos": "",
+          "descricao": "",
+          "tipoPontos": "",
+          "coringa": false
+        },
+        {
+          "time1": "src/img/escudos/santos.png",
+          "placar": "",
+          "time2": "src/img/escudos/palmeiras.png",
+          "pontos": "",
+          "descricao": "",
+          "tipoPontos": "",
+          "coringa": false
+        },
+        {
+          "time1": "src/img/escudos/gremio.png",
+          "placar": "",
+          "time2": "src/img/escudos/internacional.png",
+          "pontos": "",
+          "descricao": "",
+          "tipoPontos": "",
+          "coringa": false
+        }
+      ],
+      "eventos": [
+        { "texto": "⚽ ", "acertou": false },
+        { "texto": "🟨 ", "acertou": false },
+        { "texto": "🫂 ", "acertou": false }
+      ]
+    }
+  ]
+}

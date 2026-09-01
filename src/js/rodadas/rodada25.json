@@ -165,7 +165,7 @@
         }
       ],
       "eventos": [
-        { "texto": "⚽ Pedro Rocha (Coritiba)", "acertou": false },
+        { "texto": "⚽ Pedro Rocha (Coritiba)", "acertou": true },
         { "texto": "🟨 Ze Vitor (Vitoria)", "acertou": false },
         { "texto": "🫂 João Cruz (Athletico)", "acertou": false }
       ]
