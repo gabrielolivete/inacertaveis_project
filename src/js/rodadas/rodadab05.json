@@ -24,9 +24,9 @@
       "time1": "src/img/escudos/atleticomg.png",
       "placar": "1 x 0",
       "time2": "src/img/escudos/cruzeiro.png",
-      "pontos": "",
-      "descricao": "",
-      "tipoPontos": "",
+      "pontos": "-10",
+      "descricao": "-10 palpite",
+      "tipoPontos": "negativo",
       "coringa": false
     },
     {
@@ -83,9 +83,9 @@
       "time1": "src/img/escudos/atleticomg.png",
       "placar": "0 x 1",
       "time2": "src/img/escudos/cruzeiro.png",
-      "pontos": "",
-      "descricao": "",
-      "tipoPontos": "",
+      "pontos": "-10",
+      "descricao": "-10 palpite",
+      "tipoPontos": "negativo",
       "coringa": false
     },
     {
@@ -142,9 +142,9 @@
       "time1": "src/img/escudos/atleticomg.png",
       "placar": "0 x 1",
       "time2": "src/img/escudos/cruzeiro.png",
-      "pontos": "",
-      "descricao": "",
-      "tipoPontos": "",
+      "pontos": "-10",
+      "descricao": "-10 palpite",
+      "tipoPontos": "negativo",
       "coringa": false
     },
     {
@@ -201,9 +201,9 @@
       "time1": "src/img/escudos/atleticomg.png",
       "placar": "0 x 1",
       "time2": "src/img/escudos/cruzeiro.png",
-      "pontos": "",
-      "descricao": "",
-      "tipoPontos": "",
+      "pontos": "-10",
+      "descricao": "-10 palpite",
+      "tipoPontos": "negativo",
       "coringa": false
     },
     {
