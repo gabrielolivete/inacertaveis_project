@@ -33,18 +33,18 @@
       "time1": "src/img/escudos/santos.png",
       "placar": "1 x 1",
       "time2": "src/img/escudos/palmeiras.png",
-      "pontos": "",
-      "descricao": "",
-      "tipoPontos": "",
+      "pontos": "-10",
+      "descricao": "-10 palpite",
+      "tipoPontos": "negativo",
       "coringa": false
     },
     {
       "time1": "src/img/escudos/gremio.png",
       "placar": "1 x 1",
       "time2": "src/img/escudos/internacional.png",
-      "pontos": "",
-      "descricao": "",
-      "tipoPontos": "",
+      "pontos": "-10",
+      "descricao": "-10 palpite",
+      "tipoPontos": "negativo",
       "coringa": false
     }
   ],
@@ -92,18 +92,18 @@
       "time1": "src/img/escudos/santos.png",
       "placar": "1 x 2",
       "time2": "src/img/escudos/palmeiras.png",
-      "pontos": "",
-      "descricao": "",
-      "tipoPontos": "",
+      "pontos": "-15",
+      "descricao": "-15 palpite",
+      "tipoPontos": "negativo",
       "coringa": false
     },
     {
       "time1": "src/img/escudos/gremio.png",
       "placar": "1 x 1",
       "time2": "src/img/escudos/internacional.png",
-      "pontos": "",
-      "descricao": "",
-      "tipoPontos": "",
+      "pontos": "-10",
+      "descricao": "-10 palpite",
+      "tipoPontos": "negativo",
       "coringa": false
     }
   ],
@@ -151,18 +151,18 @@
       "time1": "src/img/escudos/santos.png",
       "placar": "1 x 2",
       "time2": "src/img/escudos/palmeiras.png",
-      "pontos": "",
-      "descricao": "",
-      "tipoPontos": "",
+      "pontos": "-30",
+      "descricao": "-15 palpite(2x)",
+      "tipoPontos": "negativo",
       "coringa": true
     },
     {
       "time1": "src/img/escudos/gremio.png",
       "placar": "0 x 1",
       "time2": "src/img/escudos/internacional.png",
-      "pontos": "",
-      "descricao": "",
-      "tipoPontos": "",
+      "pontos": "-15",
+      "descricao": "-15 palpite",
+      "tipoPontos": "negativo",
       "coringa": false
     }
   ],
@@ -210,18 +210,18 @@
       "time1": "src/img/escudos/santos.png",
       "placar": "2 x 1",
       "time2": "src/img/escudos/palmeiras.png",
-      "pontos": "",
-      "descricao": "",
-      "tipoPontos": "",
+      "pontos": "-15",
+      "descricao": "-15 palpite",
+      "tipoPontos": "negativo",
       "coringa": false
     },
     {
       "time1": "src/img/escudos/gremio.png",
       "placar": "1 x 0",
       "time2": "src/img/escudos/internacional.png",
-      "pontos": "",
-      "descricao": "",
-      "tipoPontos": "",
+      "pontos": "-15",
+      "descricao": "-15 palpite",
+      "tipoPontos": "negativo",
       "coringa": false
     }
   ],
