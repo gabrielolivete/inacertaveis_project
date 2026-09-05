@@ -22,9 +22,9 @@
       "time1": "src/img/escudos/saopaulo.png",
       "placar": "1 x 0",
       "time2": "src/img/escudos/atleticomg.png",
-      "pontos": "",
-      "descricao": "",
-      "tipoPontos": "",
+      "pontos": "-5",
+      "descricao": "-5 palpite",
+      "tipoPontos": "negativo",
       "coringa": false
     },
     {
@@ -81,9 +81,9 @@
       "time1": "src/img/escudos/saopaulo.png",
       "placar": "2 x 1",
       "time2": "src/img/escudos/atleticomg.png",
-      "pontos": "",
-      "descricao": "",
-      "tipoPontos": "",
+      "pontos": "+10",
+      "descricao": "-5 palpite<br>+15 gol",
+      "tipoPontos": "positivo",
       "coringa": false
     },
     {
@@ -140,9 +140,9 @@
       "time1": "src/img/escudos/saopaulo.png",
       "placar": "2 x 1",
       "time2": "src/img/escudos/atleticomg.png",
-      "pontos": "",
-      "descricao": "",
-      "tipoPontos": "",
+      "pontos": "-5",
+      "descricao": "-5 palpite",
+      "tipoPontos": "negativo",
       "coringa": false
     },
     {
@@ -199,9 +199,9 @@
       "time1": "src/img/escudos/saopaulo.png",
       "placar": "1 x 0",
       "time2": "src/img/escudos/atleticomg.png",
-      "pontos": "",
-      "descricao": "",
-      "tipoPontos": "",
+      "pontos": "-5",
+      "descricao": "-5 palpite",
+      "tipoPontos": "negativo",
       "coringa": false
     },
     {
