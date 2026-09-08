@@ -31,25 +31,25 @@
       "time1": "src/img/escudos/cruzeiro.png",
       "placar": "2 x 0",
       "time2": "src/img/escudos/athletico.png",
-      "pontos": "",
-      "descricao": "",
-      "tipoPontos": "",
+      "pontos": "+25",
+      "descricao": "-10 palpite<br>+35 gol e assist",
+      "tipoPontos": "positivo",
       "coringa": false
     },
     {
       "time1": "src/img/escudos/vitoria.png",
       "placar": "1 x 1",
       "time2": "src/img/escudos/gremio.png",
-      "pontos": "",
-      "descricao": "",
-      "tipoPontos": "",
+      "pontos": "-5",
+      "descricao": "-5 palpite",
+      "tipoPontos": "negativo",
       "coringa": false
     }
   ],
   "eventos": [
     {
       "texto": "⚽  Caio Jorge (Cruzeiro)",
-      "acertou": false
+      "acertou": true
     },
     {
       "texto": "🟨  Odair Hellman (Athletico)",
@@ -57,7 +57,7 @@
     },
     {
       "texto": "🫂  Matheus Pereira (Cruzeiro)",
-      "acertou": false
+      "acertou": true
     }
   ]
     },
@@ -90,25 +90,25 @@
       "time1": "src/img/escudos/cruzeiro.png",
       "placar": "1 x 1",
       "time2": "src/img/escudos/athletico.png",
-      "pontos": "",
-      "descricao": "",
-      "tipoPontos": "",
+      "pontos": "+10",
+      "descricao": "-10 palpite<br>+20 assist",
+      "tipoPontos": "positivo",
       "coringa": false
     },
     {
       "time1": "src/img/escudos/vitoria.png",
       "placar": "1 x 0",
       "time2": "src/img/escudos/gremio.png",
-      "pontos": "",
-      "descricao": "",
-      "tipoPontos": "",
+      "pontos": "+60",
+      "descricao": "+50 CRAVOU!<br>+10 lider",
+      "tipoPontos": "positivo",
       "coringa": false
     }
   ],
   "eventos": [
     {
       "texto": "⚽  Luciano (São Paulo)",
-      "acertou": false
+      "acertou": true
     },
     {
       "texto": "🟨  Viveros (Athletico)",
@@ -116,7 +116,7 @@
     },
     {
       "texto": "🫂  Matheus Pereira (Cruzeiro)",
-      "acertou": false
+      "acertou": true
     }
   ]
     },
@@ -149,18 +149,18 @@
       "time1": "src/img/escudos/cruzeiro.png",
       "placar": "1 x 1",
       "time2": "src/img/escudos/athletico.png",
-      "pontos": "",
-      "descricao": "",
-      "tipoPontos": "",
+      "pontos": "-10",
+      "descricao": "-10 palpite",
+      "tipoPontos": "negativo",
       "coringa": false
     },
     {
       "time1": "src/img/escudos/vitoria.png",
       "placar": "1 x 1",
       "time2": "src/img/escudos/gremio.png",
-      "pontos": "",
-      "descricao": "",
-      "tipoPontos": "",
+      "pontos": "-5",
+      "descricao": "-5 palpite",
+      "tipoPontos": "negativo",
       "coringa": false
     }
   ],
@@ -208,18 +208,18 @@
       "time1": "src/img/escudos/cruzeiro.png",
       "placar": "2 x 2",
       "time2": "src/img/escudos/athletico.png",
-      "pontos": "",
-      "descricao": "",
-      "tipoPontos": "",
+      "pontos": "-10",
+      "descricao": "-10 palpite",
+      "tipoPontos": "negativo",
       "coringa": false
     },
     {
       "time1": "src/img/escudos/vitoria.png",
       "placar": "1 x 2",
       "time2": "src/img/escudos/gremio.png",
-      "pontos": "",
-      "descricao": "",
-      "tipoPontos": "",
+      "pontos": "-10",
+      "descricao": "-10 palpite",
+      "tipoPontos": "negativo",
       "coringa": false
     }
   ],

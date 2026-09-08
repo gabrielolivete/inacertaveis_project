@@ -5,7 +5,7 @@
       "nome": "Rei do Placar",
       "descricao": "Detentor de mais palpites exatos",
       "icone": "src/img/especial/reidoplacar.png",
-      "lider_atual": "JOCA",
+      "lider_atual": "JOCA/GABS",
       "valor": "2"
     },
     {
@@ -13,8 +13,8 @@
       "nome": "Artilheiro",
       "descricao": "Mais palpites de gol acertados",
       "icone": "src/img/especial/artilheiro.png",
-      "lider_atual": "FEFEZAO",
-      "valor": "3"
+      "lider_atual": "FEFE/GABS",
+      "valor": "4"
     },
     {
       "id": "xerife",
@@ -29,8 +29,8 @@
       "nome": "Garçom",
       "descricao": "Mais palpites de assistência acertados",
       "icone": "src/img/especial/garcom.png",
-      "lider_atual": "MAR/FEF/GAB",
-      "valor": "1"
+      "lider_atual": "MAR/GAB",
+      "valor": "2"
     },
     {
       "id": "esse_dia_foi_louco",
