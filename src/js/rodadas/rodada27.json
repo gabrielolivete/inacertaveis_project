@@ -1,6 +1,6 @@
 {
-  "nome": "RODADA ",
-  "prazoPalpites": "",
+  "nome": "RODADA 27",
+  "prazoPalpites": "Sábado, 12/09 às 16:00h",
   "participantes": [
     {
       "nome": "MARCOLA",
@@ -19,27 +19,27 @@
       ],
       "jogos": [
         {
-          "time1": "",
+          "time1": "src/img/escudos/chapecoense.png",
           "placar": "",
-          "time2": "",
+          "time2": "src/img/escudos/internacional.png",
           "pontos": "",
           "descricao": "",
           "tipoPontos": "",
           "coringa": false
         },
         {
-          "time1": "",
+          "time1": "src/img/escudos/botafogo.png",
           "placar": "",
-          "time2": "",
+          "time2": "src/img/escudos/bragantino.png",
           "pontos": "",
           "descricao": "",
           "tipoPontos": "",
           "coringa": false
         },
         {
-          "time1": "",
+          "time1": "src/img/escudos/santos.png",
           "placar": "",
-          "time2": "",
+          "time2": "src/img/escudos/cruzeiro.png",
           "pontos": "",
           "descricao": "",
           "tipoPontos": "",
@@ -69,27 +69,27 @@
       ],
       "jogos": [
         {
-          "time1": "",
+          "time1": "src/img/escudos/chapecoense.png",
           "placar": "",
-          "time2": "",
+          "time2": "src/img/escudos/internacional.png",
           "pontos": "",
           "descricao": "",
           "tipoPontos": "",
           "coringa": false
         },
         {
-          "time1": "",
+          "time1": "src/img/escudos/botafogo.png",
           "placar": "",
-          "time2": "",
+          "time2": "src/img/escudos/bragantino.png",
           "pontos": "",
           "descricao": "",
           "tipoPontos": "",
           "coringa": false
         },
         {
-          "time1": "",
+          "time1": "src/img/escudos/santos.png",
           "placar": "",
-          "time2": "",
+          "time2": "src/img/escudos/cruzeiro.png",
           "pontos": "",
           "descricao": "",
           "tipoPontos": "",
@@ -109,7 +109,7 @@
       "cartaAtiva":"",
       "cartas": [
         { "img": "src/img/cartas/dobrometade.png", "usada": false },
-        { "img": "src/img/cartas/escudo.png", "usada": false },
+        { "img": "src/img/cartas/escudo.png", "usada": true },
         { "img": "src/img/cartas/grego.png", "usada": true },
         { "img": "src/img/cartas/segundachance.png", "usada": false },
         { "img": "src/img/cartas/seguro.png", "usada": false },
@@ -119,27 +119,27 @@
       ],
       "jogos": [
         {
-          "time1": "",
+          "time1": "src/img/escudos/chapecoense.png",
           "placar": "",
-          "time2": "",
+          "time2": "src/img/escudos/internacional.png",
           "pontos": "",
           "descricao": "",
           "tipoPontos": "",
           "coringa": false
         },
         {
-          "time1": "",
+          "time1": "src/img/escudos/botafogo.png",
           "placar": "",
-          "time2": "",
+          "time2": "src/img/escudos/bragantino.png",
           "pontos": "",
           "descricao": "",
           "tipoPontos": "",
           "coringa": false
         },
         {
-          "time1": "",
+          "time1": "src/img/escudos/santos.png",
           "placar": "",
-          "time2": "",
+          "time2": "src/img/escudos/cruzeiro.png",
           "pontos": "",
           "descricao": "",
           "tipoPontos": "",
@@ -163,33 +163,33 @@
         { "img": "src/img/cartas/grego.png", "usada": false },
         { "img": "src/img/cartas/segundachance.png", "usada": true },
         { "img": "src/img/cartas/seguro.png", "usada": false },
-        { "img": "src/img/especial/coringa.png", "usada": false },
+        { "img": "src/img/especial/coringa.png", "usada": true },
         { "img": "src/img/especial/coringa.png", "usada": true },
         { "img": "src/img/especial/coringa.png", "usada": true }
       ],
       "jogos": [
         {
-          "time1": "",
+          "time1": "src/img/escudos/chapecoense.png",
           "placar": "",
-          "time2": "",
+          "time2": "src/img/escudos/internacional.png",
           "pontos": "",
           "descricao": "",
           "tipoPontos": "",
           "coringa": false
         },
         {
-          "time1": "",
+          "time1": "src/img/escudos/botafogo.png",
           "placar": "",
-          "time2": "",
+          "time2": "src/img/escudos/bragantino.png",
           "pontos": "",
           "descricao": "",
           "tipoPontos": "",
           "coringa": false
         },
         {
-          "time1": "",
+          "time1": "src/img/escudos/santos.png",
           "placar": "",
-          "time2": "",
+          "time2": "src/img/escudos/cruzeiro.png",
           "pontos": "",
           "descricao": "",
           "tipoPontos": "",

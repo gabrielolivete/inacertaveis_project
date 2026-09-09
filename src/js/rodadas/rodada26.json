@@ -1,6 +1,6 @@
 {
   "nome": "RODADA 26",
-  "prazoPalpites": "Sábado, 05/08 às 16:00h",
+  "prazoPalpites": "Sábado, 05/09 às 16:00h",
   "participantes": [
     {
       "nome": "MARCOLA",
@@ -190,7 +190,7 @@
         { "img": "src/img/cartas/grego.png", "usada": true },
         { "img": "src/img/cartas/segundachance.png", "usada": true },
         { "img": "src/img/cartas/seguro.png", "usada": false },
-        { "img": "src/img/especial/coringa.png", "usada": false },
+        { "img": "src/img/especial/coringa.png", "usada": true },
         { "img": "src/img/especial/coringa.png", "usada": true },
         { "img": "src/img/especial/coringa.png", "usada": true }
       ],

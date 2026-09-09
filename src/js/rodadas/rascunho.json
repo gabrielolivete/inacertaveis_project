@@ -109,7 +109,7 @@
       "cartaAtiva":"",
       "cartas": [
         { "img": "src/img/cartas/dobrometade.png", "usada": false },
-        { "img": "src/img/cartas/escudo.png", "usada": false },
+        { "img": "src/img/cartas/escudo.png", "usada": true },
         { "img": "src/img/cartas/grego.png", "usada": true },
         { "img": "src/img/cartas/segundachance.png", "usada": false },
         { "img": "src/img/cartas/seguro.png", "usada": false },
