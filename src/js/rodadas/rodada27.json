@@ -18,39 +18,48 @@
         { "img": "src/img/especial/coringa.png", "usada": true }
       ],
       "jogos": [
-        {
-          "time1": "src/img/escudos/chapecoense.png",
-          "placar": "",
-          "time2": "src/img/escudos/internacional.png",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
-          "coringa": false
-        },
-        {
-          "time1": "src/img/escudos/botafogo.png",
-          "placar": "",
-          "time2": "src/img/escudos/bragantino.png",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
-          "coringa": false
-        },
-        {
-          "time1": "src/img/escudos/santos.png",
-          "placar": "",
-          "time2": "src/img/escudos/cruzeiro.png",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
-          "coringa": false
-        }
-      ],
-      "eventos": [
-        { "texto": "⚽ ", "acertou": false },
-        { "texto": "🟨 ", "acertou": false },
-        { "texto": "🫂 ", "acertou": false }
-      ]
+    {
+      "time1": "src/img/escudos/chapecoense.png",
+      "placar": "1 x 1",
+      "time2": "src/img/escudos/internacional.png",
+      "pontos": "",
+      "descricao": "",
+      "tipoPontos": "",
+      "coringa": false
+    },
+    {
+      "time1": "src/img/escudos/botafogo.png",
+      "placar": "2 x 0",
+      "time2": "src/img/escudos/bragantino.png",
+      "pontos": "",
+      "descricao": "",
+      "tipoPontos": "",
+      "coringa": false
+    },
+    {
+      "time1": "src/img/escudos/santos.png",
+      "placar": "1 x 2",
+      "time2": "src/img/escudos/cruzeiro.png",
+      "pontos": "",
+      "descricao": "",
+      "tipoPontos": "",
+      "coringa": false
+    }
+  ],
+  "eventos": [
+    {
+      "texto": "⚽  Kaio Jorge (Cruzeiro)",
+      "acertou": false
+    },
+    {
+      "texto": "🟨  Neymar (Santos)",
+      "acertou": false
+    },
+    {
+      "texto": "🫂  Matheus Pereira (Cruzeiro)",
+      "acertou": false
+    }
+  ]
     },
     {
       "nome": "GABS",
@@ -68,39 +77,48 @@
         { "img": "src/img/especial/coringa.png", "usada": true }
       ],
       "jogos": [
-        {
-          "time1": "src/img/escudos/chapecoense.png",
-          "placar": "",
-          "time2": "src/img/escudos/internacional.png",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
-          "coringa": false
-        },
-        {
-          "time1": "src/img/escudos/botafogo.png",
-          "placar": "",
-          "time2": "src/img/escudos/bragantino.png",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
-          "coringa": false
-        },
-        {
-          "time1": "src/img/escudos/santos.png",
-          "placar": "",
-          "time2": "src/img/escudos/cruzeiro.png",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
-          "coringa": false
-        }
-      ],
-      "eventos": [
-        { "texto": "⚽ ", "acertou": false },
-        { "texto": "🟨 ", "acertou": false },
-        { "texto": "🫂 ", "acertou": false }
-      ]
+    {
+      "time1": "src/img/escudos/chapecoense.png",
+      "placar": "1 x 1",
+      "time2": "src/img/escudos/internacional.png",
+      "pontos": "",
+      "descricao": "",
+      "tipoPontos": "",
+      "coringa": false
+    },
+    {
+      "time1": "src/img/escudos/botafogo.png",
+      "placar": "1 x 2",
+      "time2": "src/img/escudos/bragantino.png",
+      "pontos": "",
+      "descricao": "",
+      "tipoPontos": "",
+      "coringa": false
+    },
+    {
+      "time1": "src/img/escudos/santos.png",
+      "placar": "2 x 3",
+      "time2": "src/img/escudos/cruzeiro.png",
+      "pontos": "",
+      "descricao": "",
+      "tipoPontos": "",
+      "coringa": false
+    }
+  ],
+  "eventos": [
+    {
+      "texto": "⚽  M. Pereira (Cruzeiro)",
+      "acertou": false
+    },
+    {
+      "texto": "🟨  W. Arão (Santos)",
+      "acertou": false
+    },
+    {
+      "texto": "🫂  Neymar (Santos)",
+      "acertou": false
+    }
+  ]
     },
     {
       "nome": "JOCA",
@@ -118,39 +136,48 @@
         { "img": "src/img/especial/coringa.png", "usada": true }
       ],
       "jogos": [
-        {
-          "time1": "src/img/escudos/chapecoense.png",
-          "placar": "",
-          "time2": "src/img/escudos/internacional.png",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
-          "coringa": false
-        },
-        {
-          "time1": "src/img/escudos/botafogo.png",
-          "placar": "",
-          "time2": "src/img/escudos/bragantino.png",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
-          "coringa": false
-        },
-        {
-          "time1": "src/img/escudos/santos.png",
-          "placar": "",
-          "time2": "src/img/escudos/cruzeiro.png",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
-          "coringa": false
-        }
-      ],
-      "eventos": [
-        { "texto": "⚽ ", "acertou": false },
-        { "texto": "🟨 ", "acertou": false },
-        { "texto": "🫂 ", "acertou": false }
-      ]
+    {
+      "time1": "src/img/escudos/chapecoense.png",
+      "placar": "10 x 1",
+      "time2": "src/img/escudos/internacional.png",
+      "pontos": "",
+      "descricao": "",
+      "tipoPontos": "",
+      "coringa": false
+    },
+    {
+      "time1": "src/img/escudos/botafogo.png",
+      "placar": "2 x 01",
+      "time2": "src/img/escudos/bragantino.png",
+      "pontos": "",
+      "descricao": "",
+      "tipoPontos": "",
+      "coringa": false
+    },
+    {
+      "time1": "src/img/escudos/santos.png",
+      "placar": "1 x 2",
+      "time2": "src/img/escudos/cruzeiro.png",
+      "pontos": "",
+      "descricao": "",
+      "tipoPontos": "",
+      "coringa": false
+    }
+  ],
+  "eventos": [
+    {
+      "texto": "⚽  Matheus Pereira(Cruzeiro)",
+      "acertou": false
+    },
+    {
+      "texto": "🟨  Fabinho (Bragantino)",
+      "acertou": false
+    },
+    {
+      "texto": "🫂  Montoro(botafogo)",
+      "acertou": false
+    }
+  ]
     },
     {
       "nome": "FEFEZAO",
@@ -168,39 +195,48 @@
         { "img": "src/img/especial/coringa.png", "usada": true }
       ],
       "jogos": [
-        {
-          "time1": "src/img/escudos/chapecoense.png",
-          "placar": "",
-          "time2": "src/img/escudos/internacional.png",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
-          "coringa": false
-        },
-        {
-          "time1": "src/img/escudos/botafogo.png",
-          "placar": "",
-          "time2": "src/img/escudos/bragantino.png",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
-          "coringa": false
-        },
-        {
-          "time1": "src/img/escudos/santos.png",
-          "placar": "",
-          "time2": "src/img/escudos/cruzeiro.png",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
-          "coringa": false
-        }
-      ],
-      "eventos": [
-        { "texto": "⚽ ", "acertou": false },
-        { "texto": "🟨 ", "acertou": false },
-        { "texto": "🫂 ", "acertou": false }
-      ]
+    {
+      "time1": "src/img/escudos/chapecoense.png",
+      "placar": "2 x 2",
+      "time2": "src/img/escudos/internacional.png",
+      "pontos": "",
+      "descricao": "",
+      "tipoPontos": "",
+      "coringa": false
+    },
+    {
+      "time1": "src/img/escudos/botafogo.png",
+      "placar": "2 x 0",
+      "time2": "src/img/escudos/bragantino.png",
+      "pontos": "",
+      "descricao": "",
+      "tipoPontos": "",
+      "coringa": false
+    },
+    {
+      "time1": "src/img/escudos/santos.png",
+      "placar": "0 x 2",
+      "time2": "src/img/escudos/cruzeiro.png",
+      "pontos": "",
+      "descricao": "",
+      "tipoPontos": "",
+      "coringa": false
+    }
+  ],
+  "eventos": [
+    {
+      "texto": "⚽  Kaio Jorge (Cruzeiro)",
+      "acertou": false
+    },
+    {
+      "texto": "🟨  Matheus Pereira (Cruzeiro)",
+      "acertou": false
+    },
+    {
+      "texto": "🫂  Matheus Pereira (Cruzeiro)",
+      "acertou": false
+    }
+  ]
     }
   ]
 }
