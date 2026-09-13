@@ -22,9 +22,9 @@
       "time1": "src/img/escudos/chapecoense.png",
       "placar": "1 x 1",
       "time2": "src/img/escudos/internacional.png",
-      "pontos": "",
-      "descricao": "",
-      "tipoPontos": "",
+      "pontos": "-5",
+      "descricao": "-5 palpite",
+      "tipoPontos": "negativo",
       "coringa": false
     },
     {
@@ -52,7 +52,7 @@
       "acertou": false
     },
     {
-      "texto": "🟨  Neymar (Santos)",
+      "texto": "🟨  Bernabei (Internacional)",
       "acertou": false
     },
     {
@@ -81,9 +81,9 @@
       "time1": "src/img/escudos/chapecoense.png",
       "placar": "1 x 1",
       "time2": "src/img/escudos/internacional.png",
-      "pontos": "",
-      "descricao": "",
-      "tipoPontos": "",
+      "pontos": "-5",
+      "descricao": "-5 palpite",
+      "tipoPontos": "negativo",
       "coringa": false
     },
     {
@@ -138,16 +138,16 @@
       "jogos": [
     {
       "time1": "src/img/escudos/chapecoense.png",
-      "placar": "10 x 1",
+      "placar": "1 x 1",
       "time2": "src/img/escudos/internacional.png",
-      "pontos": "",
-      "descricao": "",
-      "tipoPontos": "",
+      "pontos": "-5",
+      "descricao": "-5 palpite",
+      "tipoPontos": "negativo",
       "coringa": false
     },
     {
       "time1": "src/img/escudos/botafogo.png",
-      "placar": "2 x 01",
+      "placar": "2 x 1",
       "time2": "src/img/escudos/bragantino.png",
       "pontos": "",
       "descricao": "",
@@ -166,7 +166,7 @@
   ],
   "eventos": [
     {
-      "texto": "⚽  Matheus Pereira(Cruzeiro)",
+      "texto": "⚽  Matheus Pereira (Cruzeiro)",
       "acertou": false
     },
     {
@@ -174,7 +174,7 @@
       "acertou": false
     },
     {
-      "texto": "🫂  Montoro(botafogo)",
+      "texto": "🫂  Montoro (Botafogo)",
       "acertou": false
     }
   ]
@@ -199,9 +199,9 @@
       "time1": "src/img/escudos/chapecoense.png",
       "placar": "2 x 2",
       "time2": "src/img/escudos/internacional.png",
-      "pontos": "",
-      "descricao": "",
-      "tipoPontos": "",
+      "pontos": "-5",
+      "descricao": "-5 palpite",
+      "tipoPontos": "negativo",
       "coringa": false
     },
     {
