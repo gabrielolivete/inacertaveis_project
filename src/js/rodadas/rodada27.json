@@ -31,18 +31,18 @@
       "time1": "src/img/escudos/botafogo.png",
       "placar": "2 x 0",
       "time2": "src/img/escudos/bragantino.png",
-      "pontos": "",
-      "descricao": "",
-      "tipoPontos": "",
+      "pontos": "-10",
+      "descricao": "-10 palpite",
+      "tipoPontos": "negativo",
       "coringa": false
     },
     {
       "time1": "src/img/escudos/santos.png",
       "placar": "1 x 2",
       "time2": "src/img/escudos/cruzeiro.png",
-      "pontos": "",
-      "descricao": "",
-      "tipoPontos": "",
+      "pontos": "-10",
+      "descricao": "-10 palpite",
+      "tipoPontos": "negativo",
       "coringa": false
     }
   ],
@@ -90,18 +90,18 @@
       "time1": "src/img/escudos/botafogo.png",
       "placar": "1 x 2",
       "time2": "src/img/escudos/bragantino.png",
-      "pontos": "",
-      "descricao": "",
-      "tipoPontos": "",
+      "pontos": "-5",
+      "descricao": "-5 palpite",
+      "tipoPontos": "negativo",
       "coringa": false
     },
     {
       "time1": "src/img/escudos/santos.png",
       "placar": "2 x 3",
       "time2": "src/img/escudos/cruzeiro.png",
-      "pontos": "",
-      "descricao": "",
-      "tipoPontos": "",
+      "pontos": "-10",
+      "descricao": "-10 palpite",
+      "tipoPontos": "negativo",
       "coringa": false
     }
   ],
@@ -149,18 +149,18 @@
       "time1": "src/img/escudos/botafogo.png",
       "placar": "2 x 1",
       "time2": "src/img/escudos/bragantino.png",
-      "pontos": "",
-      "descricao": "",
-      "tipoPontos": "",
+      "pontos": "-5",
+      "descricao": "-5 palpite",
+      "tipoPontos": "negativo",
       "coringa": false
     },
     {
       "time1": "src/img/escudos/santos.png",
       "placar": "1 x 2",
       "time2": "src/img/escudos/cruzeiro.png",
-      "pontos": "",
-      "descricao": "",
-      "tipoPontos": "",
+      "pontos": "-10",
+      "descricao": "-10 palpite",
+      "tipoPontos": "negativo",
       "coringa": false
     }
   ],
@@ -208,18 +208,18 @@
       "time1": "src/img/escudos/botafogo.png",
       "placar": "2 x 0",
       "time2": "src/img/escudos/bragantino.png",
-      "pontos": "",
-      "descricao": "",
-      "tipoPontos": "",
+      "pontos": "-10",
+      "descricao": "-10 palpite",
+      "tipoPontos": "negativo",
       "coringa": false
     },
     {
       "time1": "src/img/escudos/santos.png",
       "placar": "0 x 2",
       "time2": "src/img/escudos/cruzeiro.png",
-      "pontos": "",
-      "descricao": "",
-      "tipoPontos": "",
+      "pontos": "-15",
+      "descricao": "-15 palpite",
+      "tipoPontos": "negativo",
       "coringa": false
     }
   ],
