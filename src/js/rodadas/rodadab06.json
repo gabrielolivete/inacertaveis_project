@@ -20,39 +20,48 @@
         { "img": "src/img/especial/coringa.png", "usada": true }
       ],
       "jogos": [
-        {
-          "time1": "src/img/escudos/platense.png",
-          "placar": "",
-          "time2": "src/img/escudos/fluminense.png",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
-          "coringa": false
-        },
-        {
-          "time1": "src/img/escudos/ldu.png",
-          "placar": "",
-          "time2": "src/img/escudos/palmeiras.png",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
-          "coringa": false
-        },
-        {
-          "time1": "src/img/escudos/corinthians.png",
-          "placar": "",
-          "time2": "src/img/escudos/estudiantes.png",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
-          "coringa": false
-        }
-      ],
-      "eventos": [
-        { "texto": "⚽ ", "acertou": false },
-        { "texto": "🟨 ", "acertou": false },
-        { "texto": "🫂 ", "acertou": false }
-      ]
+    {
+      "time1": "src/img/escudos/platense.png",
+      "placar": "1 x 0",
+      "time2": "src/img/escudos/fluminense.png",
+      "pontos": "-10",
+      "descricao": "-10 palpite",
+      "tipoPontos": "negativo",
+      "coringa": false
+    },
+    {
+      "time1": "src/img/escudos/ldu.png",
+      "placar": "2 x 2",
+      "time2": "src/img/escudos/palmeiras.png",
+      "pontos": "",
+      "descricao": "",
+      "tipoPontos": "",
+      "coringa": false
+    },
+    {
+      "time1": "src/img/escudos/corinthians.png",
+      "placar": "2 x 0",
+      "time2": "src/img/escudos/estudiantes.png",
+      "pontos": "",
+      "descricao": "",
+      "tipoPontos": "",
+      "coringa": true
+    }
+  ],
+  "eventos": [
+    {
+      "texto": "⚽  Vitor Roque (Palmeiras)",
+      "acertou": false
+    },
+    {
+      "texto": "🟨  Hulk (Fluminense)",
+      "acertou": false
+    },
+    {
+      "texto": "🫂  Flaco Lopez (Palmeiras)",
+      "acertou": false
+    }
+  ]
     },
     {
       "nome": "GABS",
@@ -70,39 +79,48 @@
         { "img": "src/img/especial/coringa.png", "usada": true }
       ],
       "jogos": [
-        {
-          "time1": "src/img/escudos/platense.png",
-          "placar": "",
-          "time2": "src/img/escudos/fluminense.png",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
-          "coringa": false
-        },
-        {
-          "time1": "src/img/escudos/ldu.png",
-          "placar": "",
-          "time2": "src/img/escudos/palmeiras.png",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
-          "coringa": false
-        },
-        {
-          "time1": "src/img/escudos/corinthians.png",
-          "placar": "",
-          "time2": "src/img/escudos/estudiantes.png",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
-          "coringa": false
-        }
-      ],
-      "eventos": [
-        { "texto": "⚽ ", "acertou": false },
-        { "texto": "🟨 ", "acertou": false },
-        { "texto": "🫂 ", "acertou": false }
-      ]
+    {
+      "time1": "src/img/escudos/platense.png",
+      "placar": "1 x 2",
+      "time2": "src/img/escudos/fluminense.png",
+      "pontos": "-10",
+      "descricao": "-10 palpite",
+      "tipoPontos": "negativo",
+      "coringa": false
+    },
+    {
+      "time1": "src/img/escudos/ldu.png",
+      "placar": "1 x 2",
+      "time2": "src/img/escudos/palmeiras.png",
+      "pontos": "",
+      "descricao": "",
+      "tipoPontos": "",
+      "coringa": false
+    },
+    {
+      "time1": "src/img/escudos/corinthians.png",
+      "placar": "1 x 0",
+      "time2": "src/img/escudos/estudiantes.png",
+      "pontos": "",
+      "descricao": "",
+      "tipoPontos": "",
+      "coringa": false
+    }
+  ],
+  "eventos": [
+    {
+      "texto": "⚽  Flaco Lopez (Palmeiras)",
+      "acertou": false
+    },
+    {
+      "texto": "🟨  Deyverson (LDU)",
+      "acertou": false
+    },
+    {
+      "texto": "🫂  Hulk (Fluminense)",
+      "acertou": false
+    }
+  ]
     },
     {
       "nome": "JOCA",
@@ -122,16 +140,16 @@
       "jogos": [
         {
           "time1": "src/img/escudos/platense.png",
-          "placar": "",
+          "placar": "0 x 4",
           "time2": "src/img/escudos/fluminense.png",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
+          "pontos": "-25",
+          "descricao": "-25 palpite",
+          "tipoPontos": "negativo",
           "coringa": false
         },
         {
           "time1": "src/img/escudos/ldu.png",
-          "placar": "",
+          "placar": "0 x 4",
           "time2": "src/img/escudos/palmeiras.png",
           "pontos": "",
           "descricao": "",
@@ -140,7 +158,7 @@
         },
         {
           "time1": "src/img/escudos/corinthians.png",
-          "placar": "",
+          "placar": "0 x 4",
           "time2": "src/img/escudos/estudiantes.png",
           "pontos": "",
           "descricao": "",
@@ -149,9 +167,9 @@
         }
       ],
       "eventos": [
-        { "texto": "⚽ ", "acertou": false },
-        { "texto": "🟨 ", "acertou": false },
-        { "texto": "🫂 ", "acertou": false }
+        { "texto": "⚽ X", "acertou": false },
+        { "texto": "🟨 X", "acertou": false },
+        { "texto": "🫂 X", "acertou": false }
       ]
     },
     {
@@ -172,16 +190,16 @@
       "jogos": [
         {
           "time1": "src/img/escudos/platense.png",
-          "placar": "",
+          "placar": "0 x 4",
           "time2": "src/img/escudos/fluminense.png",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
+          "pontos": "-25",
+          "descricao": "-25 palpite",
+          "tipoPontos": "negativo",
           "coringa": false
         },
         {
           "time1": "src/img/escudos/ldu.png",
-          "placar": "",
+          "placar": "0 x 4",
           "time2": "src/img/escudos/palmeiras.png",
           "pontos": "",
           "descricao": "",
@@ -190,7 +208,7 @@
         },
         {
           "time1": "src/img/escudos/corinthians.png",
-          "placar": "",
+          "placar": "0 x 4",
           "time2": "src/img/escudos/estudiantes.png",
           "pontos": "",
           "descricao": "",
@@ -199,9 +217,9 @@
         }
       ],
       "eventos": [
-        { "texto": "⚽ ", "acertou": false },
-        { "texto": "🟨 ", "acertou": false },
-        { "texto": "🫂 ", "acertou": false }
+        { "texto": "⚽ X", "acertou": false },
+        { "texto": "🟨 X", "acertou": false },
+        { "texto": "🫂 X", "acertou": false }
       ]
     }
   ]
