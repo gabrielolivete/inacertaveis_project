@@ -15,7 +15,7 @@
         { "img": "src/img/cartas/grego.png", "usada": true },
         { "img": "src/img/cartas/segundachance.png", "usada": false },
         { "img": "src/img/cartas/seguro.png", "usada": false },
-        { "img": "src/img/especial/coringa.png", "usada": false },
+        { "img": "src/img/especial/coringa.png", "usada": true },
         { "img": "src/img/especial/coringa.png", "usada": true },
         { "img": "src/img/especial/coringa.png", "usada": true }
       ],
@@ -33,25 +33,25 @@
       "time1": "src/img/escudos/ldu.png",
       "placar": "2 x 2",
       "time2": "src/img/escudos/palmeiras.png",
-      "pontos": "",
-      "descricao": "",
-      "tipoPontos": "",
+      "pontos": "+10",
+      "descricao": "-5 palpite<br>+15 gol",
+      "tipoPontos": "positivo",
       "coringa": false
     },
     {
       "time1": "src/img/escudos/corinthians.png",
       "placar": "2 x 0",
       "time2": "src/img/escudos/estudiantes.png",
-      "pontos": "",
-      "descricao": "",
-      "tipoPontos": "",
+      "pontos": "-30",
+      "descricao": "-15 palpite(2x)",
+      "tipoPontos": "negativo",
       "coringa": true
     }
   ],
   "eventos": [
     {
       "texto": "⚽  Vitor Roque (Palmeiras)",
-      "acertou": false
+      "acertou": true
     },
     {
       "texto": "🟨  Hulk (Fluminense)",
@@ -92,18 +92,18 @@
       "time1": "src/img/escudos/ldu.png",
       "placar": "1 x 2",
       "time2": "src/img/escudos/palmeiras.png",
-      "pontos": "",
-      "descricao": "",
-      "tipoPontos": "",
+      "pontos": "-10",
+      "descricao": "-10 palpite",
+      "tipoPontos": "negativo",
       "coringa": false
     },
     {
       "time1": "src/img/escudos/corinthians.png",
       "placar": "1 x 0",
       "time2": "src/img/escudos/estudiantes.png",
-      "pontos": "",
-      "descricao": "",
-      "tipoPontos": "",
+      "pontos": "-10",
+      "descricao": "-10 palpite",
+      "tipoPontos": "negativo",
       "coringa": false
     }
   ],
@@ -151,18 +151,18 @@
           "time1": "src/img/escudos/ldu.png",
           "placar": "0 x 4",
           "time2": "src/img/escudos/palmeiras.png",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
+          "pontos": "-25",
+          "descricao": "-25 palpite",
+          "tipoPontos": "negativo",
           "coringa": false
         },
         {
           "time1": "src/img/escudos/corinthians.png",
           "placar": "0 x 4",
           "time2": "src/img/escudos/estudiantes.png",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
+          "pontos": "-15",
+          "descricao": "-15 palpite",
+          "tipoPontos": "negativo",
           "coringa": false
         }
       ],
@@ -183,7 +183,7 @@
         { "img": "src/img/cartas/grego.png", "usada": false },
         { "img": "src/img/cartas/segundachance.png", "usada": true },
         { "img": "src/img/cartas/seguro.png", "usada": false },
-        { "img": "src/img/especial/coringa.png", "usada": false },
+        { "img": "src/img/especial/coringa.png", "usada": true },
         { "img": "src/img/especial/coringa.png", "usada": true },
         { "img": "src/img/especial/coringa.png", "usada": true }
       ],
@@ -201,18 +201,18 @@
           "time1": "src/img/escudos/ldu.png",
           "placar": "0 x 4",
           "time2": "src/img/escudos/palmeiras.png",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
+          "pontos": "-25",
+          "descricao": "-25 palpite",
+          "tipoPontos": "negativo",
           "coringa": false
         },
         {
           "time1": "src/img/escudos/corinthians.png",
           "placar": "0 x 4",
           "time2": "src/img/escudos/estudiantes.png",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
+          "pontos": "-15",
+          "descricao": "-15 palpite",
+          "tipoPontos": "negativo",
           "coringa": false
         }
       ],
