@@ -18,39 +18,48 @@
         { "img": "src/img/especial/coringa.png", "usada": true }
       ],
       "jogos": [
-        {
-          "time1": "src/img/escudos/remo.png",
-          "placar": "",
-          "time2": "src/img/escudos/santos.png",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
-          "coringa": false
-        },
-        {
-          "time1": "src/img/escudos/vasco.png",
-          "placar": "",
-          "time2": "src/img/escudos/coritiba.png",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
-          "coringa": false
-        },
-        {
-          "time1": "src/img/escudos/flamengo.png",
-          "placar": "",
-          "time2": "src/img/escudos/bragantino.png",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
-          "coringa": false
-        }
-      ],
-      "eventos": [
-        { "texto": "⚽ ", "acertou": false },
-        { "texto": "🟨 ", "acertou": false },
-        { "texto": "🫂 ", "acertou": false }
-      ]
+    {
+      "time1": "src/img/escudos/remo.png",
+      "placar": "1 x 3",
+      "time2": "src/img/escudos/santos.png",
+      "pontos": "",
+      "descricao": "",
+      "tipoPontos": "",
+      "coringa": false
+    },
+    {
+      "time1": "src/img/escudos/vasco.png",
+      "placar": "1 x 2",
+      "time2": "src/img/escudos/coritiba.png",
+      "pontos": "",
+      "descricao": "",
+      "tipoPontos": "",
+      "coringa": false
+    },
+    {
+      "time1": "src/img/escudos/flamengo.png",
+      "placar": "3 x 0",
+      "time2": "src/img/escudos/bragantino.png",
+      "pontos": "",
+      "descricao": "",
+      "tipoPontos": "",
+      "coringa": false
+    }
+  ],
+  "eventos": [
+    {
+      "texto": "⚽  Pedro (Flamengo)",
+      "acertou": false
+    },
+    {
+      "texto": "🟨  Alef Manga (remo)",
+      "acertou": false
+    },
+    {
+      "texto": "🫂  Arrascaeta",
+      "acertou": false
+    }
+  ]
     },
     {
       "nome": "GABS",
@@ -68,45 +77,54 @@
         { "img": "src/img/especial/coringa.png", "usada": true }
       ],
       "jogos": [
-        {
-          "time1": "src/img/escudos/remo.png",
-          "placar": "",
-          "time2": "src/img/escudos/santos.png",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
-          "coringa": false
-        },
-        {
-          "time1": "src/img/escudos/vasco.png",
-          "placar": "",
-          "time2": "src/img/escudos/coritiba.png",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
-          "coringa": false
-        },
-        {
-          "time1": "src/img/escudos/flamengo.png",
-          "placar": "",
-          "time2": "src/img/escudos/bragantino.png",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
-          "coringa": false
-        }
-      ],
-      "eventos": [
-        { "texto": "⚽ ", "acertou": false },
-        { "texto": "🟨 ", "acertou": false },
-        { "texto": "🫂 ", "acertou": false }
-      ]
+    {
+      "time1": "src/img/escudos/remo.png",
+      "placar": "0 x 2",
+      "time2": "src/img/escudos/santos.png",
+      "pontos": "",
+      "descricao": "",
+      "tipoPontos": "",
+      "coringa": false
+    },
+    {
+      "time1": "src/img/escudos/vasco.png",
+      "placar": "1 x 2",
+      "time2": "src/img/escudos/coritiba.png",
+      "pontos": "",
+      "descricao": "",
+      "tipoPontos": "",
+      "coringa": false
+    },
+    {
+      "time1": "src/img/escudos/flamengo.png",
+      "placar": "2 x 0",
+      "time2": "src/img/escudos/bragantino.png",
+      "pontos": "",
+      "descricao": "",
+      "tipoPontos": "",
+      "coringa": false
+    }
+  ],
+  "eventos": [
+    {
+      "texto": "⚽  Bruno Henrique (Flamengo)",
+      "acertou": false
+    },
+    {
+      "texto": "🟨  Ze Ivaldo (Remo)",
+      "acertou": false
+    },
+    {
+      "texto": "🫂  Josué (Coritiba)",
+      "acertou": false
+    }
+  ]
     },
     {
       "nome": "JOCA",
       "avatar": "src/img/avatares/joca.png",
       "avatarHead": "src/img/avatares/jocahead.png",
-      "cartaAtiva":"",
+      "cartaAtiva":"SEGURO",
       "cartas": [
         { "img": "src/img/cartas/dobrometade.png", "usada": false },
         { "img": "src/img/cartas/escudo.png", "usada": true },
@@ -118,39 +136,48 @@
         { "img": "src/img/especial/coringa.png", "usada": true }
       ],
       "jogos": [
-        {
-          "time1": "src/img/escudos/remo.png",
-          "placar": "",
-          "time2": "src/img/escudos/santos.png",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
-          "coringa": false
-        },
-        {
-          "time1": "src/img/escudos/vasco.png",
-          "placar": "",
-          "time2": "src/img/escudos/coritiba.png",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
-          "coringa": false
-        },
-        {
-          "time1": "src/img/escudos/flamengo.png",
-          "placar": "",
-          "time2": "src/img/escudos/bragantino.png",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
-          "coringa": false
-        }
-      ],
-      "eventos": [
-        { "texto": "⚽ ", "acertou": false },
-        { "texto": "🟨 ", "acertou": false },
-        { "texto": "🫂 ", "acertou": false }
-      ]
+    {
+      "time1": "src/img/escudos/remo.png",
+      "placar": "1 x 2",
+      "time2": "src/img/escudos/santos.png",
+      "pontos": "",
+      "descricao": "",
+      "tipoPontos": "",
+      "coringa": true
+    },
+    {
+      "time1": "src/img/escudos/vasco.png",
+      "placar": "1 x 0",
+      "time2": "src/img/escudos/coritiba.png",
+      "pontos": "",
+      "descricao": "",
+      "tipoPontos": "",
+      "coringa": false
+    },
+    {
+      "time1": "src/img/escudos/flamengo.png",
+      "placar": "2 x 0",
+      "time2": "src/img/escudos/bragantino.png",
+      "pontos": "",
+      "descricao": "",
+      "tipoPontos": "",
+      "coringa": false
+    }
+  ],
+  "eventos": [
+    {
+      "texto": "⚽  Pedro(Flamengo )",
+      "acertou": false
+    },
+    {
+      "texto": "🟨  Lucas Barbosa(Bragantino)",
+      "acertou": false
+    },
+    {
+      "texto": "🫂  Arrascaeta(Flamengo)",
+      "acertou": false
+    }
+  ]
     },
     {
       "nome": "FEFEZAO",
@@ -168,39 +195,48 @@
         { "img": "src/img/especial/coringa.png", "usada": true }
       ],
       "jogos": [
-        {
-          "time1": "src/img/escudos/remo.png",
-          "placar": "",
-          "time2": "src/img/escudos/santos.png",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
-          "coringa": false
-        },
-        {
-          "time1": "src/img/escudos/vasco.png",
-          "placar": "",
-          "time2": "src/img/escudos/coritiba.png",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
-          "coringa": false
-        },
-        {
-          "time1": "src/img/escudos/flamengo.png",
-          "placar": "",
-          "time2": "src/img/escudos/bragantino.png",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
-          "coringa": false
-        }
-      ],
-      "eventos": [
-        { "texto": "⚽ ", "acertou": false },
-        { "texto": "🟨 ", "acertou": false },
-        { "texto": "🫂 ", "acertou": false }
-      ]
+    {
+      "time1": "src/img/escudos/remo.png",
+      "placar": "1 x 2",
+      "time2": "src/img/escudos/santos.png",
+      "pontos": "",
+      "descricao": "",
+      "tipoPontos": "",
+      "coringa": false
+    },
+    {
+      "time1": "src/img/escudos/vasco.png",
+      "placar": "1 x 1",
+      "time2": "src/img/escudos/coritiba.png",
+      "pontos": "",
+      "descricao": "",
+      "tipoPontos": "",
+      "coringa": false
+    },
+    {
+      "time1": "src/img/escudos/flamengo.png",
+      "placar": "2 x 0",
+      "time2": "src/img/escudos/bragantino.png",
+      "pontos": "",
+      "descricao": "",
+      "tipoPontos": "",
+      "coringa": false
+    }
+  ],
+  "eventos": [
+    {
+      "texto": "⚽  Pedro (Flamengo)",
+      "acertou": false
+    },
+    {
+      "texto": "🟨  Sebastian Gomez (Coritiba)",
+      "acertou": false
+    },
+    {
+      "texto": "🫂  Arrascaeta (Flamengo)",
+      "acertou": false
+    }
+  ]
     }
   ]
 }
