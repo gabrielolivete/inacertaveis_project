@@ -22,9 +22,9 @@
       "time1": "src/img/escudos/remo.png",
       "placar": "1 x 3",
       "time2": "src/img/escudos/santos.png",
-      "pontos": "",
-      "descricao": "",
-      "tipoPontos": "",
+      "pontos": "-5",
+      "descricao": "-5 palpite",
+      "tipoPontos": "negativo",
       "coringa": false
     },
     {
@@ -52,11 +52,11 @@
       "acertou": false
     },
     {
-      "texto": "🟨  Alef Manga (remo)",
+      "texto": "🟨  Alef Manga (Remo)",
       "acertou": false
     },
     {
-      "texto": "🫂  Arrascaeta",
+      "texto": "🫂  Arrascaeta (Flamengo)",
       "acertou": false
     }
   ]
@@ -81,9 +81,9 @@
       "time1": "src/img/escudos/remo.png",
       "placar": "0 x 2",
       "time2": "src/img/escudos/santos.png",
-      "pontos": "",
-      "descricao": "",
-      "tipoPontos": "",
+      "pontos": "-5",
+      "descricao": "-5 palpite",
+      "tipoPontos": "negativo",
       "coringa": false
     },
     {
@@ -140,9 +140,9 @@
       "time1": "src/img/escudos/remo.png",
       "placar": "1 x 2",
       "time2": "src/img/escudos/santos.png",
-      "pontos": "",
-      "descricao": "",
-      "tipoPontos": "",
+      "pontos": "+100",
+      "descricao": "CRAVOU! (2x)",
+      "tipoPontos": "positivo",
       "coringa": true
     },
     {
@@ -166,15 +166,15 @@
   ],
   "eventos": [
     {
-      "texto": "⚽  Pedro(Flamengo )",
+      "texto": "⚽  Pedro (Flamengo )",
       "acertou": false
     },
     {
-      "texto": "🟨  Lucas Barbosa(Bragantino)",
+      "texto": "🟨  Lucas Barbosa (Bragantino)",
       "acertou": false
     },
     {
-      "texto": "🫂  Arrascaeta(Flamengo)",
+      "texto": "🫂  Arrascaeta (Flamengo)",
       "acertou": false
     }
   ]
@@ -199,9 +199,9 @@
       "time1": "src/img/escudos/remo.png",
       "placar": "1 x 2",
       "time2": "src/img/escudos/santos.png",
-      "pontos": "",
-      "descricao": "",
-      "tipoPontos": "",
+      "pontos": "+50",
+      "descricao": "CRAVOU",
+      "tipoPontos": "positivo",
       "coringa": false
     },
     {
