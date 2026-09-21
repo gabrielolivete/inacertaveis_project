@@ -1,6 +1,7 @@
 {
-  "nome": "RODADA ",
-  "prazoPalpites": "",
+  "rodadaBonus": true,
+  "competicao": "Amistoso Seleção Brasileira",
+  "prazoPalpites": "Quinta-feira, 24/09 às 22:00h",
   "participantes": [
     {
       "nome": "MARCOLA",
@@ -19,27 +20,18 @@
       ],
       "jogos": [
         {
-          "time1": "",
+          "time1": "src/img/escudos/australia.png",
           "placar": "",
-          "time2": "",
+          "time2": "src/img/escudos/brasil.png",
           "pontos": "",
           "descricao": "",
           "tipoPontos": "",
           "coringa": false
         },
         {
-          "time1": "",
+          "time1": "src/img/escudos/australia.png",
           "placar": "",
-          "time2": "",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
-          "coringa": false
-        },
-        {
-          "time1": "",
-          "placar": "",
-          "time2": "",
+          "time2": "src/img/escudos/brasil.png",
           "pontos": "",
           "descricao": "",
           "tipoPontos": "",
@@ -69,27 +61,18 @@
       ],
       "jogos": [
         {
-          "time1": "",
+          "time1": "src/img/escudos/australia.png",
           "placar": "",
-          "time2": "",
+          "time2": "src/img/escudos/brasil.png",
           "pontos": "",
           "descricao": "",
           "tipoPontos": "",
           "coringa": false
         },
         {
-          "time1": "",
+          "time1": "src/img/escudos/australia.png",
           "placar": "",
-          "time2": "",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
-          "coringa": false
-        },
-        {
-          "time1": "",
-          "placar": "",
-          "time2": "",
+          "time2": "src/img/escudos/brasil.png",
           "pontos": "",
           "descricao": "",
           "tipoPontos": "",
@@ -119,27 +102,18 @@
       ],
       "jogos": [
         {
-          "time1": "",
+          "time1": "src/img/escudos/australia.png",
           "placar": "",
-          "time2": "",
+          "time2": "src/img/escudos/brasil.png",
           "pontos": "",
           "descricao": "",
           "tipoPontos": "",
           "coringa": false
         },
         {
-          "time1": "",
+          "time1": "src/img/escudos/australia.png",
           "placar": "",
-          "time2": "",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
-          "coringa": false
-        },
-        {
-          "time1": "",
-          "placar": "",
-          "time2": "",
+          "time2": "src/img/escudos/brasil.png",
           "pontos": "",
           "descricao": "",
           "tipoPontos": "",
@@ -169,27 +143,18 @@
       ],
       "jogos": [
         {
-          "time1": "",
+          "time1": "src/img/escudos/australia.png",
           "placar": "",
-          "time2": "",
+          "time2": "src/img/escudos/brasil.png",
           "pontos": "",
           "descricao": "",
           "tipoPontos": "",
           "coringa": false
         },
         {
-          "time1": "",
+          "time1": "src/img/escudos/australia.png",
           "placar": "",
-          "time2": "",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
-          "coringa": false
-        },
-        {
-          "time1": "",
-          "placar": "",
-          "time2": "",
+          "time2": "src/img/escudos/brasil.png",
           "pontos": "",
           "descricao": "",
           "tipoPontos": "",

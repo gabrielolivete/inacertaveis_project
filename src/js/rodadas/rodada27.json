@@ -158,16 +158,16 @@
       "time1": "src/img/escudos/santos.png",
       "placar": "1 x 2",
       "time2": "src/img/escudos/cruzeiro.png",
-      "pontos": "-10",
-      "descricao": "-10 palpite",
-      "tipoPontos": "negativo",
+      "pontos": "+5",
+      "descricao": "-10 palpite<br>+15 gol",
+      "tipoPontos": "positivo",
       "coringa": false
     }
   ],
   "eventos": [
     {
       "texto": "⚽  Matheus Pereira (Cruzeiro)",
-      "acertou": false
+      "acertou": true
     },
     {
       "texto": "🟨  Fabinho (Bragantino)",

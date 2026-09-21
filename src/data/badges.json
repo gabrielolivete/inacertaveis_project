@@ -5,16 +5,16 @@
       "nome": "Rei do Placar",
       "descricao": "Detentor de mais palpites exatos",
       "icone": "src/img/especial/reidoplacar.png",
-      "lider_atual": "JOCA/GABS",
-      "valor": "2"
+      "lider_atual": "JOCA",
+      "valor": "3"
     },
     {
       "id": "artilheiro",
       "nome": "Artilheiro",
       "descricao": "Mais palpites de gol acertados",
       "icone": "src/img/especial/artilheiro.png",
-      "lider_atual": "FEFE/GABS/MAR",
-      "valor": "4"
+      "lider_atual": "FEFE/MAR",
+      "valor": "5"
     },
     {
       "id": "xerife",
@@ -37,8 +37,8 @@
       "nome": "Esse dia foi louco",
       "descricao": "Detentor da melhor rodada do campeonato",
       "icone": "src/img/especial/essediafoilouco.png",
-      "lider_atual": "GABS",
-      "valor": "+85 R24"
+      "lider_atual": "JOCA",
+      "valor": "+100 R28"
     },
     {
       "id": "pe_de_rato",

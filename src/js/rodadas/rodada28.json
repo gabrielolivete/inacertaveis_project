@@ -31,25 +31,25 @@
       "time1": "src/img/escudos/vasco.png",
       "placar": "1 x 2",
       "time2": "src/img/escudos/coritiba.png",
-      "pontos": "",
-      "descricao": "",
-      "tipoPontos": "",
+      "pontos": "-30",
+      "descricao": "-30 palpite",
+      "tipoPontos": "negativo",
       "coringa": false
     },
     {
       "time1": "src/img/escudos/flamengo.png",
       "placar": "3 x 0",
       "time2": "src/img/escudos/bragantino.png",
-      "pontos": "",
-      "descricao": "",
-      "tipoPontos": "",
+      "pontos": "+5",
+      "descricao": "-10 palpite<br>+15 gol",
+      "tipoPontos": "positivo",
       "coringa": false
     }
   ],
   "eventos": [
     {
       "texto": "⚽  Pedro (Flamengo)",
-      "acertou": false
+      "acertou": true
     },
     {
       "texto": "🟨  Alef Manga (Remo)",
@@ -90,18 +90,18 @@
       "time1": "src/img/escudos/vasco.png",
       "placar": "1 x 2",
       "time2": "src/img/escudos/coritiba.png",
-      "pontos": "",
-      "descricao": "",
-      "tipoPontos": "",
+      "pontos": "-30",
+      "descricao": "-30 palpite",
+      "tipoPontos": "negativo",
       "coringa": false
     },
     {
       "time1": "src/img/escudos/flamengo.png",
       "placar": "2 x 0",
       "time2": "src/img/escudos/bragantino.png",
-      "pontos": "",
-      "descricao": "",
-      "tipoPontos": "",
+      "pontos": "-5",
+      "descricao": "-5 palpite",
+      "tipoPontos": "negativo",
       "coringa": false
     }
   ],
@@ -140,8 +140,8 @@
       "time1": "src/img/escudos/remo.png",
       "placar": "1 x 2",
       "time2": "src/img/escudos/santos.png",
-      "pontos": "+100",
-      "descricao": "CRAVOU! (2x)",
+      "pontos": "+110",
+      "descricao": "CRAVOU! (2x)<br>lider",
       "tipoPontos": "positivo",
       "coringa": true
     },
@@ -149,25 +149,25 @@
       "time1": "src/img/escudos/vasco.png",
       "placar": "1 x 0",
       "time2": "src/img/escudos/coritiba.png",
-      "pontos": "",
-      "descricao": "",
-      "tipoPontos": "",
+      "pontos": "-20",
+      "descricao": "-20 palpite",
+      "tipoPontos": "negativo",
       "coringa": false
     },
     {
       "time1": "src/img/escudos/flamengo.png",
       "placar": "2 x 0",
       "time2": "src/img/escudos/bragantino.png",
-      "pontos": "",
-      "descricao": "",
-      "tipoPontos": "",
+      "pontos": "+10",
+      "descricao": "-5 palpite<br>+15 gol",
+      "tipoPontos": "positivo",
       "coringa": false
     }
   ],
   "eventos": [
     {
       "texto": "⚽  Pedro (Flamengo )",
-      "acertou": false
+      "acertou": true
     },
     {
       "texto": "🟨  Lucas Barbosa (Bragantino)",
@@ -208,25 +208,25 @@
       "time1": "src/img/escudos/vasco.png",
       "placar": "1 x 1",
       "time2": "src/img/escudos/coritiba.png",
-      "pontos": "",
-      "descricao": "",
-      "tipoPontos": "",
+      "pontos": "-25",
+      "descricao": "-25 palpite",
+      "tipoPontos": "negativo",
       "coringa": false
     },
     {
       "time1": "src/img/escudos/flamengo.png",
       "placar": "2 x 0",
       "time2": "src/img/escudos/bragantino.png",
-      "pontos": "",
-      "descricao": "",
-      "tipoPontos": "",
+      "pontos": "+10",
+      "descricao": "-5 palpite<br>+15 gol",
+      "tipoPontos": "positivo",
       "coringa": false
     }
   ],
   "eventos": [
     {
       "texto": "⚽  Pedro (Flamengo)",
-      "acertou": false
+      "acertou": true
     },
     {
       "texto": "🟨  Sebastian Gomez (Coritiba)",
