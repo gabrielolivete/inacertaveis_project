@@ -1,4 +1,5 @@
 {
+  "nome": "RODADA BONUS 07",
   "rodadaBonus": true,
   "competicao": "Amistoso Seleção Brasileira",
   "prazoPalpites": "Quinta-feira, 24/09 às 22:00h",
@@ -19,30 +20,39 @@
         { "img": "src/img/especial/coringa.png", "usada": true }
       ],
       "jogos": [
-        {
-          "time1": "src/img/escudos/australia.png",
-          "placar": "",
-          "time2": "src/img/escudos/brasil.png",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
-          "coringa": false
-        },
-        {
-          "time1": "src/img/escudos/australia.png",
-          "placar": "",
-          "time2": "src/img/escudos/brasil.png",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
-          "coringa": false
-        }
-      ],
-      "eventos": [
-        { "texto": "⚽ ", "acertou": false },
-        { "texto": "🟨 ", "acertou": false },
-        { "texto": "🫂 ", "acertou": false }
-      ]
+    {
+      "time1": "src/img/escudos/australia.png",
+      "placar": "0 x 2",
+      "time2": "src/img/escudos/brasil.png",
+      "pontos": "-10",
+      "descricao": "-10 palpite",
+      "tipoPontos": "negativo",
+      "coringa": false
+    },
+    {
+      "time1": "src/img/escudos/australia.png",
+      "placar": "1 x 2",
+      "time2": "src/img/escudos/brasil.png",
+      "pontos": "",
+      "descricao": "",
+      "tipoPontos": "",
+      "coringa": false
+    }
+  ],
+  "eventos": [
+    {
+      "texto": "⚽  Raphinha",
+      "acertou": false
+    },
+    {
+      "texto": "🟨  Bruno Guimarães",
+      "acertou": false
+    },
+    {
+      "texto": "🫂  Vini Jr",
+      "acertou": false
+    }
+  ]
     },
     {
       "nome": "GABS",
@@ -60,30 +70,39 @@
         { "img": "src/img/especial/coringa.png", "usada": true }
       ],
       "jogos": [
-        {
-          "time1": "src/img/escudos/australia.png",
-          "placar": "",
-          "time2": "src/img/escudos/brasil.png",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
-          "coringa": false
-        },
-        {
-          "time1": "src/img/escudos/australia.png",
-          "placar": "",
-          "time2": "src/img/escudos/brasil.png",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
-          "coringa": false
-        }
-      ],
-      "eventos": [
-        { "texto": "⚽ ", "acertou": false },
-        { "texto": "🟨 ", "acertou": false },
-        { "texto": "🫂 ", "acertou": false }
-      ]
+    {
+      "time1": "src/img/escudos/australia.png",
+      "placar": "0 x 3",
+      "time2": "src/img/escudos/brasil.png",
+      "pontos": "-15",
+      "descricao": "-15 palpite",
+      "tipoPontos": "negativo",
+      "coringa": false
+    },
+    {
+      "time1": "src/img/escudos/australia.png",
+      "placar": "1 x 4",
+      "time2": "src/img/escudos/brasil.png",
+      "pontos": "",
+      "descricao": "",
+      "tipoPontos": "",
+      "coringa": false
+    }
+  ],
+  "eventos": [
+    {
+      "texto": "⚽  Raphinha",
+      "acertou": false
+    },
+    {
+      "texto": "🟨  Wesley",
+      "acertou": false
+    },
+    {
+      "texto": "🫂  Vini Jr",
+      "acertou": false
+    }
+  ]
     },
     {
       "nome": "JOCA",
@@ -101,30 +120,39 @@
         { "img": "src/img/especial/coringa.png", "usada": true }
       ],
       "jogos": [
-        {
-          "time1": "src/img/escudos/australia.png",
-          "placar": "",
-          "time2": "src/img/escudos/brasil.png",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
-          "coringa": false
-        },
-        {
-          "time1": "src/img/escudos/australia.png",
-          "placar": "",
-          "time2": "src/img/escudos/brasil.png",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
-          "coringa": false
-        }
-      ],
-      "eventos": [
-        { "texto": "⚽ ", "acertou": false },
-        { "texto": "🟨 ", "acertou": false },
-        { "texto": "🫂 ", "acertou": false }
-      ]
+    {
+      "time1": "src/img/escudos/australia.png",
+      "placar": "0 x 3",
+      "time2": "src/img/escudos/brasil.png",
+      "pontos": "-15",
+      "descricao": "-15 palpite",
+      "tipoPontos": "negativo",
+      "coringa": false
+    },
+    {
+      "time1": "src/img/escudos/australia.png",
+      "placar": "1 x 2",
+      "time2": "src/img/escudos/brasil.png",
+      "pontos": "",
+      "descricao": "",
+      "tipoPontos": "",
+      "coringa": false
+    }
+  ],
+  "eventos": [
+    {
+      "texto": "⚽  Raphinha",
+      "acertou": false
+    },
+    {
+      "texto": "🟨  Vitor Reis",
+      "acertou": false
+    },
+    {
+      "texto": "🫂  Vini jr",
+      "acertou": false
+    }
+  ]
     },
     {
       "nome": "FEFEZAO",
@@ -142,30 +170,39 @@
         { "img": "src/img/especial/coringa.png", "usada": true }
       ],
       "jogos": [
-        {
-          "time1": "src/img/escudos/australia.png",
-          "placar": "",
-          "time2": "src/img/escudos/brasil.png",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
-          "coringa": false
-        },
-        {
-          "time1": "src/img/escudos/australia.png",
-          "placar": "",
-          "time2": "src/img/escudos/brasil.png",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
-          "coringa": false
-        }
-      ],
-      "eventos": [
-        { "texto": "⚽ ", "acertou": false },
-        { "texto": "🟨 ", "acertou": false },
-        { "texto": "🫂 ", "acertou": false }
-      ]
+    {
+      "time1": "src/img/escudos/australia.png",
+      "placar": "0 x 2",
+      "time2": "src/img/escudos/brasil.png",
+      "pontos": "-10",
+      "descricao": "-10 palpite",
+      "tipoPontos": "negativo",
+      "coringa": false
+    },
+    {
+      "time1": "src/img/escudos/australia.png",
+      "placar": "0 x 3",
+      "time2": "src/img/escudos/brasil.png",
+      "pontos": "",
+      "descricao": "",
+      "tipoPontos": "",
+      "coringa": false
+    }
+  ],
+  "eventos": [
+    {
+      "texto": "⚽  Pedro",
+      "acertou": false
+    },
+    {
+      "texto": "🟨  Danilo Santos",
+      "acertou": false
+    },
+    {
+      "texto": "🫂  Estevão",
+      "acertou": false
+    }
+  ]
     }
   ]
 }
