@@ -33,6 +33,15 @@
       "time1": "src/img/escudos/australia.png",
       "placar": "1 x 2",
       "time2": "src/img/escudos/brasil.png",
+      "pontos": "0",
+      "descricao": "-15 palpite<br>+15 gol",
+      "tipoPontos": "",
+      "coringa": false
+    },
+    {
+      "time1": "src/img/escudos/india.png",
+      "placar": "0 x 4",
+      "time2": "src/img/escudos/brasil.png",
       "pontos": "",
       "descricao": "",
       "tipoPontos": "",
@@ -42,7 +51,7 @@
   "eventos": [
     {
       "texto": "⚽  Raphinha",
-      "acertou": false
+      "acertou": true
     },
     {
       "texto": "🟨  Bruno Guimarães",
@@ -83,6 +92,15 @@
       "time1": "src/img/escudos/australia.png",
       "placar": "1 x 4",
       "time2": "src/img/escudos/brasil.png",
+      "pontos": "+10",
+      "descricao": "-5 palpite<br>+15 gol",
+      "tipoPontos": "positivo",
+      "coringa": false
+    },
+    {
+      "time1": "src/img/escudos/india.png",
+      "placar": "0 x 4",
+      "time2": "src/img/escudos/brasil.png",
       "pontos": "",
       "descricao": "",
       "tipoPontos": "",
@@ -92,7 +110,7 @@
   "eventos": [
     {
       "texto": "⚽  Raphinha",
-      "acertou": false
+      "acertou": true
     },
     {
       "texto": "🟨  Wesley",
@@ -133,6 +151,15 @@
       "time1": "src/img/escudos/australia.png",
       "placar": "1 x 2",
       "time2": "src/img/escudos/brasil.png",
+      "pontos": "0",
+      "descricao": "-15 palpite<br>+15 gol",
+      "tipoPontos": "",
+      "coringa": false
+    },
+    {
+      "time1": "src/img/escudos/india.png",
+      "placar": "0 x 2",
+      "time2": "src/img/escudos/brasil.png",
       "pontos": "",
       "descricao": "",
       "tipoPontos": "",
@@ -142,7 +169,7 @@
   "eventos": [
     {
       "texto": "⚽  Raphinha",
-      "acertou": false
+      "acertou": true
     },
     {
       "texto": "🟨  Vitor Reis",
@@ -182,6 +209,15 @@
     {
       "time1": "src/img/escudos/australia.png",
       "placar": "0 x 3",
+      "time2": "src/img/escudos/brasil.png",
+      "pontos": "-15",
+      "descricao": "-15 palpite",
+      "tipoPontos": "negativo",
+      "coringa": false
+    },
+    {
+      "time1": "src/img/escudos/india.png",
+      "placar": "0 x 2",
       "time2": "src/img/escudos/brasil.png",
       "pontos": "",
       "descricao": "",
