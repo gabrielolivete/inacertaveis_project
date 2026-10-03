@@ -42,9 +42,9 @@
       "time1": "src/img/escudos/india.png",
       "placar": "0 x 4",
       "time2": "src/img/escudos/brasil.png",
-      "pontos": "",
-      "descricao": "",
-      "tipoPontos": "",
+      "pontos": "+50",
+      "descricao": "CRAVOU!!!",
+      "tipoPontos": "positivo",
       "coringa": false
     }
   ],
@@ -101,9 +101,9 @@
       "time1": "src/img/escudos/india.png",
       "placar": "0 x 4",
       "time2": "src/img/escudos/brasil.png",
-      "pontos": "",
-      "descricao": "",
-      "tipoPontos": "",
+      "pontos": "+60",
+      "descricao": "CRAVOU!!!<br>Lider rodada",
+      "tipoPontos": "positivo",
       "coringa": false
     }
   ],
@@ -160,9 +160,9 @@
       "time1": "src/img/escudos/india.png",
       "placar": "0 x 2",
       "time2": "src/img/escudos/brasil.png",
-      "pontos": "",
-      "descricao": "",
-      "tipoPontos": "",
+      "pontos": "-10",
+      "descricao": "-10 palpite",
+      "tipoPontos": "negativo",
       "coringa": false
     }
   ],
@@ -219,16 +219,16 @@
       "time1": "src/img/escudos/india.png",
       "placar": "0 x 2",
       "time2": "src/img/escudos/brasil.png",
-      "pontos": "",
-      "descricao": "",
-      "tipoPontos": "",
+      "pontos": "+15",
+      "descricao": "-10 palpite<br>+25 Gol e Assist",
+      "tipoPontos": "positivo",
       "coringa": false
     }
   ],
   "eventos": [
     {
       "texto": "⚽  Pedro",
-      "acertou": false
+      "acertou": true
     },
     {
       "texto": "🟨  Danilo Santos",
@@ -236,7 +236,7 @@
     },
     {
       "texto": "🫂  Estevão",
-      "acertou": false
+      "acertou": true
     }
   ]
     }
