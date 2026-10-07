@@ -1,0 +1,206 @@
+{
+"nome": "RODADA 29",
+  "prazoPalpites": "Quarta-feira, 07/10 às 18h",
+  "participantes": [
+    {
+      "nome": "MARCOLA",
+      "avatar": "src/img/avatares/marcola.png",
+      "avatarHead": "src/img/avatares/marcolahead.png",
+      "cartaAtiva": "",
+      "cartas": [
+        { "img": "src/img/cartas/dobrometade.png", "usada": false },
+        { "img": "src/img/cartas/escudo.png", "usada": false },
+        { "img": "src/img/cartas/grego.png", "usada": true },
+        { "img": "src/img/cartas/segundachance.png", "usada": false },
+        { "img": "src/img/cartas/seguro.png", "usada": false },
+        { "img": "src/img/especial/coringa.png", "usada": true },
+        { "img": "src/img/especial/coringa.png", "usada": true },
+        { "img": "src/img/especial/coringa.png", "usada": true }
+      ],
+      "jogos": [
+        {
+          "time1": "src/img/escudos/vitoria.png",
+          "placar": "1 x 1",
+          "time2": "src/img/escudos/chapecoense.png",
+          "pontos": "",
+          "descricao": "",
+          "tipoPontos": "",
+          "coringa": false
+        },
+        {
+          "time1": "src/img/escudos/cruzeiro.png",
+          "placar": "2 x 0",
+          "time2": "src/img/escudos/saopaulo.png",
+          "pontos": "",
+          "descricao": "",
+          "tipoPontos": "",
+          "coringa": false
+        },
+        {
+          "time1": "src/img/escudos/santos.png",
+          "placar": "2 x 0",
+          "time2": "src/img/escudos/flamengo.png",
+          "pontos": "",
+          "descricao": "",
+          "tipoPontos": "",
+          "coringa": false
+        }
+      ],
+      "eventos": [
+        { "texto": "⚽ Kayo Jorge (Cruzeiro)", "acertou": false },
+        { "texto": "🟨 Neymar (Santos)", "acertou": false },
+        { "texto": "🫂 Matheus Pereira (Cruzeiro)", "acertou": false }
+      ]
+    },
+    {
+      "nome": "GABS",
+      "avatar": "src/img/avatares/gabe.png",
+      "avatarHead": "src/img/avatares/gabehead.png",
+      "cartaAtiva":"",
+      "cartas": [
+        { "img": "src/img/cartas/dobrometade.png", "usada": false },
+        { "img": "src/img/cartas/escudo.png", "usada": false },
+        { "img": "src/img/cartas/grego.png", "usada": true },
+        { "img": "src/img/cartas/segundachance.png", "usada": false },
+        { "img": "src/img/cartas/seguro.png", "usada": true },
+        { "img": "src/img/especial/coringa.png", "usada": false },
+        { "img": "src/img/especial/coringa.png", "usada": true },
+        { "img": "src/img/especial/coringa.png", "usada": true }
+      ],
+      "jogos": [
+        {
+          "time1": "src/img/escudos/vitoria.png",
+          "placar": "2 x 1",
+          "time2": "src/img/escudos/chapecoense.png",
+          "pontos": "",
+          "descricao": "",
+          "tipoPontos": "",
+          "coringa": false
+        },
+        {
+          "time1": "src/img/escudos/cruzeiro.png",
+          "placar": "2 x 0",
+          "time2": "src/img/escudos/saopaulo.png",
+          "pontos": "",
+          "descricao": "",
+          "tipoPontos": "",
+          "coringa": false
+        },
+        {
+          "time1": "src/img/escudos/santos.png",
+          "placar": "1 x 2",
+          "time2": "src/img/escudos/flamengo.png",
+          "pontos": "",
+          "descricao": "",
+          "tipoPontos": "",
+          "coringa": false
+        }
+      ],
+      "eventos": [
+        { "texto": "⚽ Pedro (Flamengo)", "acertou": false },
+        { "texto": "🟨 Bruno Henrique (Flamengo)", "acertou": false },
+        { "texto": "🫂 Matheus Pereira (Cruzeiro)", "acertou": false }
+      ]
+    },
+    {
+      "nome": "JOCA",
+      "avatar": "src/img/avatares/joca.png",
+      "avatarHead": "src/img/avatares/jocahead.png",
+      "cartaAtiva":"",
+      "cartas": [
+        { "img": "src/img/cartas/dobrometade.png", "usada": false },
+        { "img": "src/img/cartas/escudo.png", "usada": true },
+        { "img": "src/img/cartas/grego.png", "usada": true },
+        { "img": "src/img/cartas/segundachance.png", "usada": false },
+        { "img": "src/img/cartas/seguro.png", "usada": true },
+        { "img": "src/img/especial/coringa.png", "usada": false },
+        { "img": "src/img/especial/coringa.png", "usada": true },
+        { "img": "src/img/especial/coringa.png", "usada": true }
+      ],
+      "jogos": [
+        {
+          "time1": "src/img/escudos/vitoria.png",
+          "placar": "1 x 0",
+          "time2": "src/img/escudos/chapecoense.png",
+          "pontos": "",
+          "descricao": "",
+          "tipoPontos": "",
+          "coringa": false
+        },
+        {
+          "time1": "src/img/escudos/cruzeiro.png",
+          "placar": "2 x 0",
+          "time2": "src/img/escudos/saopaulo.png",
+          "pontos": "",
+          "descricao": "",
+          "tipoPontos": "",
+          "coringa": false
+        },
+        {
+          "time1": "src/img/escudos/santos.png",
+          "placar": "1 x 2",
+          "time2": "src/img/escudos/flamengo.png",
+          "pontos": "",
+          "descricao": "",
+          "tipoPontos": "",
+          "coringa": false
+        }
+      ],
+      "eventos": [
+        { "texto": "⚽ Pedro (Flamengo)", "acertou": false },
+        { "texto": "🟨 Matheus Pereira (Cruzeiro)", "acertou": false },
+        { "texto": "🫂 Samuel Lino (Flamengo)", "acertou": false }
+      ]
+    },
+    {
+      "nome": "FEFEZAO",
+      "avatar": "src/img/avatares/fefezao.png",
+      "avatarHead": "src/img/avatares/fefezaohead.png",
+      "cartaAtiva":"",
+      "cartas": [
+        { "img": "src/img/cartas/dobrometade.png", "usada": false },
+        { "img": "src/img/cartas/escudo.png", "usada": false },
+        { "img": "src/img/cartas/grego.png", "usada": false },
+        { "img": "src/img/cartas/segundachance.png", "usada": true },
+        { "img": "src/img/cartas/seguro.png", "usada": false },
+        { "img": "src/img/especial/coringa.png", "usada": true },
+        { "img": "src/img/especial/coringa.png", "usada": true },
+        { "img": "src/img/especial/coringa.png", "usada": true }
+      ],
+      "jogos": [
+        {
+          "time1": "src/img/escudos/vitoria.png",
+          "placar": "2 x 0",
+          "time2": "src/img/escudos/chapecoense.png",
+          "pontos": "",
+          "descricao": "",
+          "tipoPontos": "",
+          "coringa": false
+        },
+        {
+          "time1": "src/img/escudos/cruzeiro.png",
+          "placar": "2 x 2",
+          "time2": "src/img/escudos/saopaulo.png",
+          "pontos": "",
+          "descricao": "",
+          "tipoPontos": "",
+          "coringa": false
+        },
+        {
+          "time1": "src/img/escudos/santos.png",
+          "placar": "0 x 2",
+          "time2": "src/img/escudos/flamengo.png",
+          "pontos": "",
+          "descricao": "",
+          "tipoPontos": "",
+          "coringa": false
+        }
+      ],
+      "eventos": [
+        { "texto": "⚽ Samuel Lino (Flamengo)", "acertou": false },
+        { "texto": "🟨 Gabigol (Santos)", "acertou": false },
+        { "texto": "🫂 Arrascaeta (Flamengo)", "acertou": false }
+      ]
+    }
+  ]
+}
