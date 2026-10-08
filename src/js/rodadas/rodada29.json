@@ -22,18 +22,18 @@
           "time1": "src/img/escudos/vitoria.png",
           "placar": "1 x 1",
           "time2": "src/img/escudos/chapecoense.png",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
+          "pontos": "-20",
+          "descricao": "-20 palpite",
+          "tipoPontos": "negativo",
           "coringa": false
         },
         {
           "time1": "src/img/escudos/cruzeiro.png",
           "placar": "2 x 0",
           "time2": "src/img/escudos/saopaulo.png",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
+          "pontos": "+85",
+          "descricao": "CRAVOU!<br>Gol e Assist",
+          "tipoPontos": "positivo",
           "coringa": false
         },
         {
@@ -47,9 +47,9 @@
         }
       ],
       "eventos": [
-        { "texto": "⚽ Kayo Jorge (Cruzeiro)", "acertou": false },
+        { "texto": "⚽ Kayo Jorge (Cruzeiro)", "acertou": true },
         { "texto": "🟨 Neymar (Santos)", "acertou": false },
-        { "texto": "🫂 Matheus Pereira (Cruzeiro)", "acertou": false }
+        { "texto": "🫂 Matheus Pereira (Cruzeiro)", "acertou": true }
       ]
     },
     {
@@ -72,18 +72,18 @@
           "time1": "src/img/escudos/vitoria.png",
           "placar": "2 x 1",
           "time2": "src/img/escudos/chapecoense.png",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
+          "pontos": "-15",
+          "descricao": "-15 palpite",
+          "tipoPontos": "negativo",
           "coringa": false
         },
         {
           "time1": "src/img/escudos/cruzeiro.png",
           "placar": "2 x 0",
           "time2": "src/img/escudos/saopaulo.png",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
+          "pontos": "+70",
+          "descricao": "CRAVOU!<br>Assist",
+          "tipoPontos": "positivo",
           "coringa": false
         },
         {
@@ -99,7 +99,7 @@
       "eventos": [
         { "texto": "⚽ Pedro (Flamengo)", "acertou": false },
         { "texto": "🟨 Bruno Henrique (Flamengo)", "acertou": false },
-        { "texto": "🫂 Matheus Pereira (Cruzeiro)", "acertou": false }
+        { "texto": "🫂 Matheus Pereira (Cruzeiro)", "acertou": true }
       ]
     },
     {
@@ -122,18 +122,18 @@
           "time1": "src/img/escudos/vitoria.png",
           "placar": "1 x 0",
           "time2": "src/img/escudos/chapecoense.png",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
+          "pontos": "-15",
+          "descricao": "-15 palpite",
+          "tipoPontos": "negativo",
           "coringa": false
         },
         {
           "time1": "src/img/escudos/cruzeiro.png",
           "placar": "2 x 0",
           "time2": "src/img/escudos/saopaulo.png",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
+          "pontos": "+60",
+          "descricao": "CRAVOU!<br>Amarelo",
+          "tipoPontos": "positivo",
           "coringa": false
         },
         {
@@ -148,7 +148,7 @@
       ],
       "eventos": [
         { "texto": "⚽ Pedro (Flamengo)", "acertou": false },
-        { "texto": "🟨 Matheus Pereira (Cruzeiro)", "acertou": false },
+        { "texto": "🟨 Matheus Pereira (Cruzeiro)", "acertou": true },
         { "texto": "🫂 Samuel Lino (Flamengo)", "acertou": false }
       ]
     },
@@ -172,18 +172,18 @@
           "time1": "src/img/escudos/vitoria.png",
           "placar": "2 x 0",
           "time2": "src/img/escudos/chapecoense.png",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
+          "pontos": "-10",
+          "descricao": "-10 palpite",
+          "tipoPontos": "negativo",
           "coringa": false
         },
         {
           "time1": "src/img/escudos/cruzeiro.png",
           "placar": "2 x 2",
           "time2": "src/img/escudos/saopaulo.png",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
+          "pontos": "-10",
+          "descricao": "-10 palpite",
+          "tipoPontos": "negativo",
           "coringa": false
         },
         {
