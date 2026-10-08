@@ -8,198 +8,330 @@
       "avatarHead": "src/img/avatares/marcolahead.png",
       "cartaAtiva": "",
       "cartas": [
-        { "img": "src/img/cartas/dobrometade.png", "usada": false },
-        { "img": "src/img/cartas/escudo.png", "usada": false },
-        { "img": "src/img/cartas/grego.png", "usada": true },
-        { "img": "src/img/cartas/segundachance.png", "usada": false },
-        { "img": "src/img/cartas/seguro.png", "usada": false },
-        { "img": "src/img/especial/coringa.png", "usada": true },
-        { "img": "src/img/especial/coringa.png", "usada": true },
-        { "img": "src/img/especial/coringa.png", "usada": true }
+        {
+          "img": "src/img/cartas/dobrometade.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/cartas/escudo.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/cartas/grego.png",
+          "usada": true
+        },
+        {
+          "img": "src/img/cartas/segundachance.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/cartas/seguro.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/especial/coringa.png",
+          "usada": true
+        },
+        {
+          "img": "src/img/especial/coringa.png",
+          "usada": true
+        },
+        {
+          "img": "src/img/especial/coringa.png",
+          "usada": true
+        }
       ],
       "jogos": [
         {
-          "time1": "",
+          "time1": "src/img/escudos/.png",
           "placar": "",
-          "time2": "",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
+          "time2": "src/img/escudos/.png",
+          "acertou": false,
+          "diferencaGols": 0,
           "coringa": false
         },
         {
-          "time1": "",
+          "time1": "src/img/escudos/.png",
           "placar": "",
-          "time2": "",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
+          "time2": "src/img/escudos/.png",
+          "acertou": false,
+          "diferencaGols": 0,
           "coringa": false
         },
         {
-          "time1": "",
+          "time1": "src/img/escudos/.png",
           "placar": "",
-          "time2": "",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
+          "time2": "src/img/escudos/.png",
+          "acertou": false,
+          "diferencaGols": 0,
           "coringa": false
         }
       ],
       "eventos": [
-        { "texto": "⚽ ", "acertou": false },
-        { "texto": "🟨 ", "acertou": false },
-        { "texto": "🫂 ", "acertou": false }
+        {
+          "texto": "⚽ ",
+          "acertou": false,
+          "coringa": false
+        },
+        {
+          "texto": "🟨 ",
+          "acertou": false,
+          "coringa": false
+        },
+        {
+          "texto": "🫂 ",
+          "acertou": false,
+          "coringa": false
+        }
       ]
     },
     {
       "nome": "GABS",
       "avatar": "src/img/avatares/gabe.png",
       "avatarHead": "src/img/avatares/gabehead.png",
-      "cartaAtiva":"",
+      "cartaAtiva": "",
       "cartas": [
-        { "img": "src/img/cartas/dobrometade.png", "usada": false },
-        { "img": "src/img/cartas/escudo.png", "usada": false },
-        { "img": "src/img/cartas/grego.png", "usada": true },
-        { "img": "src/img/cartas/segundachance.png", "usada": false },
-        { "img": "src/img/cartas/seguro.png", "usada": true },
-        { "img": "src/img/especial/coringa.png", "usada": false },
-        { "img": "src/img/especial/coringa.png", "usada": true },
-        { "img": "src/img/especial/coringa.png", "usada": true }
+        {
+          "img": "src/img/cartas/dobrometade.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/cartas/escudo.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/cartas/grego.png",
+          "usada": true
+        },
+        {
+          "img": "src/img/cartas/segundachance.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/cartas/seguro.png",
+          "usada": true
+        },
+        {
+          "img": "src/img/especial/coringa.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/especial/coringa.png",
+          "usada": true
+        },
+        {
+          "img": "src/img/especial/coringa.png",
+          "usada": true
+        }
       ],
       "jogos": [
         {
-          "time1": "",
+          "time1": "src/img/escudos/.png",
           "placar": "",
-          "time2": "",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
+          "time2": "src/img/escudos/.png",
+          "acertou": false,
+          "diferencaGols": 0,
           "coringa": false
         },
         {
-          "time1": "",
+          "time1": "src/img/escudos/.png",
           "placar": "",
-          "time2": "",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
+          "time2": "src/img/escudos/.png",
+          "acertou": false,
+          "diferencaGols": 0,
           "coringa": false
         },
         {
-          "time1": "",
+          "time1": "src/img/escudos/.png",
           "placar": "",
-          "time2": "",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
+          "time2": "src/img/escudos/.png",
+          "acertou": false,
+          "diferencaGols": 0,
           "coringa": false
         }
       ],
       "eventos": [
-        { "texto": "⚽ ", "acertou": false },
-        { "texto": "🟨 ", "acertou": false },
-        { "texto": "🫂 ", "acertou": false }
+        {
+          "texto": "⚽ ",
+          "acertou": false,
+          "coringa": false
+        },
+        {
+          "texto": "🟨 ",
+          "acertou": false,
+          "coringa": false
+        },
+        {
+          "texto": "🫂 ",
+          "acertou": false,
+          "coringa": false
+        }
       ]
     },
     {
       "nome": "JOCA",
       "avatar": "src/img/avatares/joca.png",
       "avatarHead": "src/img/avatares/jocahead.png",
-      "cartaAtiva":"",
+      "cartaAtiva": "",
       "cartas": [
-        { "img": "src/img/cartas/dobrometade.png", "usada": false },
-        { "img": "src/img/cartas/escudo.png", "usada": true },
-        { "img": "src/img/cartas/grego.png", "usada": true },
-        { "img": "src/img/cartas/segundachance.png", "usada": false },
-        { "img": "src/img/cartas/seguro.png", "usada": true },
-        { "img": "src/img/especial/coringa.png", "usada": false },
-        { "img": "src/img/especial/coringa.png", "usada": true },
-        { "img": "src/img/especial/coringa.png", "usada": true }
+        {
+          "img": "src/img/cartas/dobrometade.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/cartas/escudo.png",
+          "usada": true
+        },
+        {
+          "img": "src/img/cartas/grego.png",
+          "usada": true
+        },
+        {
+          "img": "src/img/cartas/segundachance.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/cartas/seguro.png",
+          "usada": true
+        },
+        {
+          "img": "src/img/especial/coringa.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/especial/coringa.png",
+          "usada": true
+        },
+        {
+          "img": "src/img/especial/coringa.png",
+          "usada": true
+        }
       ],
       "jogos": [
         {
-          "time1": "",
+          "time1": "src/img/escudos/.png",
           "placar": "",
-          "time2": "",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
+          "time2": "src/img/escudos/.png",
+          "acertou": false,
+          "diferencaGols": 0,
           "coringa": false
         },
         {
-          "time1": "",
+          "time1": "src/img/escudos/.png",
           "placar": "",
-          "time2": "",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
+          "time2": "src/img/escudos/.png",
+          "acertou": false,
+          "diferencaGols": 0,
           "coringa": false
         },
         {
-          "time1": "",
+          "time1": "src/img/escudos/.png",
           "placar": "",
-          "time2": "",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
+          "time2": "src/img/escudos/.png",
+          "acertou": false,
+          "diferencaGols": 0,
           "coringa": false
         }
       ],
       "eventos": [
-        { "texto": "⚽ ", "acertou": false },
-        { "texto": "🟨 ", "acertou": false },
-        { "texto": "🫂 ", "acertou": false }
+        {
+          "texto": "⚽ ",
+          "acertou": false,
+          "coringa": false
+        },
+        {
+          "texto": "🟨 ",
+          "acertou": false,
+          "coringa": false
+        },
+        {
+          "texto": "🫂 ",
+          "acertou": false,
+          "coringa": false
+        }
       ]
     },
     {
       "nome": "FEFEZAO",
       "avatar": "src/img/avatares/fefezao.png",
       "avatarHead": "src/img/avatares/fefezaohead.png",
-      "cartaAtiva":"",
+      "cartaAtiva": "",
       "cartas": [
-        { "img": "src/img/cartas/dobrometade.png", "usada": false },
-        { "img": "src/img/cartas/escudo.png", "usada": false },
-        { "img": "src/img/cartas/grego.png", "usada": false },
-        { "img": "src/img/cartas/segundachance.png", "usada": true },
-        { "img": "src/img/cartas/seguro.png", "usada": false },
-        { "img": "src/img/especial/coringa.png", "usada": true },
-        { "img": "src/img/especial/coringa.png", "usada": true },
-        { "img": "src/img/especial/coringa.png", "usada": true }
+        {
+          "img": "src/img/cartas/dobrometade.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/cartas/escudo.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/cartas/grego.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/cartas/segundachance.png",
+          "usada": true
+        },
+        {
+          "img": "src/img/cartas/seguro.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/especial/coringa.png",
+          "usada": true
+        },
+        {
+          "img": "src/img/especial/coringa.png",
+          "usada": true
+        },
+        {
+          "img": "src/img/especial/coringa.png",
+          "usada": true
+        }
       ],
       "jogos": [
         {
-          "time1": "",
+          "time1": "src/img/escudos/.png",
           "placar": "",
-          "time2": "",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
+          "time2": "src/img/escudos/.png",
+          "acertou": false,
+          "diferencaGols": 0,
           "coringa": false
         },
         {
-          "time1": "",
+          "time1": "src/img/escudos/.png",
           "placar": "",
-          "time2": "",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
+          "time2": "src/img/escudos/.png",
+          "acertou": false,
+          "diferencaGols": 0,
           "coringa": false
         },
         {
-          "time1": "",
+          "time1": "src/img/escudos/.png",
           "placar": "",
-          "time2": "",
-          "pontos": "",
-          "descricao": "",
-          "tipoPontos": "",
+          "time2": "src/img/escudos/.png",
+          "acertou": false,
+          "diferencaGols": 0,
           "coringa": false
         }
       ],
       "eventos": [
-        { "texto": "⚽ ", "acertou": false },
-        { "texto": "🟨 ", "acertou": false },
-        { "texto": "🫂 ", "acertou": false }
+        {
+          "texto": "⚽ ",
+          "acertou": false,
+          "coringa": false
+        },
+        {
+          "texto": "🟨 ",
+          "acertou": false,
+          "coringa": false
+        },
+        {
+          "texto": "🫂 ",
+          "acertou": false,
+          "coringa": false
+        }
       ]
     }
   ]

@@ -10,235 +10,331 @@
       "avatarHead": "src/img/avatares/marcolahead.png",
       "cartaAtiva": "",
       "cartas": [
-        { "img": "src/img/cartas/dobrometade.png", "usada": false },
-        { "img": "src/img/cartas/escudo.png", "usada": false },
-        { "img": "src/img/cartas/grego.png", "usada": true },
-        { "img": "src/img/cartas/segundachance.png", "usada": false },
-        { "img": "src/img/cartas/seguro.png", "usada": false },
-        { "img": "src/img/especial/coringa.png", "usada": true },
-        { "img": "src/img/especial/coringa.png", "usada": true },
-        { "img": "src/img/especial/coringa.png", "usada": true }
+        {
+          "img": "src/img/cartas/dobrometade.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/cartas/escudo.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/cartas/grego.png",
+          "usada": true
+        },
+        {
+          "img": "src/img/cartas/segundachance.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/cartas/seguro.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/especial/coringa.png",
+          "usada": true
+        },
+        {
+          "img": "src/img/especial/coringa.png",
+          "usada": true
+        },
+        {
+          "img": "src/img/especial/coringa.png",
+          "usada": true
+        }
       ],
       "jogos": [
-    {
-      "time1": "src/img/escudos/australia.png",
-      "placar": "0 x 2",
-      "time2": "src/img/escudos/brasil.png",
-      "pontos": "-10",
-      "descricao": "-10 palpite",
-      "tipoPontos": "negativo",
-      "coringa": false
-    },
-    {
-      "time1": "src/img/escudos/australia.png",
-      "placar": "1 x 2",
-      "time2": "src/img/escudos/brasil.png",
-      "pontos": "0",
-      "descricao": "-15 palpite<br>+15 gol",
-      "tipoPontos": "",
-      "coringa": false
-    },
-    {
-      "time1": "src/img/escudos/india.png",
-      "placar": "0 x 4",
-      "time2": "src/img/escudos/brasil.png",
-      "pontos": "+50",
-      "descricao": "CRAVOU!!!",
-      "tipoPontos": "positivo",
-      "coringa": false
-    }
-  ],
-  "eventos": [
-    {
-      "texto": "⚽  Raphinha",
-      "acertou": true
-    },
-    {
-      "texto": "🟨  Bruno Guimarães",
-      "acertou": false
-    },
-    {
-      "texto": "🫂  Vini Jr",
-      "acertou": false
-    }
-  ]
+        {
+          "time1": "src/img/escudos/australia.png",
+          "placar": "0 x 2",
+          "time2": "src/img/escudos/brasil.png",
+          "acertou": false,
+          "diferencaGols": 2,
+          "coringa": false
+        },
+        {
+          "time1": "src/img/escudos/australia.png",
+          "placar": "1 x 2",
+          "time2": "src/img/escudos/brasil.png",
+          "acertou": false,
+          "diferencaGols": 3,
+          "coringa": false
+        },
+        {
+          "time1": "src/img/escudos/india.png",
+          "placar": "0 x 4",
+          "time2": "src/img/escudos/brasil.png",
+          "acertou": true,
+          "diferencaGols": 0,
+          "coringa": false
+        }
+      ],
+      "eventos": [
+        {
+          "texto": "⚽  Raphinha",
+          "acertou": true,
+          "coringa": false
+        },
+        {
+          "texto": "🟨  Bruno Guimarães",
+          "acertou": false,
+          "coringa": false
+        },
+        {
+          "texto": "🫂  Vini Jr",
+          "acertou": false,
+          "coringa": false
+        }
+      ]
     },
     {
       "nome": "GABS",
       "avatar": "src/img/avatares/gabe.png",
       "avatarHead": "src/img/avatares/gabehead.png",
-      "cartaAtiva":"",
+      "cartaAtiva": "",
       "cartas": [
-        { "img": "src/img/cartas/dobrometade.png", "usada": false },
-        { "img": "src/img/cartas/escudo.png", "usada": false },
-        { "img": "src/img/cartas/grego.png", "usada": true },
-        { "img": "src/img/cartas/segundachance.png", "usada": false },
-        { "img": "src/img/cartas/seguro.png", "usada": true },
-        { "img": "src/img/especial/coringa.png", "usada": false },
-        { "img": "src/img/especial/coringa.png", "usada": true },
-        { "img": "src/img/especial/coringa.png", "usada": true }
+        {
+          "img": "src/img/cartas/dobrometade.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/cartas/escudo.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/cartas/grego.png",
+          "usada": true
+        },
+        {
+          "img": "src/img/cartas/segundachance.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/cartas/seguro.png",
+          "usada": true
+        },
+        {
+          "img": "src/img/especial/coringa.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/especial/coringa.png",
+          "usada": true
+        },
+        {
+          "img": "src/img/especial/coringa.png",
+          "usada": true
+        }
       ],
       "jogos": [
-    {
-      "time1": "src/img/escudos/australia.png",
-      "placar": "0 x 3",
-      "time2": "src/img/escudos/brasil.png",
-      "pontos": "-15",
-      "descricao": "-15 palpite",
-      "tipoPontos": "negativo",
-      "coringa": false
-    },
-    {
-      "time1": "src/img/escudos/australia.png",
-      "placar": "1 x 4",
-      "time2": "src/img/escudos/brasil.png",
-      "pontos": "+10",
-      "descricao": "-5 palpite<br>+15 gol",
-      "tipoPontos": "positivo",
-      "coringa": false
-    },
-    {
-      "time1": "src/img/escudos/india.png",
-      "placar": "0 x 4",
-      "time2": "src/img/escudos/brasil.png",
-      "pontos": "+60",
-      "descricao": "CRAVOU!!!<br>Lider rodada",
-      "tipoPontos": "positivo",
-      "coringa": false
-    }
-  ],
-  "eventos": [
-    {
-      "texto": "⚽  Raphinha",
-      "acertou": true
-    },
-    {
-      "texto": "🟨  Wesley",
-      "acertou": false
-    },
-    {
-      "texto": "🫂  Vini Jr",
-      "acertou": false
-    }
-  ]
+        {
+          "time1": "src/img/escudos/australia.png",
+          "placar": "0 x 3",
+          "time2": "src/img/escudos/brasil.png",
+          "acertou": false,
+          "diferencaGols": 3,
+          "coringa": false
+        },
+        {
+          "time1": "src/img/escudos/australia.png",
+          "placar": "1 x 4",
+          "time2": "src/img/escudos/brasil.png",
+          "acertou": false,
+          "diferencaGols": 1,
+          "coringa": false
+        },
+        {
+          "time1": "src/img/escudos/india.png",
+          "placar": "0 x 4",
+          "time2": "src/img/escudos/brasil.png",
+          "acertou": true,
+          "diferencaGols": 0,
+          "coringa": false
+        }
+      ],
+      "eventos": [
+        {
+          "texto": "⚽  Raphinha",
+          "acertou": true,
+          "coringa": false
+        },
+        {
+          "texto": "🟨  Wesley",
+          "acertou": false,
+          "coringa": false
+        },
+        {
+          "texto": "🫂  Vini Jr",
+          "acertou": false,
+          "coringa": false
+        }
+      ]
     },
     {
       "nome": "JOCA",
       "avatar": "src/img/avatares/joca.png",
       "avatarHead": "src/img/avatares/jocahead.png",
-      "cartaAtiva":"",
+      "cartaAtiva": "",
       "cartas": [
-        { "img": "src/img/cartas/dobrometade.png", "usada": false },
-        { "img": "src/img/cartas/escudo.png", "usada": true },
-        { "img": "src/img/cartas/grego.png", "usada": true },
-        { "img": "src/img/cartas/segundachance.png", "usada": false },
-        { "img": "src/img/cartas/seguro.png", "usada": true },
-        { "img": "src/img/especial/coringa.png", "usada": false },
-        { "img": "src/img/especial/coringa.png", "usada": true },
-        { "img": "src/img/especial/coringa.png", "usada": true }
+        {
+          "img": "src/img/cartas/dobrometade.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/cartas/escudo.png",
+          "usada": true
+        },
+        {
+          "img": "src/img/cartas/grego.png",
+          "usada": true
+        },
+        {
+          "img": "src/img/cartas/segundachance.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/cartas/seguro.png",
+          "usada": true
+        },
+        {
+          "img": "src/img/especial/coringa.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/especial/coringa.png",
+          "usada": true
+        },
+        {
+          "img": "src/img/especial/coringa.png",
+          "usada": true
+        }
       ],
       "jogos": [
-    {
-      "time1": "src/img/escudos/australia.png",
-      "placar": "0 x 3",
-      "time2": "src/img/escudos/brasil.png",
-      "pontos": "-15",
-      "descricao": "-15 palpite",
-      "tipoPontos": "negativo",
-      "coringa": false
-    },
-    {
-      "time1": "src/img/escudos/australia.png",
-      "placar": "1 x 2",
-      "time2": "src/img/escudos/brasil.png",
-      "pontos": "0",
-      "descricao": "-15 palpite<br>+15 gol",
-      "tipoPontos": "",
-      "coringa": false
-    },
-    {
-      "time1": "src/img/escudos/india.png",
-      "placar": "0 x 2",
-      "time2": "src/img/escudos/brasil.png",
-      "pontos": "-10",
-      "descricao": "-10 palpite",
-      "tipoPontos": "negativo",
-      "coringa": false
-    }
-  ],
-  "eventos": [
-    {
-      "texto": "⚽  Raphinha",
-      "acertou": true
-    },
-    {
-      "texto": "🟨  Vitor Reis",
-      "acertou": false
-    },
-    {
-      "texto": "🫂  Vini jr",
-      "acertou": false
-    }
-  ]
+        {
+          "time1": "src/img/escudos/australia.png",
+          "placar": "0 x 3",
+          "time2": "src/img/escudos/brasil.png",
+          "acertou": false,
+          "diferencaGols": 3,
+          "coringa": false
+        },
+        {
+          "time1": "src/img/escudos/australia.png",
+          "placar": "1 x 2",
+          "time2": "src/img/escudos/brasil.png",
+          "acertou": false,
+          "diferencaGols": 3,
+          "coringa": false
+        },
+        {
+          "time1": "src/img/escudos/india.png",
+          "placar": "0 x 2",
+          "time2": "src/img/escudos/brasil.png",
+          "acertou": false,
+          "diferencaGols": 2,
+          "coringa": false
+        }
+      ],
+      "eventos": [
+        {
+          "texto": "⚽  Raphinha",
+          "acertou": true,
+          "coringa": false
+        },
+        {
+          "texto": "🟨  Vitor Reis",
+          "acertou": false,
+          "coringa": false
+        },
+        {
+          "texto": "🫂  Vini jr",
+          "acertou": false,
+          "coringa": false
+        }
+      ]
     },
     {
       "nome": "FEFEZAO",
       "avatar": "src/img/avatares/fefezao.png",
       "avatarHead": "src/img/avatares/fefezaohead.png",
-      "cartaAtiva":"",
+      "cartaAtiva": "",
       "cartas": [
-        { "img": "src/img/cartas/dobrometade.png", "usada": false },
-        { "img": "src/img/cartas/escudo.png", "usada": false },
-        { "img": "src/img/cartas/grego.png", "usada": false },
-        { "img": "src/img/cartas/segundachance.png", "usada": true },
-        { "img": "src/img/cartas/seguro.png", "usada": false },
-        { "img": "src/img/especial/coringa.png", "usada": true },
-        { "img": "src/img/especial/coringa.png", "usada": true },
-        { "img": "src/img/especial/coringa.png", "usada": true }
+        {
+          "img": "src/img/cartas/dobrometade.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/cartas/escudo.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/cartas/grego.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/cartas/segundachance.png",
+          "usada": true
+        },
+        {
+          "img": "src/img/cartas/seguro.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/especial/coringa.png",
+          "usada": true
+        },
+        {
+          "img": "src/img/especial/coringa.png",
+          "usada": true
+        },
+        {
+          "img": "src/img/especial/coringa.png",
+          "usada": true
+        }
       ],
       "jogos": [
-    {
-      "time1": "src/img/escudos/australia.png",
-      "placar": "0 x 2",
-      "time2": "src/img/escudos/brasil.png",
-      "pontos": "-10",
-      "descricao": "-10 palpite",
-      "tipoPontos": "negativo",
-      "coringa": false
-    },
-    {
-      "time1": "src/img/escudos/australia.png",
-      "placar": "0 x 3",
-      "time2": "src/img/escudos/brasil.png",
-      "pontos": "-15",
-      "descricao": "-15 palpite",
-      "tipoPontos": "negativo",
-      "coringa": false
-    },
-    {
-      "time1": "src/img/escudos/india.png",
-      "placar": "0 x 2",
-      "time2": "src/img/escudos/brasil.png",
-      "pontos": "+15",
-      "descricao": "-10 palpite<br>+25 Gol e Assist",
-      "tipoPontos": "positivo",
-      "coringa": false
-    }
-  ],
-  "eventos": [
-    {
-      "texto": "⚽  Pedro",
-      "acertou": true
-    },
-    {
-      "texto": "🟨  Danilo Santos",
-      "acertou": false
-    },
-    {
-      "texto": "🫂  Estevão",
-      "acertou": true
-    }
-  ]
+        {
+          "time1": "src/img/escudos/australia.png",
+          "placar": "0 x 2",
+          "time2": "src/img/escudos/brasil.png",
+          "acertou": false,
+          "diferencaGols": 2,
+          "coringa": false
+        },
+        {
+          "time1": "src/img/escudos/australia.png",
+          "placar": "0 x 3",
+          "time2": "src/img/escudos/brasil.png",
+          "acertou": false,
+          "diferencaGols": 3,
+          "coringa": false
+        },
+        {
+          "time1": "src/img/escudos/india.png",
+          "placar": "0 x 2",
+          "time2": "src/img/escudos/brasil.png",
+          "acertou": false,
+          "diferencaGols": 2,
+          "coringa": false
+        }
+      ],
+      "eventos": [
+        {
+          "texto": "⚽  Pedro",
+          "acertou": true,
+          "coringa": false
+        },
+        {
+          "texto": "🟨  Danilo Santos",
+          "acertou": false,
+          "coringa": false
+        },
+        {
+          "texto": "🫂  Estevão",
+          "acertou": true,
+          "coringa": false
+        }
+      ]
     }
   ]
 }

@@ -8,235 +8,331 @@
       "avatarHead": "src/img/avatares/marcolahead.png",
       "cartaAtiva": "",
       "cartas": [
-        { "img": "src/img/cartas/dobrometade.png", "usada": false },
-        { "img": "src/img/cartas/escudo.png", "usada": false },
-        { "img": "src/img/cartas/grego.png", "usada": true },
-        { "img": "src/img/cartas/segundachance.png", "usada": false },
-        { "img": "src/img/cartas/seguro.png", "usada": false },
-        { "img": "src/img/especial/coringa.png", "usada": false },
-        { "img": "src/img/especial/coringa.png", "usada": true },
-        { "img": "src/img/especial/coringa.png", "usada": true }
+        {
+          "img": "src/img/cartas/dobrometade.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/cartas/escudo.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/cartas/grego.png",
+          "usada": true
+        },
+        {
+          "img": "src/img/cartas/segundachance.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/cartas/seguro.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/especial/coringa.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/especial/coringa.png",
+          "usada": true
+        },
+        {
+          "img": "src/img/especial/coringa.png",
+          "usada": true
+        }
       ],
       "jogos": [
-    {
-      "time1": "src/img/escudos/saopaulo.png",
-      "placar": "1 x 0",
-      "time2": "src/img/escudos/atleticomg.png",
-      "pontos": "-5",
-      "descricao": "-5 palpite",
-      "tipoPontos": "negativo",
-      "coringa": false
-    },
-    {
-      "time1": "src/img/escudos/cruzeiro.png",
-      "placar": "2 x 0",
-      "time2": "src/img/escudos/athletico.png",
-      "pontos": "+25",
-      "descricao": "-10 palpite<br>+35 gol e assist",
-      "tipoPontos": "positivo",
-      "coringa": false
-    },
-    {
-      "time1": "src/img/escudos/vitoria.png",
-      "placar": "1 x 1",
-      "time2": "src/img/escudos/gremio.png",
-      "pontos": "-5",
-      "descricao": "-5 palpite",
-      "tipoPontos": "negativo",
-      "coringa": false
-    }
-  ],
-  "eventos": [
-    {
-      "texto": "⚽  Caio Jorge (Cruzeiro)",
-      "acertou": true
-    },
-    {
-      "texto": "🟨  Odair Hellman (Athletico)",
-      "acertou": false
-    },
-    {
-      "texto": "🫂  Matheus Pereira (Cruzeiro)",
-      "acertou": true
-    }
-  ]
+        {
+          "time1": "src/img/escudos/saopaulo.png",
+          "placar": "1 x 0",
+          "time2": "src/img/escudos/atleticomg.png",
+          "acertou": false,
+          "diferencaGols": 1,
+          "coringa": false
+        },
+        {
+          "time1": "src/img/escudos/cruzeiro.png",
+          "placar": "2 x 0",
+          "time2": "src/img/escudos/athletico.png",
+          "acertou": false,
+          "diferencaGols": 2,
+          "coringa": false
+        },
+        {
+          "time1": "src/img/escudos/vitoria.png",
+          "placar": "1 x 1",
+          "time2": "src/img/escudos/gremio.png",
+          "acertou": false,
+          "diferencaGols": 1,
+          "coringa": false
+        }
+      ],
+      "eventos": [
+        {
+          "texto": "⚽  Caio Jorge (Cruzeiro)",
+          "acertou": true,
+          "coringa": false
+        },
+        {
+          "texto": "🟨  Odair Hellman (Athletico)",
+          "acertou": false,
+          "coringa": false
+        },
+        {
+          "texto": "🫂  Matheus Pereira (Cruzeiro)",
+          "acertou": true,
+          "coringa": false
+        }
+      ]
     },
     {
       "nome": "GABS",
       "avatar": "src/img/avatares/gabe.png",
       "avatarHead": "src/img/avatares/gabehead.png",
-      "cartaAtiva":"",
+      "cartaAtiva": "",
       "cartas": [
-        { "img": "src/img/cartas/dobrometade.png", "usada": false },
-        { "img": "src/img/cartas/escudo.png", "usada": false },
-        { "img": "src/img/cartas/grego.png", "usada": true },
-        { "img": "src/img/cartas/segundachance.png", "usada": false },
-        { "img": "src/img/cartas/seguro.png", "usada": true },
-        { "img": "src/img/especial/coringa.png", "usada": false },
-        { "img": "src/img/especial/coringa.png", "usada": true },
-        { "img": "src/img/especial/coringa.png", "usada": true }
+        {
+          "img": "src/img/cartas/dobrometade.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/cartas/escudo.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/cartas/grego.png",
+          "usada": true
+        },
+        {
+          "img": "src/img/cartas/segundachance.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/cartas/seguro.png",
+          "usada": true
+        },
+        {
+          "img": "src/img/especial/coringa.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/especial/coringa.png",
+          "usada": true
+        },
+        {
+          "img": "src/img/especial/coringa.png",
+          "usada": true
+        }
       ],
       "jogos": [
-    {
-      "time1": "src/img/escudos/saopaulo.png",
-      "placar": "2 x 1",
-      "time2": "src/img/escudos/atleticomg.png",
-      "pontos": "+10",
-      "descricao": "-5 palpite<br>+15 gol",
-      "tipoPontos": "positivo",
-      "coringa": false
-    },
-    {
-      "time1": "src/img/escudos/cruzeiro.png",
-      "placar": "1 x 1",
-      "time2": "src/img/escudos/athletico.png",
-      "pontos": "+10",
-      "descricao": "-10 palpite<br>+20 assist",
-      "tipoPontos": "positivo",
-      "coringa": false
-    },
-    {
-      "time1": "src/img/escudos/vitoria.png",
-      "placar": "1 x 0",
-      "time2": "src/img/escudos/gremio.png",
-      "pontos": "+60",
-      "descricao": "+50 CRAVOU!<br>+10 lider",
-      "tipoPontos": "positivo",
-      "coringa": false
-    }
-  ],
-  "eventos": [
-    {
-      "texto": "⚽  Luciano (São Paulo)",
-      "acertou": true
-    },
-    {
-      "texto": "🟨  Viveros (Athletico)",
-      "acertou": false
-    },
-    {
-      "texto": "🫂  Matheus Pereira (Cruzeiro)",
-      "acertou": true
-    }
-  ]
+        {
+          "time1": "src/img/escudos/saopaulo.png",
+          "placar": "2 x 1",
+          "time2": "src/img/escudos/atleticomg.png",
+          "acertou": false,
+          "diferencaGols": 1,
+          "coringa": false
+        },
+        {
+          "time1": "src/img/escudos/cruzeiro.png",
+          "placar": "1 x 1",
+          "time2": "src/img/escudos/athletico.png",
+          "acertou": false,
+          "diferencaGols": 2,
+          "coringa": false
+        },
+        {
+          "time1": "src/img/escudos/vitoria.png",
+          "placar": "1 x 0",
+          "time2": "src/img/escudos/gremio.png",
+          "acertou": true,
+          "diferencaGols": 0,
+          "coringa": false
+        }
+      ],
+      "eventos": [
+        {
+          "texto": "⚽  Luciano (São Paulo)",
+          "acertou": true,
+          "coringa": false
+        },
+        {
+          "texto": "🟨  Viveros (Athletico)",
+          "acertou": false,
+          "coringa": false
+        },
+        {
+          "texto": "🫂  Matheus Pereira (Cruzeiro)",
+          "acertou": true,
+          "coringa": false
+        }
+      ]
     },
     {
       "nome": "JOCA",
       "avatar": "src/img/avatares/joca.png",
       "avatarHead": "src/img/avatares/jocahead.png",
-      "cartaAtiva":"",
+      "cartaAtiva": "",
       "cartas": [
-        { "img": "src/img/cartas/dobrometade.png", "usada": false },
-        { "img": "src/img/cartas/escudo.png", "usada": true },
-        { "img": "src/img/cartas/grego.png", "usada": true },
-        { "img": "src/img/cartas/segundachance.png", "usada": false },
-        { "img": "src/img/cartas/seguro.png", "usada": false },
-        { "img": "src/img/especial/coringa.png", "usada": false },
-        { "img": "src/img/especial/coringa.png", "usada": false },
-        { "img": "src/img/especial/coringa.png", "usada": true }
+        {
+          "img": "src/img/cartas/dobrometade.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/cartas/escudo.png",
+          "usada": true
+        },
+        {
+          "img": "src/img/cartas/grego.png",
+          "usada": true
+        },
+        {
+          "img": "src/img/cartas/segundachance.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/cartas/seguro.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/especial/coringa.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/especial/coringa.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/especial/coringa.png",
+          "usada": true
+        }
       ],
       "jogos": [
-    {
-      "time1": "src/img/escudos/saopaulo.png",
-      "placar": "2 x 1",
-      "time2": "src/img/escudos/atleticomg.png",
-      "pontos": "-5",
-      "descricao": "-5 palpite",
-      "tipoPontos": "negativo",
-      "coringa": false
-    },
-    {
-      "time1": "src/img/escudos/cruzeiro.png",
-      "placar": "1 x 1",
-      "time2": "src/img/escudos/athletico.png",
-      "pontos": "-10",
-      "descricao": "-10 palpite",
-      "tipoPontos": "negativo",
-      "coringa": false
-    },
-    {
-      "time1": "src/img/escudos/vitoria.png",
-      "placar": "1 x 1",
-      "time2": "src/img/escudos/gremio.png",
-      "pontos": "-5",
-      "descricao": "-5 palpite",
-      "tipoPontos": "negativo",
-      "coringa": false
-    }
-  ],
-  "eventos": [
-    {
-      "texto": "⚽  Carlos Vinicius(Gremio)",
-      "acertou": false
-    },
-    {
-      "texto": "🟨  Renzo Saravia(Atletico-MG)",
-      "acertou": false
-    },
-    {
-      "texto": "🫂  Jose Enamorado(Gremio)",
-      "acertou": false
-    }
-  ]
+        {
+          "time1": "src/img/escudos/saopaulo.png",
+          "placar": "2 x 1",
+          "time2": "src/img/escudos/atleticomg.png",
+          "acertou": false,
+          "diferencaGols": 1,
+          "coringa": false
+        },
+        {
+          "time1": "src/img/escudos/cruzeiro.png",
+          "placar": "1 x 1",
+          "time2": "src/img/escudos/athletico.png",
+          "acertou": false,
+          "diferencaGols": 2,
+          "coringa": false
+        },
+        {
+          "time1": "src/img/escudos/vitoria.png",
+          "placar": "1 x 1",
+          "time2": "src/img/escudos/gremio.png",
+          "acertou": false,
+          "diferencaGols": 1,
+          "coringa": false
+        }
+      ],
+      "eventos": [
+        {
+          "texto": "⚽  Carlos Vinicius(Gremio)",
+          "acertou": false,
+          "coringa": false
+        },
+        {
+          "texto": "🟨  Renzo Saravia(Atletico-MG)",
+          "acertou": false,
+          "coringa": false
+        },
+        {
+          "texto": "🫂  Jose Enamorado(Gremio)",
+          "acertou": false,
+          "coringa": false
+        }
+      ]
     },
     {
       "nome": "FEFEZAO",
       "avatar": "src/img/avatares/fefezao.png",
       "avatarHead": "src/img/avatares/fefezaohead.png",
-      "cartaAtiva":"",
+      "cartaAtiva": "",
       "cartas": [
-        { "img": "src/img/cartas/dobrometade.png", "usada": false },
-        { "img": "src/img/cartas/escudo.png", "usada": false },
-        { "img": "src/img/cartas/grego.png", "usada": true },
-        { "img": "src/img/cartas/segundachance.png", "usada": true },
-        { "img": "src/img/cartas/seguro.png", "usada": false },
-        { "img": "src/img/especial/coringa.png", "usada": true },
-        { "img": "src/img/especial/coringa.png", "usada": true },
-        { "img": "src/img/especial/coringa.png", "usada": true }
+        {
+          "img": "src/img/cartas/dobrometade.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/cartas/escudo.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/cartas/grego.png",
+          "usada": true
+        },
+        {
+          "img": "src/img/cartas/segundachance.png",
+          "usada": true
+        },
+        {
+          "img": "src/img/cartas/seguro.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/especial/coringa.png",
+          "usada": true
+        },
+        {
+          "img": "src/img/especial/coringa.png",
+          "usada": true
+        },
+        {
+          "img": "src/img/especial/coringa.png",
+          "usada": true
+        }
       ],
       "jogos": [
-    {
-      "time1": "src/img/escudos/saopaulo.png",
-      "placar": "1 x 0",
-      "time2": "src/img/escudos/atleticomg.png",
-      "pontos": "-5",
-      "descricao": "-5 palpite",
-      "tipoPontos": "negativo",
-      "coringa": false
-    },
-    {
-      "time1": "src/img/escudos/cruzeiro.png",
-      "placar": "2 x 2",
-      "time2": "src/img/escudos/athletico.png",
-      "pontos": "-10",
-      "descricao": "-10 palpite",
-      "tipoPontos": "negativo",
-      "coringa": false
-    },
-    {
-      "time1": "src/img/escudos/vitoria.png",
-      "placar": "1 x 2",
-      "time2": "src/img/escudos/gremio.png",
-      "pontos": "-10",
-      "descricao": "-10 palpite",
-      "tipoPontos": "negativo",
-      "coringa": false
-    }
-  ],
-  "eventos": [
-    {
-      "texto": "⚽  Viveros (Athletico)",
-      "acertou": false
-    },
-    {
-      "texto": "🟨  Matheus Pereira (Cruzeiro)",
-      "acertou": false
-    },
-    {
-      "texto": "🫂  Luciano (São Paulo)",
-      "acertou": false
-    }
-  ]
+        {
+          "time1": "src/img/escudos/saopaulo.png",
+          "placar": "1 x 0",
+          "time2": "src/img/escudos/atleticomg.png",
+          "acertou": false,
+          "diferencaGols": 1,
+          "coringa": false
+        },
+        {
+          "time1": "src/img/escudos/cruzeiro.png",
+          "placar": "2 x 2",
+          "time2": "src/img/escudos/athletico.png",
+          "acertou": false,
+          "diferencaGols": 2,
+          "coringa": false
+        },
+        {
+          "time1": "src/img/escudos/vitoria.png",
+          "placar": "1 x 2",
+          "time2": "src/img/escudos/gremio.png",
+          "acertou": false,
+          "diferencaGols": 2,
+          "coringa": false
+        }
+      ],
+      "eventos": [
+        {
+          "texto": "⚽  Viveros (Athletico)",
+          "acertou": false,
+          "coringa": false
+        },
+        {
+          "texto": "🟨  Matheus Pereira (Cruzeiro)",
+          "acertou": false,
+          "coringa": false
+        },
+        {
+          "texto": "🫂  Luciano (São Paulo)",
+          "acertou": false,
+          "coringa": false
+        }
+      ]
     }
   ]
 }

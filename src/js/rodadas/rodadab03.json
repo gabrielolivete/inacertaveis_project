@@ -9,232 +9,331 @@
       "avatar": "src/img/avatares/marcola.png",
       "avatarHead": "src/img/avatares/marcolahead.png",
       "cartas": [
-        { "img": "src/img/cartas/dobrometade.png", "usada": false },
-        { "img": "src/img/cartas/escudo.png", "usada": false },
-        { "img": "src/img/cartas/grego.png", "usada": false },
-        { "img": "src/img/cartas/segundachance.png", "usada": false },
-        { "img": "src/img/cartas/seguro.png", "usada": false },
-        { "img": "src/img/especial/coringa.png", "usada": false },
-        { "img": "src/img/especial/coringa.png", "usada": false },
-        { "img": "src/img/especial/coringa.png", "usada": true }
+        {
+          "img": "src/img/cartas/dobrometade.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/cartas/escudo.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/cartas/grego.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/cartas/segundachance.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/cartas/seguro.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/especial/coringa.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/especial/coringa.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/especial/coringa.png",
+          "usada": true
+        }
       ],
       "jogos": [
-    {
-      "time1": "src/img/escudos/fluminense.png",
-      "placar": "2 x 0",
-      "time2": "src/img/escudos/indrivadavia.png",
-      "pontos": "-10",
-      "descricao": "-10 palpite",
-      "tipoPontos": "negativo",
-      "coringa": false
-    },
-    {
-      "time1": "src/img/escudos/cruzeiro.png",
-      "placar": "1 x 0",
-      "time2": "src/img/escudos/flamengo.png",
-      "pontos": "-5",
-      "descricao": "-5 palpite",
-      "tipoPontos": "negativo",
-      "coringa": false
-    },
-    {
-      "time1": "src/img/escudos/rosariocentral.png",
-      "placar": "2 x 0",
-      "time2": "src/img/escudos/corinthians.png",
-      "pontos": "-10",
-      "descricao": "-10 palpite",
-      "tipoPontos": "negativo",
-      "coringa": false
-    }
-  ],
-  "eventos": [
-    {
-      "texto": "⚽  Angel Di Maria (Rosario Central)",
-      "acertou": false
-    },
-    {
-      "texto": "🟨  Paqueta (Flamengo)",
-      "acertou": false
-    },
-    {
-      "texto": "🟥  Paqueta (Flamengo)",
-      "acertou": false
-    }
-  ]
+        {
+          "time1": "src/img/escudos/fluminense.png",
+          "placar": "2 x 0",
+          "time2": "src/img/escudos/indrivadavia.png",
+          "acertou": false,
+          "diferencaGols": 2,
+          "coringa": false
+        },
+        {
+          "time1": "src/img/escudos/cruzeiro.png",
+          "placar": "1 x 0",
+          "time2": "src/img/escudos/flamengo.png",
+          "acertou": false,
+          "diferencaGols": 1,
+          "coringa": false
+        },
+        {
+          "time1": "src/img/escudos/rosariocentral.png",
+          "placar": "2 x 0",
+          "time2": "src/img/escudos/corinthians.png",
+          "acertou": false,
+          "diferencaGols": 2,
+          "coringa": false
+        }
+      ],
+      "eventos": [
+        {
+          "texto": "⚽  Angel Di Maria (Rosario Central)",
+          "acertou": false,
+          "coringa": false
+        },
+        {
+          "texto": "🟨  Paqueta (Flamengo)",
+          "acertou": false,
+          "coringa": false
+        },
+        {
+          "texto": "🟥  Paqueta (Flamengo)",
+          "acertou": false,
+          "coringa": false
+        }
+      ]
     },
     {
       "nome": "GABS",
       "avatar": "src/img/avatares/gabe.png",
       "avatarHead": "src/img/avatares/gabehead.png",
+      "cartaAtiva": "PRESENTE GREGO (FEFJOC-J2)",
       "cartas": [
-        { "img": "src/img/cartas/dobrometade.png", "usada": false },
-        { "img": "src/img/cartas/escudo.png", "usada": false },
-        { "img": "src/img/cartas/grego.png", "usada": true },
-        { "img": "src/img/cartas/segundachance.png", "usada": false },
-        { "img": "src/img/cartas/seguro.png", "usada": false },
-        { "img": "src/img/especial/coringa.png", "usada": false },
-        { "img": "src/img/especial/coringa.png", "usada": true },
-        { "img": "src/img/especial/coringa.png", "usada": true }
+        {
+          "img": "src/img/cartas/dobrometade.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/cartas/escudo.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/cartas/grego.png",
+          "usada": true
+        },
+        {
+          "img": "src/img/cartas/segundachance.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/cartas/seguro.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/especial/coringa.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/especial/coringa.png",
+          "usada": true
+        },
+        {
+          "img": "src/img/especial/coringa.png",
+          "usada": true
+        }
       ],
       "jogos": [
-    {
-      "time1": "src/img/escudos/fluminense.png",
-      "placar": "1 x 1",
-      "time2": "src/img/escudos/indrivadavia.png",
-      "pontos": "-10",
-      "descricao": "-10 palpite",
-      "tipoPontos": "negativo",
-      "coringa": false
-    },
-    {
-      "time1": "src/img/escudos/cruzeiro.png",
-      "placar": "1 x 2",
-      "time2": "src/img/escudos/flamengo.png",
-      "pontos": "-5",
-      "descricao": "-5 palpite",
-      "tipoPontos": "negativo",
-      "coringa": false
-    },
-    {
-      "time1": "src/img/escudos/rosariocentral.png",
-      "placar": "0 x 1",
-      "time2": "src/img/escudos/corinthians.png",
-      "pontos": "-5",
-      "descricao": "-5 palpite",
-      "tipoPontos": "negativo",
-      "coringa": false
-    }
-  ],
-  "eventos": [
-    {
-      "texto": "⚽  Pedro Raul (Corinthians)",
-      "acertou": false
-    },
-    {
-      "texto": "🟨  Di Maria (Rosario Central)",
-      "acertou": false
-    },
-    {
-      "texto": "🟥  Ignacio (Fluminense)",
-      "acertou": false
-    }
-  ]
+        {
+          "time1": "src/img/escudos/fluminense.png",
+          "placar": "1 x 1",
+          "time2": "src/img/escudos/indrivadavia.png",
+          "acertou": false,
+          "diferencaGols": 2,
+          "coringa": false
+        },
+        {
+          "time1": "src/img/escudos/cruzeiro.png",
+          "placar": "1 x 2",
+          "time2": "src/img/escudos/flamengo.png",
+          "acertou": false,
+          "diferencaGols": 1,
+          "coringa": false
+        },
+        {
+          "time1": "src/img/escudos/rosariocentral.png",
+          "placar": "0 x 1",
+          "time2": "src/img/escudos/corinthians.png",
+          "acertou": false,
+          "diferencaGols": 1,
+          "coringa": false
+        }
+      ],
+      "eventos": [
+        {
+          "texto": "⚽  Pedro Raul (Corinthians)",
+          "acertou": false,
+          "coringa": false
+        },
+        {
+          "texto": "🟨  Di Maria (Rosario Central)",
+          "acertou": false,
+          "coringa": false
+        },
+        {
+          "texto": "🟥  Ignacio (Fluminense)",
+          "acertou": false,
+          "coringa": false
+        }
+      ]
     },
     {
       "nome": "JOCA",
       "avatar": "src/img/avatares/joca.png",
       "avatarHead": "src/img/avatares/jocahead.png",
+      "cartaAtiva": "",
       "cartas": [
-        { "img": "src/img/cartas/dobrometade.png", "usada": false },
-        { "img": "src/img/cartas/escudo.png", "usada": false },
-        { "img": "src/img/cartas/grego.png", "usada": false },
-        { "img": "src/img/cartas/segundachance.png", "usada": false },
-        { "img": "src/img/cartas/seguro.png", "usada": false },
-        { "img": "src/img/especial/coringa.png", "usada": false },
-        { "img": "src/img/especial/coringa.png", "usada": false },
-        { "img": "src/img/especial/coringa.png", "usada": true }
+        {
+          "img": "src/img/cartas/dobrometade.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/cartas/escudo.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/cartas/grego.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/cartas/segundachance.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/cartas/seguro.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/especial/coringa.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/especial/coringa.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/especial/coringa.png",
+          "usada": true
+        }
       ],
       "jogos": [
-    {
-      "time1": "src/img/escudos/fluminense.png",
-      "placar": "2 x 0",
-      "time2": "src/img/escudos/indrivadavia.png",
-      "pontos": "-10",
-      "descricao": "-10 palpite",
-      "tipoPontos": "negativo",
-      "coringa": false
-    },
-    {
-      "time1": "src/img/escudos/cruzeiro.png",
-      "placar": "1 x 1",
-      "time2": "src/img/escudos/flamengo.png",
-      "pontos": "+60",
-      "descricao": "+50 CRAVOU!<br>Presente Grego<br>+10 lider da rodada",
-      "tipoPontos": "positivo",
-      "coringa": false
-    },
-    {
-      "time1": "src/img/escudos/rosariocentral.png",
-      "placar": "1 x 1",
-      "time2": "src/img/escudos/corinthians.png",
-      "pontos": "-10",
-      "descricao": "-10 palpite",
-      "tipoPontos": "negativo",
-      "coringa": false
-    }
-  ],
-  "eventos": [
-    {
-      "texto": "⚽  John Kemnedy (Fluminense)",
-      "acertou": false
-    },
-    {
-      "texto": "🟨  Cannobio (Fluminense)",
-      "acertou": false
-    },
-    {
-      "texto": "🟥  Facundo Mallo (Rosario Central)",
-      "acertou": false
-    }
-  ]
+        {
+          "time1": "src/img/escudos/fluminense.png",
+          "placar": "2 x 0",
+          "time2": "src/img/escudos/indrivadavia.png",
+          "acertou": false,
+          "diferencaGols": 2,
+          "coringa": false
+        },
+        {
+          "time1": "src/img/escudos/cruzeiro.png",
+          "placar": "1 x 1",
+          "time2": "src/img/escudos/flamengo.png",
+          "acertou": true,
+          "diferencaGols": 0,
+          "coringa": false
+        },
+        {
+          "time1": "src/img/escudos/rosariocentral.png",
+          "placar": "1 x 1",
+          "time2": "src/img/escudos/corinthians.png",
+          "acertou": false,
+          "diferencaGols": 2,
+          "coringa": false
+        }
+      ],
+      "eventos": [
+        {
+          "texto": "⚽  John Kemnedy (Fluminense)",
+          "acertou": false,
+          "coringa": false
+        },
+        {
+          "texto": "🟨  Cannobio (Fluminense)",
+          "acertou": false,
+          "coringa": false
+        },
+        {
+          "texto": "🟥  Facundo Mallo (Rosario Central)",
+          "acertou": false,
+          "coringa": false
+        }
+      ]
     },
     {
       "nome": "FEFEZAO",
       "avatar": "src/img/avatares/fefezao.png",
       "avatarHead": "src/img/avatares/fefezaohead.png",
+      "cartaAtiva": "",
       "cartas": [
-        { "img": "src/img/cartas/dobrometade.png", "usada": false },
-        { "img": "src/img/cartas/escudo.png", "usada": false },
-        { "img": "src/img/cartas/grego.png", "usada": false },
-        { "img": "src/img/cartas/segundachance.png", "usada": false },
-        { "img": "src/img/cartas/seguro.png", "usada": false },
-        { "img": "src/img/especial/coringa.png", "usada": false },
-        { "img": "src/img/especial/coringa.png", "usada": true },
-        { "img": "src/img/especial/coringa.png", "usada": true }
+        {
+          "img": "src/img/cartas/dobrometade.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/cartas/escudo.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/cartas/grego.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/cartas/segundachance.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/cartas/seguro.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/especial/coringa.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/especial/coringa.png",
+          "usada": true
+        },
+        {
+          "img": "src/img/especial/coringa.png",
+          "usada": true
+        }
       ],
       "jogos": [
-    {
-      "time1": "src/img/escudos/fluminense.png",
-      "placar": "2 x 0",
-      "time2": "src/img/escudos/indrivadavia.png",
-      "pontos": "-10",
-      "descricao": "-10 palpite",
-      "tipoPontos": "negativo",
-      "coringa": false
-    },
-    {
-      "time1": "src/img/escudos/cruzeiro.png",
-      "placar": "1 x 2",
-      "time2": "src/img/escudos/flamengo.png",
-      "pontos": "-5",
-      "descricao": "-5 palpite<br>Presente Grego",
-      "tipoPontos": "negativo",
-      "coringa": false
-    },
-    {
-      "time1": "src/img/escudos/rosariocentral.png",
-      "placar": "1 x 0",
-      "time2": "src/img/escudos/corinthians.png",
-      "pontos": "-5",
-      "descricao": "-5 palpite",
-      "tipoPontos": "negativo",
-      "coringa": false
-    }
-  ],
-  "eventos": [
-    {
-      "texto": "⚽  Kaio Jorge (Cruzeiro)",
-      "acertou": false
-    },
-    {
-      "texto": "🟨  Gerson (Cruzeiro)",
-      "acertou": false
-    },
-    {
-      "texto": "🟥  Léo Ortiz (Flamengo)",
-      "acertou": false
-    }
-  ]
+        {
+          "time1": "src/img/escudos/fluminense.png",
+          "placar": "2 x 0",
+          "time2": "src/img/escudos/indrivadavia.png",
+          "acertou": false,
+          "diferencaGols": 2,
+          "coringa": false
+        },
+        {
+          "time1": "src/img/escudos/cruzeiro.png",
+          "placar": "1 x 2",
+          "time2": "src/img/escudos/flamengo.png",
+          "acertou": false,
+          "diferencaGols": 1,
+          "coringa": false
+        },
+        {
+          "time1": "src/img/escudos/rosariocentral.png",
+          "placar": "1 x 0",
+          "time2": "src/img/escudos/corinthians.png",
+          "acertou": false,
+          "diferencaGols": 1,
+          "coringa": false
+        }
+      ],
+      "eventos": [
+        {
+          "texto": "⚽  Kaio Jorge (Cruzeiro)",
+          "acertou": false,
+          "coringa": false
+        },
+        {
+          "texto": "🟨  Gerson (Cruzeiro)",
+          "acertou": false,
+          "coringa": false
+        },
+        {
+          "texto": "🟥  Léo Ortiz (Flamengo)",
+          "acertou": false,
+          "coringa": false
+        }
+      ]
     }
   ]
 }

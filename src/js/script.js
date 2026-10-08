@@ -16,33 +16,86 @@ const PRAZO_LIMITE_PALPITES = new Date("2026-10-07T18:00:00");
 const LIMITE_ENVIOS_PERFIL = 2;
 
 // ==========================================
-// 2. FUNÇÕES AUXILIARES DE CÁLCULO E SEGURANÇA
+// 2. FUNÇÕES AUXILIARES DE CÁLCULO
 // ==========================================
 
-// Converter texto de pontos (Ex: "+3" -> 3, "-10" -> -10, "0" -> 0)
+const VALORES_EVENTOS_PADRAO = [15, 10, 20];
+
 function extrairPontosNumericos(textoPontos) {
-  if (!textoPontos) return 0;
-  const limpo = String(textoPontos).replace(/[^0-9+-]/g, '');
+  if (textoPontos === null || textoPontos === undefined) return 0;
+  const textoString = String(textoPontos).trim();
+  if (textoString === '') return 0;
+
+  const limpo = textoString.replace(/[^0-9+-]/g, '');
   const valor = parseInt(limpo, 10);
   return isNaN(valor) ? 0 : valor;
 }
 
+function calcularPontosJogo(jogo) {
+  if (!jogo) return 0;
+
+  if (jogo.pontos !== undefined && String(jogo.pontos).trim() !== '') {
+    return extrairPontosNumericos(jogo.pontos);
+  }
+
+  if (jogo.acertou === undefined && jogo.diferencaGols === undefined) {
+    return 0;
+  }
+
+  let pontosBase = 0;
+
+  if (jogo.acertou === true) {
+    pontosBase = 50;
+  } else {
+    const difGols = parseInt(jogo.diferencaGols || 0, 10);
+    pontosBase = -5 * Math.abs(difGols);
+  }
+
+  const multiplicador = jogo.coringa ? 2 : 1;
+  return pontosBase * multiplicador;
+}
+
 // Soma todos os pontos obtidos nos jogos e eventos da rodada atual
 function calcularPontosGanhosNaRodada(jogador) {
+  if (!jogador) return 0;
   let soma = 0;
 
+  // 1. Soma pontos dos jogos
   if (jogador.jogos && Array.isArray(jogador.jogos)) {
     jogador.jogos.forEach(jogo => {
-      soma += extrairPontosNumericos(jogo.pontos);
+      soma += calcularPontosJogo(jogo);
     });
   }
 
+  // 2. Soma pontos dos eventos especiais
   if (jogador.eventos && Array.isArray(jogador.eventos)) {
-    jogador.eventos.forEach(ev => {
-      if (ev.pontos) {
-        soma += extrairPontosNumericos(ev.pontos);
+    jogador.eventos.forEach((ev, index) => {
+      if (ev && ev.acertou === true) {
+        let pontosBase = 0;
+
+        if (ev.pontos !== undefined && String(ev.pontos).trim() !== '') {
+          pontosBase = extrairPontosNumericos(ev.pontos);
+        } else {
+          pontosBase = VALORES_EVENTOS_PADRAO[index] || 0;
+        }
+
+        const multiplicador = ev.coringa ? 2 : 1;
+        soma += (pontosBase * multiplicador);
       }
     });
+  }
+
+  // 3. Verificação das Cartas Especiais (Escudo e Seguro)
+  const temEscudoAtivo = jogador.cartaEscudo === true || String(jogador.cartaEscudo).toLowerCase() === 'true';
+  const temSeguroAtivo = jogador.cartaSeguro === true || String(jogador.cartaSeguro).toLowerCase() === 'true';
+
+  // REGRA DA CARTA ESCUDO: Proteção total contra pontos negativos (< 0 vira 0)
+  if (temEscudoAtivo && soma < 0) {
+    soma = 0;
+  } 
+  // REGRA DA CARTA SEGURO: Limita perdas maiores que 15 pontos (< -15 vira -15)
+  else if (temSeguroAtivo && soma < -15) {
+    soma = -15;
   }
 
   return soma;
@@ -83,7 +136,7 @@ async function buscarDadosRodada(numeroRodadaAlvo) {
       throw new Error(`Rodada ${numeroRodadaAlvo} não encontrada em RODADAS_EXISTENTES.`);
     }
 
-    // 2. Mapa de pontuação acumulada para os jogadores. Todos começam com 500 pts no início.
+    // 2. Mapa de pontuação acumulada para os jogadores (Início com 500 pts)
     const PONTUACAO_INICIAL_CAMPEONATO = 500;
     const placarAcumulado = {};
 
@@ -98,25 +151,42 @@ async function buscarDadosRodada(numeroRodadaAlvo) {
       placarAcumulado[p.nome] = PONTUACAO_INICIAL_CAMPEONATO;
     });
 
-    // 4. Percorre o histórico DESDE A PRIMEIRA RODADA (índice 0) ATÉ A RODADA ALVO (idxAlvo)
+    // 4. Percorre o histórico DESDE A PRIMEIRA RODADA (0) ATÉ A RODADA ALVO (idxAlvo)
     for (let i = 0; i <= idxAlvo; i++) {
       const rodadaNum = RODADAS_EXISTENTES[i];
       const dadosRodadaLoop = await carregarJsonRodada(rodadaNum);
 
       if (dadosRodadaLoop && dadosRodadaLoop.participantes) {
-        dadosRodadaLoop.participantes.forEach(jogador => {
-          const pontosNestaRodada = calcularPontosGanhosNaRodada(jogador);
+        // Mapeia os pontos obtidos exclusivamente nesta rodada por cada jogador
+        const pontuacoesDaRodada = dadosRodadaLoop.participantes.map(jogador => {
+          return {
+            nome: jogador.nome,
+            pontos: calcularPontosGanhosNaRodada(jogador)
+          };
+        });
 
-          if (placarAcumulado[jogador.nome] === undefined) {
-            placarAcumulado[jogador.nome] = PONTUACAO_INICIAL_CAMPEONATO;
+        // Encontra a maior pontuação obtida na rodada
+        const valoresPontos = pontuacoesDaRodada.map(p => p.pontos);
+        const maiorPontuacao = Math.max(...valoresPontos);
+
+        // Aplica os pontos e o bônus no placar acumulado
+        pontuacoesDaRodada.forEach(item => {
+          if (placarAcumulado[item.nome] === undefined) {
+            placarAcumulado[item.nome] = PONTUACAO_INICIAL_CAMPEONATO;
           }
 
-          placarAcumulado[jogador.nome] += pontosNestaRodada;
+          // Soma os pontos normais da rodada
+          placarAcumulado[item.nome] += item.pontos;
+
+          // BÔNUS +10: Apenas se for a maior pontuação da rodada E for estritamente positiva (> 0)
+          if (item.pontos === maiorPontuacao && maiorPontuacao > 0) {
+            placarAcumulado[item.nome] += 10;
+          }
         });
       }
     }
 
-    // 5. Aplica a pontuação total calculada dinamicamente no objeto de exibição
+    // 5. Aplica a pontuação total acumulada calculada no objeto de exibição
     dadosRodadaExibicao.participantes.forEach(jogador => {
       jogador.pontuacaoTotal = placarAcumulado[jogador.nome] !== undefined 
         ? placarAcumulado[jogador.nome] 
@@ -216,14 +286,75 @@ function renderizarRodada(dados) {
       </div>
     ` : '';
 
+    // Badge da Carta Seguro (Trata de forma segura caso a propriedade não exista)
+    const temSeguroAtivo = jogador.cartaSeguro === true || String(jogador.cartaSeguro).toLowerCase() === 'true';
+    
+    const badgeSeguroHTML = temSeguroAtivo ? `
+      <span style="
+        font-size: 0.65rem;
+        background: #27ae60;
+        color: #fff;
+        padding: 2px 6px;
+        border-radius: 10px;
+        font-weight: bold;
+        margin-left: 4px;
+        display: inline-flex;
+        align-items: center;
+      ">🛡️ SEGURO</span>
+    ` : '';
+
     const jogosHTML = renderizarJogosJogador(jogador);
 
-    const eventosHTML = jogador.eventos ? jogador.eventos.map(ev => `
-      <div class="evento">
-        <span>${ev.texto}</span>
+    const eventosHTML = jogador.eventos ? jogador.eventos.map((ev, index) => {
+  // 1. Descobre o valor base do evento
+  let pontosBase = (ev.pontos !== undefined && String(ev.pontos).trim() !== '') 
+    ? extrairPontosNumericos(ev.pontos) 
+    : (VALORES_EVENTOS_PADRAO[index] || 0);
+
+  // 2. Se o Coringa for true, dobra o valor
+  const valorFinal = ev.coringa ? (pontosBase * 2) : pontosBase;
+
+  // 3. Tag interna do Coringa 2X
+  const badgeCoringa = ev.coringa ? `
+    <span style="
+      font-size: 0.6rem;
+      color: #f39c12;
+      background: rgba(243, 156, 18, 0.15);
+      border: 1px solid rgba(243, 156, 18, 0.4);
+      padding: 1px 4px;
+      border-radius: 4px;
+      margin-right: 4px;
+      font-weight: bold;
+    ">🃏 2X</span>
+  ` : '';
+
+  // 4. Se acertou for true, exibe a pontuação
+  const tagPontosEvento = ev.acertou ? `
+    ${badgeCoringa}
+    <span class="positivo" style="font-weight: bold; font-size: 0.8rem; margin-right: 6px;">
+      +${valorFinal} pts
+    </span>
+  ` : '';
+
+  // 5. Aplica a classe "destaque" se o evento tiver coringa ativado
+  return `
+    <div class="evento linha-palpite ${ev.coringa ? 'destaque' : ''}" style="
+      display: flex; 
+      justify-content: space-between; 
+      align-items: center; 
+      margin-top: 6px;
+      padding: 8px 10px;
+      position: relative;
+    ">
+      ${ev.coringa ? '<div class="coringa-tag">🃏 CORINGA 2X</div>' : ''}
+      <span>${ev.texto}</span>
+      <div style="display: flex; align-items: center;">
+        ${tagPontosEvento}
         <span class="${ev.acertou ? 'positivo' : 'negativo'}">${ev.acertou ? '✓' : '✗'}</span>
       </div>
-    `).join('') : '';
+    </div>
+  `;
+}).join('') : '';
 
     htmlAcumulado += `
       <article class="card-player">
@@ -263,20 +394,56 @@ function renderizarRodada(dados) {
 function renderizarJogosJogador(jogador) {
   if (!jogador.jogos) return '';
 
-  return jogador.jogos.map(jogo => `
-    <div class="linha-palpite ${jogo.coringa ? 'destaque' : ''}">
-      ${jogo.coringa ? '<div class="coringa-tag">🃏 CORINGA 2X</div>' : ''}
-      <div class="confronto">
-        <img src="${jogo.time1}" alt="Time" class="escudo-time">
-        <span class="placar-palpite">${jogo.placar}</span>
-        <img src="${jogo.time2}" alt="Time" class="escudo-time">
+  return jogador.jogos.map(jogo => {
+    // 1. Verifica se o jogo foi processado no JSON
+    const temAtributosDefinidos = jogo.acertou !== undefined || jogo.diferencaGols !== undefined || (jogo.pontos !== undefined && String(jogo.pontos).trim() !== '');
+
+    // 2. Calcula os pontos do jogo
+    const pontosCalculados = calcularPontosJogo(jogo);
+
+    // 3. Define texto de pontos (Ex: "+50", "-10", "0")
+    let textoPontos = "";
+    if (temAtributosDefinidos) {
+      textoPontos = pontosCalculados > 0 ? `+${pontosCalculados}` : `${pontosCalculados}`;
+    }
+
+    // 4. Define a classe CSS de cor
+    let classePontos = "neutro";
+    if (temAtributosDefinidos) {
+      if (pontosCalculados > 0) classePontos = "positivo";
+      else if (pontosCalculados < 0) classePontos = "negativo";
+    }
+
+    // 5. Define a descrição automática:
+    // - Sem status -> SERÁ?
+    // - acertou: true -> CRAVOU!
+    // - Outro -> FRACASSO!
+    let descricaoAutomatica = '';
+    if (!temAtributosDefinidos) {
+      descricaoAutomatica = 'SERÁ?';
+    } else if (jogo.acertou === true) {
+      descricaoAutomatica = 'CRAVOU!';
+    } else {
+      descricaoAutomatica = 'FRACASSO!';
+    }
+
+    const descricaoFinal = jogo.descricao || descricaoAutomatica;
+
+    return `
+      <div class="linha-palpite ${jogo.coringa ? 'destaque' : ''}">
+        ${jogo.coringa ? '<div class="coringa-tag">🃏 CORINGA 2X</div>' : ''}
+        <div class="confronto">
+          <img src="${jogo.time1}" alt="Time" class="escudo-time">
+          <span class="placar-palpite">${jogo.placar}</span>
+          <img src="${jogo.time2}" alt="Time" class="escudo-time">
+        </div>
+        <div class="pontos-palpite">
+          <span class="pontos-valor ${classePontos}">${textoPontos}</span>
+          <span class="pontos-descricao ${classePontos}">${descricaoFinal}</span>
+        </div>
       </div>
-      <div class="pontos-palpite">
-        <span class="pontos-valor ${jogo.tipoPontos}">${jogo.pontos}</span>
-        <span class="pontos-descricao ${jogo.tipoPontos}">${jogo.descricao}</span>
-      </div>
-    </div>
-  `).join('');
+    `;
+  }).join('');
 }
 
 // ==========================================

@@ -7,48 +7,81 @@
       "avatar": "src/img/avatares/marcola.png",
       "avatarHead": "src/img/avatares/marcolahead.png",
       "cartas": [
-        { "img": "src/img/cartas/dobrometade.png", "usada": false },
-        { "img": "src/img/cartas/escudo.png", "usada": false },
-        { "img": "src/img/cartas/grego.png", "usada": false },
-        { "img": "src/img/cartas/segundachance.png", "usada": false },
-        { "img": "src/img/cartas/seguro.png", "usada": false },
-        { "img": "src/img/especial/coringa.png", "usada": false },
-        { "img": "src/img/especial/coringa.png", "usada": false },
-        { "img": "src/img/especial/coringa.png", "usada": false }
+        {
+          "img": "src/img/cartas/dobrometade.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/cartas/escudo.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/cartas/grego.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/cartas/segundachance.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/cartas/seguro.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/especial/coringa.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/especial/coringa.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/especial/coringa.png",
+          "usada": false
+        }
       ],
       "jogos": [
         {
           "time1": "src/img/escudos/santos.png",
           "placar": "2 x 0",
           "time2": "src/img/escudos/chapecoense.png",
-          "pontos": "-10",
-          "descricao": "-10 palpite",
-          "tipoPontos": "negativo",
+          "acertou": false,
+          "diferencaGols": 2,
           "coringa": false
         },
         {
           "time1": "src/img/escudos/flamengo.png",
           "placar": "4 x 1",
           "time2": "src/img/escudos/saopaulo.png",
-          "pontos": "-15",
-          "descricao": "-15 palpite",
-          "tipoPontos": "negativo",
+          "acertou": false,
+          "diferencaGols": 3,
           "coringa": false
         },
         {
           "time1": "src/img/escudos/remo.png",
           "placar": "1 x 1",
           "time2": "src/img/escudos/vitoria.png",
-          "pontos": "-10",
-          "descricao": "-10 palpite",
-          "tipoPontos": "negativo",
+          "acertou": false,
+          "diferencaGols": 2,
           "coringa": false
         }
       ],
       "eventos": [
-        { "texto": "⚽ Pedro (Flamengo)", "acertou": false },
-        { "texto": "🟨 Lucas Ramon (São Paulo)", "acertou": false },
-        { "texto": "🟥 Eduardo Doma (Chapecoense)", "acertou": false }
+        {
+          "texto": "⚽ Pedro (Flamengo)",
+          "acertou": false,
+          "coringa": false
+        },
+        {
+          "texto": "🟨 Lucas Ramon (São Paulo)",
+          "acertou": false,
+          "coringa": false
+        },
+        {
+          "texto": "🟥 Eduardo Doma (Chapecoense)",
+          "acertou": false,
+          "coringa": false
+        }
       ]
     },
     {
@@ -56,48 +89,81 @@
       "avatar": "src/img/avatares/gabe.png",
       "avatarHead": "src/img/avatares/gabehead.png",
       "cartas": [
-        { "img": "src/img/cartas/dobrometade.png", "usada": false },
-        { "img": "src/img/cartas/escudo.png", "usada": false },
-        { "img": "src/img/cartas/grego.png", "usada": false },
-        { "img": "src/img/cartas/segundachance.png", "usada": false },
-        { "img": "src/img/cartas/seguro.png", "usada": false },
-        { "img": "src/img/especial/coringa.png", "usada": false },
-        { "img": "src/img/especial/coringa.png", "usada": false },
-        { "img": "src/img/especial/coringa.png", "usada": false }
+        {
+          "img": "src/img/cartas/dobrometade.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/cartas/escudo.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/cartas/grego.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/cartas/segundachance.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/cartas/seguro.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/especial/coringa.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/especial/coringa.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/especial/coringa.png",
+          "usada": false
+        }
       ],
       "jogos": [
         {
           "time1": "src/img/escudos/santos.png",
           "placar": "2 x 0",
           "time2": "src/img/escudos/chapecoense.png",
-          "pontos": "-10",
-          "descricao": "-10 palpite",
-          "tipoPontos": "negativo",
+          "acertou": false,
+          "diferencaGols": 2,
           "coringa": false
         },
         {
           "time1": "src/img/escudos/flamengo.png",
           "placar": "2 x 1",
           "time2": "src/img/escudos/saopaulo.png",
-          "pontos": "-5",
-          "descricao": "-5 palpite",
-          "tipoPontos": "negativo",
+          "acertou": false,
+          "diferencaGols": 1,
           "coringa": false
         },
         {
           "time1": "src/img/escudos/remo.png",
           "placar": "1 x 1",
           "time2": "src/img/escudos/vitoria.png",
-          "pontos": "0",
-          "descricao": "-10 palpite<br>+10 amarelo",
-          "tipoPontos": "",
+          "acertou": false,
+          "diferencaGols": 0,
           "coringa": false
         }
       ],
       "eventos": [
-        { "texto": "⚽ Pedro (Flamengo)", "acertou": false },
-        { "texto": "🟨 Ze Ivaldo (Remo)", "acertou": true },
-        { "texto": "🟥 Arboleda (São Paulo)", "acertou": false }
+        {
+          "texto": "⚽ Pedro (Flamengo)",
+          "acertou": false,
+          "coringa": false
+        },
+        {
+          "texto": "🟨 Ze Ivaldo (Remo)",
+          "acertou": true,
+          "coringa": false
+        },
+        {
+          "texto": "🟥 Arboleda (São Paulo)",
+          "acertou": false,
+          "coringa": false
+        }
       ]
     },
     {
@@ -105,48 +171,81 @@
       "avatar": "src/img/avatares/joca.png",
       "avatarHead": "src/img/avatares/jocahead.png",
       "cartas": [
-        { "img": "src/img/cartas/dobrometade.png", "usada": false },
-        { "img": "src/img/cartas/escudo.png", "usada": false },
-        { "img": "src/img/cartas/grego.png", "usada": false },
-        { "img": "src/img/cartas/segundachance.png", "usada": false },
-        { "img": "src/img/cartas/seguro.png", "usada": false },
-        { "img": "src/img/especial/coringa.png", "usada": false },
-        { "img": "src/img/especial/coringa.png", "usada": false },
-        { "img": "src/img/especial/coringa.png", "usada": false }
+        {
+          "img": "src/img/cartas/dobrometade.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/cartas/escudo.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/cartas/grego.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/cartas/segundachance.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/cartas/seguro.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/especial/coringa.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/especial/coringa.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/especial/coringa.png",
+          "usada": false
+        }
       ],
       "jogos": [
         {
           "time1": "src/img/escudos/santos.png",
           "placar": "2 x 0",
           "time2": "src/img/escudos/chapecoense.png",
-          "pontos": "-10",
-          "descricao": "-10 palpite",
-          "tipoPontos": "negativo",
+          "acertou": false,
+          "diferencaGols": 2,
           "coringa": false
         },
         {
           "time1": "src/img/escudos/flamengo.png",
           "placar": "2 x 1",
           "time2": "src/img/escudos/saopaulo.png",
-          "pontos": "-5",
-          "descricao": "-5 palpite",
-          "tipoPontos": "negativo",
+          "acertou": false,
+          "diferencaGols": 1,
           "coringa": false
         },
         {
           "time1": "src/img/escudos/remo.png",
           "placar": "1 x 3",
           "time2": "src/img/escudos/vitoria.png",
-          "pontos": "-20",
-          "descricao": "-20 palpite",
-          "tipoPontos": "negativo",
+          "acertou": false,
+          "diferencaGols": 4,
           "coringa": false
         }
       ],
       "eventos": [
-        { "texto": "⚽ Pedro (Flamengo)", "acertou": false },
-        { "texto": "🟨 Igor (Santos)", "acertou": false },
-        { "texto": "🟥 Vacilou, não palpitou", "acertou": false }
+        {
+          "texto": "⚽ Pedro (Flamengo)",
+          "acertou": false,
+          "coringa": false
+        },
+        {
+          "texto": "🟨 Igor (Santos)",
+          "acertou": false,
+          "coringa": false
+        },
+        {
+          "texto": "🟥 Vacilou, não palpitou",
+          "acertou": false,
+          "coringa": false
+        }
       ]
     },
     {
@@ -154,48 +253,81 @@
       "avatar": "src/img/avatares/fefezao.png",
       "avatarHead": "src/img/avatares/fefezaohead.png",
       "cartas": [
-        { "img": "src/img/cartas/dobrometade.png", "usada": false },
-        { "img": "src/img/cartas/escudo.png", "usada": false },
-        { "img": "src/img/cartas/grego.png", "usada": false },
-        { "img": "src/img/cartas/segundachance.png", "usada": false },
-        { "img": "src/img/cartas/seguro.png", "usada": false },
-        { "img": "src/img/especial/coringa.png", "usada": false },
-        { "img": "src/img/especial/coringa.png", "usada": false },
-        { "img": "src/img/especial/coringa.png", "usada": true }
+        {
+          "img": "src/img/cartas/dobrometade.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/cartas/escudo.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/cartas/grego.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/cartas/segundachance.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/cartas/seguro.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/especial/coringa.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/especial/coringa.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/especial/coringa.png",
+          "usada": true
+        }
       ],
       "jogos": [
         {
           "time1": "src/img/escudos/santos.png",
           "placar": "2 x 0",
           "time2": "src/img/escudos/chapecoense.png",
-          "pontos": "-10",
-          "descricao": "-10 palpite",
-          "tipoPontos": "negativo",
+          "acertou": false,
+          "diferencaGols": 2,
           "coringa": false
         },
         {
           "time1": "src/img/escudos/flamengo.png",
           "placar": "2 x 1",
           "time2": "src/img/escudos/saopaulo.png",
-          "pontos": "-10",
-          "descricao": "-5 palpite (2x)",
-          "tipoPontos": "negativo",
+          "acertou": false,
+          "diferencaGols": 1,
           "coringa": true
         },
         {
           "time1": "src/img/escudos/remo.png",
           "placar": "1 x 0",
           "time2": "src/img/escudos/vitoria.png",
-          "pontos": "-5",
-          "descricao": "-5 palpite",
-          "tipoPontos": "negativo",
+          "acertou": false,
+          "diferencaGols": 1,
           "coringa": false
         }
       ],
       "eventos": [
-        { "texto": "⚽ Bruno Henrique (Flamengo)", "acertou": false },
-        { "texto": "🟨 Alef Manga (Remo)", "acertou": false },
-        { "texto": "🟥 Arboleda (São Paulo)", "acertou": false }
+        {
+          "texto": "⚽ Bruno Henrique (Flamengo)",
+          "acertou": false,
+          "coringa": true
+        },
+        {
+          "texto": "🟨 Alef Manga (Remo)",
+          "acertou": false,
+          "coringa": false
+        },
+        {
+          "texto": "🟥 Arboleda (São Paulo)",
+          "acertou": false,
+          "coringa": true
+        }
       ]
     }
   ]

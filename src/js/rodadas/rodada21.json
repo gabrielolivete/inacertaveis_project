@@ -7,224 +7,318 @@
       "avatar": "src/img/avatares/marcola.png",
       "avatarHead": "src/img/avatares/marcolahead.png",
       "cartas": [
-        { "img": "src/img/cartas/dobrometade.png", "usada": false },
-        { "img": "src/img/cartas/escudo.png", "usada": false },
-        { "img": "src/img/cartas/grego.png", "usada": false },
-        { "img": "src/img/cartas/segundachance.png", "usada": false },
-        { "img": "src/img/cartas/seguro.png", "usada": false },
-        { "img": "src/img/especial/coringa.png", "usada": false },
-        { "img": "src/img/especial/coringa.png", "usada": false },
-        { "img": "src/img/especial/coringa.png", "usada": false }
+        {
+          "img": "src/img/cartas/dobrometade.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/cartas/escudo.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/cartas/grego.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/cartas/segundachance.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/cartas/seguro.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/especial/coringa.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/especial/coringa.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/especial/coringa.png",
+          "usada": false
+        }
       ],
       "jogos": [
-    {
-      "time1": "src/img/escudos/mirassol.png",
-      "placar": "1 x 2",
-      "time2": "src/img/escudos/remo.png",
-      "pontos": "-10",
-      "descricao": "-10 palpite",
-      "tipoPontos": "negativo",
-      "coringa": false
-    },
-    {
-      "time1": "src/img/escudos/fluminense.png",
-      "placar": "1 x 1",
-      "time2": "src/img/escudos/bahia.png",
-      "pontos": "-10",
-      "descricao": "-10 palpite",
-      "tipoPontos": "negativo",
-      "coringa": false
-    },
-    {
-      "time1": "src/img/escudos/corinthians.png",
-      "placar": "0 x 1",
-      "time2": "src/img/escudos/athletico.png",
-      "pontos": "-5",
-      "descricao": "-5 palpite",
-      "tipoPontos": "negativo",
-      "coringa": false
-    }
-  ],
-  "eventos": [
-    {
-      "texto": "⚽  Viveiros (Athletico - PR)",
-      "acertou": false
-    },
-    {
-      "texto": "🟨  Fábio (Fluminense)",
-      "acertou": false
-    },
-    {
-      "texto": "🟥  Alef Manga (Remo)",
-      "acertou": false
-    }
-  ]
+        {
+          "time1": "src/img/escudos/mirassol.png",
+          "placar": "1 x 2",
+          "time2": "src/img/escudos/remo.png",
+          "acertou": false,
+          "diferencaGols": 2,
+          "coringa": false
+        },
+        {
+          "time1": "src/img/escudos/fluminense.png",
+          "placar": "1 x 1",
+          "time2": "src/img/escudos/bahia.png",
+          "acertou": false,
+          "diferencaGols": 2,
+          "coringa": false
+        },
+        {
+          "time1": "src/img/escudos/corinthians.png",
+          "placar": "0 x 1",
+          "time2": "src/img/escudos/athletico.png",
+          "acertou": false,
+          "diferencaGols": 1,
+          "coringa": false
+        }
+      ],
+      "eventos": [
+        {
+          "texto": "⚽  Viveiros (Athletico - PR)",
+          "acertou": false,
+          "coringa": false
+        },
+        {
+          "texto": "🟨  Fábio (Fluminense)",
+          "acertou": false,
+          "coringa": false
+        },
+        {
+          "texto": "🟥  Alef Manga (Remo)",
+          "acertou": false,
+          "coringa": false
+        }
+      ]
     },
     {
       "nome": "GABS",
       "avatar": "src/img/avatares/gabe.png",
       "avatarHead": "src/img/avatares/gabehead.png",
       "cartas": [
-        { "img": "src/img/cartas/dobrometade.png", "usada": false },
-        { "img": "src/img/cartas/escudo.png", "usada": false },
-        { "img": "src/img/cartas/grego.png", "usada": false },
-        { "img": "src/img/cartas/segundachance.png", "usada": false },
-        { "img": "src/img/cartas/seguro.png", "usada": false },
-        { "img": "src/img/especial/coringa.png", "usada": false },
-        { "img": "src/img/especial/coringa.png", "usada": false },
-        { "img": "src/img/especial/coringa.png", "usada": true }
+        {
+          "img": "src/img/cartas/dobrometade.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/cartas/escudo.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/cartas/grego.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/cartas/segundachance.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/cartas/seguro.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/especial/coringa.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/especial/coringa.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/especial/coringa.png",
+          "usada": true
+        }
       ],
       "jogos": [
-    {
-      "time1": "src/img/escudos/mirassol.png",
-      "placar": "2 x 0",
-      "time2": "src/img/escudos/remo.png",
-      "pontos": "-5",
-      "descricao": "-5 palpite",
-      "tipoPontos": "negativo",
-      "coringa": false
-    },
-    {
-      "time1": "src/img/escudos/fluminense.png",
-      "placar": "2 x 1",
-      "time2": "src/img/escudos/bahia.png",
-      "pontos": "-15",
-      "descricao": "-15 palpite",
-      "tipoPontos": "negativo",
-      "coringa": false
-    },
-    {
-      "time1": "src/img/escudos/corinthians.png",
-      "placar": "1 x 0",
-      "time2": "src/img/escudos/athletico.png",
-      "pontos": "+10",
-      "descricao": "-10 palpipte(2x)<br>+20 amarelo(2x)",
-      "tipoPontos": "positivo",
-      "coringa": true
-    }
-  ],
-  "eventos": [
-    {
-      "texto": "⚽  Hulk (Fluminense)",
-      "acertou": false
-    },
-    {
-      "texto": "🟨  Rodrigo Garro (Corinthians)",
-      "acertou": true
-    },
-    {
-      "texto": "🟥  Lucas Esquivel (Athletico PR)",
-      "acertou": false
-    }
-  ]
+        {
+          "time1": "src/img/escudos/mirassol.png",
+          "placar": "2 x 0",
+          "time2": "src/img/escudos/remo.png",
+          "acertou": false,
+          "diferencaGols": 1,
+          "coringa": false
+        },
+        {
+          "time1": "src/img/escudos/fluminense.png",
+          "placar": "2 x 1",
+          "time2": "src/img/escudos/bahia.png",
+          "acertou": false,
+          "diferencaGols": 3,
+          "coringa": false
+        },
+        {
+          "time1": "src/img/escudos/corinthians.png",
+          "placar": "1 x 0",
+          "time2": "src/img/escudos/athletico.png",
+          "acertou": false,
+          "diferencaGols": 2,
+          "coringa": true
+        }
+      ],
+      "eventos": [
+        {
+          "texto": "⚽  Hulk (Fluminense)",
+          "acertou": false,
+          "coringa": false
+        },
+        {
+          "texto": "🟨  Rodrigo Garro (Corinthians)",
+          "acertou": true,
+          "coringa": true
+        },
+        {
+          "texto": "🟥  Lucas Esquivel (Athletico PR)",
+          "acertou": false,
+          "coringa": true
+        }
+      ]
     },
     {
       "nome": "JOCA",
       "avatar": "src/img/avatares/joca.png",
       "avatarHead": "src/img/avatares/jocahead.png",
       "cartas": [
-        { "img": "src/img/cartas/dobrometade.png", "usada": false },
-        { "img": "src/img/cartas/escudo.png", "usada": false },
-        { "img": "src/img/cartas/grego.png", "usada": false },
-        { "img": "src/img/cartas/segundachance.png", "usada": false },
-        { "img": "src/img/cartas/seguro.png", "usada": false },
-        { "img": "src/img/especial/coringa.png", "usada": false },
-        { "img": "src/img/especial/coringa.png", "usada": false },
-        { "img": "src/img/especial/coringa.png", "usada": false }
+        {
+          "img": "src/img/cartas/dobrometade.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/cartas/escudo.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/cartas/grego.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/cartas/segundachance.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/cartas/seguro.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/especial/coringa.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/especial/coringa.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/especial/coringa.png",
+          "usada": false
+        }
       ],
       "jogos": [
-    {
-      "time1": "src/img/escudos/mirassol.png",
-      "placar": "0 x 4",
-      "time2": "src/img/escudos/remo.png",
-      "pontos": "-25",
-      "descricao": "-25 palpite",
-      "tipoPontos": "negativo",
-      "coringa": false
-    },
-    {
-      "time1": "src/img/escudos/fluminense.png",
-      "placar": "0 x 4",
-      "time2": "src/img/escudos/bahia.png",
-      "pontos": "-20",
-      "descricao": "-20 palpite",
-      "tipoPontos": "negativo",
-      "coringa": false
-    },
-    {
-      "time1": "src/img/escudos/corinthians.png",
-      "placar": "0 x 4",
-      "time2": "src/img/escudos/athletico.png",
-      "pontos": "-20",
-      "descricao": "-20 palpite",
-      "tipoPontos": "negativo",
-      "coringa": false
-    }
-  ],
-  "eventos": [
-    {
-      "texto": "PALPITE W.O  ",
-      "acertou": true
-    }
-  ]
+        {
+          "time1": "src/img/escudos/mirassol.png",
+          "placar": "0 x 4",
+          "time2": "src/img/escudos/remo.png",
+          "acertou": false,
+          "diferencaGols": 5,
+          "coringa": false
+        },
+        {
+          "time1": "src/img/escudos/fluminense.png",
+          "placar": "0 x 4",
+          "time2": "src/img/escudos/bahia.png",
+          "acertou": false,
+          "diferencaGols": 4,
+          "coringa": false
+        },
+        {
+          "time1": "src/img/escudos/corinthians.png",
+          "placar": "0 x 4",
+          "time2": "src/img/escudos/athletico.png",
+          "acertou": false,
+          "diferencaGols": 4,
+          "coringa": false
+        }
+      ],
+      "eventos": [
+        {
+          "texto": "PALPITE W.O  ",
+          "acertou": false,
+          "coringa": false
+        }
+      ]
     },
     {
       "nome": "FEFEZAO",
       "avatar": "src/img/avatares/fefezao.png",
       "avatarHead": "src/img/avatares/fefezaohead.png",
       "cartas": [
-        { "img": "src/img/cartas/dobrometade.png", "usada": false },
-        { "img": "src/img/cartas/escudo.png", "usada": false },
-        { "img": "src/img/cartas/grego.png", "usada": false },
-        { "img": "src/img/cartas/segundachance.png", "usada": false },
-        { "img": "src/img/cartas/seguro.png", "usada": false },
-        { "img": "src/img/especial/coringa.png", "usada": false },
-        { "img": "src/img/especial/coringa.png", "usada": false },
-        { "img": "src/img/especial/coringa.png", "usada": true }
+        {
+          "img": "src/img/cartas/dobrometade.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/cartas/escudo.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/cartas/grego.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/cartas/segundachance.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/cartas/seguro.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/especial/coringa.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/especial/coringa.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/especial/coringa.png",
+          "usada": true
+        }
       ],
       "jogos": [
-    {
-      "time1": "src/img/escudos/mirassol.png",
-      "placar": "0 x 1",
-      "time2": "src/img/escudos/remo.png",
-      "pontos": "-10",
-      "descricao": "-10 palpite",
-      "tipoPontos": "negativo",
-      "coringa": false
-    },
-    {
-      "time1": "src/img/escudos/fluminense.png",
-      "placar": "1 x 1",
-      "time2": "src/img/escudos/bahia.png",
-      "pontos": "-10",
-      "descricao": "-10 palpite",
-      "tipoPontos": "negativo",
-      "coringa": false
-    },
-    {
-      "time1": "src/img/escudos/corinthians.png",
-      "placar": "2 x 0",
-      "time2": "src/img/escudos/athletico.png",
-      "pontos": "-10",
-      "descricao": "-10 palpite",
-      "tipoPontos": "negativo",
-      "coringa": false
-    }
-  ],
-  "eventos": [
-    {
-      "texto": "⚽  Alef Manga (Remo)",
-      "acertou": false
-    },
-    {
-      "texto": "🟨  Raniele (Corinthians)",
-      "acertou": false
-    },
-    {
-      "texto": "🟥  Raniele (Corinthians)",
-      "acertou": false
-    }
-  ]
+        {
+          "time1": "src/img/escudos/mirassol.png",
+          "placar": "0 x 1",
+          "time2": "src/img/escudos/remo.png",
+          "acertou": false,
+          "diferencaGols": 2,
+          "coringa": false
+        },
+        {
+          "time1": "src/img/escudos/fluminense.png",
+          "placar": "1 x 1",
+          "time2": "src/img/escudos/bahia.png",
+          "acertou": false,
+          "diferencaGols": 2,
+          "coringa": false
+        },
+        {
+          "time1": "src/img/escudos/corinthians.png",
+          "placar": "2 x 0",
+          "time2": "src/img/escudos/athletico.png",
+          "acertou": false,
+          "diferencaGols": 2,
+          "coringa": false
+        }
+      ],
+      "eventos": [
+        {
+          "texto": "⚽  Alef Manga (Remo)",
+          "acertou": false,
+          "coringa": false
+        },
+        {
+          "texto": "🟨  Raniele (Corinthians)",
+          "acertou": false,
+          "coringa": false
+        },
+        {
+          "texto": "🟥  Raniele (Corinthians)",
+          "acertou": false,
+          "coringa": false
+        }
+      ]
     }
   ]
 }

@@ -8,235 +8,331 @@
       "avatarHead": "src/img/avatares/marcolahead.png",
       "cartaAtiva": "",
       "cartas": [
-        { "img": "src/img/cartas/dobrometade.png", "usada": false },
-        { "img": "src/img/cartas/escudo.png", "usada": false },
-        { "img": "src/img/cartas/grego.png", "usada": true },
-        { "img": "src/img/cartas/segundachance.png", "usada": false },
-        { "img": "src/img/cartas/seguro.png", "usada": false },
-        { "img": "src/img/especial/coringa.png", "usada": true },
-        { "img": "src/img/especial/coringa.png", "usada": true },
-        { "img": "src/img/especial/coringa.png", "usada": true }
+        {
+          "img": "src/img/cartas/dobrometade.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/cartas/escudo.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/cartas/grego.png",
+          "usada": true
+        },
+        {
+          "img": "src/img/cartas/segundachance.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/cartas/seguro.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/especial/coringa.png",
+          "usada": true
+        },
+        {
+          "img": "src/img/especial/coringa.png",
+          "usada": true
+        },
+        {
+          "img": "src/img/especial/coringa.png",
+          "usada": true
+        }
       ],
       "jogos": [
-    {
-      "time1": "src/img/escudos/remo.png",
-      "placar": "1 x 3",
-      "time2": "src/img/escudos/santos.png",
-      "pontos": "-5",
-      "descricao": "-5 palpite",
-      "tipoPontos": "negativo",
-      "coringa": false
-    },
-    {
-      "time1": "src/img/escudos/vasco.png",
-      "placar": "1 x 2",
-      "time2": "src/img/escudos/coritiba.png",
-      "pontos": "-30",
-      "descricao": "-30 palpite",
-      "tipoPontos": "negativo",
-      "coringa": false
-    },
-    {
-      "time1": "src/img/escudos/flamengo.png",
-      "placar": "3 x 0",
-      "time2": "src/img/escudos/bragantino.png",
-      "pontos": "+5",
-      "descricao": "-10 palpite<br>+15 gol",
-      "tipoPontos": "positivo",
-      "coringa": false
-    }
-  ],
-  "eventos": [
-    {
-      "texto": "⚽  Pedro (Flamengo)",
-      "acertou": true
-    },
-    {
-      "texto": "🟨  Alef Manga (Remo)",
-      "acertou": false
-    },
-    {
-      "texto": "🫂  Arrascaeta (Flamengo)",
-      "acertou": false
-    }
-  ]
+        {
+          "time1": "src/img/escudos/remo.png",
+          "placar": "1 x 3",
+          "time2": "src/img/escudos/santos.png",
+          "acertou": false,
+          "diferencaGols": 1,
+          "coringa": false
+        },
+        {
+          "time1": "src/img/escudos/vasco.png",
+          "placar": "1 x 2",
+          "time2": "src/img/escudos/coritiba.png",
+          "acertou": false,
+          "diferencaGols": 6,
+          "coringa": false
+        },
+        {
+          "time1": "src/img/escudos/flamengo.png",
+          "placar": "3 x 0",
+          "time2": "src/img/escudos/bragantino.png",
+          "acertou": false,
+          "diferencaGols": 2,
+          "coringa": false
+        }
+      ],
+      "eventos": [
+        {
+          "texto": "⚽  Pedro (Flamengo)",
+          "acertou": true,
+          "coringa": false
+        },
+        {
+          "texto": "🟨  Alef Manga (Remo)",
+          "acertou": false,
+          "coringa": false
+        },
+        {
+          "texto": "🫂  Arrascaeta (Flamengo)",
+          "acertou": false,
+          "coringa": false
+        }
+      ]
     },
     {
       "nome": "GABS",
       "avatar": "src/img/avatares/gabe.png",
       "avatarHead": "src/img/avatares/gabehead.png",
-      "cartaAtiva":"",
+      "cartaAtiva": "",
       "cartas": [
-        { "img": "src/img/cartas/dobrometade.png", "usada": false },
-        { "img": "src/img/cartas/escudo.png", "usada": false },
-        { "img": "src/img/cartas/grego.png", "usada": true },
-        { "img": "src/img/cartas/segundachance.png", "usada": false },
-        { "img": "src/img/cartas/seguro.png", "usada": true },
-        { "img": "src/img/especial/coringa.png", "usada": false },
-        { "img": "src/img/especial/coringa.png", "usada": true },
-        { "img": "src/img/especial/coringa.png", "usada": true }
+        {
+          "img": "src/img/cartas/dobrometade.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/cartas/escudo.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/cartas/grego.png",
+          "usada": true
+        },
+        {
+          "img": "src/img/cartas/segundachance.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/cartas/seguro.png",
+          "usada": true
+        },
+        {
+          "img": "src/img/especial/coringa.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/especial/coringa.png",
+          "usada": true
+        },
+        {
+          "img": "src/img/especial/coringa.png",
+          "usada": true
+        }
       ],
       "jogos": [
-    {
-      "time1": "src/img/escudos/remo.png",
-      "placar": "0 x 2",
-      "time2": "src/img/escudos/santos.png",
-      "pontos": "-5",
-      "descricao": "-5 palpite",
-      "tipoPontos": "negativo",
-      "coringa": false
-    },
-    {
-      "time1": "src/img/escudos/vasco.png",
-      "placar": "1 x 2",
-      "time2": "src/img/escudos/coritiba.png",
-      "pontos": "-30",
-      "descricao": "-30 palpite",
-      "tipoPontos": "negativo",
-      "coringa": false
-    },
-    {
-      "time1": "src/img/escudos/flamengo.png",
-      "placar": "2 x 0",
-      "time2": "src/img/escudos/bragantino.png",
-      "pontos": "-5",
-      "descricao": "-5 palpite",
-      "tipoPontos": "negativo",
-      "coringa": false
-    }
-  ],
-  "eventos": [
-    {
-      "texto": "⚽  Bruno Henrique (Flamengo)",
-      "acertou": false
-    },
-    {
-      "texto": "🟨  Ze Ivaldo (Remo)",
-      "acertou": false
-    },
-    {
-      "texto": "🫂  Josué (Coritiba)",
-      "acertou": false
-    }
-  ]
+        {
+          "time1": "src/img/escudos/remo.png",
+          "placar": "0 x 2",
+          "time2": "src/img/escudos/santos.png",
+          "acertou": false,
+          "diferencaGols": 1,
+          "coringa": false
+        },
+        {
+          "time1": "src/img/escudos/vasco.png",
+          "placar": "1 x 2",
+          "time2": "src/img/escudos/coritiba.png",
+          "acertou": false,
+          "diferencaGols": 6,
+          "coringa": false
+        },
+        {
+          "time1": "src/img/escudos/flamengo.png",
+          "placar": "2 x 0",
+          "time2": "src/img/escudos/bragantino.png",
+          "acertou": false,
+          "diferencaGols": 1,
+          "coringa": false
+        }
+      ],
+      "eventos": [
+        {
+          "texto": "⚽  Bruno Henrique (Flamengo)",
+          "acertou": false,
+          "coringa": false
+        },
+        {
+          "texto": "🟨  Ze Ivaldo (Remo)",
+          "acertou": false,
+          "coringa": false
+        },
+        {
+          "texto": "🫂  Josué (Coritiba)",
+          "acertou": false,
+          "coringa": false
+        }
+      ]
     },
     {
       "nome": "JOCA",
       "avatar": "src/img/avatares/joca.png",
       "avatarHead": "src/img/avatares/jocahead.png",
-      "cartaAtiva":"SEGURO",
+      "cartaAtiva": "SEGURO",
       "cartas": [
-        { "img": "src/img/cartas/dobrometade.png", "usada": false },
-        { "img": "src/img/cartas/escudo.png", "usada": true },
-        { "img": "src/img/cartas/grego.png", "usada": true },
-        { "img": "src/img/cartas/segundachance.png", "usada": false },
-        { "img": "src/img/cartas/seguro.png", "usada": false },
-        { "img": "src/img/especial/coringa.png", "usada": false },
-        { "img": "src/img/especial/coringa.png", "usada": false },
-        { "img": "src/img/especial/coringa.png", "usada": true }
+        {
+          "img": "src/img/cartas/dobrometade.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/cartas/escudo.png",
+          "usada": true
+        },
+        {
+          "img": "src/img/cartas/grego.png",
+          "usada": true
+        },
+        {
+          "img": "src/img/cartas/segundachance.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/cartas/seguro.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/especial/coringa.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/especial/coringa.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/especial/coringa.png",
+          "usada": true
+        }
       ],
       "jogos": [
-    {
-      "time1": "src/img/escudos/remo.png",
-      "placar": "1 x 2",
-      "time2": "src/img/escudos/santos.png",
-      "pontos": "+110",
-      "descricao": "CRAVOU! (2x)<br>lider",
-      "tipoPontos": "positivo",
-      "coringa": true
-    },
-    {
-      "time1": "src/img/escudos/vasco.png",
-      "placar": "1 x 0",
-      "time2": "src/img/escudos/coritiba.png",
-      "pontos": "-20",
-      "descricao": "-20 palpite",
-      "tipoPontos": "negativo",
-      "coringa": false
-    },
-    {
-      "time1": "src/img/escudos/flamengo.png",
-      "placar": "2 x 0",
-      "time2": "src/img/escudos/bragantino.png",
-      "pontos": "+10",
-      "descricao": "-5 palpite<br>+15 gol",
-      "tipoPontos": "positivo",
-      "coringa": false
-    }
-  ],
-  "eventos": [
-    {
-      "texto": "⚽  Pedro (Flamengo )",
-      "acertou": true
-    },
-    {
-      "texto": "🟨  Lucas Barbosa (Bragantino)",
-      "acertou": false
-    },
-    {
-      "texto": "🫂  Arrascaeta (Flamengo)",
-      "acertou": false
-    }
-  ]
+        {
+          "time1": "src/img/escudos/remo.png",
+          "placar": "1 x 2",
+          "time2": "src/img/escudos/santos.png",
+          "acertou": true,
+          "diferencaGols": 0,
+          "coringa": true
+        },
+        {
+          "time1": "src/img/escudos/vasco.png",
+          "placar": "1 x 0",
+          "time2": "src/img/escudos/coritiba.png",
+          "acertou": false,
+          "diferencaGols": 4,
+          "coringa": false
+        },
+        {
+          "time1": "src/img/escudos/flamengo.png",
+          "placar": "2 x 0",
+          "time2": "src/img/escudos/bragantino.png",
+          "acertou": false,
+          "diferencaGols": 1,
+          "coringa": false
+        }
+      ],
+      "eventos": [
+        {
+          "texto": "⚽  Pedro (Flamengo )",
+          "acertou": true,
+          "coringa": false
+        },
+        {
+          "texto": "🟨  Lucas Barbosa (Bragantino)",
+          "acertou": false,
+          "coringa": false
+        },
+        {
+          "texto": "🫂  Arrascaeta (Flamengo)",
+          "acertou": false,
+          "coringa": false
+        }
+      ]
     },
     {
       "nome": "FEFEZAO",
       "avatar": "src/img/avatares/fefezao.png",
       "avatarHead": "src/img/avatares/fefezaohead.png",
-      "cartaAtiva":"",
+      "cartaAtiva": "",
       "cartas": [
-        { "img": "src/img/cartas/dobrometade.png", "usada": false },
-        { "img": "src/img/cartas/escudo.png", "usada": false },
-        { "img": "src/img/cartas/grego.png", "usada": false },
-        { "img": "src/img/cartas/segundachance.png", "usada": true },
-        { "img": "src/img/cartas/seguro.png", "usada": false },
-        { "img": "src/img/especial/coringa.png", "usada": true },
-        { "img": "src/img/especial/coringa.png", "usada": true },
-        { "img": "src/img/especial/coringa.png", "usada": true }
+        {
+          "img": "src/img/cartas/dobrometade.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/cartas/escudo.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/cartas/grego.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/cartas/segundachance.png",
+          "usada": true
+        },
+        {
+          "img": "src/img/cartas/seguro.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/especial/coringa.png",
+          "usada": true
+        },
+        {
+          "img": "src/img/especial/coringa.png",
+          "usada": true
+        },
+        {
+          "img": "src/img/especial/coringa.png",
+          "usada": true
+        }
       ],
       "jogos": [
-    {
-      "time1": "src/img/escudos/remo.png",
-      "placar": "1 x 2",
-      "time2": "src/img/escudos/santos.png",
-      "pontos": "+50",
-      "descricao": "CRAVOU",
-      "tipoPontos": "positivo",
-      "coringa": false
-    },
-    {
-      "time1": "src/img/escudos/vasco.png",
-      "placar": "1 x 1",
-      "time2": "src/img/escudos/coritiba.png",
-      "pontos": "-25",
-      "descricao": "-25 palpite",
-      "tipoPontos": "negativo",
-      "coringa": false
-    },
-    {
-      "time1": "src/img/escudos/flamengo.png",
-      "placar": "2 x 0",
-      "time2": "src/img/escudos/bragantino.png",
-      "pontos": "+10",
-      "descricao": "-5 palpite<br>+15 gol",
-      "tipoPontos": "positivo",
-      "coringa": false
-    }
-  ],
-  "eventos": [
-    {
-      "texto": "⚽  Pedro (Flamengo)",
-      "acertou": true
-    },
-    {
-      "texto": "🟨  Sebastian Gomez (Coritiba)",
-      "acertou": false
-    },
-    {
-      "texto": "🫂  Arrascaeta (Flamengo)",
-      "acertou": false
-    }
-  ]
+        {
+          "time1": "src/img/escudos/remo.png",
+          "placar": "1 x 2",
+          "time2": "src/img/escudos/santos.png",
+          "acertou": true,
+          "diferencaGols": 0,
+          "coringa": false
+        },
+        {
+          "time1": "src/img/escudos/vasco.png",
+          "placar": "1 x 1",
+          "time2": "src/img/escudos/coritiba.png",
+          "acertou": false,
+          "diferencaGols": 5,
+          "coringa": false
+        },
+        {
+          "time1": "src/img/escudos/flamengo.png",
+          "placar": "2 x 0",
+          "time2": "src/img/escudos/bragantino.png",
+          "acertou": false,
+          "diferencaGols": 1,
+          "coringa": false
+        }
+      ],
+      "eventos": [
+        {
+          "texto": "⚽  Pedro (Flamengo)",
+          "acertou": true,
+          "coringa": false
+        },
+        {
+          "texto": "🟨  Sebastian Gomez (Coritiba)",
+          "acertou": false,
+          "coringa": false
+        },
+        {
+          "texto": "🫂  Arrascaeta (Flamengo)",
+          "acertou": false,
+          "coringa": false
+        }
+      ]
     }
   ]
 }

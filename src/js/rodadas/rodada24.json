@@ -46,42 +46,42 @@
           "time1": "src/img/escudos/internacional.png",
           "placar": "0 x 1",
           "time2": "src/img/escudos/atleticomg.png",
-          "pontos": "-5",
-          "descricao": "-5 palpite",
-          "tipoPontos": "negativo",
+          "acertou": false,
+          "diferencaGols": 1,
           "coringa": false
         },
         {
           "time1": "src/img/escudos/santos.png",
           "placar": "2 x 0",
           "time2": "src/img/escudos/mirassol.png",
-          "pontos": "+20",
-          "descricao": "+20 amarelo e<br>assist",
-          "tipoPontos": "positivo",
+          "acertou": false,
+          "diferencaGols": 2,
           "coringa": false
         },
         {
           "time1": "src/img/escudos/botafogo.png",
           "placar": "0 x 1",
           "time2": "src/img/escudos/athletico.png",
-          "pontos": "-5",
-          "descricao": "-20 palpite<br>+15 gol",
-          "tipoPontos": "negativo",
+          "acertou": false,
+          "diferencaGols": 4,
           "coringa": false
         }
       ],
       "eventos": [
         {
           "texto": "⚽  Viveiros (Athletico - Pr)",
-          "acertou": true
+          "acertou": true,
+          "coringa": false
         },
         {
           "texto": "🟨  Neymar (Santos)",
-          "acertou": true
+          "acertou": true,
+          "coringa": false
         },
         {
           "texto": "🫂  Neymar (Santos)",
-          "acertou": true
+          "acertou": true,
+          "coringa": false
         }
       ]
     },
@@ -129,42 +129,42 @@
           "time1": "src/img/escudos/internacional.png",
           "placar": "0 x 0",
           "time2": "src/img/escudos/atleticomg.png",
-          "pontos": "+60",
-          "descricao": "CRAVOU!<br>+10 lider",
-          "tipoPontos": "positivo",
+          "acertou": true,
+          "diferencaGols": 0,
           "coringa": false
         },
         {
           "time1": "src/img/escudos/santos.png",
           "placar": "1 x 2",
           "time2": "src/img/escudos/mirassol.png",
-          "pontos": "+25",
-          "descricao": "+25 amarelo e<br>assist",
-          "tipoPontos": "positivo",
+          "acertou": false,
+          "diferencaGols": 1,
           "coringa": false
         },
         {
           "time1": "src/img/escudos/botafogo.png",
           "placar": "0 x 2",
           "time2": "src/img/escudos/athletico.png",
-          "pontos": "0",
-          "descricao": "-15 palpite<br>+15 gol",
-          "tipoPontos": "",
+          "acertou": false,
+          "diferencaGols": 3,
           "coringa": false
         }
       ],
       "eventos": [
         {
           "texto": "⚽  Viveros (Athletico)",
-          "acertou": true
+          "acertou": true,
+          "coringa": false
         },
         {
           "texto": "🟨  Neymar (Santos)",
-          "acertou": true
+          "acertou": true,
+          "coringa": false
         },
         {
           "texto": "🫂  Neymar (Santos)",
-          "acertou": true
+          "acertou": true,
+          "coringa": false
         }
       ]
     },
@@ -172,6 +172,7 @@
       "nome": "JOCA",
       "avatar": "src/img/avatares/joca.png",
       "avatarHead": "src/img/avatares/jocahead.png",
+      "cartaEscudo": true,
       "cartaAtiva": "Escudo",
       "cartas": [
         {
@@ -212,42 +213,42 @@
           "time1": "src/img/escudos/internacional.png",
           "placar": "1 x 1",
           "time2": "src/img/escudos/atleticomg.png",
-          "pontos": "0",
-          "descricao": "-10 palpite",
-          "tipoPontos": "negativo",
+          "acertou": false,
+          "diferencaGols": 2,
           "coringa": false
         },
         {
           "time1": "src/img/escudos/santos.png",
           "placar": "2 x 1",
           "time2": "src/img/escudos/mirassol.png",
-          "pontos": "0",
-          "descricao": "-5 palpite",
-          "tipoPontos": "negativo",
+          "acertou": false,
+          "diferencaGols": 1,
           "coringa": false
         },
         {
           "time1": "src/img/escudos/botafogo.png",
           "placar": "0 x 1",
           "time2": "src/img/escudos/athletico.png",
-          "pontos": "0",
-          "descricao": "-20 palpite",
-          "tipoPontos": "negativo",
+          "acertou": false,
+          "diferencaGols": 4,
           "coringa": false
         }
       ],
       "eventos": [
         {
           "texto": "⚽  Gabigol (Santos)",
-          "acertou": false
+          "acertou": false,
+          "coringa": false
         },
         {
           "texto": "🟨  Victor Gabriel(Internacional)",
-          "acertou": false
+          "acertou": false,
+          "coringa": false
         },
         {
           "texto": "🫂  Ruan Tressoldi (Atletico-MG)",
-          "acertou": false
+          "acertou": false,
+          "coringa": false
         }
       ]
     },
@@ -295,42 +296,42 @@
           "time1": "src/img/escudos/internacional.png",
           "placar": "1 x 0",
           "time2": "src/img/escudos/atleticomg.png",
-          "pontos": "-5",
-          "descricao": "-5 palpite",
-          "tipoPontos": "negativo",
+          "acertou": false,
+          "diferencaGols": 1,
           "coringa": false
         },
         {
           "time1": "src/img/escudos/santos.png",
           "placar": "2 x 1",
           "time2": "src/img/escudos/mirassol.png",
-          "pontos": "+25",
-          "descricao": "+25 amarelo e<br>assist",
-          "tipoPontos": "positivo",
+          "acertou": false,
+          "diferencaGols": 1,
           "coringa": false
         },
         {
           "time1": "src/img/escudos/botafogo.png",
           "placar": "1 x 1",
           "time2": "src/img/escudos/athletico.png",
-          "pontos": "0",
-          "descricao": "-15 palpite<br>+15 gol",
-          "tipoPontos": "",
+          "acertou": false,
+          "diferencaGols": 3,
           "coringa": false
         }
       ],
       "eventos": [
         {
           "texto": "⚽  Viveros (Atlhetico)",
-          "acertou": true
+          "acertou": true,
+          "coringa": false
         },
         {
           "texto": "🟨  Neymar (Santos)",
-          "acertou": true
+          "acertou": true,
+          "coringa": false
         },
         {
           "texto": "🫂  Neymar (Santos)",
-          "acertou": true
+          "acertou": true,
+          "coringa": false
         }
       ]
     }

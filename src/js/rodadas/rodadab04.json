@@ -8,228 +8,333 @@
       "nome": "MARCOLA",
       "avatar": "src/img/avatares/marcola.png",
       "avatarHead": "src/img/avatares/marcolahead.png",
-      "cartaAtiva":"Presente Grego - Jogo 3 - Joca e Fefezao",
+      "cartaAtiva": "PRESENTE GREGO (FEFJOC-J3)",
       "cartas": [
-        { "img": "src/img/cartas/dobrometade.png", "usada": false },
-        { "img": "src/img/cartas/escudo.png", "usada": false },
-        { "img": "src/img/cartas/grego.png", "usada": true },
-        { "img": "src/img/cartas/segundachance.png", "usada": false },
-        { "img": "src/img/cartas/seguro.png", "usada": false },
-        { "img": "src/img/especial/coringa.png", "usada": false },
-        { "img": "src/img/especial/coringa.png", "usada": true },
-        { "img": "src/img/especial/coringa.png", "usada": true }
+        {
+          "img": "src/img/cartas/dobrometade.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/cartas/escudo.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/cartas/grego.png",
+          "usada": true
+        },
+        {
+          "img": "src/img/cartas/segundachance.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/cartas/seguro.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/especial/coringa.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/especial/coringa.png",
+          "usada": true
+        },
+        {
+          "img": "src/img/especial/coringa.png",
+          "usada": true
+        }
       ],
       "jogos": [
-    {
-      "time1": "src/img/escudos/saopaulo.png",
-      "placar": "1 x 1",
-      "time2": "src/img/escudos/bolivar.png",
-      "pontos": "-10",
-      "descricao": "-10 palpite",
-      "tipoPontos": "negativo",
-      "coringa": false
-    },
-    {
-      "time1": "src/img/escudos/atleticomg.png",
-      "placar": "2 x 0",
-      "time2": "src/img/escudos/bragantino.png",
-      "pontos": "-10",
-      "descricao": "-10 palpite",
-      "tipoPontos": "negativo",
-      "coringa": false
-    },
-    {
-      "time1": "src/img/escudos/olimpia.png",
-      "placar": "3 x 1",
-      "time2": "src/img/escudos/vasco.png",
-      "pontos": "-50",
-      "descricao": "-25 palpite(2x)",
-      "tipoPontos": "negativo",
-      "coringa": true
-    }
-  ],
-  "eventos": [
-    {
-      "texto": "⚽  Fernando Cardozo (Olimpia)",
-      "acertou": false
-    },
-    {
-      "texto": "🟨  Arboleda (São Paulo)",
-      "acertou": false
-    },
-    {
-      "texto": "🫂  Franco Alfonso (Olimpia)",
-      "acertou": false
-    }
-  ]
+        {
+          "time1": "src/img/escudos/saopaulo.png",
+          "placar": "1 x 1",
+          "time2": "src/img/escudos/bolivar.png",
+          "acertou": false,
+          "diferencaGols": 2,
+          "coringa": false
+        },
+        {
+          "time1": "src/img/escudos/atleticomg.png",
+          "placar": "2 x 0",
+          "time2": "src/img/escudos/bragantino.png",
+          "acertou": false,
+          "diferencaGols": 2,
+          "coringa": false
+        },
+        {
+          "time1": "src/img/escudos/olimpia.png",
+          "placar": "3 x 1",
+          "time2": "src/img/escudos/vasco.png",
+          "acertou": false,
+          "diferencaGols": 5,
+          "coringa": true
+        }
+      ],
+      "eventos": [
+        {
+          "texto": "⚽  Fernando Cardozo (Olimpia)",
+          "acertou": false,
+          "coringa": true
+        },
+        {
+          "texto": "🟨  Arboleda (São Paulo)",
+          "acertou": false,
+          "coringa": false
+        },
+        {
+          "texto": "🫂  Franco Alfonso (Olimpia)",
+          "acertou": false,
+          "coringa": true
+        }
+      ]
     },
     {
       "nome": "GABS",
       "avatar": "src/img/avatares/gabe.png",
       "avatarHead": "src/img/avatares/gabehead.png",
-      "cartaAtiva":"",
+      "cartaAtiva": "",
       "cartas": [
-        { "img": "src/img/cartas/dobrometade.png", "usada": false },
-        { "img": "src/img/cartas/escudo.png", "usada": false },
-        { "img": "src/img/cartas/grego.png", "usada": true },
-        { "img": "src/img/cartas/segundachance.png", "usada": false },
-        { "img": "src/img/cartas/seguro.png", "usada": true },
-        { "img": "src/img/especial/coringa.png", "usada": false },
-        { "img": "src/img/especial/coringa.png", "usada": true },
-        { "img": "src/img/especial/coringa.png", "usada": true }
+        {
+          "img": "src/img/cartas/dobrometade.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/cartas/escudo.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/cartas/grego.png",
+          "usada": true
+        },
+        {
+          "img": "src/img/cartas/segundachance.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/cartas/seguro.png",
+          "usada": true
+        },
+        {
+          "img": "src/img/especial/coringa.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/especial/coringa.png",
+          "usada": true
+        },
+        {
+          "img": "src/img/especial/coringa.png",
+          "usada": true
+        }
       ],
       "jogos": [
-    {
-      "time1": "src/img/escudos/saopaulo.png",
-      "placar": "2 x 1",
-      "time2": "src/img/escudos/bolivar.png",
-      "pontos": "+10",
-      "descricao": "-5 palpite<br>+15 gol",
-      "tipoPontos": "positivo",
-      "coringa": false
-    },
-    {
-      "time1": "src/img/escudos/atleticomg.png",
-      "placar": "2 x 0",
-      "time2": "src/img/escudos/bragantino.png",
-      "pontos": "-10",
-      "descricao": "-10 palpite",
-      "tipoPontos": "negativo",
-      "coringa": false
-    },
-    {
-      "time1": "src/img/escudos/olimpia.png",
-      "placar": "1 x 0",
-      "time2": "src/img/escudos/vasco.png",
-      "pontos": "-20",
-      "descricao": "-20 palpite",
-      "tipoPontos": "negativo",
-      "coringa": false
-    }
-  ],
-  "eventos": [
-    {
-      "texto": "⚽  Calleri (São Paulo)",
-      "acertou": false
-    },
-    {
-      "texto": "🟨  Arboleda (São Paulo)",
-      "acertou": false
-    },
-    {
-      "texto": "🫂  Cuello (Atlético-MG)",
-      "acertou": false
-    }
-  ]
+        {
+          "time1": "src/img/escudos/saopaulo.png",
+          "placar": "2 x 1",
+          "time2": "src/img/escudos/bolivar.png",
+          "acertou": false,
+          "diferencaGols": 1,
+          "coringa": false
+        },
+        {
+          "time1": "src/img/escudos/atleticomg.png",
+          "placar": "2 x 0",
+          "time2": "src/img/escudos/bragantino.png",
+          "acertou": false,
+          "diferencaGols": 2,
+          "coringa": false
+        },
+        {
+          "time1": "src/img/escudos/olimpia.png",
+          "placar": "1 x 0",
+          "time2": "src/img/escudos/vasco.png",
+          "acertou": false,
+          "diferencaGols": 4,
+          "coringa": false
+        }
+      ],
+      "eventos": [
+        {
+          "texto": "⚽  Calleri (São Paulo)",
+          "acertou": true,
+          "coringa": false
+        },
+        {
+          "texto": "🟨  Arboleda (São Paulo)",
+          "acertou": false,
+          "coringa": false
+        },
+        {
+          "texto": "🫂  Cuello (Atlético-MG)",
+          "acertou": false,
+          "coringa": false
+        }
+      ]
     },
     {
       "nome": "JOCA",
       "avatar": "src/img/avatares/joca.png",
       "avatarHead": "src/img/avatares/jocahead.png",
-      "cartaAtiva":"",
+      "cartaAtiva": "",
       "cartas": [
-        { "img": "src/img/cartas/dobrometade.png", "usada": false },
-        { "img": "src/img/cartas/escudo.png", "usada": false },
-        { "img": "src/img/cartas/grego.png", "usada": true },
-        { "img": "src/img/cartas/segundachance.png", "usada": false },
-        { "img": "src/img/cartas/seguro.png", "usada": false },
-        { "img": "src/img/especial/coringa.png", "usada": false },
-        { "img": "src/img/especial/coringa.png", "usada": false },
-        { "img": "src/img/especial/coringa.png", "usada": true }
+        {
+          "img": "src/img/cartas/dobrometade.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/cartas/escudo.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/cartas/grego.png",
+          "usada": true
+        },
+        {
+          "img": "src/img/cartas/segundachance.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/cartas/seguro.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/especial/coringa.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/especial/coringa.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/especial/coringa.png",
+          "usada": true
+        }
       ],
       "jogos": [
         {
           "time1": "src/img/escudos/saopaulo.png",
           "placar": "0 x 4",
           "time2": "src/img/escudos/bolivar.png",
-          "pontos": "-30",
-          "descricao": "-30 palpite",
-          "tipoPontos": "negativo",
+          "acertou": false,
+          "diferencaGols": 6,
           "coringa": false
         },
         {
           "time1": "src/img/escudos/atleticomg.png",
           "placar": "0 x 4",
           "time2": "src/img/escudos/bragantino.png",
-          "pontos": "-20",
-          "descricao": "-20 palpite",
-          "tipoPontos": "negativo",
+          "acertou": false,
+          "diferencaGols": 4,
           "coringa": false
         },
         {
           "time1": "src/img/escudos/olimpia.png",
           "placar": "1 x 1",
           "time2": "src/img/escudos/vasco.png",
-          "pontos": "-15",
-          "descricao": "Presente Grego<br>-15 palpite",
-          "tipoPontos": "negativo",
+          "acertou": false,
+          "diferencaGols": 3,
           "coringa": false
         }
       ],
       "eventos": [
-        { "texto": "⚽ ", "acertou": false },
-        { "texto": "🟨 ", "acertou": false },
-        { "texto": "🫂 ", "acertou": false }
+        {
+          "texto": "⚽ ",
+          "acertou": false,
+          "coringa": false
+        },
+        {
+          "texto": "🟨 ",
+          "acertou": false,
+          "coringa": false
+        },
+        {
+          "texto": "🫂 ",
+          "acertou": false,
+          "coringa": false
+        }
       ]
     },
     {
       "nome": "FEFEZAO",
       "avatar": "src/img/avatares/fefezao.png",
       "avatarHead": "src/img/avatares/fefezaohead.png",
-      "cartaAtiva":"Segunda Chance",
+      "cartaAtiva": "Segunda Chance",
       "cartas": [
-        { "img": "src/img/cartas/dobrometade.png", "usada": false },
-        { "img": "src/img/cartas/escudo.png", "usada": false },
-        { "img": "src/img/cartas/grego.png", "usada": false },
-        { "img": "src/img/cartas/segundachance.png", "usada": true },
-        { "img": "src/img/cartas/seguro.png", "usada": false },
-        { "img": "src/img/especial/coringa.png", "usada": false },
-        { "img": "src/img/especial/coringa.png", "usada": true },
-        { "img": "src/img/especial/coringa.png", "usada": true }
+        {
+          "img": "src/img/cartas/dobrometade.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/cartas/escudo.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/cartas/grego.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/cartas/segundachance.png",
+          "usada": true
+        },
+        {
+          "img": "src/img/cartas/seguro.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/especial/coringa.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/especial/coringa.png",
+          "usada": true
+        },
+        {
+          "img": "src/img/especial/coringa.png",
+          "usada": true
+        }
       ],
       "jogos": [
-    {
-      "time1": "src/img/escudos/saopaulo.png",
-      "placar": "2 x 0",
-      "time2": "src/img/escudos/bolivar.png",
-      "pontos": "+5",
-      "descricao": "-10 palpite<br>+15 gol",
-      "tipoPontos": "positivo",
-      "coringa": false
-    },
-    {
-      "time1": "src/img/escudos/atleticomg.png",
-      "placar": "2 x 1",
-      "time2": "src/img/escudos/bragantino.png",
-      "pontos": "-5",
-      "descricao": "-5 palpite",
-      "tipoPontos": "negativo",
-      "coringa": false
-    },
-    {
-      "time1": "src/img/escudos/olimpia.png",
-      "placar": "1 x 2",
-      "time2": "src/img/escudos/vasco.png",
-      "pontos": "-10",
-      "descricao": "Presente Grego<br>Troca 0x4<br>-10 palpite",
-      "tipoPontos": "negativo",
-      "coringa": false
-    }
-  ],
-  "eventos": [
-    {
-      "texto": "⚽  Luciano (São Paulo)",
-      "acertou": false
-    },
-    {
-      "texto": "🟨  Arboleda (São Paulo)",
-      "acertou": false
-    },
-    {
-      "texto": "🫂  Luciano (São Paulo)",
-      "acertou": false
-    }
-  ]
+        {
+          "time1": "src/img/escudos/saopaulo.png",
+          "placar": "2 x 0",
+          "time2": "src/img/escudos/bolivar.png",
+          "acertou": false,
+          "diferencaGols": 2,
+          "coringa": false
+        },
+        {
+          "time1": "src/img/escudos/atleticomg.png",
+          "placar": "2 x 1",
+          "time2": "src/img/escudos/bragantino.png",
+          "acertou": false,
+          "diferencaGols": 1,
+          "coringa": false
+        },
+        {
+          "time1": "src/img/escudos/olimpia.png",
+          "placar": "1 x 2",
+          "time2": "src/img/escudos/vasco.png",
+          "acertou": false,
+          "diferencaGols": 2,
+          "coringa": false
+        }
+      ],
+      "eventos": [
+        {
+          "texto": "⚽  Luciano (São Paulo)",
+          "acertou": true,
+          "coringa": false
+        },
+        {
+          "texto": "🟨  Arboleda (São Paulo)",
+          "acertou": false,
+          "coringa": false
+        },
+        {
+          "texto": "🫂  Luciano (São Paulo)",
+          "acertou": false,
+          "coringa": false
+        }
+      ]
     }
   ]
 }

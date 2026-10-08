@@ -6,233 +6,333 @@
       "nome": "MARCOLA",
       "avatar": "src/img/avatares/marcola.png",
       "avatarHead": "src/img/avatares/marcolahead.png",
+      "cartaAtiva": "",
       "cartas": [
-        { "img": "src/img/cartas/dobrometade.png", "usada": false },
-        { "img": "src/img/cartas/escudo.png", "usada": false },
-        { "img": "src/img/cartas/grego.png", "usada": false },
-        { "img": "src/img/cartas/segundachance.png", "usada": false },
-        { "img": "src/img/cartas/seguro.png", "usada": false },
-        { "img": "src/img/especial/coringa.png", "usada": false },
-        { "img": "src/img/especial/coringa.png", "usada": false },
-        { "img": "src/img/especial/coringa.png", "usada": true }
+        {
+          "img": "src/img/cartas/dobrometade.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/cartas/escudo.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/cartas/grego.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/cartas/segundachance.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/cartas/seguro.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/especial/coringa.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/especial/coringa.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/especial/coringa.png",
+          "usada": true
+        }
       ],
       "jogos": [
-    {
-      "time1": "src/img/escudos/saopaulo.png",
-      "placar": "1 x 1",
-      "time2": "src/img/escudos/coritiba.png",
-      "pontos": "+60",
-      "descricao": "+50 CRAVOU!!!<br>Lider da rodada",
-      "tipoPontos": "positivo",
-      "coringa": false
-    },
-    {
-      "time1": "src/img/escudos/atleticomg.png",
-      "placar": "2 x 0",
-      "time2": "src/img/escudos/gremio.png",
-      "pontos": "-5",
-      "descricao": "-5 palpite",
-      "tipoPontos": "negativo",
-      "coringa": false
-    },
-    {
-      "time1": "src/img/escudos/internacional.png",
-      "placar": "1 x 0",
-      "time2": "src/img/escudos/remo.png",
-      "pontos": "-5",
-      "descricao": "-5 palpite<br>Presente Grego",
-      "tipoPontos": "negativo",
-      "coringa": false
-    }
-  ],
-  "eventos": [
-    {
-      "texto": "⚽  Alan Patrick (Inter)",
-      "acertou": false
-    },
-    {
-      "texto": "🟨  Alef Manga (remo)",
-      "acertou": false
-    },
-    {
-      "texto": "🟥  Alef Manga (Remo)",
-      "acertou": false
-    }
-  ]
+        {
+          "time1": "src/img/escudos/saopaulo.png",
+          "placar": "1 x 1",
+          "time2": "src/img/escudos/coritiba.png",
+          "acertou": true,
+          "diferencaGols": 0,
+          "coringa": false
+        },
+        {
+          "time1": "src/img/escudos/atleticomg.png",
+          "placar": "2 x 0",
+          "time2": "src/img/escudos/gremio.png",
+          "acertou": false,
+          "diferencaGols": 1,
+          "coringa": false
+        },
+        {
+          "time1": "src/img/escudos/internacional.png",
+          "placar": "1 x 0",
+          "time2": "src/img/escudos/remo.png",
+          "acertou": false,
+          "diferencaGols": 1,
+          "coringa": false
+        }
+      ],
+      "eventos": [
+        {
+          "texto": "⚽  Alan Patrick (Inter)",
+          "acertou": false,
+          "coringa": false
+        },
+        {
+          "texto": "🟨  Alef Manga (remo)",
+          "acertou": false,
+          "coringa": false
+        },
+        {
+          "texto": "🟥  Alef Manga (Remo)",
+          "acertou": false,
+          "coringa": false
+        }
+      ]
     },
     {
       "nome": "GABS",
       "avatar": "src/img/avatares/gabe.png",
       "avatarHead": "src/img/avatares/gabehead.png",
+      "cartaAtiva": "SEGURO",
+      "cartaSeguro": true,
       "cartas": [
-        { "img": "src/img/cartas/dobrometade.png", "usada": false },
-        { "img": "src/img/cartas/escudo.png", "usada": false },
-        { "img": "src/img/cartas/grego.png", "usada": true },
-        { "img": "src/img/cartas/segundachance.png", "usada": false },
-        { "img": "src/img/cartas/seguro.png", "usada": true },
-        { "img": "src/img/especial/coringa.png", "usada": false },
-        { "img": "src/img/especial/coringa.png", "usada": true },
-        { "img": "src/img/especial/coringa.png", "usada": true }
+        {
+          "img": "src/img/cartas/dobrometade.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/cartas/escudo.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/cartas/grego.png",
+          "usada": true
+        },
+        {
+          "img": "src/img/cartas/segundachance.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/cartas/seguro.png",
+          "usada": true
+        },
+        {
+          "img": "src/img/especial/coringa.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/especial/coringa.png",
+          "usada": true
+        },
+        {
+          "img": "src/img/especial/coringa.png",
+          "usada": true
+        }
       ],
       "jogos": [
-    {
-      "time1": "src/img/escudos/saopaulo.png",
-      "placar": "1 x 2",
-      "time2": "src/img/escudos/coritiba.png",
-      "pontos": "0",
-      "descricao": "-5 palpite<br>Carta Seguro",
-      "tipoPontos": "",
-      "coringa": false
-    },
-    {
-      "time1": "src/img/escudos/atleticomg.png",
-      "placar": "1 x 1",
-      "time2": "src/img/escudos/gremio.png",
-      "pontos": "-15",
-      "descricao": "-15 palpite",
-      "tipoPontos": "negativo",
-      "coringa": false
-    },
-    {
-      "time1": "src/img/escudos/internacional.png",
-      "placar": "2 x 0",
-      "time2": "src/img/escudos/remo.png",
-      "pontos": "0",
-      "descricao": "-10 palpite<br>Presente Grego",
-      "tipoPontos": "",
-      "coringa": false
-    }
-  ],
-  "eventos": [
-    {
-      "texto": "⚽  Breno Lopes (Coritiba)",
-      "acertou": false
-    },
-    {
-      "texto": "🟨  Alef Manga (Remo)",
-      "acertou": false
-    },
-    {
-      "texto": "🟥  Alef Manga (Remo)",
-      "acertou": false
-    }
-  ]
+        {
+          "time1": "src/img/escudos/saopaulo.png",
+          "placar": "1 x 2",
+          "time2": "src/img/escudos/coritiba.png",
+          "acertou": false,
+          "diferencaGols": 1,
+          "coringa": false
+        },
+        {
+          "time1": "src/img/escudos/atleticomg.png",
+          "placar": "1 x 1",
+          "time2": "src/img/escudos/gremio.png",
+          "acertou": false,
+          "diferencaGols": 3,
+          "coringa": false
+        },
+        {
+          "time1": "src/img/escudos/internacional.png",
+          "placar": "2 x 0",
+          "time2": "src/img/escudos/remo.png",
+          "acertou": false,
+          "diferencaGols": 2,
+          "coringa": false
+        }
+      ],
+      "eventos": [
+        {
+          "texto": "⚽  Breno Lopes (Coritiba)",
+          "acertou": false,
+          "coringa": false
+        },
+        {
+          "texto": "🟨  Alef Manga (Remo)",
+          "acertou": false,
+          "coringa": false
+        },
+        {
+          "texto": "🟥  Alef Manga (Remo)",
+          "acertou": false,
+          "coringa": false
+        }
+      ]
     },
     {
       "nome": "JOCA",
       "avatar": "src/img/avatares/joca.png",
       "avatarHead": "src/img/avatares/jocahead.png",
+      "cartaAtiva": "PRESENTE GREGO (GABMAR-J3)",
       "cartas": [
-        { "img": "src/img/cartas/dobrometade.png", "usada": false },
-        { "img": "src/img/cartas/escudo.png", "usada": false },
-        { "img": "src/img/cartas/grego.png", "usada": true },
-        { "img": "src/img/cartas/segundachance.png", "usada": false },
-        { "img": "src/img/cartas/seguro.png", "usada": false },
-        { "img": "src/img/especial/coringa.png", "usada": false },
-        { "img": "src/img/especial/coringa.png", "usada": false },
-        { "img": "src/img/especial/coringa.png", "usada": true }
+        {
+          "img": "src/img/cartas/dobrometade.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/cartas/escudo.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/cartas/grego.png",
+          "usada": true
+        },
+        {
+          "img": "src/img/cartas/segundachance.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/cartas/seguro.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/especial/coringa.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/especial/coringa.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/especial/coringa.png",
+          "usada": true
+        }
       ],
       "jogos": [
-    {
-      "time1": "src/img/escudos/saopaulo.png",
-      "placar": "2 x 1",
-      "time2": "src/img/escudos/coritiba.png",
-      "pontos": "-5",
-      "descricao": "-5 palpite",
-      "tipoPontos": "negativo",
-      "coringa": false
-    },
-    {
-      "time1": "src/img/escudos/atleticomg.png",
-      "placar": "1 x 1",
-      "time2": "src/img/escudos/gremio.png",
-      "pontos": "-15",
-      "descricao": "-15 palpite",
-      "tipoPontos": "negativo",
-      "coringa": false
-    },
-    {
-      "time1": "src/img/escudos/internacional.png",
-      "placar": "1 x 0",
-      "time2": "src/img/escudos/remo.png",
-      "pontos": "-5",
-      "descricao": "-5 palpite",
-      "tipoPontos": "negativo",
-      "coringa": false
-    }
-  ],
-  "eventos": [
-    {
-      "texto": "⚽  Breno Lopes (Coritiba)",
-      "acertou": false
-    },
-    {
-      "texto": "🟨  Victor Gabriel(Internacional)",
-      "acertou": false
-    },
-    {
-      "texto": "🟥  Diego Caito (Gremio)",
-      "acertou": false
-    }
-  ]
+        {
+          "time1": "src/img/escudos/saopaulo.png",
+          "placar": "2 x 1",
+          "time2": "src/img/escudos/coritiba.png",
+          "acertou": false,
+          "diferencaGols": 1,
+          "coringa": false
+        },
+        {
+          "time1": "src/img/escudos/atleticomg.png",
+          "placar": "1 x 1",
+          "time2": "src/img/escudos/gremio.png",
+          "acertou": false,
+          "diferencaGols": 3,
+          "coringa": false
+        },
+        {
+          "time1": "src/img/escudos/internacional.png",
+          "placar": "1 x 0",
+          "time2": "src/img/escudos/remo.png",
+          "acertou": false,
+          "diferencaGols": 1,
+          "coringa": false
+        }
+      ],
+      "eventos": [
+        {
+          "texto": "⚽  Breno Lopes (Coritiba)",
+          "acertou": false,
+          "coringa": false
+        },
+        {
+          "texto": "🟨  Victor Gabriel(Internacional)",
+          "acertou": false,
+          "coringa": false
+        },
+        {
+          "texto": "🟥  Diego Caito (Gremio)",
+          "acertou": false,
+          "coringa": false
+        }
+      ]
     },
     {
       "nome": "FEFEZAO",
       "avatar": "src/img/avatares/fefezao.png",
       "avatarHead": "src/img/avatares/fefezaohead.png",
       "cartas": [
-        { "img": "src/img/cartas/dobrometade.png", "usada": false },
-        { "img": "src/img/cartas/escudo.png", "usada": false },
-        { "img": "src/img/cartas/grego.png", "usada": false },
-        { "img": "src/img/cartas/segundachance.png", "usada": false },
-        { "img": "src/img/cartas/seguro.png", "usada": false },
-        { "img": "src/img/especial/coringa.png", "usada": false },
-        { "img": "src/img/especial/coringa.png", "usada": true },
-        { "img": "src/img/especial/coringa.png", "usada": true }
+        {
+          "img": "src/img/cartas/dobrometade.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/cartas/escudo.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/cartas/grego.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/cartas/segundachance.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/cartas/seguro.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/especial/coringa.png",
+          "usada": false
+        },
+        {
+          "img": "src/img/especial/coringa.png",
+          "usada": true
+        },
+        {
+          "img": "src/img/especial/coringa.png",
+          "usada": true
+        }
       ],
       "jogos": [
-    {
-      "time1": "src/img/escudos/saopaulo.png",
-      "placar": "1 x 0",
-      "time2": "src/img/escudos/coritiba.png",
-      "pontos": "-5",
-      "descricao": "-5 palpite",
-      "tipoPontos": "negativo",
-      "coringa": false
-    },
-    {
-      "time1": "src/img/escudos/atleticomg.png",
-      "placar": "2 x 1",
-      "time2": "src/img/escudos/gremio.png",
-      "pontos": "-10",
-      "descricao": "-10 palpite",
-      "tipoPontos": "negativo",
-      "coringa": false
-    },
-    {
-      "time1": "src/img/escudos/internacional.png",
-      "placar": "2 x 0",
-      "time2": "src/img/escudos/remo.png",
-      "pontos": "-10",
-      "descricao": "-10 palpite",
-      "tipoPontos": "negativo",
-      "coringa": false
-    }
-  ],
-  "eventos": [
-    {
-      "texto": "⚽  Luciano ( São Paulo)",
-      "acertou": false
-    },
-    {
-      "texto": "🟨  Sebastian Gomez (Coritiba)",
-      "acertou": false
-    },
-    {
-      "texto": "🟥  Thiago Santos (Coritiba)",
-      "acertou": false
-    }
-  ]
+        {
+          "time1": "src/img/escudos/saopaulo.png",
+          "placar": "1 x 0",
+          "time2": "src/img/escudos/coritiba.png",
+          "acertou": false,
+          "diferencaGols": 1,
+          "coringa": false
+        },
+        {
+          "time1": "src/img/escudos/atleticomg.png",
+          "placar": "2 x 1",
+          "time2": "src/img/escudos/gremio.png",
+          "acertou": false,
+          "diferencaGols": 2,
+          "coringa": false
+        },
+        {
+          "time1": "src/img/escudos/internacional.png",
+          "placar": "2 x 0",
+          "time2": "src/img/escudos/remo.png",
+          "acertou": false,
+          "diferencaGols": 2,
+          "coringa": false
+        }
+      ],
+      "eventos": [
+        {
+          "texto": "⚽  Luciano ( São Paulo)",
+          "acertou": false,
+          "coringa": false
+        },
+        {
+          "texto": "🟨  Sebastian Gomez (Coritiba)",
+          "acertou": false,
+          "coringa": false
+        },
+        {
+          "texto": "🟥  Thiago Santos (Coritiba)",
+          "acertou": false,
+          "coringa": false
+        }
+      ]
     }
   ]
 }
