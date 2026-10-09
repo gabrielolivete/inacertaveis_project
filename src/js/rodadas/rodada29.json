@@ -63,7 +63,7 @@
           "placar": "2 x 0",
           "time2": "src/img/escudos/flamengo.png",
           "acertou": false,
-          "diferencaGols": 0,
+          "diferencaGols": 2,
           "coringa": false
         }
       ],
@@ -75,7 +75,7 @@
         },
         {
           "texto": "🟨 Neymar (Santos)",
-          "acertou": false,
+          "acertou": true,
           "coringa": false
         },
         {
@@ -146,7 +146,7 @@
           "placar": "1 x 2",
           "time2": "src/img/escudos/flamengo.png",
           "acertou": false,
-          "diferencaGols": 0,
+          "diferencaGols": 1,
           "coringa": false
         }
       ],
@@ -158,7 +158,7 @@
         },
         {
           "texto": "🟨 Bruno Henrique (Flamengo)",
-          "acertou": false,
+          "acertou": true,
           "coringa": false
         },
         {
@@ -229,7 +229,7 @@
           "placar": "1 x 2",
           "time2": "src/img/escudos/flamengo.png",
           "acertou": false,
-          "diferencaGols": 0,
+          "diferencaGols": 1,
           "coringa": false
         }
       ],
@@ -312,7 +312,7 @@
           "placar": "0 x 2",
           "time2": "src/img/escudos/flamengo.png",
           "acertou": false,
-          "diferencaGols": 0,
+          "diferencaGols": 2,
           "coringa": false
         }
       ],

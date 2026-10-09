@@ -6,15 +6,15 @@
       "descricao": "Detentor de mais palpites exatos",
       "icone": "src/img/especial/reidoplacar.png",
       "lider_atual": "GAB/JOCA",
-      "valor": "3"
+      "valor": "4"
     },
     {
       "id": "artilheiro",
       "nome": "Artilheiro",
       "descricao": "Mais palpites de gol acertados",
       "icone": "src/img/especial/artilheiro.png",
-      "lider_atual": "FEFE/MAR",
-      "valor": "6"
+      "lider_atual": "MAR",
+      "valor": "7"
     },
     {
       "id": "xerife",
@@ -22,15 +22,15 @@
       "descricao": "Mais cartões amarelos acertados",
       "icone": "src/img/especial/xerife.png",
       "lider_atual": "GABS",
-      "valor": "4"
+      "valor": "5"
     },
     {
       "id": "garcom",
       "nome": "Garçom",
       "descricao": "Mais palpites de assistência acertados",
       "icone": "src/img/especial/garcom.png",
-      "lider_atual": "FEF/GAB/MAR",
-      "valor": "2"
+      "lider_atual": "MARCOLA",
+      "valor": "3"
     },
     {
       "id": "esse_dia_foi_louco",
