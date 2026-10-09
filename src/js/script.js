@@ -800,9 +800,8 @@ function inicializarFormularioPalpites() {
         time1: time1Path,
         placar: placarDigitado,
         time2: time2Path,
-        pontos: "",
-        descricao: "",
-        tipoPontos: "",
+        acertou: false,
+        diferencaGols: 0,
         coringa: eCoringa
       });
     });
@@ -822,7 +821,8 @@ function inicializarFormularioPalpites() {
 
         listaEventosJSON.push({
           texto: `${textoOriginal} ${respostaDigitada}`,
-          acertou: false
+          acertou: false,
+          coringa: false
         });
       });
     }
