@@ -44,7 +44,7 @@
       "jogos": [
         {
           "time1": "src/img/escudos/saopaulo.png",
-          "placar": "",
+          "placar": "2 x 2",
           "time2": "src/img/escudos/vasco.png",
           "acertou": false,
           "diferencaGols": 0,
@@ -52,7 +52,7 @@
         },
         {
           "time1": "src/img/escudos/fluminense.png",
-          "placar": "",
+          "placar": "1 x 2",
           "time2": "src/img/escudos/santos.png",
           "acertou": false,
           "diferencaGols": 0,
@@ -60,7 +60,7 @@
         },
         {
           "time1": "src/img/escudos/remo.png",
-          "placar": "",
+          "placar": "0 x 1",
           "time2": "src/img/escudos/bragantino.png",
           "acertou": false,
           "diferencaGols": 0,
@@ -69,17 +69,17 @@
       ],
       "eventos": [
         {
-          "texto": "⚽ ",
+          "texto": "⚽  Neynar (Santos)",
           "acertou": false,
           "coringa": false
         },
         {
-          "texto": "🟨 ",
+          "texto": "🟨  Neymar (Santos)",
           "acertou": false,
           "coringa": false
         },
         {
-          "texto": "🫂 ",
+          "texto": "🫂  Neymar (Santos)",
           "acertou": false,
           "coringa": false
         }
@@ -127,7 +127,7 @@
       "jogos": [
         {
           "time1": "src/img/escudos/saopaulo.png",
-          "placar": "",
+          "placar": "1 x 2",
           "time2": "src/img/escudos/vasco.png",
           "acertou": false,
           "diferencaGols": 0,
@@ -135,7 +135,7 @@
         },
         {
           "time1": "src/img/escudos/fluminense.png",
-          "placar": "",
+          "placar": "1 x 2",
           "time2": "src/img/escudos/santos.png",
           "acertou": false,
           "diferencaGols": 0,
@@ -143,7 +143,7 @@
         },
         {
           "time1": "src/img/escudos/remo.png",
-          "placar": "",
+          "placar": "2 x 2",
           "time2": "src/img/escudos/bragantino.png",
           "acertou": false,
           "diferencaGols": 0,
@@ -152,17 +152,17 @@
       ],
       "eventos": [
         {
-          "texto": "⚽ ",
+          "texto": "⚽  Gabigol (Santos)",
           "acertou": false,
           "coringa": false
         },
         {
-          "texto": "🟨 ",
+          "texto": "🟨  Hulk (Fluminense)",
           "acertou": false,
           "coringa": false
         },
         {
-          "texto": "🫂 ",
+          "texto": "🫂  Neymar (Santos)",
           "acertou": false,
           "coringa": false
         }
@@ -210,7 +210,7 @@
       "jogos": [
         {
           "time1": "src/img/escudos/saopaulo.png",
-          "placar": "",
+          "placar": "2 x 0",
           "time2": "src/img/escudos/vasco.png",
           "acertou": false,
           "diferencaGols": 0,
@@ -218,7 +218,7 @@
         },
         {
           "time1": "src/img/escudos/fluminense.png",
-          "placar": "",
+          "placar": "1 x 1",
           "time2": "src/img/escudos/santos.png",
           "acertou": false,
           "diferencaGols": 0,
@@ -226,7 +226,7 @@
         },
         {
           "time1": "src/img/escudos/remo.png",
-          "placar": "",
+          "placar": "2 x 1",
           "time2": "src/img/escudos/bragantino.png",
           "acertou": false,
           "diferencaGols": 0,
@@ -235,17 +235,17 @@
       ],
       "eventos": [
         {
-          "texto": "⚽ ",
+          "texto": "⚽  Calleri (Sao Paulo )",
           "acertou": false,
           "coringa": false
         },
         {
-          "texto": "🟨 ",
+          "texto": "🟨  Eric Ramires (Bragantino)",
           "acertou": false,
           "coringa": false
         },
         {
-          "texto": "🫂 ",
+          "texto": "🫂  Artur (Sao Paulo)",
           "acertou": false,
           "coringa": false
         }
@@ -293,7 +293,7 @@
       "jogos": [
         {
           "time1": "src/img/escudos/saopaulo.png",
-          "placar": "",
+          "placar": "2 x 1",
           "time2": "src/img/escudos/vasco.png",
           "acertou": false,
           "diferencaGols": 0,
@@ -301,7 +301,7 @@
         },
         {
           "time1": "src/img/escudos/fluminense.png",
-          "placar": "",
+          "placar": "2 x 0",
           "time2": "src/img/escudos/santos.png",
           "acertou": false,
           "diferencaGols": 0,
@@ -309,7 +309,7 @@
         },
         {
           "time1": "src/img/escudos/remo.png",
-          "placar": "",
+          "placar": "0 x 1",
           "time2": "src/img/escudos/bragantino.png",
           "acertou": false,
           "diferencaGols": 0,
@@ -318,17 +318,17 @@
       ],
       "eventos": [
         {
-          "texto": "⚽ ",
+          "texto": "⚽  Neymar (Santos)",
           "acertou": false,
           "coringa": false
         },
         {
-          "texto": "🟨 ",
+          "texto": "🟨  Neymar (Santos)",
           "acertou": false,
           "coringa": false
         },
         {
-          "texto": "🫂 ",
+          "texto": "🫂  Neymar (Santos)",
           "acertou": false,
           "coringa": false
         }
