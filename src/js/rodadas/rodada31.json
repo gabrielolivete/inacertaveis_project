@@ -47,14 +47,14 @@
           "placar": "2 x 2",
           "time2": "src/img/escudos/vasco.png",
           "acertou": false,
-          "diferencaGols": 0,
+          "diferencaGols": 3,
           "coringa": false
         },
         {
           "time1": "src/img/escudos/fluminense.png",
           "placar": "1 x 2",
           "time2": "src/img/escudos/santos.png",
-          "acertou": false,
+          "acertou": true,
           "diferencaGols": 0,
           "coringa": false
         },
@@ -130,14 +130,14 @@
           "placar": "1 x 2",
           "time2": "src/img/escudos/vasco.png",
           "acertou": false,
-          "diferencaGols": 0,
+          "diferencaGols": 2,
           "coringa": false
         },
         {
           "time1": "src/img/escudos/fluminense.png",
           "placar": "1 x 2",
           "time2": "src/img/escudos/santos.png",
-          "acertou": false,
+          "acertou": true,
           "diferencaGols": 0,
           "coringa": false
         },
@@ -153,7 +153,7 @@
       "eventos": [
         {
           "texto": "⚽  Gabigol (Santos)",
-          "acertou": false,
+          "acertou": true,
           "coringa": false
         },
         {
@@ -213,7 +213,7 @@
           "placar": "2 x 0",
           "time2": "src/img/escudos/vasco.png",
           "acertou": false,
-          "diferencaGols": 0,
+          "diferencaGols": 1,
           "coringa": false
         },
         {
@@ -221,7 +221,7 @@
           "placar": "1 x 1",
           "time2": "src/img/escudos/santos.png",
           "acertou": false,
-          "diferencaGols": 0,
+          "diferencaGols": 1,
           "coringa": false
         },
         {
@@ -296,7 +296,7 @@
           "placar": "2 x 1",
           "time2": "src/img/escudos/vasco.png",
           "acertou": false,
-          "diferencaGols": 0,
+          "diferencaGols": 2,
           "coringa": false
         },
         {
@@ -304,7 +304,7 @@
           "placar": "2 x 0",
           "time2": "src/img/escudos/santos.png",
           "acertou": false,
-          "diferencaGols": 0,
+          "diferencaGols": 3,
           "coringa": false
         },
         {
