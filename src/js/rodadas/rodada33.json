@@ -44,23 +44,23 @@
             "jogos": [
                 {
                     "time1": "src/img/escudos/atleticomg.png",
-                    "placar": "",
+                    "placar": "2 x 2",
                     "time2": "src/img/escudos/cruzeiro.png",
                     "acertou": false,
-                    "diferencaGols": 0,
+                    "diferencaGols": 3,
                     "coringa": false
                 },
                 {
                     "time1": "src/img/escudos/vasco.png",
-                    "placar": "",
+                    "placar": "1 x 0",
                     "time2": "src/img/escudos/flamengo.png",
                     "acertou": false,
-                    "diferencaGols": 0,
+                    "diferencaGols": 4,
                     "coringa": false
                 },
                 {
                     "time1": "src/img/escudos/corinthians.png",
-                    "placar": "",
+                    "placar": "2 x 0",
                     "time2": "src/img/escudos/mirassol.png",
                     "acertou": false,
                     "diferencaGols": 0,
@@ -69,17 +69,17 @@
             ],
             "eventos": [
                 {
-                    "texto": "⚽ ",
+                    "texto": "⚽  Garro (Corinthians)",
                     "acertou": false,
                     "coringa": false
                 },
                 {
-                    "texto": "🟨 ",
+                    "texto": "🟨  Kaio Jorge (Cruzeiro)",
                     "acertou": false,
                     "coringa": false
                 },
                 {
-                    "texto": "🫂 ",
+                    "texto": "🫂  Matheus Pereira (Cruzeiro)",
                     "acertou": false,
                     "coringa": false
                 }
@@ -127,23 +127,23 @@
             "jogos": [
                 {
                     "time1": "src/img/escudos/atleticomg.png",
-                    "placar": "",
+                    "placar": "2 x 2",
                     "time2": "src/img/escudos/cruzeiro.png",
                     "acertou": false,
-                    "diferencaGols": 0,
+                    "diferencaGols": 3,
                     "coringa": false
                 },
                 {
                     "time1": "src/img/escudos/vasco.png",
-                    "placar": "",
+                    "placar": "1 x 2",
                     "time2": "src/img/escudos/flamengo.png",
                     "acertou": false,
-                    "diferencaGols": 0,
+                    "diferencaGols": 2,
                     "coringa": false
                 },
                 {
                     "time1": "src/img/escudos/corinthians.png",
-                    "placar": "",
+                    "placar": "1 x 2",
                     "time2": "src/img/escudos/mirassol.png",
                     "acertou": false,
                     "diferencaGols": 0,
@@ -152,17 +152,17 @@
             ],
             "eventos": [
                 {
-                    "texto": "⚽ ",
+                    "texto": "⚽  Pedro (Flamengo)",
+                    "acertou": true,
+                    "coringa": false
+                },
+                {
+                    "texto": "🟨  Kayo Jorge (Cruzeiro)",
                     "acertou": false,
                     "coringa": false
                 },
                 {
-                    "texto": "🟨 ",
-                    "acertou": false,
-                    "coringa": false
-                },
-                {
-                    "texto": "🫂 ",
+                    "texto": "🫂  Matheus Pereira (Cruzeiro)",
                     "acertou": false,
                     "coringa": false
                 }
@@ -172,7 +172,7 @@
             "nome": "JOCA",
             "avatar": "src/img/avatares/joca.png",
             "avatarHead": "src/img/avatares/jocahead.png",
-            "cartaAtiva": "",
+            "cartaAtiva": "Dobro ou Metade (jogo 2)",
             "cartas": [
                 {
                     "img": "src/img/cartas/dobrometade.png",
@@ -210,23 +210,23 @@
             "jogos": [
                 {
                     "time1": "src/img/escudos/atleticomg.png",
-                    "placar": "",
+                    "placar": "2 x 1",
                     "time2": "src/img/escudos/cruzeiro.png",
                     "acertou": false,
-                    "diferencaGols": 0,
+                    "diferencaGols": 2,
                     "coringa": false
                 },
                 {
                     "time1": "src/img/escudos/vasco.png",
-                    "placar": "",
+                    "placar": "0 x 2",
                     "time2": "src/img/escudos/flamengo.png",
                     "acertou": false,
-                    "diferencaGols": 0,
+                    "diferencaGols": 3,
                     "coringa": false
                 },
                 {
                     "time1": "src/img/escudos/corinthians.png",
-                    "placar": "",
+                    "placar": "1 x 1",
                     "time2": "src/img/escudos/mirassol.png",
                     "acertou": false,
                     "diferencaGols": 0,
@@ -235,17 +235,17 @@
             ],
             "eventos": [
                 {
-                    "texto": "⚽ ",
+                    "texto": "⚽  Pedro(Flamengo)",
+                    "acertou": true,
+                    "coringa": false
+                },
+                {
+                    "texto": "🟨  Gerson (Cruzeiro )",
                     "acertou": false,
                     "coringa": false
                 },
                 {
-                    "texto": "🟨 ",
-                    "acertou": false,
-                    "coringa": false
-                },
-                {
-                    "texto": "🫂 ",
+                    "texto": "🫂  Arrascaeta(Flamengo)",
                     "acertou": false,
                     "coringa": false
                 }
@@ -293,23 +293,23 @@
             "jogos": [
                 {
                     "time1": "src/img/escudos/atleticomg.png",
-                    "placar": "",
+                    "placar": "1 x 1",
                     "time2": "src/img/escudos/cruzeiro.png",
                     "acertou": false,
-                    "diferencaGols": 0,
+                    "diferencaGols": 1,
                     "coringa": false
                 },
                 {
                     "time1": "src/img/escudos/vasco.png",
-                    "placar": "",
+                    "placar": "1 x 2",
                     "time2": "src/img/escudos/flamengo.png",
                     "acertou": false,
-                    "diferencaGols": 0,
+                    "diferencaGols": 2,
                     "coringa": false
                 },
                 {
                     "time1": "src/img/escudos/corinthians.png",
-                    "placar": "",
+                    "placar": "1 x 1",
                     "time2": "src/img/escudos/mirassol.png",
                     "acertou": false,
                     "diferencaGols": 0,
@@ -318,17 +318,17 @@
             ],
             "eventos": [
                 {
-                    "texto": "⚽ ",
+                    "texto": "⚽  Kaio Jorge (Cruzeiro)",
+                    "acertou": true,
+                    "coringa": false
+                },
+                {
+                    "texto": "🟨  Rodrigo Garro (Corinthians)",
                     "acertou": false,
                     "coringa": false
                 },
                 {
-                    "texto": "🟨 ",
-                    "acertou": false,
-                    "coringa": false
-                },
-                {
-                    "texto": "🫂 ",
+                    "texto": "🫂  Arrascaeta (Flamengo)",
                     "acertou": false,
                     "coringa": false
                 }
