@@ -5,7 +5,7 @@
       "nome": "Rei do Placar",
       "descricao": "Detentor de mais palpites exatos",
       "icone": "src/img/especial/reidoplacar.png",
-      "lider_atual": "GABS",
+      "lider_atual": "GAB/NAR",
       "valor": "6"
     },
     {
@@ -13,8 +13,8 @@
       "nome": "Artilheiro",
       "descricao": "Mais palpites de gol acertados",
       "icone": "src/img/especial/artilheiro.png",
-      "lider_atual": "GAB/MAR",
-      "valor": "7"
+      "lider_atual": "GABS",
+      "valor": "8"
     },
     {
       "id": "xerife",
