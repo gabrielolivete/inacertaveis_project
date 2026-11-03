@@ -44,7 +44,7 @@
             "jogos": [
                 {
                     "time1": "src/img/escudos/chapecoense.png",
-                    "placar": "",
+                    "placar": "1 x 1",
                     "time2": "src/img/escudos/mirassol.png",
                     "acertou": false,
                     "diferencaGols": 0,
@@ -52,7 +52,7 @@
                 },
                 {
                     "time1": "src/img/escudos/botafogo.png",
-                    "placar": "",
+                    "placar": "2 x 0",
                     "time2": "src/img/escudos/atleticomg.png",
                     "acertou": false,
                     "diferencaGols": 0,
@@ -60,7 +60,7 @@
                 },
                 {
                     "time1": "src/img/escudos/saopaulo.png",
-                    "placar": "",
+                    "placar": "2 x 1",
                     "time2": "src/img/escudos/corinthians.png",
                     "acertou": false,
                     "diferencaGols": 0,
@@ -69,17 +69,17 @@
             ],
             "eventos": [
                 {
-                    "texto": "⚽ ",
+                    "texto": "⚽  Tiquinho Soares (Botafogo)",
                     "acertou": false,
                     "coringa": false
                 },
                 {
-                    "texto": "🟨 ",
+                    "texto": "🟨  Garro (Corinthians)",
                     "acertou": false,
                     "coringa": false
                 },
                 {
-                    "texto": "🫂 ",
+                    "texto": "🫂  Garro (Corinthians)",
                     "acertou": false,
                     "coringa": false
                 }
@@ -127,7 +127,7 @@
             "jogos": [
                 {
                     "time1": "src/img/escudos/chapecoense.png",
-                    "placar": "",
+                    "placar": "0 x 2",
                     "time2": "src/img/escudos/mirassol.png",
                     "acertou": false,
                     "diferencaGols": 0,
@@ -135,7 +135,7 @@
                 },
                 {
                     "time1": "src/img/escudos/botafogo.png",
-                    "placar": "",
+                    "placar": "1 x 1",
                     "time2": "src/img/escudos/atleticomg.png",
                     "acertou": false,
                     "diferencaGols": 0,
@@ -143,26 +143,26 @@
                 },
                 {
                     "time1": "src/img/escudos/saopaulo.png",
-                    "placar": "",
+                    "placar": "1 x 1",
                     "time2": "src/img/escudos/corinthians.png",
                     "acertou": false,
                     "diferencaGols": 0,
-                    "coringa": false
+                    "coringa": true
                 }
             ],
             "eventos": [
                 {
-                    "texto": "⚽ ",
+                    "texto": "⚽  Luciano (São Paulo)",
                     "acertou": false,
                     "coringa": false
                 },
                 {
-                    "texto": "🟨 ",
+                    "texto": "🟨  Reinaldo (Mirassol)",
                     "acertou": false,
                     "coringa": false
                 },
                 {
-                    "texto": "🫂 ",
+                    "texto": "🫂  Reinaldo (Mirassol)",
                     "acertou": false,
                     "coringa": false
                 }
@@ -210,7 +210,7 @@
             "jogos": [
                 {
                     "time1": "src/img/escudos/chapecoense.png",
-                    "placar": "",
+                    "placar": "1 x 1",
                     "time2": "src/img/escudos/mirassol.png",
                     "acertou": false,
                     "diferencaGols": 0,
@@ -218,7 +218,7 @@
                 },
                 {
                     "time1": "src/img/escudos/botafogo.png",
-                    "placar": "",
+                    "placar": "2 x 1",
                     "time2": "src/img/escudos/atleticomg.png",
                     "acertou": false,
                     "diferencaGols": 0,
@@ -226,7 +226,7 @@
                 },
                 {
                     "time1": "src/img/escudos/saopaulo.png",
-                    "placar": "",
+                    "placar": "1 x 0",
                     "time2": "src/img/escudos/corinthians.png",
                     "acertou": false,
                     "diferencaGols": 0,
@@ -235,17 +235,17 @@
             ],
             "eventos": [
                 {
-                    "texto": "⚽ ",
+                    "texto": "⚽  Calleri (São Paulo)",
                     "acertou": false,
                     "coringa": false
                 },
                 {
-                    "texto": "🟨 ",
+                    "texto": "🟨  Kevin Castano (Atletico-mg)",
                     "acertou": false,
                     "coringa": false
                 },
                 {
-                    "texto": "🫂 ",
+                    "texto": "🫂  Luciano (São Paulo)",
                     "acertou": false,
                     "coringa": false
                 }
@@ -293,7 +293,7 @@
             "jogos": [
                 {
                     "time1": "src/img/escudos/chapecoense.png",
-                    "placar": "",
+                    "placar": "1 x 2",
                     "time2": "src/img/escudos/mirassol.png",
                     "acertou": false,
                     "diferencaGols": 0,
@@ -301,7 +301,7 @@
                 },
                 {
                     "time1": "src/img/escudos/botafogo.png",
-                    "placar": "",
+                    "placar": "2 x 2",
                     "time2": "src/img/escudos/atleticomg.png",
                     "acertou": false,
                     "diferencaGols": 0,
@@ -309,7 +309,7 @@
                 },
                 {
                     "time1": "src/img/escudos/saopaulo.png",
-                    "placar": "",
+                    "placar": "1 x 0",
                     "time2": "src/img/escudos/corinthians.png",
                     "acertou": false,
                     "diferencaGols": 0,
@@ -318,17 +318,17 @@
             ],
             "eventos": [
                 {
-                    "texto": "⚽ ",
+                    "texto": "⚽  Calleri (São Paulo)",
                     "acertou": false,
                     "coringa": false
                 },
                 {
-                    "texto": "🟨 ",
+                    "texto": "🟨  Rodrigo Garro (Corinthians)",
                     "acertou": false,
                     "coringa": false
                 },
                 {
-                    "texto": "🫂 ",
+                    "texto": "🫂  Luciano (São Paulo)",
                     "acertou": false,
                     "coringa": false
                 }
