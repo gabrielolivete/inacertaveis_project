@@ -267,7 +267,7 @@
                 },
                 {
                     "img": "src/img/cartas/grego.png",
-                    "usada": false
+                    "usada": true
                 },
                 {
                     "img": "src/img/cartas/segundachance.png",
