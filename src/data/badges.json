@@ -5,8 +5,8 @@
       "nome": "Rei do Placar",
       "descricao": "Detentor de mais palpites exatos",
       "icone": "src/img/especial/reidoplacar.png",
-      "lider_atual": "GAB/NAR",
-      "valor": "6"
+      "lider_atual": "GABS",
+      "valor": "7"
     },
     {
       "id": "artilheiro",
@@ -22,15 +22,15 @@
       "descricao": "Mais cartões amarelos acertados",
       "icone": "src/img/especial/xerife.png",
       "lider_atual": "GABS",
-      "valor": "5"
+      "valor": "6"
     },
     {
       "id": "garcom",
       "nome": "Garçom",
       "descricao": "Mais palpites de assistência acertados",
       "icone": "src/img/especial/garcom.png",
-      "lider_atual": "GAB/MAR",
-      "valor": "3"
+      "lider_atual": "GAB",
+      "valor": "4"
     },
     {
       "id": "esse_dia_foi_louco",

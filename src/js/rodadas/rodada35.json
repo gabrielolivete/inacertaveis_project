@@ -10,7 +10,7 @@
       "cartas": [
         {
           "img": "src/img/cartas/dobrometade.png",
-          "usada": false
+          "usada": true
         },
         {
           "img": "src/img/cartas/escudo.png",
@@ -47,7 +47,7 @@
       "placar": "2 x 2",
       "time2": "src/img/escudos/palmeiras.png",
       "acertou": false,
-      "diferencaGols": 0,
+      "diferencaGols": 1,
       "coringa": false
     },
     {
@@ -55,7 +55,7 @@
       "placar": "2 x 1",
       "time2": "src/img/escudos/botafogo.png",
       "acertou": false,
-      "diferencaGols": 0,
+      "diferencaGols": 3,
       "coringa": false
     },
     {
@@ -63,7 +63,7 @@
       "placar": "3 x 1",
       "time2": "src/img/escudos/internacional.png",
       "acertou": false,
-      "diferencaGols": 0,
+      "diferencaGols": 4,
       "coringa": false
     }
   ],
@@ -130,7 +130,7 @@
       "placar": "1 x 2",
       "time2": "src/img/escudos/palmeiras.png",
       "acertou": false,
-      "diferencaGols": 0,
+      "diferencaGols": 2,
       "coringa": false
     },
     {
@@ -138,14 +138,14 @@
       "placar": "1 x 1",
       "time2": "src/img/escudos/botafogo.png",
       "acertou": false,
-      "diferencaGols": 0,
+      "diferencaGols": 4,
       "coringa": false
     },
     {
       "time1": "src/img/escudos/vasco.png",
       "placar": "2 x 1",
       "time2": "src/img/escudos/internacional.png",
-      "acertou": false,
+      "acertou": true,
       "diferencaGols": 0,
       "coringa": false
     }
@@ -158,12 +158,12 @@
     },
     {
       "texto": "🟨  Mercado (Internacional)",
-      "acertou": false,
+      "acertou": true,
       "coringa": false
     },
     {
       "texto": "🫂  Colidio (Vasco)",
-      "acertou": false,
+      "acertou": true,
       "coringa": false
     }
   ]
@@ -213,7 +213,7 @@
       "placar": "1 x 1",
       "time2": "src/img/escudos/palmeiras.png",
       "acertou": false,
-      "diferencaGols": 0,
+      "diferencaGols": 1,
       "coringa": false
     },
     {
@@ -221,14 +221,14 @@
       "placar": "1 x 1",
       "time2": "src/img/escudos/botafogo.png",
       "acertou": false,
-      "diferencaGols": 0,
+      "diferencaGols": 4,
       "coringa": false
     },
     {
       "time1": "src/img/escudos/vasco.png",
       "placar": "2 x 1",
       "time2": "src/img/escudos/internacional.png",
-      "acertou": false,
+      "acertou": true,
       "diferencaGols": 0,
       "coringa": false
     }
@@ -259,11 +259,11 @@
       "cartas": [
         {
           "img": "src/img/cartas/dobrometade.png",
-          "usada": false
+          "usada": true
         },
         {
           "img": "src/img/cartas/escudo.png",
-          "usada": false
+          "usada": true
         },
         {
           "img": "src/img/cartas/grego.png",
@@ -311,7 +311,7 @@
       "time1": "src/img/escudos/vasco.png",
       "placar": "2 x 1",
       "time2": "src/img/escudos/internacional.png",
-      "acertou": false,
+      "acertou": true,
       "diferencaGols": 0,
       "coringa": false
     }
