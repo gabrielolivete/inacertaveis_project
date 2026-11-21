@@ -44,7 +44,7 @@
       "jogos": [
         {
           "time1": "src/img/escudos/palmeiras.png",
-          "placar": "",
+          "placar": "0 x 1",
           "time2": "src/img/escudos/flamengo.png",
           "acertou": false,
           "diferencaGols": 0,
@@ -52,7 +52,7 @@
         },
         {
           "time1": "src/img/escudos/fluminense.png",
-          "placar": "",
+          "placar": "2 x 0",
           "time2": "src/img/escudos/mirassol.png",
           "acertou": false,
           "diferencaGols": 0,
@@ -60,7 +60,7 @@
         },
         {
           "time1": "src/img/escudos/santos.png",
-          "placar": "",
+          "placar": "2 x 0",
           "time2": "src/img/escudos/gremio.png",
           "acertou": false,
           "diferencaGols": 0,
@@ -69,17 +69,17 @@
       ],
       "eventos": [
         {
-          "texto": "⚽ ",
+          "texto": "⚽  Gabigol (Santos)",
           "acertou": false,
           "coringa": false
         },
         {
-          "texto": "🟨 ",
+          "texto": "🟨  Neymar (Santos)",
           "acertou": false,
           "coringa": false
         },
         {
-          "texto": "🫂 ",
+          "texto": "🫂  Neymar (Santos)",
           "acertou": false,
           "coringa": false
         }
@@ -127,7 +127,7 @@
       "jogos": [
         {
           "time1": "src/img/escudos/palmeiras.png",
-          "placar": "",
+          "placar": "2 x 2",
           "time2": "src/img/escudos/flamengo.png",
           "acertou": false,
           "diferencaGols": 0,
@@ -135,7 +135,7 @@
         },
         {
           "time1": "src/img/escudos/fluminense.png",
-          "placar": "",
+          "placar": "2 x 0",
           "time2": "src/img/escudos/mirassol.png",
           "acertou": false,
           "diferencaGols": 0,
@@ -143,7 +143,7 @@
         },
         {
           "time1": "src/img/escudos/santos.png",
-          "placar": "",
+          "placar": "2 x 0",
           "time2": "src/img/escudos/gremio.png",
           "acertou": false,
           "diferencaGols": 0,
@@ -152,17 +152,17 @@
       ],
       "eventos": [
         {
-          "texto": "⚽ ",
+          "texto": "⚽  Gabigol (Santos)",
           "acertou": false,
           "coringa": false
         },
         {
-          "texto": "🟨 ",
+          "texto": "🟨  Neymar (Santos)",
           "acertou": false,
           "coringa": false
         },
         {
-          "texto": "🫂 ",
+          "texto": "🫂  Neymar (Santos)",
           "acertou": false,
           "coringa": false
         }
@@ -210,7 +210,7 @@
       "jogos": [
         {
           "time1": "src/img/escudos/palmeiras.png",
-          "placar": "",
+          "placar": "2 x 1",
           "time2": "src/img/escudos/flamengo.png",
           "acertou": false,
           "diferencaGols": 0,
@@ -218,7 +218,7 @@
         },
         {
           "time1": "src/img/escudos/fluminense.png",
-          "placar": "",
+          "placar": "2 x 1",
           "time2": "src/img/escudos/mirassol.png",
           "acertou": false,
           "diferencaGols": 0,
@@ -226,7 +226,7 @@
         },
         {
           "time1": "src/img/escudos/santos.png",
-          "placar": "",
+          "placar": "3 x 1",
           "time2": "src/img/escudos/gremio.png",
           "acertou": false,
           "diferencaGols": 0,
@@ -235,17 +235,17 @@
       ],
       "eventos": [
         {
-          "texto": "⚽ ",
+          "texto": "⚽  Gabigol (Santos)",
           "acertou": false,
           "coringa": false
         },
         {
-          "texto": "🟨 ",
+          "texto": "🟨  Erick Noriega (Gremio)",
           "acertou": false,
           "coringa": false
         },
         {
-          "texto": "🫂 ",
+          "texto": "🫂  Marlon freitas  (Palmeiras)",
           "acertou": false,
           "coringa": false
         }
@@ -255,15 +255,15 @@
       "nome": "FEFEZAO",
       "avatar": "src/img/avatares/fefezao.png",
       "avatarHead": "src/img/avatares/fefezaohead.png",
-      "cartaAtiva": "",
+      "cartaAtiva": "SEGURO",
       "cartas": [
         {
           "img": "src/img/cartas/dobrometade.png",
-          "usada": false
+          "usada": true
         },
         {
           "img": "src/img/cartas/escudo.png",
-          "usada": false
+          "usada": true
         },
         {
           "img": "src/img/cartas/grego.png",
@@ -275,7 +275,7 @@
         },
         {
           "img": "src/img/cartas/seguro.png",
-          "usada": false
+          "usada": true
         },
         {
           "img": "src/img/especial/coringa.png",
@@ -293,7 +293,7 @@
       "jogos": [
         {
           "time1": "src/img/escudos/palmeiras.png",
-          "placar": "",
+          "placar": "0 x 1",
           "time2": "src/img/escudos/flamengo.png",
           "acertou": false,
           "diferencaGols": 0,
@@ -301,7 +301,7 @@
         },
         {
           "time1": "src/img/escudos/fluminense.png",
-          "placar": "",
+          "placar": "2 x 0",
           "time2": "src/img/escudos/mirassol.png",
           "acertou": false,
           "diferencaGols": 0,
@@ -309,7 +309,7 @@
         },
         {
           "time1": "src/img/escudos/santos.png",
-          "placar": "",
+          "placar": "2 x 0",
           "time2": "src/img/escudos/gremio.png",
           "acertou": false,
           "diferencaGols": 0,
@@ -318,17 +318,17 @@
       ],
       "eventos": [
         {
-          "texto": "⚽ ",
+          "texto": "⚽  Pedro (Flamengo)",
           "acertou": false,
           "coringa": false
         },
         {
-          "texto": "🟨 ",
+          "texto": "🟨  Gustavo Gómez (Palmeiras)",
           "acertou": false,
           "coringa": false
         },
         {
-          "texto": "🫂 ",
+          "texto": "🫂  Lino (Flamengo)",
           "acertou": false,
           "coringa": false
         }
